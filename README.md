@@ -21,6 +21,8 @@ Este repositorio contiene una guía completa sobre controles parentales diseñad
 
 - **`ControlesParaNinos.md`** - Guía especial diseñada para explicar los controles parentales directamente a los niños, usando un lenguaje sencillo y amigable para ayudarles a entender por qué estos controles son importantes para su seguridad
 
+- **`SeguridadOnlineParaNinos7-10.md`** - Guía educativa y didáctica dirigida específicamente a niños de 7 a 10 años sobre cómo protegerse de personas maliciosas y contenido inapropiado en juegos online y aplicaciones de internet
+
 ### 📄 Recursos Adicionales
 
 - **`controles parentales.pdf`** - Versión en PDF de la guía principal para fácil impresión y distribución
@@ -36,6 +38,7 @@ Esta guía tiene como objetivo:
 - ✅ Ofrecer recursos actualizados y basados en mejores prácticas de seguridad digital
 - ✅ Promover un equilibrio saludable entre la autonomía digital y la supervisión parental
 - ✅ Proporcionar herramientas educativas para explicar la seguridad digital directamente a los niños
+- ✅ Enseñar a los niños a identificar y protegerse de amenazas online de manera apropiada para su edad
 
 ## Público Objetivo
 
