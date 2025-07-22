@@ -15,6 +15,8 @@ Este repositorio contiene una guía completa sobre controles parentales diseñad
   - Mejores prácticas para la supervisión digital
   - Recomendaciones por grupos de edad
 
+- **`apps_recomendadas_4-6.md`** - Guía completa de aplicaciones recomendadas para niños en edad preescolar (4-6 años), con enfoque en desarrollo de habilidades básicas, alfabetización temprana y creatividad
+
 - **`apps_recomendadas_7-10.md`** - Lista especializada de aplicaciones recomendadas para niños de 7 a 10 años, incluyendo criterios de selección y características de seguridad
 
 - **`ControlesParaNinos.md`** - Guía especial diseñada para explicar los controles parentales directamente a los niños, usando un lenguaje sencillo y amigable para ayudarles a entender por qué estos controles son importantes para su seguridad
@@ -68,7 +70,7 @@ Este trabajo está licenciado bajo la [Creative Commons Attribution-ShareAlike 4
 Si utilizas o adaptas este material, por favor incluye la siguiente atribución:
 
 ```
-"Guía para Padres: Controles Parentales" por [Tu Nombre] está licenciado bajo 
+"Guía para Padres: Controles Parentales" por [Tu Nombre] está licenciado bajo
 CC BY-SA 4.0. Disponible en: https://github.com/walalapancho/GuiaParaPadres
 ```
 
@@ -93,4 +95,4 @@ Esta guía tiene fines educativos e informativos. La efectividad de los controle
 
 ---
 
-*Última actualización: Diciembre 2024*
+*Última actualización: Julio 2025*
