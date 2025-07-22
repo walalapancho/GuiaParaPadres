@@ -23,6 +23,8 @@ Este repositorio contiene una guía completa sobre controles parentales diseñad
 
 - **`SeguridadOnlineParaNinos7-10.md`** - Guía educativa y didáctica dirigida específicamente a niños de 7 a 10 años sobre cómo protegerse de personas maliciosas y contenido inapropiado en juegos online y aplicaciones de internet
 
+- **`ControlesParentalesConsolas.md`** - Guía completa para padres sobre configuración de controles parentales en consolas de videojuegos (PlayStation, Xbox, Nintendo Switch, etc.), incluyendo configuraciones por edad, control de gastos y monitoreo de actividad
+
 ### 📄 Recursos Adicionales
 
 - **`controles parentales.pdf`** - Versión en PDF de la guía principal para fácil impresión y distribución
@@ -39,6 +41,7 @@ Esta guía tiene como objetivo:
 - ✅ Promover un equilibrio saludable entre la autonomía digital y la supervisión parental
 - ✅ Proporcionar herramientas educativas para explicar la seguridad digital directamente a los niños
 - ✅ Enseñar a los niños a identificar y protegerse de amenazas online de manera apropiada para su edad
+- ✅ Proporcionar guías técnicas específicas para configurar controles parentales en diferentes plataformas de gaming
 
 ## Público Objetivo
 
