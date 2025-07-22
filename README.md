@@ -17,6 +17,8 @@ Este repositorio contiene una guía completa sobre controles parentales diseñad
 
 - **`apps_recomendadas_7-10.md`** - Lista especializada de aplicaciones recomendadas para niños de 7 a 10 años, incluyendo criterios de selección y características de seguridad
 
+- **`ControlesParaNinos.md`** - Guía especial diseñada para explicar los controles parentales directamente a los niños, usando un lenguaje sencillo y amigable para ayudarles a entender por qué estos controles son importantes para su seguridad
+
 ### 📄 Recursos Adicionales
 
 - **`controles parentales.pdf`** - Versión en PDF de la guía principal para fácil impresión y distribución
@@ -31,12 +33,14 @@ Esta guía tiene como objetivo:
 - ✅ Facilitar conversaciones constructivas entre padres e hijos sobre el uso responsable de la tecnología
 - ✅ Ofrecer recursos actualizados y basados en mejores prácticas de seguridad digital
 - ✅ Promover un equilibrio saludable entre la autonomía digital y la supervisión parental
+- ✅ Proporcionar herramientas educativas para explicar la seguridad digital directamente a los niños
 
 ## Público Objetivo
 
 - Padres y tutores de menores de edad
 - Educadores y profesionales que trabajan con familias
 - Organizaciones que promueven la seguridad digital infantil
+- Niños y jóvenes que quieren aprender sobre seguridad digital
 - Cualquier persona interesada en la protección de menores en entornos digitales
 
 ## Licencia y Uso
