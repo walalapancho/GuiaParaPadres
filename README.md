@@ -29,6 +29,7 @@ Este repositorio contiene una guía completa sobre controles parentales diseñad
 
 - **`controles parentales.pdf`** - Versión en PDF de la guía principal para fácil impresión y distribución
 - **`controles parentales.pptx`** - Presentación en PowerPoint para talleres, charlas educativas o presentaciones familiares
+- **`ControlesParaNinos.pptx`** - Presentación especial diseñada para explicar los controles parentales directamente a los niños de manera visual e interactiva
 
 ## Propósito
 
