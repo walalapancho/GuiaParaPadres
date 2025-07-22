@@ -91,7 +91,7 @@ Antes de configurar cualquier consola:
 
 #### **Restricción de Software**
 - **Edad mínima**: Selecciona según la edad de tu hijo
-- **Clasificación ESRB/CERO**: 
+- **Clasificación ESRB/CERO**:
   - **E (Everyone)**: Para todas las edades
   - **E10+**: Para 10 años en adelante
   - **T (Teen)**: Para 13 años en adelante
@@ -561,7 +561,7 @@ Recuerda que el objetivo no es eliminar completamente los videojuegos, sino crea
 
 ### **Soporte Técnico Oficial**
 - **PlayStation**: support.playstation.com
-- **Xbox**: support.xbox.com  
+- **Xbox**: support.xbox.com
 - **Nintendo**: support.nintendo.com
 - **Steam**: help.steampowered.com
 
@@ -570,8 +570,6 @@ Recuerda que el objetivo no es eliminar completamente los videojuegos, sino crea
 **🇨🇱 Chile:**
 - **Fono Niños (Carabineros):** 147 (24 horas, gratuito)
 - **Fonoinfancia (Apoyo psicológico):** 800 200 818 (Lunes a Viernes 8:30-19:00)
-- **Fono Familia (Violencia Intrafamiliar):** 149 (24 horas, gratuito)
-- **Defensoría de la Niñez:** defensoria@defensorianinez.cl
 
 **🇪🇸 España:**
 - **INCIBE (Ciberseguridad):** 017
