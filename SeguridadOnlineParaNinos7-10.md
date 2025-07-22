@@ -15,7 +15,7 @@ Los juegos online son videojuegos donde puedes jugar con otras personas que est�
 
 **¡Importante!** No todos los que juegan online son niños como tú. Algunas veces puede haber:
 - 😊 **Niños de tu edad** que solo quieren divertirse
-- 😊 **Jóvenes mayores** que son buenos y amigables  
+- 😊 **Jóvenes mayores** que son buenos y amigables
 - 😐 **Adultos** que juegan de manera apropiada
 - ⚠️ **Personas maliciosas** que pueden pretender ser niños
 
@@ -207,7 +207,7 @@ Los juegos online son videojuegos donde puedes jugar con otras personas que est�
 
 **🚩 Señal de alerta:** Las personas maliciosas usan regalos para ganar confianza.
 
-**✅ Respuesta correcta:** 
+**✅ Respuesta correcta:**
 - "No, gracias"
 - Reportar al usuario
 - Contarle a un adulto
@@ -317,8 +317,6 @@ Los juegos online son videojuegos donde puedes jugar con otras personas que est�
 **🇨🇱 Chile:**
 - **Fono Niños (Carabineros):** 147 (24 horas, gratuito)
 - **Fonoinfancia (Apoyo psicológico):** 800 200 818 (Lunes a Viernes 8:30-19:00)
-- **Fono Familia (Violencia Intrafamiliar):** 149 (24 horas, gratuito)
-- **Defensoría de la Niñez:** defensoria@defensorianinez.cl
 
 **🇪🇸 España:**
 - **INCIBE (Ciberseguridad):** 017
