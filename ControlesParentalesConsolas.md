@@ -565,6 +565,26 @@ Recuerda que el objetivo no es eliminar completamente los videojuegos, sino crea
 - **Nintendo**: support.nintendo.com
 - **Steam**: help.steampowered.com
 
+### **Números de Emergencia para Niños**
+
+**🇨🇱 Chile:**
+- **Fono Niños (Carabineros):** 147 (24 horas, gratuito)
+- **Fonoinfancia (Apoyo psicológico):** 800 200 818 (Lunes a Viernes 8:30-19:00)
+- **Fono Familia (Violencia Intrafamiliar):** 149 (24 horas, gratuito)
+- **Defensoría de la Niñez:** defensoria@defensorianinez.cl
+
+**🇪🇸 España:**
+- **INCIBE (Ciberseguridad):** 017
+- **Línea de Ayuda contra el Acoso:** 900 018 018
+
+**🇲🇽 México:**
+- **Policía Cibernética:** 088
+- **Línea de Denuncia Anónima:** 089
+
+**🇺🇸 Estados Unidos:**
+- **National Center for Missing & Exploited Children:** 1-800-THE-LOST
+- **Cybertipline:** www.cybertipline.org
+
 ### **Organizaciones de Apoyo**
 - **Common Sense Media**: commonsensemedia.org
 - **ESRB**: esrb.org

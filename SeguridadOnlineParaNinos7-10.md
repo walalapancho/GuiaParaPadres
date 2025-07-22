@@ -314,6 +314,12 @@ Los juegos online son videojuegos donde puedes jugar con otras personas que est�
 
 ### **Si necesitas ayuda inmediatamente:**
 
+**🇨🇱 Chile:**
+- **Fono Niños (Carabineros):** 147 (24 horas, gratuito)
+- **Fonoinfancia (Apoyo psicológico):** 800 200 818 (Lunes a Viernes 8:30-19:00)
+- **Fono Familia (Violencia Intrafamiliar):** 149 (24 horas, gratuito)
+- **Defensoría de la Niñez:** defensoria@defensorianinez.cl
+
 **🇪🇸 España:**
 - **INCIBE (Ciberseguridad):** 017
 - **Línea de Ayuda contra el Acoso:** 900 018 018
