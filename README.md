@@ -36,7 +36,8 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 - **[`SeguridadRobloxMinecraft_Niños.md`](./SeguridadRobloxMinecraft_Niños.md)** - Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible
 
 #### 🌐 **Infraestructura de Red**
-- **[`ControlParentalRed.md`](./ControlParentalRed.md)** - Guía técnica completa para implementar controles parentales a nivel de red, configuración de routers domésticos y escolares, servicios DNS de filtrado (OpenDNS, CleanBrowsing), soluciones comerciales, y monitoreo de tráfico familiar
+- **[`ControlParentalRedHogares.md`](./ControlParentalRedHogares.md)** - Guía especializada para familias sobre controles parentales de red doméstica, configuración de routers populares (TP-Link, Netgear, ASUS), servicios DNS de filtrado, soluciones comerciales familiares, y mantenimiento simple
+- **[`ControlParentalRedEscuelas.md`](./ControlParentalRedEscuelas.md)** - Guía institucional para implementar controles parentales en redes escolares, configuraciones enterprise con pfSense, VLANs por nivel educativo, compliance regulatorio, y monitoreo institucional
 
 #### 📱 **Redes Sociales y Contenido**
 - **[`SeguridadTikTok.md`](./SeguridadTikTok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
@@ -60,6 +61,13 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 - **`controles parentales.pdf`** - Versión imprimible de la guía principal para distribución offline
 - **`controles parentales.pptx`** - Presentación profesional para talleres y charlas educativas
 - **`ControlesParaNinos.pptx`** - Presentación visual e interactiva diseñada específicamente para explicar seguridad digital a niños
+
+---
+
+### 📚 **REFERENCIAS Y CREDIBILIDAD ACADÉMICA**
+
+#### 🌟 **Fuentes Oficiales**
+- **[`FuentesReferencias.md`](./FuentesReferencias.md)** - Biblioteca completa de más de 100 fuentes y referencias externas de entidades reconocidas internacionalmente, organizaciones gubernamentales por país, servicios técnicos especializados, recursos académicos, y marcos regulatorios que respaldan todas las recomendaciones de esta colección
 
 ---
 
@@ -138,7 +146,7 @@ Los recursos están adaptados para uso inmediato en estos países con números d
 
 #### 🎯 **Configuración Preventiva**
 1. Comenzar con **[`Controles_Parentales.md`](./Controles_Parentales.md)** para conceptos básicos
-2. Implementar **[`ControlParentalRed.md`](./ControlParentalRed.md)** como base de protección universal
+2. Implementar **[`ControlParentalRedHogares.md`](./ControlParentalRedHogares.md)** como base de protección universal
 3. Seleccionar guía específica por edad del niño
 4. Consultar guías por plataforma según uso familiar (consolas, Smart TV, redes sociales)
 5. Implementar gradualmente usando listas de verificación
@@ -287,4 +295,4 @@ Los usuarios son responsables de:
 
 *📅 Última actualización: Julio 2025*  
 *🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
-*📚 21+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +750 páginas de recursos*
+*📚 23+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
