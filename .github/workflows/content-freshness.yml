@@ -1,0 +1,307 @@
+name: Content Freshness Check
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # Run monthly on the 1st at midnight UTC
+  workflow_dispatch:  # Allow manual triggering
+  pull_request:
+    paths:
+      - '**.md'
+
+jobs:
+  check-content-freshness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests beautifulsoup4 markdown pyyaml
+
+      - name: Check external links
+        run: |
+          python3 << 'EOF'
+          import re
+          import requests
+          import os
+          import glob
+          from datetime import datetime, timedelta
+
+          def check_links_in_file(filepath):
+              with open(filepath, 'r', encoding='utf-8') as f:
+                  content = f.read()
+
+              # Extract URLs from markdown
+              url_pattern = r'https?://[^\s\)\]\>]+'
+              urls = re.findall(url_pattern, content)
+
+              broken_links = []
+              for url in urls:
+                  try:
+                      response = requests.head(url, timeout=10, allow_redirects=True)
+                      if response.status_code >= 400:
+                          broken_links.append((url, response.status_code))
+                  except requests.RequestException as e:
+                      broken_links.append((url, str(e)))
+
+              return broken_links
+
+          def check_outdated_content(filepath):
+              with open(filepath, 'r', encoding='utf-8') as f:
+                  content = f.read()
+
+              # Check for outdated date references
+              current_year = datetime.now().year
+              outdated_patterns = [
+                  r'iOS\s+(\d+)',  # iOS version references
+                  r'Android\s+(\d+)',  # Android version references
+                  r'2022|2023',  # Specific year references that might be outdated
+                  r'última\s+actualización:\s*(\w+\s+\d{4})',  # Last update references
+              ]
+
+              warnings = []
+              for pattern in outdated_patterns:
+                  matches = re.findall(pattern, content, re.IGNORECASE)
+                  if matches:
+                      warnings.append(f"Potential outdated content pattern: {pattern}")
+
+              return warnings
+
+          # Process all markdown files
+          all_broken_links = {}
+          all_warnings = {}
+
+          for md_file in glob.glob('**/*.md', recursive=True):
+              if '.github' in md_file:
+                  continue
+
+              print(f"Checking {md_file}...")
+
+              # Check links
+              broken_links = check_links_in_file(md_file)
+              if broken_links:
+                  all_broken_links[md_file] = broken_links
+
+              # Check for potentially outdated content
+              warnings = check_outdated_content(md_file)
+              if warnings:
+                  all_warnings[md_file] = warnings
+
+          # Generate report
+          report = []
+
+          if all_broken_links:
+              report.append("## 🔗 Broken Links Found\n")
+              for file, links in all_broken_links.items():
+                  report.append(f"### {file}")
+                  for url, error in links:
+                      report.append(f"- ❌ {url} ({error})")
+                  report.append("")
+
+          if all_warnings:
+              report.append("## ⚠️ Potentially Outdated Content\n")
+              for file, warnings in all_warnings.items():
+                  report.append(f"### {file}")
+                  for warning in warnings:
+                      report.append(f"- ⚠️ {warning}")
+                  report.append("")
+
+          if not all_broken_links and not all_warnings:
+              report.append("## ✅ All Content Appears Fresh\n")
+              report.append("No broken links or obviously outdated content detected.")
+
+          # Save report
+          with open('content-freshness-report.md', 'w', encoding='utf-8') as f:
+              f.write('\n'.join(report))
+
+          # Set output for GitHub Actions
+          if all_broken_links or all_warnings:
+              print("::warning::Content freshness issues detected. Check report for details.")
+              exit(1)
+          else:
+              print("::notice::All content appears fresh!")
+          EOF
+
+      - name: Check platform-specific configurations
+        run: |
+          python3 << 'EOF'
+          import re
+          import glob
+
+          # Define patterns that might indicate outdated configurations
+          config_patterns = {
+              'iOS_versions': r'iOS\s+(\d+)',
+              'Android_versions': r'Android\s+(\d+)',
+              'App_versions': r'versión\s+(\d+\.\d+)',
+              'Router_models': r'(TP-Link|Netgear|ASUS|Linksys)\s+([A-Z0-9-]+)',
+              'Console_firmware': r'firmware\s+(\d+\.\d+)',
+              'DNS_servers': r'(\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3})',
+          }
+
+          outdated_configs = {}
+
+          for md_file in glob.glob('**/*.md', recursive=True):
+              if '.github' in md_file:
+                  continue
+
+              with open(md_file, 'r', encoding='utf-8') as f:
+                  content = f.read()
+
+              file_issues = []
+
+              # Check for specific configuration patterns
+              for pattern_name, pattern in config_patterns.items():
+                  matches = re.findall(pattern, content, re.IGNORECASE)
+                  if matches:
+                      # Flag for manual review - these might be outdated
+                      file_issues.append(f"{pattern_name}: {set(matches)}")
+
+              if file_issues:
+                  outdated_configs[md_file] = file_issues
+
+          if outdated_configs:
+              print("## 🔧 Configuration Review Needed\n")
+              print("The following files contain technical configurations that should be reviewed for currency:\n")
+
+              for file, issues in outdated_configs.items():
+                  print(f"### {file}")
+                  for issue in issues:
+                      print(f"- 📋 {issue}")
+                  print("")
+
+              with open('config-review-needed.md', 'w', encoding='utf-8') as f:
+                  f.write("# Configuration Review Report\n\n")
+                  for file, issues in outdated_configs.items():
+                      f.write(f"## {file}\n")
+                      for issue in issues:
+                          f.write(f"- {issue}\n")
+                      f.write("\n")
+          EOF
+
+      - name: Generate freshness metadata
+        run: |
+          python3 << 'EOF'
+          import os
+          import glob
+          import json
+          from datetime import datetime
+
+          metadata = {
+              'last_check': datetime.now().isoformat(),
+              'files_checked': [],
+              'total_word_count': 0,
+              'files_by_category': {}
+          }
+
+          categories = {
+              'age_specific': ['0-3', '4-6', '7-10', 'adolescentes'],
+              'platform_specific': ['roblox', 'minecraft', 'youtube', 'tiktok', 'consolas', 'smarttv'],
+              'technical': ['red', 'dns', 'router'],
+              'educational': ['maestros', 'taller', 'familia'],
+              'general': ['controles', 'seguridad']
+          }
+
+          for md_file in glob.glob('**/*.md', recursive=True):
+              if '.github' in md_file:
+                  continue
+
+              # Get file stats
+              stat = os.stat(md_file)
+
+              with open(md_file, 'r', encoding='utf-8') as f:
+                  content = f.read()
+                  word_count = len(content.split())
+
+              file_info = {
+                  'path': md_file,
+                  'size_bytes': stat.st_size,
+                  'word_count': word_count,
+                  'last_modified': datetime.fromtimestamp(stat.st_mtime).isoformat(),
+                  'category': 'general'  # default
+              }
+
+              # Categorize file
+              filename_lower = md_file.lower()
+              for category, keywords in categories.items():
+                  if any(keyword in filename_lower for keyword in keywords):
+                      file_info['category'] = category
+                      break
+
+              metadata['files_checked'].append(file_info)
+              metadata['total_word_count'] += word_count
+
+              # Group by category
+              cat = file_info['category']
+              if cat not in metadata['files_by_category']:
+                  metadata['files_by_category'][cat] = []
+              metadata['files_by_category'][cat].append(md_file)
+
+          # Save metadata
+          with open('content-metadata.json', 'w', encoding='utf-8') as f:
+              json.dump(metadata, f, indent=2, ensure_ascii=False)
+
+          print(f"✅ Processed {len(metadata['files_checked'])} files")
+          print(f"📊 Total word count: {metadata['total_word_count']:,}")
+          print(f"📁 Categories found: {list(metadata['files_by_category'].keys())}")
+          EOF
+
+      - name: Upload reports as artifacts
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: content-freshness-reports
+          path: |
+            content-freshness-report.md
+            config-review-needed.md
+            content-metadata.json
+          retention-days: 30
+
+      - name: Comment on PR (if applicable)
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+
+            let comment = '## 🔍 Content Freshness Check Results\n\n';
+
+            try {
+              const report = fs.readFileSync('content-freshness-report.md', 'utf8');
+              comment += report;
+            } catch (error) {
+              comment += '✅ No issues detected with external links or content freshness.\n';
+            }
+
+            try {
+              const configReport = fs.readFileSync('config-review-needed.md', 'utf8');
+              comment += '\n\n---\n\n' + configReport;
+            } catch (error) {
+              comment += '\n✅ No configuration reviews needed.\n';
+            }
+
+            try {
+              const metadata = JSON.parse(fs.readFileSync('content-metadata.json', 'utf8'));
+              comment += `\n\n---\n\n## 📊 Content Statistics\n`;
+              comment += `- **Files processed:** ${metadata.files_checked.length}\n`;
+              comment += `- **Total word count:** ${metadata.total_word_count.toLocaleString()}\n`;
+              comment += `- **Last check:** ${metadata.last_check}\n`;
+
+              comment += `\n### Files by Category:\n`;
+              for (const [category, files] of Object.entries(metadata.files_by_category)) {
+                comment += `- **${category}:** ${files.length} files\n`;
+              }
+            } catch (error) {
+              comment += '\n⚠️ Could not load content statistics.\n';
+            }
+
+            github.rest.issues.createComment({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              body: comment
+            });
