@@ -3,7 +3,7 @@
 ## 🚀 Navegación Rápida por Situación
 
 ### 🆘 **¿TIENES UNA EMERGENCIA DIGITAL?**
-**→ [Protocolos de Crisis Digital](./protocolos-crisis-digital.md)** ⚡  
+**→ [Protocolos de Crisis Digital](./protocolos-crisis-digital.md)** ⚡
 *Para cyberbullying, contenido inapropiado, contacto con extraños, o comportamiento digital peligroso*
 
 ---
@@ -199,7 +199,7 @@ MI SISTEMA:
 ```
 MI MARCA DE ROUTER:
 🔘 TP-Link
-🔘 Netgear  
+🔘 Netgear
 🔘 ASUS
 🔘 Linksys
 🔘 No sé qué marca tengo
@@ -215,7 +215,7 @@ MI MARCA DE ROUTER:
 ```
 ⚠️ SITUACIONES QUE REQUIEREN ACCIÓN INMEDIATA:
 ├── Mi hijo está siendo acosado online AHORA
-├── Encontré contenido sexual/violento en su dispositivo  
+├── Encontré contenido sexual/violento en su dispositivo
 ├── Contacto sospechoso con adultos desconocidos
 ├── Amenazas de autolesión relacionadas con internet
 ├── Gastos no autorizados mayores ($100+)
@@ -252,7 +252,7 @@ MI MARCA DE ROUTER:
 
 ### 🏃‍♂️ **RUTA RÁPIDA (30 minutos)**
 *Para padres que necesitan solución inmediata*
-1. **[Configuración Básica iOS/Android](./propuesta-guia-visual-interactiva.md)** (15 min)  
+1. **[Configuración Básica iOS/Android](./propuesta-guia-visual-interactiva.md)** (15 min)
 2. **[Límites de Tiempo Esenciales](./Controles_Parentales.md#limites-tiempo)** (10 min)
 3. **[Verificación de Seguridad](./Controles_Parentales.md#verificacion)** (5 min)
 
@@ -339,7 +339,7 @@ RECURSOS ADICIONALES:
 └── Instituto Nacional de Transparencia: 01800-835-4324
 ```
 
-### 🇨🇴 **COLOMBIA**  
+### 🇨🇴 **COLOMBIA**
 ```
 EMERGENCIAS DIGITALES:
 ├── CAI Virtual: #767 o 767 desde celular
@@ -437,7 +437,7 @@ REVISIÓN TRIMESTRAL:
 
 ### 🔗 **ENLACES ÚTILES PARA MANTENIMIENTO**
 - **[Verificador de Enlaces](/.github/workflows/content-freshness.yml)** - Automatización
-- **[Template de Contenido](./.content-template.md)** - Estándares de documentación  
+- **[Template de Contenido](./.content-template.md)** - Estándares de documentación
 - **[Metadatos de Archivo](./content-metadata.json)** - Información de versiones
 
 ---
@@ -450,5 +450,5 @@ REVISIÓN TRIMESTRAL:
 
 ---
 
-*📅 Última actualización del índice: Enero 2025*  
+*📅 Última actualización del índice: Julio 2025*
 *🔍 Archivos indexados: 23 documentos | 66,295+ palabras | 5 países cubiertos*
