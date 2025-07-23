@@ -35,6 +35,9 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 - **[`SeguridadRobloxMinecraft_Padres.md`](./SeguridadRobloxMinecraft_Padres.md)** - Guía exhaustiva para padres sobre riesgos específicos de Roblox y Minecraft, configuraciones de seguridad paso a paso, y estrategias de supervisión
 - **[`SeguridadRobloxMinecraft_Niños.md`](./SeguridadRobloxMinecraft_Niños.md)** - Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible
 
+#### 🌐 **Infraestructura de Red**
+- **[`ControlParentalRed.md`](./ControlParentalRed.md)** - Guía técnica completa para implementar controles parentales a nivel de red, configuración de routers domésticos y escolares, servicios DNS de filtrado (OpenDNS, CleanBrowsing), soluciones comerciales, y monitoreo de tráfico familiar
+
 #### 📱 **Redes Sociales y Contenido**
 - **[`SeguridadTikTok.md`](./SeguridadTikTok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
 - **[`SeguridadYouTube.md`](./SeguridadYouTube.md)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas y curación de contenido
@@ -83,6 +86,7 @@ Los recursos están adaptados para uso inmediato en estos países con números d
 
 ### 🛠️ **Herramientas Prácticas**
 - **Configuraciones paso a paso** para todas las plataformas principales
+- **Controles de red universales** (routers, DNS, monitoreo de tráfico)
 - **Scripts de conversación** para situaciones difíciles
 - **Protocolos de crisis** con contactos de emergencia
 - **Materiales take-home** para familias y educadores
@@ -134,9 +138,10 @@ Los recursos están adaptados para uso inmediato en estos países con números d
 
 #### 🎯 **Configuración Preventiva**
 1. Comenzar con **[`Controles_Parentales.md`](./Controles_Parentales.md)** para conceptos básicos
-2. Seleccionar guía específica por edad del niño
-3. Consultar guías por plataforma según uso familiar (consolas, Smart TV, redes sociales)
-4. Implementar gradualmente usando listas de verificación
+2. Implementar **[`ControlParentalRed.md`](./ControlParentalRed.md)** como base de protección universal
+3. Seleccionar guía específica por edad del niño
+4. Consultar guías por plataforma según uso familiar (consolas, Smart TV, redes sociales)
+5. Implementar gradualmente usando listas de verificación
 
 #### 🏫 **Implementación Educativa**
 1. **[`GuiaParaMaestros.md`](./GuiaParaMaestros.md)** para integración curricular
@@ -282,4 +287,4 @@ Los usuarios son responsables de:
 
 *📅 Última actualización: Julio 2025*  
 *🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
-*📚 20+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +600 páginas de recursos*
+*📚 21+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +750 páginas de recursos*
