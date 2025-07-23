@@ -688,13 +688,13 @@ PARA QUÉ SIRVE:
 
 CÓMO USAR EN FAMILIA:
 1. Descargar Fing app (gratuita)
-2. Scan network para ver all connected devices
+2. Escanear red para ver todos los dispositivos conectados
 3. Rename devices con nombres familiares ("iPhone de Ana", "Laptop de Carlos")
-4. Set up alerts para when new devices connect
+4. Configurar alertas para cuando se conecten nuevos dispositivos
 5. Regular checks para unauthorized access
 
 BENEFICIOS FAMILIARES:
-• Verify que parental controls están aplicados a all family devices
+• Verificar que los controles parentales están aplicados a todos los dispositivos familiares
 • Detect si kids están usando dispositivos adicionales que no sabías
 • Monitor network health (si family complains de slow internet)
 ```
@@ -765,7 +765,7 @@ SIMPLIFIED SETUP:
 1. Flash Raspberry Pi OS to SD card using official Raspberry Pi Imager
 2. Boot Pi y complete initial setup (username/password)
 3. Open terminal y run: curl -sSL https://install.pi-hole.net | bash
-4. Follow installation wizard (choose defaults para most options)
+4. Seguir el asistente de instalación (elegir configuración predeterminada para la mayoría de opciones)
 5. Write down Pi's IP address (ej: 192.168.1.100)
 6. Change router DNS to point to Pi-hole IP
 
@@ -824,7 +824,7 @@ IMPLEMENTATION:
 3. Verifica que funciona visitando test site
 
 RESULT:
-• All family devices automatically protected
+• Todos los dispositivos familiares protegidos automáticamente
 • Adult content blocked
 • Malware protection
 • No monthly cost
@@ -842,9 +842,9 @@ LINKSYS APP SETUP:
 3. Sets family pause durante dinner time (6-7 PM)
 
 ONGOING MANAGEMENT:
-• Weekly check of what sites were attempted
+• Revisión semanal de qué sitios se intentaron acceder
 • Adjust time limits based on behavior
-• Family discussion about digital rules monthly
+• Discusión familiar sobre reglas digitales mensualmente
 ```
 
 ### **🏠 Familia Tech-Savvy (Control Granular)**
@@ -883,10 +883,10 @@ SETUP AVANZADO:
 **NextDNS Configurations:**
 ```
 KIDS CONFIG (Maya 13, Liam 8):
-Security: All protections enabled
-Privacy: Block all trackers
-Parental Control:
-• Block bypass methods
+Seguridad: Todas las protecciones habilitadas
+Privacidad: Bloquear todos los rastreadores
+Control Parental:
+• Bloquear métodos de evasión
 • Force SafeSearch
 • YouTube Restricted Mode
 • Block gaming during school hours (scheduler)
@@ -894,10 +894,10 @@ Parental Control:
 • Block adult content
 
 TEEN CONFIG (Alex 16):
-Security: All protections enabled
-Privacy: Block trackers pero allow some customization
-Parental Control:
-• Block bypass methods (but discuss why)
+Seguridad: Todas las protecciones habilitadas
+Privacidad: Bloquear rastreadores pero permitir cierta personalización
+Control Parental:
+• Bloquear métodos de evasión (pero discutir por qué)
 • Force SafeSearch (negotiable as approaches 18)
 • YouTube unrestricted (with family discussion about algorithms)
 • Gaming allowed pero not during family time
@@ -1057,14 +1057,14 @@ Settings → Network → Network Settings → Advanced Settings → DNS Settings
 ```
 IMMEDIATE ACTIONS:
 1. MOBILE DATA:
-   • Remove cellular data from young children's devices completely
+   • Remover datos celulares de dispositivos de niños pequeños completamente
    • For teens: Use carrier parental controls to restrict data usage
    • Set up family data plan alerts
 
 2. VPN DETECTION:
    • Block VPN traffic at router level (Advanced → Firewall → Block VPN)
    • Regular device checks para suspicious apps
-   • Education about why VPNs exist y why rules exist
+   • Educación sobre por qué existen las VPN y por qué existen las reglas
 
 3. DEVICE MANAGEMENT:
    • Regular inventory of all devices in house
@@ -1081,10 +1081,10 @@ IMMEDIATE ACTIONS:
 #### **Long-term Strategies:**
 ```
 BUILDING DIGITAL RESPONSIBILITY:
-• Gradual increase in freedom with demonstrated maturity
-• Regular family meetings about digital rules
-• Include children in rule-making process (age-appropriate)
-• Focus on education about online safety, not just restriction
+• Incremento gradual de libertad con madurez demostrada
+• Reuniones familiares regulares sobre reglas digitales
+• Incluir a los niños en el proceso de creación de reglas (apropiado para la edad)
+• Enfocarse en educación sobre seguridad en línea, no solo restricción
 • Prepare children for adult-level digital freedom
 
 TECHNICAL REINFORCEMENT:
@@ -1339,8 +1339,8 @@ TECHNICAL REFINEMENT:
 FAMILY INTEGRATION:
 • Digital rules become part of regular family routine
 • Children adapt to new restrictions
-• Parents comfortable with monitoring tools
-• Regular family discussions about digital experiences
+• Padres cómodos con herramientas de monitoreo
+• Discusiones familiares regulares sobre experiencias digitales
 
 TECHNICAL MATURITY:
 • Filtering system running smoothly with minimal intervention

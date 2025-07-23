@@ -22,9 +22,9 @@ REQUISITOS OBLIGATORIOS:
 • Cyberbullying awareness y response procedures
 
 COMPLIANCE TÉCNICO:
-• Filtrado must block o filter: obscenity, child pornography, harmful to minors
+• El filtrado debe bloquear: obscenidad, pornografía infantil, contenido dañino para menores
 • Monitoring de comunicaciones electrónicas según sea apropiado
-• Disable filtering para adults para bona fide research u otros lawful purposes
+• Deshabilitar filtrado para adultos para investigación legítima u otros propósitos legales
 • Annual review de internet safety policy
 ```
 
@@ -142,7 +142,7 @@ CAPA 1: PERIMETER SECURITY
 CAPA 2: CONTENT FILTERING
 • DNS filtering por VLAN
 • Web content filtering por categoría
-• Application control (block gaming durante clases)
+• Control de aplicaciones (bloquear gaming durante clases)
 • SSL inspection para HTTPS content
 
 CAPA 3: ACCESS CONTROL
@@ -178,7 +178,7 @@ RECOMMENDED SPECS:
 • RAM: 32GB para large user bases
 • Storage: 240GB SSD con automatic backup
 • Network: 8+ ports con fiber options
-• Redundancy: Cluster setup para high availability
+• Redundancia: Configuración en clúster para alta disponibilidad
 ```
 
 #### **Instalación y Configuración Base:**
@@ -295,14 +295,14 @@ ENABLED LISTS:
 • UT1 Adult Content
 • AdGuard Adult Filter
 
-✅ SOCIAL MEDIA (All blocked):
+✅ REDES SOCIALES (Todas bloqueadas):
 • Facebook domains
 • Instagram domains
 • Twitter domains
 • TikTok domains
 • Snapchat domains
 
-✅ GAMING (All blocked during school):
+✅ GAMING (Todos bloqueados durante clases):
 • Steam domains
 • Gaming sites lists
 • Popular game servers
@@ -332,7 +332,7 @@ TIME-BASED RULES:
 • Research: Full access to academic databases
 
 CUSTOM RULES:
-# Block social media during class time
+# Bloquear redes sociales durante horario de clases
 if (time >= 08:00 && time <= 15:00) {
     block facebook.com, instagram.com, twitter.com, tiktok.com
 }
@@ -344,7 +344,7 @@ allow scratch.mit.edu, code.org, codecombat.com
 **High School (9-12) - Protección Moderada:**
 ```
 BALANCED APPROACH:
-✅ Security: All malware y phishing protection
+✅ Seguridad: Toda la protección de malware y phishing
 ✅ Adult content: Blocked para menores de 18
 ⚠️ Social media: Allowed con monitoring durante breaks
 ✅ Educational: Full access to research databases
@@ -368,9 +368,9 @@ REPORTING:
 ```
 INSTALLATION:
 1. System → Package Manager → Available Packages
-2. Install "ntopng" package
+2. Instalar paquete "ntopng"
 3. Services → ntopng → Configuration
-4. Enable monitoring en all interfaces
+4. Habilitar monitoreo en todas las interfaces
 
 EDUCATIONAL INSIGHTS:
 • Bandwidth usage by VLAN (which grade uses most bandwidth?)
@@ -383,7 +383,7 @@ PRIVACY CONSIDERATIONS:
 • Aggregate data only para general reporting
 • Individual student data only para safety concerns
 • Automatic data purging después de retention period
-• Clear policies about what data is collected y why
+• Políticas claras sobre qué datos se recopilan y por qué
 ```
 
 #### **Logging y Compliance:**
@@ -582,7 +582,7 @@ SECURITY STACK:
 NETWORK ANALYTICS:
 • Machine learning-based anomaly detection
 • Predictive capacity planning
-• Student engagement analytics through network usage
+• Análisis de participación estudiantil a través del uso de red
 • Performance optimization recommendations
 
 AUTOMATION:
