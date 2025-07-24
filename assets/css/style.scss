@@ -1,0 +1,333 @@
+---
+---
+
+@import "minima";
+
+// Variables de colores modernos para seguridad digital familiar
+:root {
+  --primary-color: #2563eb;      // Azul confiable
+  --secondary-color: #059669;    // Verde seguridad
+  --accent-color: #dc2626;       // Rojo emergencias
+  --warning-color: #f59e0b;      // Amarillo advertencia
+  --text-color: #1f2937;         // Gris oscuro para texto
+  --light-bg: #f8fafc;           // Fondo claro
+  --card-bg: #ffffff;            // Fondo tarjetas
+  --border-color: #e5e7eb;       // Bordes suaves
+  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+// Tipografía moderna
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  line-height: 1.7;
+  color: var(--text-color);
+  background-color: var(--light-bg);
+}
+
+// Headers con mejor jerarquía visual
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 2.5rem;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 1.875rem;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--border-color);
+  padding-bottom: 0.5rem;
+  margin-top: 2rem;
+}
+
+// Contenedor principal con mejor espaciado
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+// Estilo para la descripción principal
+.fs-6.fw-300 {
+  font-size: 1.25rem;
+  color: #6b7280;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+// Botones modernos con mejor accesibilidad
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 0.5rem;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 0.25rem;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, var(--primary-color), #3b82f6);
+  color: white;
+  box-shadow: var(--shadow);
+}
+
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3), 0 4px 6px -2px rgba(37, 99, 235, 0.1);
+  color: white;
+  text-decoration: none;
+}
+
+.btn:not(.btn-primary) {
+  background: white;
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.btn:not(.btn-primary):hover {
+  background: var(--primary-color);
+  color: white;
+  transform: translateY(-1px);
+}
+
+// Tarjetas de contenido
+.code-example {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 2rem;
+  margin: 2rem 0;
+  box-shadow: var(--shadow);
+  position: relative;
+  overflow: hidden;
+}
+
+.code-example::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--primary-color), var(--secondary-color));
+}
+
+// Links con mejor styling
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  color: var(--secondary-color);
+  border-bottom-color: var(--secondary-color);
+}
+
+// Listas con mejor espaciado y iconos
+ul, ol {
+  margin-bottom: 1.5rem;
+}
+
+li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+// Elementos de emergencia destacados
+.emergency-section {
+  background: linear-gradient(135deg, #fef2f2, #fdf2f8);
+  border: 2px solid #fca5a5;
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  margin: 2rem 0;
+  position: relative;
+}
+
+.emergency-section::before {
+  content: '🚨';
+  position: absolute;
+  top: -10px;
+  left: 1rem;
+  background: white;
+  padding: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+.emergency-section h2 {
+  color: var(--accent-color);
+  margin-top: 0;
+}
+
+// Secciones de navegación por edad
+.age-navigation {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.age-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.age-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border-color: var(--primary-color);
+}
+
+// Footer mejorado
+.site-footer {
+  background: linear-gradient(135deg, var(--text-color), #374151);
+  color: white;
+  margin-top: 4rem;
+  padding: 2rem 0;
+}
+
+.site-footer a {
+  color: #93c5fd;
+}
+
+.site-footer a:hover {
+  color: white;
+}
+
+// Header del sitio
+.site-header {
+  background: var(--card-bg);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  backdrop-filter: blur(10px);
+}
+
+.site-title {
+  font-weight: 700;
+  color: var(--primary-color) !important;
+  font-size: 1.5rem;
+}
+
+// Navegación mejorada
+.site-nav .page-link {
+  color: var(--text-color);
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  transition: all 0.2s ease;
+}
+
+.site-nav .page-link:hover {
+  background: var(--light-bg);
+  color: var(--primary-color);
+}
+
+// Estadísticas destacadas
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.stat-card {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: var(--shadow);
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary-color);
+  display: block;
+}
+
+.stat-label {
+  color: #6b7280;
+  font-size: 0.875rem;
+  margin-top: 0.5rem;
+}
+
+// Responsividad mejorada
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .btn {
+    display: block;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+  
+  .code-example {
+    padding: 1rem;
+    margin: 1rem 0;
+  }
+  
+  .wrapper {
+    padding: 0 0.5rem;
+  }
+}
+
+// Animaciones sutiles
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.code-example, .age-card {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+// Dark mode support (opcional)
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-color: #f9fafb;
+    --light-bg: #111827;
+    --card-bg: #1f2937;
+    --border-color: #374151;
+  }
+}
+
+// Print styles
+@media print {
+  .btn, .site-nav, .site-footer {
+    display: none;
+  }
+  
+  body {
+    background: white;
+    color: black;
+  }
+} 

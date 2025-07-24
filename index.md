@@ -43,6 +43,8 @@ Una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñ
 
 ---
 
+<div class="emergency-section">
+
 ## 🆘 ¿Tienes una Emergencia Digital?
 
 Si estás enfrentando una situación crítica como cyberbullying, contacto con extraños, o contenido inapropiado:
@@ -55,6 +57,8 @@ Si estás enfrentando una situación crítica como cyberbullying, contacto con e
 - **🇨🇱 Chile**: Carabineros 133, PDI Cibercrimen (2) 2708-2000
 - **🇵🇪 Perú**: DIVINTEC (01) 431-3805
 - **🇦🇷 Argentina**: Grooming Argentina 0800-444-1845
+
+</div>
 
 ---
 
@@ -92,12 +96,23 @@ Si estás enfrentando una situación crítica como cyberbullying, contacto con e
 
 ## 📊 Cobertura del Proyecto
 
-<div class="code-example" markdown="1">
-**📚 23+ documentos especializados**  
-**🎯 Cobertura completa 0-18 años**  
-**🛡️ +900 páginas de recursos**  
-**🌍 5 países latinoamericanos**  
-**📱 Todas las plataformas principales**
+<div class="stats-grid">
+  <div class="stat-card">
+    <span class="stat-number">23+</span>
+    <span class="stat-label">Documentos Especializados</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">0-18</span>
+    <span class="stat-label">Años de Cobertura</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">900+</span>
+    <span class="stat-label">Páginas de Recursos</span>
+  </div>
+  <div class="stat-card">
+    <span class="stat-number">5</span>
+    <span class="stat-label">Países Cubiertos</span>
+  </div>
 </div>
 
 ---
@@ -122,5 +137,13 @@ Este trabajo está licenciado bajo [Creative Commons BY-SA 4.0](https://creative
 
 ---
 
-*📅 Última actualización: Julio 2025*  
-*🔍 Si esta biblioteca te ha sido útil, ¡considera darle una ⭐ en GitHub y compartirla con tu comunidad!* 
+<div class="code-example" style="text-align: center; background: linear-gradient(135deg, #f8fafc, #e0f2fe);">
+
+**📅 Última actualización: Julio 2025**  
+**🌍 Disponible para: Chile, Perú, Colombia, México, Argentina**
+
+🔍 Si esta biblioteca te ha sido útil, ¡considera darle una ⭐ en GitHub y compartirla con tu comunidad!
+
+[⭐ Dar Estrella en GitHub](https://github.com/walalapancho/GuiaParaPadres){: .btn .btn-primary }
+
+</div> 
