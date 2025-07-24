@@ -7,6 +7,9 @@
         {{ site.title | default: "Guía para Padres" }}
       </a>
 
+      <!-- Input del menú hamburguesa (debe estar antes del label para que funcionen los selectores CSS) -->
+      <input type="checkbox" id="nav-trigger" />
+
       <!-- Botón hamburguesa -->
       <label for="nav-trigger" class="menu-icon">
         <span class="hamburger">
@@ -15,8 +18,6 @@
           <span class="hamburger-line"></span>
         </span>
       </label>
-
-      <input type="checkbox" id="nav-trigger" />
 
       <!-- Menú de navegación -->
       <nav class="site-nav">

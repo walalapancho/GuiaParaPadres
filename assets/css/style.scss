@@ -209,7 +209,7 @@ h3 {
 #nav-trigger {
   display: none;
   
-  &:checked + .site-nav .trigger {
+  &:checked ~ .site-nav .trigger {
     @media (max-width: 768px) {
       opacity: 1;
       visibility: visible;
