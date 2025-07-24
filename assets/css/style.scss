@@ -692,19 +692,6 @@ pre {
   .breadcrumb {
     font-size: 0.8125rem;
   }
-
-
-    box-shadow: var(--shadow-lg);
-    padding: 1rem;
-
-    .page-link {
-      display: block;
-      padding: 0.75rem 1rem;
-      border-radius: var(--radius-md);
-      text-align: center;
-      margin: 0.25rem 0;
-    }
-  }
 }
 
 @media (max-width: 480px) {
