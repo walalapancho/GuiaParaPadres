@@ -4,7 +4,7 @@ title: "Estudios y Evidencia Científica"
 category: "recursos"
 nav_order: 90
 description: "Compilación de estudios científicos y evidencia sobre los efectos del uso de pantallas en el desarrollo de niños de 0-3 años"
-permalink: /GuiaParaPadres/estudios/
+permalink: /estudios/
 related:
   - title: "Apps 0-3 años" 
     url: "/GuiaParaPadres/apps-0-3-anos/"
@@ -327,7 +327,7 @@ La AAP mantiene sus recomendaciones actualizadas sobre [tiempo de pantalla para 
 
 **Esta página se actualiza regularmente** con la evidencia científica más reciente. La investigación sobre el impacto de las pantallas en el desarrollo infantil continúa evolucionando, y nuevos estudios proporcionan constantemente información valiosa para padres, educadores y profesionales de la salud.
 
-**Última actualización:** Diciembre 2024
+**Última actualización:** Julio 2025
 
 ---
 
@@ -336,6 +336,6 @@ La AAP mantiene sus recomendaciones actualizadas sobre [tiempo de pantalla para 
 ---
 
 **📚 Cita sugerida para esta página:**
-> "Estudios y Evidencia Científica sobre Pantallas en la Primera Infancia." *Guía para Padres: Controles Parentales*, 2024. Disponible en: [enlace a la página]
+> "Estudios y Evidencia Científica sobre Pantallas en la Primera Infancia." *Guía para Padres: Controles Parentales*, 2025. Disponible en: [enlace a la página]
 
 **🔍 Palabras clave:** evidencia científica, tiempo de pantalla, desarrollo infantil, primera infancia, estudios longitudinales, neurociencia del desarrollo, recomendaciones pediátricas 
