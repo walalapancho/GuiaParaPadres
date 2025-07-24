@@ -27,13 +27,13 @@ related:
 
 # 🛡️ Biblioteca Completa de Seguridad Digital Familiar
 
-{: .fs-6 .fw-300 }
 Una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñada para empoderar a padres, educadores y comunidades con herramientas prácticas para crear entornos digitales seguros para niños y adolescentes.
 
 **💻 Código fuente y recursos adicionales disponibles en: [https://github.com/walalapancho/GuiaParaPadres](https://github.com/walalapancho/GuiaParaPadres)**
 
-[🧭 Índice Interactivo](/GuiaParaPadres/INDICE-INTERACTIVO/){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[🚀 Empezar Ahora](/GuiaParaPadres/controles-basicos/){: .btn .fs-5 .mb-4 .mb-md-0 }
+### 🚀 Navegación Rápida
+
+**[🧭 Índice Interactivo](/GuiaParaPadres/INDICE-INTERACTIVO/)** | **[🚀 Empezar Ahora](/GuiaParaPadres/controles-basicos/)**
 
 ---
 
@@ -101,8 +101,6 @@ Una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñ
 
 ---
 
-<div class="emergency-section">
-
 ## 🆘 ¿Tienes una Emergencia Digital?
 
 Si estás enfrentando una situación crítica como cyberbullying, contacto con extraños, o contenido inapropiado:
@@ -116,10 +114,8 @@ Si estás enfrentando una situación crítica como cyberbullying, contacto con e
 - **🇵🇪 Perú**: DIVINTEC (01) 431-3805
 - **🇦🇷 Argentina**: Grooming Argentina 0800-444-1845
 
-</div>
-
 ---
-
+<!-- >
 ## 🌟 Características Destacadas
 
 ### ✨ **Enfoque Integral**
@@ -134,8 +130,8 @@ Si estás enfrentando una situación crítica como cyberbullying, contacto con e
 - Scripts de conversación para situaciones difíciles
 - Protocolos de crisis con contactos de emergencia
 - Materiales para presentaciones y talleres
-
 ---
+--> 
 
 ## 🚀 Cómo Usar Esta Biblioteca
 
@@ -151,30 +147,14 @@ Si estás enfrentando una situación crítica como cyberbullying, contacto con e
 4. **[Casos Reales](/GuiaParaPadres/casos-uso-especificos/)** - Situaciones complejas
 
 ---
-
 ## 📊 Cobertura del Proyecto
 
-<div class="stats-grid">
-  <div class="stat-card">
-    <span class="stat-number">23+</span>
-    <span class="stat-label">Documentos Especializados</span>
-  </div>
-  <div class="stat-card">
-    <span class="stat-number">0-18</span>
-    <span class="stat-label">Años de Cobertura</span>
-  </div>
-  <div class="stat-card">
-    <span class="stat-number">900+</span>
-    <span class="stat-label">Páginas de Recursos</span>
-  </div>
-  <div class="stat-card">
-    <span class="stat-number">5</span>
-    <span class="stat-label">Países Cubiertos</span>
-  </div>
-</div>
+- **23+** Documentos Especializados
+- **0-18** Años de Cobertura  
+- **900+** Páginas de Recursos
+- **5** Países Cubiertos
 
----
-
+--- 
 ## 🤝 Contribuciones y Comunidad
 
 Esta biblioteca es un proyecto colaborativo. ¡Tu experiencia puede ayudar a otras familias!
@@ -185,7 +165,7 @@ Esta biblioteca es un proyecto colaborativo. ¡Tu experiencia puede ayudar a otr
 - Proponer nuevos contenidos
 - Traducir a otros idiomas
 
-[Contribuir en GitHub](https://github.com/walalapancho/GuiaParaPadres){: .btn .btn-outline }
+**[Contribuir en GitHub](https://github.com/walalapancho/GuiaParaPadres)**
 
 ---
 
@@ -195,13 +175,16 @@ Este trabajo está licenciado bajo [Creative Commons BY-SA 4.0](https://creative
 
 ---
 
-<div class="code-example" style="text-align: center; background: linear-gradient(135deg, #f8fafc, #e0f2fe);">
+---
 
-**📅 Última actualización: Julio 2025**  
-**🌍 Disponible para: Chile, Perú, Colombia, México, Argentina**
+### 📊 Información del Proyecto
 
-🔍 Si esta biblioteca te ha sido útil, ¡considera darle una ⭐ en GitHub y compartirla con tu comunidad!
+**📅 Última actualización:** Julio 2025  
+**🌍 Disponible para:** Chile, Perú, Colombia, México, Argentina  
+**📚 Recursos:** 23+ documentos especializados | 900+ páginas de contenido
 
-[⭐ Dar Estrella en GitHub](https://github.com/walalapancho/GuiaParaPadres){: .btn .btn-primary }
+### ⭐ ¿Te ha sido útil?
 
-</div> 
+Si esta biblioteca te ha ayudado, ¡considera darle una estrella en GitHub y compartirla con tu comunidad!
+
+**[⭐ Dar Estrella en GitHub](https://github.com/walalapancho/GuiaParaPadres)** 
