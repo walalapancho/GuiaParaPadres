@@ -1378,3 +1378,596 @@ table {
     font-size: 1.25rem;
   }
 }
+
+// =====================================================
+// MEJORAS RESPONSIVE ADICIONALES
+// =====================================================
+
+// Mejoras específicas para tablets
+@media (max-width: 1024px) {
+  .hero-section {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .nav-rapida {
+    gap: 0.75rem;
+  }
+
+  .btn-hero {
+    min-width: 180px;
+    padding: 0.875rem 1.5rem;
+  }
+
+  .content-section {
+    padding: 1.25rem;
+  }
+}
+
+// Mejoras específicas para móviles grandes
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 2rem 1rem;
+    margin-bottom: 1.5rem;
+
+    &::before {
+      opacity: 0.2;
+    }
+  }
+
+  .hero-title {
+    font-size: clamp(2rem, 6vw, 2.75rem) !important;
+    margin-bottom: 1rem !important;
+  }
+
+  .hero-description {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .nav-rapida {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .btn-hero {
+    width: 100%;
+    max-width: 320px;
+    padding: 1rem 1.5rem;
+    font-size: 1rem;
+  }
+
+  .content-section {
+    margin: 1.5rem 0;
+    padding: 1rem;
+    border-radius: var(--radius-sm);
+  }
+
+  .content-list li {
+    padding: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  // Mejoras para tablas en móvil
+  table {
+    font-size: 0.9rem;
+    
+    td {
+      padding: 0.75rem 0.5rem;
+      vertical-align: top;
+      
+      a {
+        font-size: 1rem;
+        padding: 0.5rem 0.75rem;
+      }
+    }
+  }
+
+  // Headers responsivos
+  h2 {
+    font-size: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+    margin: 1.25rem 0 0.75rem 0;
+  }
+}
+
+// Mejoras para móviles pequeños
+@media (max-width: 480px) {
+  .wrapper {
+    padding: 0 0.75rem;
+  }
+
+  .page-content {
+    margin: 0.25rem;
+    padding: 0.75rem;
+  }
+
+  .hero-section {
+    padding: 1.5rem 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .hero-title {
+    font-size: clamp(1.75rem, 7vw, 2.25rem) !important;
+  }
+
+  .hero-description {
+    font-size: 1rem;
+  }
+
+  .btn-hero {
+    max-width: 280px;
+    padding: 0.875rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  .content-section {
+    margin: 1rem 0;
+    padding: 0.75rem;
+  }
+
+  .content-list li {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  // Contactos de emergencia más compactos
+  ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+  }
+}
+
+// =====================================================
+// MEJORAS DE ACCESIBILIDAD
+// =====================================================
+
+// Focus visible para navegación por teclado
+.btn-hero:focus,
+a:focus {
+  outline: 2px solid var(--primary-color);
+  outline-offset: 2px;
+  border-radius: var(--radius-sm);
+}
+
+// Mejoras de contraste para enlaces
+a {
+  &:visited {
+    color: var(--primary-dark);
+  }
+
+  &:focus,
+  &:hover {
+    color: var(--primary-dark);
+    text-decoration: underline;
+  }
+}
+
+// Modo de alto contraste (respeta preferencias del usuario)
+@media (prefers-contrast: high) {
+  :root {
+    --text-primary: #000000;
+    --text-secondary: #333333;
+    --border-color: #666666;
+  }
+
+  .btn-hero {
+    border: 2px solid currentColor;
+  }
+
+  .hero-title {
+    -webkit-text-fill-color: var(--text-primary);
+    background: none;
+  }
+}
+
+// Respeta preferencias de movimiento reducido
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .btn-hero::before {
+    display: none;
+  }
+}
+
+// =====================================================
+// MEJORAS DE PERFORMANCE Y LOADING
+// =====================================================
+
+// Optimización de carga progresiva
+.hero-section {
+  will-change: transform;
+}
+
+.btn-hero {
+  will-change: transform, box-shadow;
+}
+
+// Loading placeholder para contenido
+.content-loading {
+  background: linear-gradient(90deg, 
+    var(--bg-secondary) 25%, 
+    var(--bg-tertiary) 50%, 
+    var(--bg-secondary) 75%
+  );
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+  border-radius: var(--radius-sm);
+  height: 1rem;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+// =====================================================  
+// PRINT STYLES MEJORADOS
+// =====================================================
+
+@media print {
+  .hero-section {
+    background: none !important;
+    box-shadow: none !important;
+  }
+
+  .hero-section::before {
+    display: none !important;
+  }
+
+  .btn-hero {
+    background: none !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--text-primary) !important;
+    box-shadow: none !important;
+  }
+
+  .content-section {
+    box-shadow: none !important;
+    border: 1px solid var(--border-color) !important;
+  }
+
+  a {
+    text-decoration: underline !important;
+    color: var(--text-primary) !important;
+  }
+
+  // Mostrar URLs de enlaces importantes
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+    color: var(--text-secondary);
+  }
+}
+
+// =====================================================
+// MEJORAS DE CONTENIDO DESPLEGABLE Y COLAPSIBLE
+// =====================================================
+
+// Secciones colapsibles para mejor navegación
+.collapsible-section {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  margin: 1rem 0;
+  overflow: hidden;
+  transition: all var(--transition-normal);
+
+  &:hover {
+    box-shadow: var(--shadow-md);
+  }
+}
+
+.collapsible-header {
+  background: linear-gradient(135deg, var(--bg-tertiary), var(--bg-secondary));
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all var(--transition-fast);
+  user-select: none;
+
+  &:hover {
+    background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .toggle-icon {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    transition: transform var(--transition-normal);
+    
+    &.expanded {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.collapsible-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+  padding: 0 1.5rem;
+
+  &.expanded {
+    max-height: 1000px; // Valor alto para permitir expansión
+    padding: 1rem 1.5rem;
+  }
+}
+
+// Indicador visual de sección expandida
+.collapsible-section.expanded {
+  border-color: var(--primary-color);
+  box-shadow: var(--shadow-lg);
+}
+
+// =====================================================
+// MEJORAS DE NAVEGACIÓN POR SECCIONES
+// =====================================================
+
+// Índice flotante para navegación rápida
+.floating-toc {
+  position: fixed;
+  top: 50%;
+  right: 2rem;
+  transform: translateY(-50%);
+  background: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 1rem;
+  box-shadow: var(--shadow-lg);
+  max-width: 250px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition-normal);
+
+  &.visible {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  @media (max-width: 1200px) {
+    display: none;
+  }
+
+  h4 {
+    margin: 0 0 0.75rem 0;
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    li {
+      margin: 0.25rem 0;
+      
+      a {
+        display: block;
+        padding: 0.25rem 0.5rem;
+        color: var(--text-secondary);
+        font-size: 0.875rem;
+        border-radius: var(--radius-sm);
+        transition: all var(--transition-fast);
+
+        &:hover,
+        &.active {
+          background: var(--primary-color);
+          color: white;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
+
+// =====================================================
+// MEJORAS DE SCROLL Y ANIMACIONES
+// =====================================================
+
+// Scroll suave entre secciones
+html {
+  scroll-behavior: smooth;
+}
+
+// Animación de entrada para secciones
+.section-animate {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease-out;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+// Stagger animation para listas
+.content-list li {
+  opacity: 0;
+  transform: translateX(-20px);
+  animation: slideInLeft 0.6s ease-out forwards;
+}
+
+@for $i from 1 through 10 {
+  .content-list li:nth-child(#{$i}) {
+    animation-delay: #{$i * 0.1}s;
+  }
+}
+
+@keyframes slideInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+// =====================================================
+// MEJORAS DE ESTADO DE CARGA
+// =====================================================
+
+// Estado de carga para secciones dinámicas  
+.section-loading {
+  .content-list li {
+    background: var(--bg-tertiary);
+    border-radius: var(--radius-sm);
+    height: 3rem;
+    margin: 0.5rem 0;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+    
+    &::before {
+      content: '';
+      width: 100%;
+      height: 1rem;
+      background: linear-gradient(90deg, 
+        transparent 25%, 
+        rgba(255,255,255,0.5) 50%, 
+        transparent 75%
+      );
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: var(--radius-sm);
+    }
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+// =====================================================
+// MEJORAS DE TOOLTIPS Y AYUDA CONTEXTUAL  
+// =====================================================
+
+// Tooltips simples para enlaces
+[data-tooltip] {
+  position: relative;
+
+  &::before {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--text-primary);
+    color: var(--bg-primary);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-sm);
+    font-size: 0.875rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-fast);
+    z-index: 200;
+    margin-bottom: 0.5rem;
+  }
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 5px solid transparent;
+    border-top-color: var(--text-primary);
+    opacity: 0;
+    visibility: hidden;
+    transition: all var(--transition-fast);
+    z-index: 200;
+  }
+
+  &:hover::before,
+  &:hover::after {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+// =====================================================
+// MEJORAS DE BÚSQUEDA Y FILTRADO
+// =====================================================
+
+// Barra de búsqueda simple
+.search-bar {
+  position: relative;
+  margin: 1.5rem 0;
+  max-width: 400px;
+
+  input {
+    width: 100%;
+    padding: 0.75rem 1rem 0.75rem 2.5rem;
+    border: 2px solid var(--border-color);
+    border-radius: var(--radius-md);
+    font-size: 1rem;
+    transition: all var(--transition-fast);
+    background: var(--bg-primary);
+
+    &:focus {
+      outline: none;
+      border-color: var(--primary-color);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
+    }
+
+    &::placeholder {
+      color: var(--text-muted);
+    }
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 0.75rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--text-muted);
+    font-size: 1.25rem;
+  }
+}
+
+// Resultados de búsqueda
+.search-results {
+  .no-results {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-style: italic;
+  }
+
+  .highlight {
+    background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(245, 158, 11, 0.3));
+    padding: 0.125rem 0.25rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+  }
+}
