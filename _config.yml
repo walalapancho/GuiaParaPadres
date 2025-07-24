@@ -4,8 +4,7 @@ description: "Recursos integrales para crear entornos digitales seguros para ni�
 baseurl: "/GuiaParaPadres" # dejar vacío si el repo es nombre-usuario.github.io, caso contrario /nombre-repositorio
 url: "https://walalapancho.github.io" # cambiar por tu URL de GitHub Pages
 
-# Configuración de Jekyll
-theme: minima
+# Configuración de Jekyll - sin tema externo
 markdown: kramdown
 highlighter: rouge
 plugins:
@@ -18,13 +17,8 @@ plugins:
 lang: es
 timezone: America/Santiago
 
-# Navegación principal
-header_pages:
-  - index.md
-  - INDICE-INTERACTIVO.md
-  - guia-maestros.md
-  - taller-familiar.md
-  - fuentes-referencias.md
+# Navegación principal eliminada
+# header_pages eliminado - no hay header
 
 # Metadatos del sitio
 author:
@@ -64,13 +58,10 @@ exclude:
   - "*.gemspec"
   - check_links.py
 
-# Configuración de colecciones para mejor organización
-collections:
-  docs:
-    output: true
-    permalink: /:collection/:name/
+# Configuración de colecciones eliminada - no se usan
+# collections eliminadas para simplificar
 
-# Valores por defecto
+# Valores por defecto simplificados
 defaults:
   - scope:
       path: "assets/img"
@@ -88,25 +79,9 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "page"
+      layout: "default"
       lang: es
-      image: false
-      comments: false
-      search: true
-      nav_exclude: false
-  - scope:
-      path: ""
-      type: "docs"
-    values:
-      layout: "doc"
-      lang: es
-      image: false
-      comments: false
-      search: true
-      nav_exclude: false
 
-# Configuración de redirecciones
+# Configuración de redirecciones simplificada
 redirect_from:
   enabled: true
-  # Usar _redirects para las redirecciones personalizadas
-  collections: true
