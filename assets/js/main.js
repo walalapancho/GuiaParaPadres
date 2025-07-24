@@ -1,749 +1,400 @@
 // =====================================================
-// SEGURIDAD DIGITAL FAMILIAR - MAIN JAVASCRIPT
+// SEGURIDAD DIGITAL FAMILIAR - JAVASCRIPT SIMPLIFICADO
 // =====================================================
 
-(function() {
-  'use strict';
+(function () {
+  "use strict";
 
   // =====================================================
-  // CONFIGURACIÓN Y CONSTANTES
+  // CONFIGURACIÓN
   // =====================================================
 
   const CONFIG = {
-    searchMinLength: 2,
-    searchDebounceDelay: 300,
     scrollThreshold: 300,
     animationDuration: 300,
-    storageKeys: {
-      darkMode: 'sdf-dark-mode',
-      fontSize: 'sdf-font-size',
-      preferences: 'sdf-preferences'
-    }
   };
 
   // =====================================================
-  // UTILIDADES
+  // UTILIDADES BÁSICAS
   // =====================================================
 
   const Utils = {
-    // Debounce function
-    debounce: function(func, wait) {
+    debounce: function (func, wait) {
       let timeout;
-      return function executedFunction(...args) {
-        const later = () => {
-          clearTimeout(timeout);
-          func(...args);
-        };
-        clearTimeout(timeout);
-        timeout = setTimeout(later, wait);
-      };
-    },
-
-    // Throttle function
-    throttle: function(func, limit) {
-      let inThrottle;
-      return function() {
-        const args = arguments;
+      return function () {
         const context = this;
-        if (!inThrottle) {
+        const args = arguments;
+        clearTimeout(timeout);
+        timeout = setTimeout(function () {
           func.apply(context, args);
-          inThrottle = true;
-          setTimeout(() => inThrottle = false, limit);
-        }
+        }, wait);
       };
     },
 
-    // Smooth scroll to element
-    scrollToElement: function(element, offset = 0) {
+    scrollToElement: function (element, offset) {
       if (!element) return;
+      offset = offset || 0;
 
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - offset;
 
       window.scrollTo({
         top: offsetPosition,
-        behavior: 'smooth'
+        behavior: "smooth",
       });
     },
-
-    // Local storage helpers
-    storage: {
-      get: function(key, defaultValue = null) {
-        try {
-          const item = localStorage.getItem(key);
-          return item ? JSON.parse(item) : defaultValue;
-        } catch (e) {
-          console.warn('Error reading from localStorage:', e);
-          return defaultValue;
-        }
-      },
-
-      set: function(key, value) {
-        try {
-          localStorage.setItem(key, JSON.stringify(value));
-          return true;
-        } catch (e) {
-          console.warn('Error writing to localStorage:', e);
-          return false;
-        }
-      },
-
-      remove: function(key) {
-        try {
-          localStorage.removeItem(key);
-          return true;
-        } catch (e) {
-          console.warn('Error removing from localStorage:', e);
-          return false;
-        }
-      }
-    },
-
-    // Animation helpers
-    fadeIn: function(element, duration = CONFIG.animationDuration) {
-      element.style.opacity = 0;
-      element.style.display = 'block';
-
-      let start = performance.now();
-
-      function animate(currentTime) {
-        const elapsed = currentTime - start;
-        const progress = elapsed / duration;
-
-        if (progress < 1) {
-          element.style.opacity = progress;
-          requestAnimationFrame(animate);
-        } else {
-          element.style.opacity = 1;
-        }
-      }
-
-      requestAnimationFrame(animate);
-    },
-
-    fadeOut: function(element, duration = CONFIG.animationDuration) {
-      let start = performance.now();
-      const initialOpacity = parseFloat(getComputedStyle(element).opacity);
-
-      function animate(currentTime) {
-        const elapsed = currentTime - start;
-        const progress = elapsed / duration;
-
-        if (progress < 1) {
-          element.style.opacity = initialOpacity * (1 - progress);
-          requestAnimationFrame(animate);
-        } else {
-          element.style.opacity = 0;
-          element.style.display = 'none';
-        }
-      }
-
-      requestAnimationFrame(animate);
-    }
   };
 
   // =====================================================
-  // MODO OSCURO
+  // BARRA DE PROGRESO DE LECTURA
   // =====================================================
 
-  const DarkMode = {
-    init: function() {
-      this.createToggle();
-      this.loadPreference();
-      this.bindEvents();
-    },
+  function updateReadingProgress() {
+    const progressBar = document.getElementById("reading-progress");
+    if (!progressBar) return;
 
-    createToggle: function() {
-      const nav = document.querySelector('.site-nav .trigger');
-      if (!nav) return;
+    const winScroll =
+      document.body.scrollTop || document.documentElement.scrollTop;
+    const height =
+      document.documentElement.scrollHeight -
+      document.documentElement.clientHeight;
+    const scrolled = (winScroll / height) * 100;
 
-      const toggle = document.createElement('button');
-      toggle.id = 'dark-mode-toggle';
-      toggle.className = 'dark-mode-toggle';
-      toggle.setAttribute('aria-label', 'Alternar modo oscuro');
-      toggle.innerHTML = '<span class="dark-mode-icon">🌙</span>';
+    progressBar.style.width = scrolled + "%";
+  }
 
-      nav.appendChild(toggle);
-    },
+  // =====================================================
+  // TABLA DE CONTENIDOS AUTOMÁTICA
+  // =====================================================
 
-    loadPreference: function() {
-      const savedMode = Utils.storage.get(CONFIG.storageKeys.darkMode);
-      const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  function generateTOC() {
+    const tocContent = document.getElementById("toc-content");
+    if (!tocContent) return;
 
-      if (savedMode === 'dark' || (savedMode === null && prefersDark)) {
-        this.enable();
+    const headings = document.querySelectorAll("h2, h3");
+    if (headings.length === 0) return;
+
+    const tocList = document.createElement("ul");
+    tocList.className = "toc-list";
+
+    headings.forEach(function (heading, index) {
+      // Agregar ID si no lo tiene
+      if (!heading.id) {
+        heading.id = "heading-" + index;
       }
-    },
 
-    bindEvents: function() {
-      const toggle = document.getElementById('dark-mode-toggle');
-      if (!toggle) return;
+      const listItem = document.createElement("li");
+      listItem.className = "toc-item toc-" + heading.tagName.toLowerCase();
 
-      toggle.addEventListener('click', () => {
-        this.toggle();
-      });
+      const link = document.createElement("a");
+      link.href = "#" + heading.id;
+      link.textContent = heading.textContent;
+      link.className = "toc-link";
 
-      // Listen for system preference changes
-      window.matchMedia('(prefers-color-scheme: dark)')
-        .addEventListener('change', (e) => {
-          if (Utils.storage.get(CONFIG.storageKeys.darkMode) === null) {
-            if (e.matches) {
-              this.enable();
-            } else {
-              this.disable();
-            }
-          }
-        });
-    },
+      listItem.appendChild(link);
+      tocList.appendChild(listItem);
+    });
 
-    toggle: function() {
-      if (document.documentElement.classList.contains('dark-mode')) {
-        this.disable();
+    tocContent.appendChild(tocList);
+  }
+
+  // =====================================================
+  // TOGGLE DE TABLA DE CONTENIDOS
+  // =====================================================
+
+  function setupTOCToggle() {
+    const toggle = document.getElementById("toc-toggle");
+    const content = document.getElementById("toc-content");
+
+    if (!toggle || !content) return;
+
+    toggle.addEventListener("click", function () {
+      const isCollapsed = content.classList.contains("toc-collapsed");
+      const icon = toggle.querySelector(".toc-icon");
+
+      if (isCollapsed) {
+        content.classList.remove("toc-collapsed");
+        content.style.display = "block";
+        if (icon) icon.textContent = "▼";
       } else {
-        this.enable();
+        content.classList.add("toc-collapsed");
+        content.style.display = "none";
+        if (icon) icon.textContent = "▶";
       }
-    },
+    });
+  }
 
-    enable: function() {
-      document.documentElement.classList.add('dark-mode');
-      this.updateToggle(true);
-      Utils.storage.set(CONFIG.storageKeys.darkMode, 'dark');
-    },
+  // =====================================================
+  // BOTÓN VOLVER AL INICIO
+  // =====================================================
 
-    disable: function() {
-      document.documentElement.classList.remove('dark-mode');
-      this.updateToggle(false);
-      Utils.storage.set(CONFIG.storageKeys.darkMode, 'light');
-    },
+  function setupBackToTop() {
+    const backToTop = document.getElementById("back-to-top");
+    if (!backToTop) return;
 
-    updateToggle: function(isDark) {
-      const toggle = document.getElementById('dark-mode-toggle');
-      const icon = toggle?.querySelector('.dark-mode-icon');
-
-      if (icon) {
-        icon.textContent = isDark ? '☀️' : '🌙';
-      }
-
-      if (toggle) {
-        toggle.setAttribute('aria-label',
-          isDark ? 'Cambiar a modo claro' : 'Cambiar a modo oscuro'
-        );
+    function toggleButton() {
+      if (window.pageYOffset > CONFIG.scrollThreshold) {
+        backToTop.style.display = "flex";
+      } else {
+        backToTop.style.display = "none";
       }
     }
-  };
 
-  // =====================================================
-  // BÚSQUEDA EN EL SITIO
-  // =====================================================
+    window.addEventListener("scroll", Utils.debounce(toggleButton, 100));
 
-  const Search = {
-    data: [],
-    results: [],
-
-    init: function() {
-      this.createSearchBox();
-      this.loadSearchData();
-      this.bindEvents();
-    },
-
-    createSearchBox: function() {
-      const header = document.querySelector('.site-header .wrapper');
-      if (!header) return;
-
-      const searchContainer = document.createElement('div');
-      searchContainer.className = 'search-container';
-      searchContainer.innerHTML = `
-        <div class="search-input-wrapper">
-          <input type="search"
-                 id="site-search"
-                 placeholder="Buscar recursos..."
-                 aria-label="Buscar en el sitio"
-                 autocomplete="off">
-          <button class="search-clear" aria-label="Limpiar búsqueda">×</button>
-        </div>
-        <div class="search-results" id="search-results" aria-hidden="true">
-          <div class="search-results-content"></div>
-        </div>
-      `;
-
-      header.appendChild(searchContainer);
-    },
-
-    loadSearchData: function() {
-      // En un sitio real, esto cargaría desde un archivo JSON
-      // Por ahora, creamos datos de ejemplo basados en el contenido
-      this.data = [
-        {
-          title: 'Controles Parentales Básicos',
-          url: '/Controles_Parentales',
-          excerpt: 'Guía básica para configurar controles parentales en dispositivos',
-          tags: ['controles', 'configuración', 'básico']
-        },
-        {
-          title: 'Seguridad en YouTube',
-          url: '/SeguridadYouTube',
-          excerpt: 'Cómo configurar YouTube de forma segura para niños',
-          tags: ['youtube', 'videos', 'niños']
-        },
-        {
-          title: 'Controles para Adolescentes',
-          url: '/ControlesParentalesAdolescentes',
-          excerpt: 'Guía específica para manejar la seguridad digital con adolescentes',
-          tags: ['adolescentes', 'privacidad', 'autonomía']
-        },
-        {
-          title: 'Apps Recomendadas 0-3 años',
-          url: '/apps_recomendadas_0-3',
-          excerpt: 'Aplicaciones seguras y educativas para los más pequeños',
-          tags: ['apps', 'bebés', 'educativo']
-        },
-        {
-          title: 'Emergencias Digitales',
-          url: '/casos-uso-especificos',
-          excerpt: 'Protocolos de crisis y situaciones de emergencia digital',
-          tags: ['emergencia', 'crisis', 'ayuda']
-        },
-        {
-          title: 'Guía para Maestros',
-          url: '/GuiaParaMaestros',
-          excerpt: 'Recursos para educadores sobre seguridad digital',
-          tags: ['maestros', 'educadores', 'escuela']
-        }
-      ];
-    },
-
-    bindEvents: function() {
-      const searchInput = document.getElementById('site-search');
-      const clearButton = document.querySelector('.search-clear');
-      const resultsContainer = document.getElementById('search-results');
-
-      if (!searchInput) return;
-
-      // Search input events
-      searchInput.addEventListener('input',
-        Utils.debounce((e) => {
-          this.performSearch(e.target.value);
-        }, CONFIG.searchDebounceDelay)
-      );
-
-      searchInput.addEventListener('focus', () => {
-        if (searchInput.value.length >= CONFIG.searchMinLength) {
-          this.showResults();
-        }
+    backToTop.addEventListener("click", function () {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
       });
+    });
 
-      // Clear button
-      if (clearButton) {
-        clearButton.addEventListener('click', () => {
-          this.clearSearch();
+    // Llamada inicial
+    toggleButton();
+  }
+
+  // =====================================================
+  // SISTEMA DE FEEDBACK
+  // =====================================================
+
+  function setupFeedback() {
+    const feedbackButtons = document.querySelectorAll(".feedback-btn");
+    const thankMessage = document.getElementById("feedback-thanks");
+
+    if (!feedbackButtons.length) return;
+
+    feedbackButtons.forEach(function (button) {
+      button.addEventListener("click", function () {
+        const feedback = this.getAttribute("data-feedback");
+
+        // Ocultar botones y mostrar agradecimiento
+        feedbackButtons.forEach(function (btn) {
+          btn.style.display = "none";
         });
-      }
 
-      // Close results when clicking outside
-      document.addEventListener('click', (e) => {
-        if (!e.target.closest('.search-container')) {
-          this.hideResults();
+        if (thankMessage) {
+          thankMessage.style.display = "block";
+        }
+
+        // Console log para debugging (se puede quitar en producción)
+        console.log("Feedback recibido:", feedback);
+      });
+    });
+  }
+
+  // =====================================================
+  // SCROLL SUAVE PARA ENLACES DE ANCLAJE
+  // =====================================================
+
+  function setupSmoothScrolling() {
+    const anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+    anchorLinks.forEach(function (anchor) {
+      anchor.addEventListener("click", function (e) {
+        const href = this.getAttribute("href");
+        if (href === "#") return;
+
+        const target = document.querySelector(href);
+        if (target) {
+          e.preventDefault();
+          Utils.scrollToElement(target, 80);
         }
       });
+    });
+  }
 
-      // Keyboard navigation
-      searchInput.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape') {
-          this.hideResults();
-          searchInput.blur();
-        }
+  // =====================================================
+  // MEJORAS DE NAVEGACIÓN MÓVIL
+  // =====================================================
+
+  function setupMobileNavigation() {
+    const navTrigger = document.getElementById("nav-trigger");
+    const siteNav = document.querySelector(".site-nav");
+
+    if (!navTrigger || !siteNav) return;
+
+    // Cerrar menú al hacer clic en un enlace
+    const navLinks = siteNav.querySelectorAll(".page-link");
+    navLinks.forEach(function (link) {
+      link.addEventListener("click", function () {
+        navTrigger.checked = false;
       });
-    },
+    });
 
-    performSearch: function(query) {
-      const searchInput = document.getElementById('site-search');
-      const clearButton = document.querySelector('.search-clear');
-
-      if (query.length < CONFIG.searchMinLength) {
-        this.hideResults();
-        if (clearButton) clearButton.style.display = 'none';
-        return;
+    // Cerrar menú al hacer clic fuera
+    document.addEventListener("click", function (e) {
+      if (!siteNav.contains(e.target)) {
+        navTrigger.checked = false;
       }
-
-      if (clearButton) clearButton.style.display = 'block';
-
-      const searchTerms = query.toLowerCase().split(' ');
-      this.results = this.data.filter(item => {
-        const searchText = `${item.title} ${item.excerpt} ${item.tags.join(' ')}`.toLowerCase();
-        return searchTerms.every(term => searchText.includes(term));
-      });
-
-      this.displayResults();
-      this.showResults();
-    },
-
-    displayResults: function() {
-      const resultsContent = document.querySelector('.search-results-content');
-      if (!resultsContent) return;
-
-      if (this.results.length === 0) {
-        resultsContent.innerHTML = `
-          <div class="search-no-results">
-            <p>No se encontraron resultados.</p>
-            <p>Intenta con otros términos de búsqueda.</p>
-          </div>
-        `;
-        return;
-      }
-
-      const resultsHTML = this.results.map(result => `
-        <a href="${result.url}" class="search-result-item">
-          <h4>${this.highlightText(result.title)}</h4>
-          <p>${this.highlightText(result.excerpt)}</p>
-          <div class="search-result-tags">
-            ${result.tags.map(tag => `<span class="tag">${tag}</span>`).join('')}
-          </div>
-        </a>
-      `).join('');
-
-      resultsContent.innerHTML = resultsHTML;
-    },
-
-    highlightText: function(text) {
-      const searchInput = document.getElementById('site-search');
-      if (!searchInput || !searchInput.value) return text;
-
-      const query = searchInput.value.toLowerCase();
-      const regex = new RegExp(`(${query})`, 'gi');
-      return text.replace(regex, '<mark>$1</mark>');
-    },
-
-    showResults: function() {
-      const results = document.getElementById('search-results');
-      if (results) {
-        results.style.display = 'block';
-        results.setAttribute('aria-hidden', 'false');
-      }
-    },
-
-    hideResults: function() {
-      const results = document.getElementById('search-results');
-      if (results) {
-        results.style.display = 'none';
-        results.setAttribute('aria-hidden', 'true');
-      }
-    },
-
-    clearSearch: function() {
-      const searchInput = document.getElementById('site-search');
-      const clearButton = document.querySelector('.search-clear');
-
-      if (searchInput) {
-        searchInput.value = '';
-        searchInput.focus();
-      }
-
-      if (clearButton) {
-        clearButton.style.display = 'none';
-      }
-
-      this.hideResults();
-    }
-  };
+    });
+  }
 
   // =====================================================
   // MEJORAS DE ACCESIBILIDAD
   // =====================================================
 
-  const Accessibility = {
-    init: function() {
-      this.createFontSizeControls();
-      this.enhanceKeyboardNavigation();
-      this.addSkipLinks();
-      this.loadFontSizePreference();
-    },
-
-    createFontSizeControls: function() {
-      const nav = document.querySelector('.site-nav .trigger');
-      if (!nav) return;
-
-      const fontControls = document.createElement('div');
-      fontControls.className = 'font-size-controls';
-      fontControls.innerHTML = `
-        <button class="font-size-btn" data-size="small" aria-label="Texto pequeño">A</button>
-        <button class="font-size-btn" data-size="normal" aria-label="Texto normal">A</button>
-        <button class="font-size-btn" data-size="large" aria-label="Texto grande">A</button>
-      `;
-
-      nav.appendChild(fontControls);
-
-      // Bind events
-      fontControls.addEventListener('click', (e) => {
-        if (e.target.classList.contains('font-size-btn')) {
-          this.setFontSize(e.target.dataset.size);
-        }
-      });
-    },
-
-    setFontSize: function(size) {
-      const root = document.documentElement;
-      const buttons = document.querySelectorAll('.font-size-btn');
-
-      // Remove active class from all buttons
-      buttons.forEach(btn => btn.classList.remove('active'));
-
-      // Add active class to selected button
-      const activeButton = document.querySelector(`[data-size="${size}"]`);
-      if (activeButton) activeButton.classList.add('active');
-
-      // Apply font size
-      switch (size) {
-        case 'small':
-          root.style.fontSize = '14px';
-          break;
-        case 'large':
-          root.style.fontSize = '18px';
-          break;
-        default:
-          root.style.fontSize = '16px';
+  function setupAccessibility() {
+    // Indicador de navegación por teclado
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Tab") {
+        document.body.classList.add("keyboard-navigation");
       }
+    });
 
-      Utils.storage.set(CONFIG.storageKeys.fontSize, size);
-    },
+    document.addEventListener("mousedown", function () {
+      document.body.classList.remove("keyboard-navigation");
+    });
 
-    loadFontSizePreference: function() {
-      const savedSize = Utils.storage.get(CONFIG.storageKeys.fontSize, 'normal');
-      this.setFontSize(savedSize);
-    },
+    // Cerrar TOC con Escape
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape") {
+        const tocContent = document.getElementById("toc-content");
+        const tocToggle = document.getElementById("toc-toggle");
 
-    enhanceKeyboardNavigation: function() {
-      // Add focus indicators for better keyboard navigation
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Tab') {
-          document.body.classList.add('keyboard-navigation');
+        if (
+          tocContent &&
+          tocToggle &&
+          !tocContent.classList.contains("toc-collapsed")
+        ) {
+          tocToggle.click();
         }
-      });
+      }
+    });
+  }
 
-      document.addEventListener('mousedown', () => {
-        document.body.classList.remove('keyboard-navigation');
-      });
+  // =====================================================
+  // CARGA DE FUENTES MEJORADA
+  // =====================================================
 
-      // Improve focus management for interactive elements
-      const interactiveElements = document.querySelectorAll('button, a, input, select, textarea');
-      interactiveElements.forEach(element => {
-        element.addEventListener('focus', () => {
-          element.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
-        });
-      });
-    },
-
-    addSkipLinks: function() {
-      const skipLink = document.createElement('a');
-      skipLink.href = '#main-content';
-      skipLink.className = 'skip-link sr-only';
-      skipLink.textContent = 'Saltar al contenido principal';
-
-      skipLink.addEventListener('focus', () => {
-        skipLink.classList.remove('sr-only');
-      });
-
-      skipLink.addEventListener('blur', () => {
-        skipLink.classList.add('sr-only');
-      });
-
-      document.body.insertBefore(skipLink, document.body.firstChild);
+  function setupFontLoading() {
+    // Cargar fuente Inter si no está disponible
+    if (!document.fonts || !document.fonts.check("16px Inter")) {
+      const link = document.createElement("link");
+      link.href =
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap";
+      link.rel = "stylesheet";
+      document.head.appendChild(link);
     }
-  };
+  }
 
   // =====================================================
-  // NAVEGACIÓN MEJORADA
+  // DETECCIÓN DE CARACTERÍSTICAS DEL DISPOSITIVO
   // =====================================================
 
-  const Navigation = {
-    init: function() {
-      this.enhanceMobileMenu();
-      this.addActiveStates();
-      this.setupSmoothScrolling();
-    },
+  function setupDeviceDetection() {
+    // Detectar dispositivo táctil
+    if ("ontouchstart" in window || navigator.maxTouchPoints > 0) {
+      document.body.classList.add("touch-device");
+    }
 
-    enhanceMobileMenu: function() {
-      const trigger = document.querySelector('.site-nav .menu-icon');
-      const menu = document.querySelector('.site-nav .trigger');
+    // Detectar conexión lenta
+    if (navigator.connection && navigator.connection.effectiveType) {
+      if (
+        navigator.connection.effectiveType === "slow-2g" ||
+        navigator.connection.effectiveType === "2g"
+      ) {
+        document.body.classList.add("slow-connection");
+      }
+    }
+  }
 
-      if (!trigger || !menu) return;
+  // =====================================================
+  // LAZY LOADING DE IMÁGENES
+  // =====================================================
 
-      trigger.addEventListener('click', () => {
-        const isOpen = menu.classList.contains('active');
+  function setupLazyLoading() {
+    if ("IntersectionObserver" in window) {
+      const images = document.querySelectorAll("img[data-src]");
 
-        if (isOpen) {
-          menu.classList.remove('active');
-          trigger.setAttribute('aria-expanded', 'false');
-        } else {
-          menu.classList.add('active');
-          trigger.setAttribute('aria-expanded', 'true');
-        }
-      });
-
-      // Close menu when clicking outside
-      document.addEventListener('click', (e) => {
-        if (!e.target.closest('.site-nav')) {
-          menu.classList.remove('active');
-          trigger.setAttribute('aria-expanded', 'false');
-        }
-      });
-    },
-
-    addActiveStates: function() {
-      const currentPath = window.location.pathname;
-      const navLinks = document.querySelectorAll('.site-nav .page-link');
-
-      navLinks.forEach(link => {
-        if (link.getAttribute('href') === currentPath) {
-          link.classList.add('current');
-        }
-      });
-    },
-
-    setupSmoothScrolling: function() {
-      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-          e.preventDefault();
-
-          const target = document.querySelector(this.getAttribute('href'));
-          if (target) {
-            Utils.scrollToElement(target, 80);
+      const imageObserver = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            img.src = img.dataset.src;
+            img.classList.remove("lazy");
+            imageObserver.unobserve(img);
           }
         });
       });
+
+      images.forEach(function (img) {
+        imageObserver.observe(img);
+      });
     }
-  };
+  }
 
   // =====================================================
-  // NOTIFICACIONES Y FEEDBACK
+  // NOTIFICACIONES SIMPLES
   // =====================================================
 
-  const Notifications = {
-    init: function() {
-      this.createContainer();
-    },
+  function showNotification(message, type, duration) {
+    type = type || "info";
+    duration = duration || 5000;
 
-    createContainer: function() {
-      const container = document.createElement('div');
-      container.id = 'notifications-container';
-      container.className = 'notifications-container';
+    // Crear contenedor si no existe
+    let container = document.getElementById("notifications-container");
+    if (!container) {
+      container = document.createElement("div");
+      container.id = "notifications-container";
+      container.style.cssText =
+        "position:fixed;top:1rem;right:1rem;z-index:10000;max-width:400px;";
       document.body.appendChild(container);
-    },
-
-    show: function(message, type = 'info', duration = 5000) {
-      const container = document.getElementById('notifications-container');
-      if (!container) return;
-
-      const notification = document.createElement('div');
-      notification.className = `notification notification-${type}`;
-      notification.innerHTML = `
-        <div class="notification-content">
-          <span class="notification-message">${message}</span>
-          <button class="notification-close" aria-label="Cerrar notificación">×</button>
-        </div>
-      `;
-
-      container.appendChild(notification);
-
-      // Auto remove
-      const autoRemove = setTimeout(() => {
-        this.remove(notification);
-      }, duration);
-
-      // Manual close
-      const closeBtn = notification.querySelector('.notification-close');
-      closeBtn.addEventListener('click', () => {
-        clearTimeout(autoRemove);
-        this.remove(notification);
-      });
-
-      // Animate in
-      requestAnimationFrame(() => {
-        notification.classList.add('notification-show');
-      });
-    },
-
-    remove: function(notification) {
-      notification.classList.add('notification-hide');
-      setTimeout(() => {
-        if (notification.parentNode) {
-          notification.parentNode.removeChild(notification);
-        }
-      }, 300);
     }
-  };
 
-  // =====================================================
-  // ANALÍTICAS Y TRACKING
-  // =====================================================
+    // Crear notificación
+    const notification = document.createElement("div");
+    notification.style.cssText = `
+      background: white;
+      border: 1px solid #e5e7eb;
+      border-left: 4px solid #2563eb;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin-bottom: 0.5rem;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      transform: translateX(100%);
+      transition: transform 0.3s ease;
+    `;
 
-  const Analytics = {
-    init: function() {
-      this.trackPageViews();
-      this.trackInteractions();
-      this.trackPerformance();
-    },
+    if (type === "success") notification.style.borderLeftColor = "#059669";
+    if (type === "error") notification.style.borderLeftColor = "#dc2626";
+    if (type === "warning") notification.style.borderLeftColor = "#f59e0b";
 
-    trackPageViews: function() {
-      // Solo en producción y con consentimiento
-      if (window.location.hostname === 'localhost') return;
+    notification.innerHTML = `
+      <div style="display: flex; justify-content: space-between; align-items: start;">
+        <span style="flex: 1; color: #111827; font-size: 0.875rem;">${message}</span>
+        <button onclick="this.parentElement.parentElement.remove()"
+                style="background: none; border: none; font-size: 1.25rem; cursor: pointer; color: #6b7280;">×</button>
+      </div>
+    `;
 
-      console.log('Page view tracked:', {
-        url: window.location.href,
-        title: document.title,
-        timestamp: new Date().toISOString()
-      });
-    },
+    container.appendChild(notification);
 
-    trackInteractions: function() {
-      // Track button clicks
-      document.addEventListener('click', (e) => {
-        if (e.target.matches('.btn, .feedback-btn, .search-result-item')) {
-          console.log('Interaction tracked:', {
-            element: e.target.className,
-            text: e.target.textContent.trim(),
-            url: e.target.href || null,
-            timestamp: new Date().toISOString()
-          });
-        }
-      });
+    // Animar entrada
+    setTimeout(function () {
+      notification.style.transform = "translateX(0)";
+    }, 10);
 
-      // Track search queries
-      const searchInput = document.getElementById('site-search');
-      if (searchInput) {
-        searchInput.addEventListener('input', Utils.debounce((e) => {
-          if (e.target.value.length >= CONFIG.searchMinLength) {
-            console.log('Search tracked:', {
-              query: e.target.value,
-              timestamp: new Date().toISOString()
-            });
+    // Auto eliminar
+    setTimeout(function () {
+      if (notification.parentNode) {
+        notification.style.transform = "translateX(100%)";
+        setTimeout(function () {
+          if (notification.parentNode) {
+            notification.remove();
           }
-        }, 1000));
+        }, 300);
       }
-    },
-
-    trackPerformance: function() {
-      window.addEventListener('load', () => {
-        setTimeout(() => {
-          const perfData = performance.getEntriesByType('navigation')[0];
-          console.log('Performance tracked:', {
-            loadTime: perfData.loadEventEnd - perfData.loadEventStart,
-            domContentLoaded: perfData.domContentLoadedEventEnd - perfData.domContentLoadedEventStart,
-            firstPaint: performance.getEntriesByType('paint')[0]?.startTime || 0,
-            timestamp: new Date().toISOString()
-          });
-        }, 0);
-      });
-    }
-  };
+    }, duration);
+  }
 
   // =====================================================
-  // INICIALIZACIÓN
+  // INICIALIZACIÓN PRINCIPAL
   // =====================================================
 
   function init() {
-    // Wait for DOM to be ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initModules);
+    // Verificar que el DOM esté listo
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initModules);
     } else {
       initModules();
     }
@@ -751,33 +402,99 @@
 
   function initModules() {
     try {
-      DarkMode.init();
-      Search.init();
-      Accessibility.init();
-      Navigation.init();
-      Notifications.init();
-      Analytics.init();
+      // Configurar módulos básicos
+      setupFontLoading();
+      setupDeviceDetection();
+      setupAccessibility();
+      setupMobileNavigation();
+      setupSmoothScrolling();
 
-      console.log('🛡️ Seguridad Digital Familiar - JavaScript inicializado correctamente');
+      // Configurar componentes interactivos
+      generateTOC();
+      setupTOCToggle();
+      setupBackToTop();
+      setupFeedback();
+      setupLazyLoading();
+
+      // Configurar barra de progreso
+      window.addEventListener(
+        "scroll",
+        Utils.debounce(updateReadingProgress, 50),
+      );
+      updateReadingProgress();
+
+      // Mensaje de éxito en consola
+      console.log(
+        "🛡️ Seguridad Digital Familiar - JavaScript inicializado correctamente",
+      );
     } catch (error) {
-      console.error('Error inicializando módulos:', error);
+      console.error("Error inicializando JavaScript:", error);
+
+      // Funcionalidad mínima en caso de error
+      window.addEventListener("scroll", updateReadingProgress);
+      setupSmoothScrolling();
     }
   }
 
-  // Start the application
-  init();
+  // =====================================================
+  // EVENTOS DE RENDIMIENTO
+  // =====================================================
 
-  // Expose utilities globally for debugging
-  if (window.location.hostname === 'localhost') {
+  window.addEventListener("load", function () {
+    // Ocultar indicadores de carga si existen
+    const loadingIndicators = document.querySelectorAll(".loading");
+    loadingIndicators.forEach(function (indicator) {
+      indicator.style.display = "none";
+    });
+
+    // Mostrar notificación de bienvenida (solo en desarrollo)
+    if (
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1"
+    ) {
+      setTimeout(function () {
+        showNotification(
+          "Sitio cargado correctamente en modo desarrollo 🚀",
+          "success",
+          3000,
+        );
+      }, 1000);
+    }
+  });
+
+  // =====================================================
+  // MANEJO DE ERRORES GLOBAL
+  // =====================================================
+
+  window.addEventListener("error", function (e) {
+    console.error("Error JavaScript:", e.error);
+
+    // En producción, podrías enviar esto a un servicio de analytics
+    if (window.location.hostname !== "localhost") {
+      // Analytics o logging service aquí
+    }
+  });
+
+  // =====================================================
+  // EXPOSICIÓN GLOBAL PARA DEBUGGING
+  // =====================================================
+
+  // Solo en desarrollo
+  if (
+    window.location.hostname === "localhost" ||
+    window.location.hostname === "127.0.0.1"
+  ) {
     window.SDF = {
-      Utils,
-      DarkMode,
-      Search,
-      Accessibility,
-      Navigation,
-      Notifications,
-      Analytics
+      Utils: Utils,
+      showNotification: showNotification,
+      updateReadingProgress: updateReadingProgress,
+      generateTOC: generateTOC,
     };
   }
 
+  // =====================================================
+  // INICIAR LA APLICACIÓN
+  // =====================================================
+
+  init();
 })();
