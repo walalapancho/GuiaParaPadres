@@ -1,3 +1,31 @@
+---
+layout: default
+title: "Guía de Seguridad en YouTube"
+category: "plataformas"
+platform: "video"
+nav_order: 23
+description: "Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos y configuraciones avanzadas de contenido"
+permalink: /seguridad-youtube/
+toc: true
+related:
+  - title: "Seguridad TikTok"
+    url: "/seguridad-tiktok/"
+    description: "Otra plataforma de video muy popular"
+    icon: "📱"
+  - title: "Apps 7-10 años"
+    url: "/apps-7-10-anos/"
+    description: "Alternativas educativas apropiadas"
+    icon: "🌱"
+  - title: "Controles Smart TV"
+    url: "/controles-smart-tv/"
+    description: "YouTube en televisores inteligentes"
+    icon: "📺"
+  - title: "Seguridad Digital Adolescentes"
+    url: "/seguridad-adolescentes/"
+    description: "Uso responsable para adolescentes"
+    icon: "🚀"
+---
+
 # 📺 Guía Completa de Seguridad en YouTube para Padres
 
 ## Introducción: El Universo YouTube 🌟

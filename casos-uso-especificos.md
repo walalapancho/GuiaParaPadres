@@ -1,3 +1,30 @@
+---
+layout: default
+title: "Casos de Uso Específicos"
+category: "recursos"
+nav_order: 30
+description: "Situaciones reales de familias con soluciones específicas, configuraciones detalladas y protocolos de crisis digital"
+permalink: /casos-uso-especificos/
+toc: true
+related:
+  - title: "Guía para Maestros"
+    url: "/guia-maestros/"
+    description: "Protocolos para situaciones escolares"
+    icon: "🏫"
+  - title: "Controles Adolescentes"
+    url: "/controles-adolescentes/"
+    description: "Situaciones específicas con adolescentes"
+    icon: "🚀"
+  - title: "Talleres Familiares"
+    url: "/taller-familiar/"
+    description: "Dinámicas para trabajar estos casos en familia"
+    icon: "👥"
+  - title: "Control Red Hogares"
+    url: "/control-red-hogares/"
+    description: "Soluciones técnicas para implementar"
+    icon: "🌐"
+---
+
 # 🎯 Casos de Uso Específicos: Situaciones Reales de Familias
 
 ## Introducción: Más Allá de las Configuraciones Generales 🌟

@@ -1,3 +1,36 @@
+---
+layout: default
+title: "Apps Recomendadas 4-6 años"
+category: "edades"
+age_group: "4-6"
+nav_order: 11
+description: "Aplicaciones educativas para desarrollo de habilidades básicas, alfabetización temprana y creatividad supervisada"
+permalink: /apps-4-6-anos/
+nav_previous:
+  title: "Apps 0-3 años"
+  url: "/apps-0-3-anos/"
+nav_next:
+  title: "Seguridad 7-10 años"
+  url: "/seguridad-7-10-anos/"
+related:
+  - title: "Apps 0-3 años"
+    url: "/apps-0-3-anos/"
+    description: "Etapa anterior de desarrollo"
+    icon: "👶"
+  - title: "Apps 7-10 años"
+    url: "/apps-7-10-anos/"
+    description: "Siguiente nivel de complejidad"
+    icon: "🌱"
+  - title: "Talleres Familiares"
+    url: "/taller-familiar/"
+    description: "Actividades prácticas para esta edad"
+    icon: "👥"
+  - title: "Controles para Niños"
+    url: "/ControlesParaNinos/"
+    description: "Explicación amigable de la seguridad digital"
+    icon: "🎯"
+---
+
 # Aplicaciones Recomendadas para Niños de 4 a 6 años (Preescolar)
 
 ## Introducción 🌟

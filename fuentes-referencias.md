@@ -1,3 +1,28 @@
+---
+layout: default
+title: "Fuentes y Referencias"
+nav_order: 6
+description: "Biblioteca completa de más de 100 fuentes y referencias externas de organizaciones reconocidas internacionalmente"
+permalink: /fuentes-referencias/
+toc: true
+nav_previous:
+  title: "Talleres Familiares"
+  url: "/taller-familiar/"
+related:
+  - title: "Guía para Maestros"
+    url: "/guia-maestros/"
+    description: "Para validar información con fuentes académicas"
+    icon: "🎓"
+  - title: "Controles Parentales Básicos"
+    url: "/controles-basicos/"
+    description: "Implementación práctica basada en estas fuentes"
+    icon: "🛡️"
+  - title: "Casos de Uso Específicos"
+    url: "/casos-uso-especificos/"
+    description: "Aplicación práctica de las investigaciones"
+    icon: "📋"
+---
+
 # 📚 Fuentes y Referencias Externas: Biblioteca de Recursos Oficiales
 
 ## Introducción: Fundamentos de Credibilidad 🌟

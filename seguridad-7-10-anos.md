@@ -1,3 +1,36 @@
+---
+layout: default
+title: "Seguridad Online para Niños 7-10 años"
+category: "edades"
+age_group: "7-10"
+nav_order: 13
+description: "Guía educativa para niños sobre protección personal en juegos online y aplicaciones de internet"
+permalink: /seguridad-7-10-anos/
+nav_previous:
+  title: "Apps 4-6 años"
+  url: "/apps-4-6-anos/"
+nav_next:
+  title: "Apps 7-10 años"
+  url: "/apps-7-10-anos/"
+related:
+  - title: "Apps 7-10 años"
+    url: "/apps-7-10-anos/"
+    description: "Aplicaciones recomendadas para esta edad"
+    icon: "📱"
+  - title: "Controles para Niños"
+    url: "/ControlesParaNinos/"
+    description: "Explicación simple de controles parentales"
+    icon: "👶"
+  - title: "Roblox y Minecraft para Niños"
+    url: "/SeguridadRobloxMinecraft_Niños/"
+    description: "Seguridad en juegos específicos"
+    icon: "🎮"
+  - title: "Casos de Uso Específicos"
+    url: "/casos-uso-especificos/"
+    description: "Situaciones reales y cómo manejarlas"
+    icon: "📋"
+---
+
 # 🛡️ Seguridad Online para Niños de 7 a 10 años
 
 ## ¡Hola pequeños exploradores digitales! 🌟

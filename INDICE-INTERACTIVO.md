@@ -1,9 +1,33 @@
 ---
-layout: page
+layout: default
 title: "Índice Interactivo"
 nav_order: 2
 description: "Encuentra rápidamente la solución exacta que necesitas según tu situación específica"
 permalink: /indice/
+toc: true
+nav_previous:
+  title: "Inicio"
+  url: "/"
+nav_next:
+  title: "Controles Parentales Básicos"
+  url: "/controles-basicos/"
+related:
+  - title: "Casos de Uso Específicos"
+    url: "/casos-uso-especificos/"
+    description: "Situaciones reales y soluciones detalladas"
+    icon: "🎯"
+  - title: "Controles Parentales Básicos"
+    url: "/controles-basicos/"
+    description: "Punto de partida recomendado"
+    icon: "🛡️"
+  - title: "Guía para Maestros"
+    url: "/guia-maestros/"
+    description: "Recursos para educadores"
+    icon: "🏫"
+  - title: "Talleres Familiares"
+    url: "/taller-familiar/"
+    description: "Actividades comunitarias"
+    icon: "👥"
 ---
 
 # 🧭 Índice Interactivo: Encuentra la Solución Exacta que Necesitas

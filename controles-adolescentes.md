@@ -1,3 +1,33 @@
+---
+layout: default
+title: "Controles Parentales para Adolescentes"
+category: "edades"
+age_group: "11-18"
+nav_order: 14
+description: "Estrategias para padres sobre negociación, comunicación y transición hacia autonomía digital responsable"
+permalink: /controles-adolescentes/
+nav_previous:
+  title: "Apps 7-10 años"
+  url: "/apps-7-10-anos/"
+related:
+  - title: "Seguridad Digital Adolescentes"
+    url: "/seguridad-adolescentes/"
+    description: "Guía directa para adolescentes"
+    icon: "🚀"
+  - title: "Seguridad TikTok"
+    url: "/seguridad-tiktok/"
+    description: "Plataforma muy popular entre adolescentes"
+    icon: "📱"
+  - title: "Guía para Maestros"
+    url: "/guia-maestros/"
+    description: "Coordinación entre padres y educadores"
+    icon: "🏫"
+  - title: "Casos de Uso Específicos"
+    url: "/casos-uso-especificos/"
+    description: "Situaciones reales con adolescentes"
+    icon: "📋"
+---
+
 # 🤝 Controles Parentales para Adolescentes: Guía para Padres
 
 ## Introducción: Un Nuevo Paradigma 🌟

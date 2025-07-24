@@ -1,3 +1,34 @@
+---
+layout: default
+title: "Guía para Maestros y Educadores"
+nav_order: 4
+description: "Manual completo para educadores con currícula por niveles, protocolos de crisis digital y comunicación con padres"
+permalink: /guia-maestros/
+nav_previous:
+  title: "Controles Parentales Básicos"
+  url: "/controles-basicos/"
+nav_next:
+  title: "Talleres Familiares"
+  url: "/taller-familiar/"
+related:
+  - title: "Talleres Familiares" 
+    url: "/taller-familiar/"
+    description: "Actividades grupales para implementar con padres"
+    icon: "👥"
+  - title: "Control de Red Escuelas"
+    url: "/control-red-escuelas/"
+    description: "Implementación de controles a nivel institucional"
+    icon: "🏛️"
+  - title: "Casos de Uso Específicos"
+    url: "/casos-uso-especificos/"
+    description: "Protocolos de crisis y situaciones reales"
+    icon: "🚨"
+  - title: "Seguridad para Adolescentes"
+    url: "/seguridad-adolescentes/"
+    description: "Recursos directos para estudiantes mayores"
+    icon: "🚀"
+---
+
 # 🎓 Guía de Seguridad Digital para Maestros y Educadores
 
 ## Introducción: El Papel Crucial del Educador 🌟
