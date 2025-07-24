@@ -52,7 +52,7 @@ MI SITUACIÓN:
 🔘 Necesito límites de tiempo de pantalla apropiados
 🔘 Quiero alternativas de juego sin pantallas
 
-→ EMPIEZA AQUÍ: [Apps Recomendadas 0-3 años](./apps_recomendadas_0-3.md)
+→ EMPIEZA AQUÍ: [Apps Recomendadas 0-3 años](./apps-0-3-anos.md)
 ```
 
 #### **🎈 Preescolar (4-6 años)**
@@ -63,7 +63,7 @@ MI SITUACIÓN:
 🔘 Quiero configurar controles que no pueda cambiar
 🔘 Busco balance entre digital y juego físico
 
-→ EMPIEZA AQUÍ: [Apps Recomendadas 4-6 años](./apps_recomendadas_4-6.md)
+→ EMPIEZA AQUÍ: [Apps Recomendadas 4-6 años](./apps-4-6-anos.md)
 ```
 
 #### **🌱 Escolar (7-10 años)**
@@ -299,8 +299,8 @@ MI MARCA DE ROUTER:
 ### 🎓 **RUTA EDUCATIVA (Curso completo)**
 *Para comprensión profunda y implementación sistemática*
 1. **[Fundamentos](./Controles_Parentales.md)** - Conceptos básicos
-2. **[Por Edades](./apps_recomendadas_0-3.md)** - Desarrollo apropiado
-3. **[Por Plataformas](./SeguridadYouTube.md)** - Configuraciones específicas
+2. **[Por Edades](./apps-0-3-anos.md)** - Desarrollo apropiado
+3. **[Por Plataformas](./seguridad-youtube.md)** - Configuraciones específicas
 4. **[Casos Reales](./casos-uso-especificos.md)** - Situaciones complejas
 5. **[Mantenimiento](./content-template.md)** - Actualización continua
 

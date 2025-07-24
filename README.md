@@ -15,36 +15,36 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 
 ### 🎯 **GUÍAS POR EDAD**
 #### 👶 **Primera Infancia (0-3 años)**
-- **[`apps_recomendadas_0-3.md`](./apps_recomendadas_0-3.md)** - Introducción responsable a la tecnología con enfoque en desarrollo sensorial y motor, límites de tiempo de pantalla estrictos, y alternativas de juego físico
+- **[`apps-0-3-anos.md`](./apps-0-3-anos.md)** - Introducción responsable a la tecnología con enfoque en desarrollo sensorial y motor, límites de tiempo de pantalla estrictos, y alternativas de juego físico
 
 #### 🎈 **Edad Preescolar (4-6 años)**  
-- **[`apps_recomendadas_4-6.md`](./apps_recomendadas_4-6.md)** - Aplicaciones educativas para desarrollo de habilidades básicas, alfabetización temprana y creatividad supervisada
+- **[`apps-4-6-anos.md`](./apps-4-6-anos.md)** - Aplicaciones educativas para desarrollo de habilidades básicas, alfabetización temprana y creatividad supervisada
 
 #### 🌱 **Edad Escolar (7-10 años)**
-- **[`apps_recomendadas_7-10.md`](./apps_recomendadas_7-10.md)** - Recursos educativos avanzados con secciones de ciencia, arte, música, historia y geografía, plus criterios de selección de contenido seguro
-- **[`SeguridadOnlineParaNinos7-10.md`](./SeguridadOnlineParaNinos7-10.md)** - Guía educativa para niños sobre protección personal en juegos online y aplicaciones de internet
+- **[`apps-7-10-anos.md`](./apps-7-10-anos.md)** - Recursos educativos avanzados con secciones de ciencia, arte, música, historia y geografía, plus criterios de selección de contenido seguro
+- **[`seguridad-7-10-anos.md`](./seguridad-7-10-anos.md)** - Guía educativa para niños sobre protección personal en juegos online y aplicaciones de internet
 
 #### 🚀 **Adolescencia (11-18 años)**
-- **[`ControlesParentalesAdolescentes.md`](./ControlesParentalesAdolescentes.md)** - Estrategias para padres sobre negociación, comunicación y transición hacia autonomía digital responsable
-- **[`SeguridadDigitalAdolescentes.md`](./SeguridadDigitalAdolescentes.md)** - Guía directa para adolescentes sobre redes sociales, privacidad, cyberbullying, sexting y preparación para vida digital adulta
+- **[`controles-adolescentes.md`](./controles-adolescentes.md)** - Estrategias para padres sobre negociación, comunicación y transición hacia autonomía digital responsable
+- **[`seguridad-adolescentes.md`](./seguridad-adolescentes.md)** - Guía directa para adolescentes sobre redes sociales, privacidad, cyberbullying, sexting y preparación para vida digital adulta
 
 ---
 
 ### 🎮 **GUÍAS POR PLATAFORMA ESPECÍFICA**
 
 #### 🎯 **Gaming y Entretenimiento**
-- **[`ControlesParentalesConsolas.md`](./ControlesParentalesConsolas.md)** - Configuración completa de controles parentales en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo de actividad
-- **[`ControlesParentalesSmartTV.md`](./ControlesParentalesSmartTV.md)** - Guía exhaustiva para Smart TVs y dispositivos de streaming (Roku, Apple TV, Fire TV, Chromecast), configuración por marca, gestión de servicios como Netflix/Disney+, y estrategias de supervisión familiar
+- **[`controles-consolas.md`](./controles-consolas.md)** - Configuración completa de controles parentales en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo de actividad
+- **[`controles-smart-tv.md`](./controles-smart-tv.md)** - Guía exhaustiva para Smart TVs y dispositivos de streaming (Roku, Apple TV, Fire TV, Chromecast), configuración por marca, gestión de servicios como Netflix/Disney+, y estrategias de supervisión familiar
 - **[`SeguridadRobloxMinecraft_Padres.md`](./SeguridadRobloxMinecraft_Padres.md)** - Guía exhaustiva para padres sobre riesgos específicos de Roblox y Minecraft, configuraciones de seguridad paso a paso, y estrategias de supervisión
 - **[`SeguridadRobloxMinecraft_Niños.md`](./SeguridadRobloxMinecraft_Niños.md)** - Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible
 
 #### 🌐 **Infraestructura de Red**
-- **[`ControlParentalRedHogares.md`](./ControlParentalRedHogares.md)** - Guía especializada para familias sobre controles parentales de red doméstica, configuración de routers populares (TP-Link, Netgear, ASUS), servicios DNS de filtrado, soluciones comerciales familiares, y mantenimiento simple
-- **[`ControlParentalRedEscuelas.md`](./ControlParentalRedEscuelas.md)** - Guía institucional para implementar controles parentales en redes escolares, configuraciones enterprise con pfSense, VLANs por nivel educativo, compliance regulatorio, y monitoreo institucional
+- **[`control-red-hogares.md`](./control-red-hogares.md)** - Guía especializada para familias sobre controles parentales de red doméstica, configuración de routers populares (TP-Link, Netgear, ASUS), servicios DNS de filtrado, soluciones comerciales familiares, y mantenimiento simple
+- **[`control-red-escuelas.md`](./control-red-escuelas.md)** - Guía institucional para implementar controles parentales en redes escolares, configuraciones enterprise con pfSense, VLANs por nivel educativo, compliance regulatorio, y monitoreo institucional
 
 #### 📱 **Redes Sociales y Contenido**
-- **[`SeguridadTikTok.md`](./SeguridadTikTok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
-- **[`SeguridadYouTube.md`](./SeguridadYouTube.md)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas y curación de contenido
+- **[`seguridad-tiktok.md`](./seguridad-tiktok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
+- **[`seguridad-youtube.md`](./seguridad-youtube.md)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas y curación de contenido
 
 ---
 
@@ -55,8 +55,8 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 - **[`ControlesParaNinos.md`](./ControlesParaNinos.md)** - Explicación de controles parentales dirigida directamente a niños, con lenguaje sencillo y amigable para generar comprensión y colaboración
 
 #### 🎓 **Recursos Educativos**
-- **[`GuiaParaMaestros.md`](./GuiaParaMaestros.md)** - Manual completo para educadores con currícula por niveles, protocolos de crisis digital, comunicación con padres, y desarrollo de políticas escolares
-- **[`TallerFamiliar.md`](./TallerFamiliar.md)** - Guía paso a paso para facilitar talleres de seguridad digital familiar, incluyendo actividades por edad, dinámicas familiares, y herramientas de evaluación
+- **[`guia-maestros.md`](./guia-maestros.md)** - Manual completo para educadores con currícula por niveles, protocolos de crisis digital, comunicación con padres, y desarrollo de políticas escolares
+- **[`taller-familiar.md`](./taller-familiar.md)** - Guía paso a paso para facilitar talleres de seguridad digital familiar, incluyendo actividades por edad, dinámicas familiares, y herramientas de evaluación
 
 ---
 
@@ -70,7 +70,7 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 ### 📚 **REFERENCIAS Y CREDIBILIDAD ACADÉMICA**
 
 #### 🌟 **Fuentes Oficiales**
-- **[`FuentesReferencias.md`](./FuentesReferencias.md)** - Biblioteca completa de más de 100 fuentes y referencias externas de entidades reconocidas internacionalmente, organizaciones gubernamentales por país, servicios técnicos especializados, recursos académicos, y marcos regulatorios que respaldan todas las recomendaciones de esta colección
+- **[`fuentes-referencias.md`](./fuentes-referencias.md)** - Biblioteca completa de más de 100 fuentes y referencias externas de entidades reconocidas internacionalmente, organizaciones gubernamentales por país, servicios técnicos especializados, recursos académicos, y marcos regulatorios que respaldan todas las recomendaciones de esta colección
 
 ---
 
@@ -143,20 +143,20 @@ Los recursos están adaptados para uso inmediato en estos países con números d
 ### 📍 **Para Situaciones Específicas:**
 
 #### 🆘 **Crisis Digital Inmediata**
-1. **[`GuiaParaMaestros.md`](./GuiaParaMaestros.md)** - Sección "Manejo de Situaciones Problemáticas"
+1. **[`guia-maestros.md`](./guia-maestros.md)** - Sección "Manejo de Situaciones Problemáticas"
 2. Ver contactos de emergencia específicos por país
 3. Aplicar protocolos de crisis según severidad
 
 #### 🎯 **Configuración Preventiva**
 1. Comenzar con **[`Controles_Parentales.md`](./Controles_Parentales.md)** para conceptos básicos
-2. Implementar **[`ControlParentalRedHogares.md`](./ControlParentalRedHogares.md)** como base de protección universal
+2. Implementar **[`control-red-hogares.md`](./control-red-hogares.md)** como base de protección universal
 3. Seleccionar guía específica por edad del niño
 4. Consultar guías por plataforma según uso familiar (consolas, Smart TV, redes sociales)
 5. Implementar gradualmente usando listas de verificación
 
 #### 🏫 **Implementación Educativa**
-1. **[`GuiaParaMaestros.md`](./GuiaParaMaestros.md)** para integración curricular
-2. **[`TallerFamiliar.md`](./TallerFamiliar.md)** para eventos comunitarios
+1. **[`guia-maestros.md`](./guia-maestros.md)** para integración curricular
+2. **[`taller-familiar.md`](./taller-familiar.md)** para eventos comunitarios
 3. Usar materiales multimedia para presentaciones
 4. Adaptar contenido según contexto local
 
