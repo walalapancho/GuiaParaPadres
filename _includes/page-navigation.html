@@ -22,20 +22,4 @@
 </nav>
 {% endif %}
 
-<!-- Páginas relacionadas -->
-{% if page.related %}
-<section class="related-pages">
-  <h3>📚 Recursos Relacionados</h3>
-  <div class="related-grid">
-    {% for related in page.related %}
-    <a href="{{ related.url | relative_url }}" class="related-card">
-      <div class="related-icon">{{ related.icon | default: "📄" }}</div>
-      <div class="related-content">
-        <h4>{{ related.title }}</h4>
-        <p>{{ related.description }}</p>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-</section>
-{% endif %} 
+ 
