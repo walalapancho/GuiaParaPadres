@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: "Seguridad Roblox y Minecraft - Niños"
 description: "Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible"
 permalink: /SeguridadRobloxMinecraft_Ninos/

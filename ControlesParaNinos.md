@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: "Controles Parentales para Niños"
 description: "Explicación de controles parentales dirigida directamente a niños, con lenguaje sencillo y amigable"
 permalink: /ControlesParaNinos/

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: "Apps Recomendadas 4-6 años"
 age_group: "4-6"
 description: "Aplicaciones educativas para desarrollo de habilidades básicas, alfabetización temprana y creatividad supervisada"

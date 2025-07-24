@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: "Guía Visual Interactiva iPhone"
 description: "Configuración paso a paso de controles parentales en iPhone/iPad con verificaciones automáticas en 5-7 minutos"
 permalink: /propuesta-guia-visual-interactiva/

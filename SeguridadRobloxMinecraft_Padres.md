@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: "Seguridad Roblox y Minecraft - Padres"
 description: "Guía exhaustiva para padres sobre riesgos específicos de Roblox y Minecraft, configuraciones de seguridad paso a paso"
 permalink: /SeguridadRobloxMinecraft_Padres/

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: "Taller Familiar de Seguridad Digital"
 description: "Guía paso a paso para facilitar talleres de seguridad digital familiar con actividades por edad y dinámicas familiares"
 permalink: /taller-familiar/

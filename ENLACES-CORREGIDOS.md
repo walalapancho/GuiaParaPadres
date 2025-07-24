@@ -167,7 +167,7 @@ Se han identificado y corregido múltiples enlaces rotos en el sitio de la Bibli
 1. Siempre incluir front matter completo:
 ```yaml
 ---
-layout: default
+layout: minimal
 title: "Título de la Página"  
 description: "Descripción breve"
 permalink: /url-amigable/

@@ -139,7 +139,7 @@ related:
 #### Configurar Navegación:
 ```yaml
 ---
-layout: default
+layout: minimal
 title: "Tu Página"
 nav_previous:
   title: "Página Anterior"

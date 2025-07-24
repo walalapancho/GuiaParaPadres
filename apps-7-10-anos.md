@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: minimal
 title: "Apps Educativas 7-10 años"
 age_group: "7-10"
 description: "Recursos educativos avanzados con secciones de ciencia, arte, música, historia y geografía para edad escolar"

@@ -16,7 +16,7 @@ Después de la revisión del sitio web en vivo `https://walalapancho.github.io/G
 **Solución Aplicada**:
 - ✅ **Eliminado**: `controles-basicos.md` (archivo duplicado)
 - ✅ **Mantenido**: `Controles_Parentales.md` como la fuente oficial
-- ✅ **Razón**: `Controles_Parentales.md` tenía configuración más consistente con `layout: default` y navegación anterior/siguiente
+- ✅ **Razón**: `Controles_Parentales.md` tenía configuración más consistente con `layout: minimal` y navegación anterior/siguiente
 
 ### **2. Caracteres Especiales en URLs**
 **Problema**: El archivo `SeguridadRobloxMinecraft_Niños.md` tenía una ñ en el permalink que causaba problemas de codificación de URL.
