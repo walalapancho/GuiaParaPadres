@@ -13,9 +13,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
-# Configuración para evitar conflictos de temas
-remote_theme: 
-theme:
+# Sin tema - solo layout personalizado
 
 # Configuraciones adicionales
 lang: es
