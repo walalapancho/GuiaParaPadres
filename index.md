@@ -37,28 +37,67 @@ Una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñ
 
 ---
 
-## 🎯 Encuentra Rápidamente lo que Necesitas
+## 📚 Índice de Contenidos
 
-<div class="code-example" markdown="1">
+### 🎯 **GUÍAS POR EDAD**
 
-### Por Edad del Menor
-- **👶 [0-3 años](/GuiaParaPadres/apps-0-3-anos/)** - Introducción responsable a la tecnología
-- **🎈 [4-6 años](/GuiaParaPadres/apps-4-6-anos/)** - Apps educativas y creatividad supervisada  
-- **🌱 [7-10 años](/GuiaParaPadres/seguridad-7-10-anos/)** - Primeros pasos en internet seguro
-- **🚀 [11-18 años](/GuiaParaPadres/controles-adolescentes/)** - Transición hacia autonomía digital
+#### 👶 **Primera Infancia (0-3 años)**
+- **[Introducción responsable a la tecnología](/GuiaParaPadres/apps-0-3-anos/)** - Desarrollo sensorial y motor, límites de tiempo de pantalla estrictos, y alternativas de juego físico
 
-### Por Plataforma o Dispositivo
-- **🎮 [Consolas de Videojuegos](/GuiaParaPadres/controles-consolas/)** - PlayStation, Xbox, Nintendo Switch
-- **📺 [Smart TV y Streaming](/GuiaParaPadres/controles-smart-tv/)** - Netflix, Disney+, YouTube
-- **🌐 [Control de Red WiFi](/GuiaParaPadres/control-red-hogares/)** - Filtrado para toda la familia
-- **📱 [Redes Sociales](/GuiaParaPadres/seguridad-tiktok/)** - TikTok, YouTube, Instagram
+#### 🎈 **Edad Preescolar (4-6 años)**  
+- **[Aplicaciones educativas](/GuiaParaPadres/apps-4-6-anos/)** - Desarrollo de habilidades básicas, alfabetización temprana y creatividad supervisada
 
-### Para Educadores y Comunidad
-- **🏫 [Guía para Maestros](/GuiaParaPadres/guia-maestros/)** - Integración curricular y manejo de crisis
-- **👥 [Talleres Familiares](/GuiaParaPadres/taller-familiar/)** - Facilitación de eventos comunitarios
-- **🏛️ [Redes Escolares](/GuiaParaPadres/control-red-escuelas/)** - Implementación institucional
+#### 🌱 **Edad Escolar (7-10 años)**
+- **[Recursos educativos avanzados](/GuiaParaPadres/apps-7-10-anos/)** - Ciencia, arte, música, historia y geografía, plus criterios de selección de contenido seguro
+- **[Seguridad para niños](/GuiaParaPadres/seguridad-7-10-anos/)** - Guía educativa sobre protección personal en juegos online y aplicaciones de internet
 
-</div>
+#### 🚀 **Adolescencia (11-18 años)**
+- **[Controles para adolescentes](/GuiaParaPadres/controles-adolescentes/)** - Estrategias sobre negociación, comunicación y transición hacia autonomía digital responsable
+- **[Seguridad para adolescentes](/GuiaParaPadres/seguridad-adolescentes/)** - Guía directa sobre redes sociales, privacidad, cyberbullying, sexting y preparación para vida digital adulta
+
+---
+
+### 🎮 **GUÍAS POR PLATAFORMA ESPECÍFICA**
+
+#### 🎯 **Gaming y Entretenimiento**
+- **[Controles en consolas](/GuiaParaPadres/controles-consolas/)** - Configuración completa en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo
+- **[Smart TV y streaming](/GuiaParaPadres/controles-smart-tv/)** - Guía exhaustiva para Smart TVs (Roku, Apple TV, Fire TV, Chromecast), Netflix/Disney+, y supervisión familiar
+- **[Seguridad Roblox/Minecraft - Padres](/GuiaParaPadres/SeguridadRobloxMinecraft_Padres/)** - Guía exhaustiva sobre riesgos específicos, configuraciones de seguridad paso a paso, y estrategias de supervisión
+- **[Seguridad Roblox/Minecraft - Niños](/GuiaParaPadres/SeguridadRobloxMinecraft_Niños/)** - Reglas de seguridad explicadas de forma amigable y comprensible para niños
+
+#### 🌐 **Infraestructura de Red**
+- **[Control de red en hogares](/GuiaParaPadres/control-red-hogares/)** - Controles parentales de red doméstica, configuración de routers populares (TP-Link, Netgear, ASUS), servicios DNS de filtrado
+- **[Control de red en escuelas](/GuiaParaPadres/control-red-escuelas/)** - Implementar controles en redes escolares, configuraciones enterprise con pfSense, VLANs por nivel educativo
+
+#### 📱 **Redes Sociales y Contenido** 
+- **[Seguridad en TikTok](/GuiaParaPadres/seguridad-tiktok/)** - Algoritmos, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
+- **[Seguridad en YouTube](/GuiaParaPadres/seguridad-youtube/)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas
+
+---
+
+### 👨‍👩‍👧‍👦 **RECURSOS FAMILIARES Y COMUNITARIOS**
+
+#### 📖 **Documentos Base**
+- **[Controles Parentales](/GuiaParaPadres/Controles_Parentales/)** - Guía fundacional con conceptos básicos, herramientas generales, y mejores prácticas de supervisión digital
+- **[Controles Para Niños](/GuiaParaPadres/ControlesParaNinos/)** - Explicación de controles parentales dirigida directamente a niños, con lenguaje sencillo y amigable
+
+#### 🎓 **Recursos Educativos**
+- **[Guía para maestros](/GuiaParaPadres/guia-maestros/)** - Manual completo para educadores con currícula por niveles, protocolos de crisis digital, comunicación con padres
+- **[Taller familiar](/GuiaParaPadres/taller-familiar/)** - Guía paso a paso para facilitar talleres de seguridad digital familiar, incluyendo actividades por edad y dinámicas familiares
+
+---
+
+### 📄 **RECURSOS MULTIMEDIA**
+- **Controles parentales.pdf** - Versión imprimible de la guía principal para distribución offline
+- **Controles parentales.pptx** - Presentación profesional para talleres y charlas educativas  
+- **ControlesParaNinos.pptx** - Presentación visual e interactiva diseñada específicamente para explicar seguridad digital a niños
+
+---
+
+### 📚 **REFERENCIAS Y CREDIBILIDAD ACADÉMICA**
+
+#### 🌟 **Fuentes Oficiales**
+- **[Fuentes y referencias](/GuiaParaPadres/fuentes-referencias/)** - Biblioteca completa de más de 100 fuentes y referencias externas de entidades reconocidas internacionalmente, organizaciones gubernamentales por país, servicios técnicos especializados, recursos académicos, y marcos regulatorios
 
 ---
 
