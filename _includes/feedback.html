@@ -1,0 +1,21 @@
+{% unless page.hide_feedback %}
+<section class="feedback-section">
+  <div class="feedback-content">
+    <h3>💬 ¿Te ha sido útil esta información?</h3>
+    <p>Tu opinión nos ayuda a mejorar estos recursos para todas las familias.</p>
+    <div class="feedback-buttons">
+      <button class="btn btn-outline feedback-btn" data-feedback="helpful">
+        👍 Sí, me ha ayudado
+      </button>
+      <button class="btn btn-outline feedback-btn" data-feedback="not-helpful">
+        👎 Necesita mejoras
+      </button>
+    </div>
+    <div class="feedback-thanks" id="feedback-thanks" style="display: none;">
+      <div class="feedback-thanks">
+        <p>¡Gracias por tu feedback! 🙏</p>
+      </div>
+    </div>
+  </div>
+</section>
+{% endunless %} 

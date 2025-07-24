@@ -1,9 +1,28 @@
 ---
-layout: home
+layout: default
 title: "Inicio"
 nav_order: 1
 description: "Biblioteca integral de recursos sobre seguridad digital familiar para empoderar a padres, educadores y comunidades"
 permalink: /
+toc: false
+hide_feedback: true
+related:
+  - title: "Índice Interactivo"
+    url: "INDICE-INTERACTIVO.md"
+    description: "Encuentra rápidamente la solución exacta que necesitas"
+    icon: "🧭"
+  - title: "Controles Básicos"
+    url: "controles-basicos.html"
+    description: "Guía fundamental para configurar controles parentales"
+    icon: "🛡️"
+  - title: "Guía para Maestros"
+    url: "guia-maestros.html"
+    description: "Recursos educativos y manejo de crisis digitales"
+    icon: "🏫"
+  - title: "Situaciones de Emergencia"
+    url: "casos-uso-especificos.html"
+    description: "Protocolos de crisis y contactos de emergencia"
+    icon: "🚨"
 ---
 
 # 🛡️ Biblioteca Completa de Seguridad Digital Familiar

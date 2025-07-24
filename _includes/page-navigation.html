@@ -1,0 +1,41 @@
+{% if page.nav_previous or page.nav_next %}
+<nav class="page-navigation" aria-label="Navegación de página">
+  <div class="nav-links">
+    {% if page.nav_previous %}
+    <div class="nav-previous">
+      <a href="{{ page.nav_previous.url | relative_url }}" class="nav-link">
+        <span class="nav-direction">← Anterior</span>
+        <span class="nav-title">{{ page.nav_previous.title }}</span>
+      </a>
+    </div>
+    {% endif %}
+    
+    {% if page.nav_next %}
+    <div class="nav-next">
+      <a href="{{ page.nav_next.url | relative_url }}" class="nav-link">
+        <span class="nav-direction">Siguiente →</span>
+        <span class="nav-title">{{ page.nav_next.title }}</span>
+      </a>
+    </div>
+    {% endif %}
+  </div>
+</nav>
+{% endif %}
+
+<!-- Páginas relacionadas -->
+{% if page.related %}
+<section class="related-pages">
+  <h3>📚 Recursos Relacionados</h3>
+  <div class="related-grid">
+    {% for related in page.related %}
+    <a href="{{ related.url | relative_url }}" class="related-card">
+      <div class="related-icon">{{ related.icon | default: "📄" }}</div>
+      <div class="related-content">
+        <h4>{{ related.title }}</h4>
+        <p>{{ related.description }}</p>
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %} 

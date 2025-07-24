@@ -1,0 +1,29 @@
+{% unless page.url == "/" %}
+<nav class="breadcrumb-nav" aria-label="Navegación de ruta">
+  <div class="wrapper">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item">
+        <a href="{{ '/' | relative_url }}">🏠 Inicio</a>
+      </li>
+      
+      {% assign path_parts = page.url | split: '/' %}
+      {% assign current_path = '' %}
+      
+      {% for part in path_parts %}
+        {% unless part == '' %}
+          {% assign current_path = current_path | append: '/' | append: part %}
+          {% if forloop.last %}
+            <li class="breadcrumb-item active">
+              <span>{{ page.title | default: part | replace: '-', ' ' | capitalize }}</span>
+            </li>
+          {% else %}
+            <li class="breadcrumb-item">
+              <a href="{{ current_path | relative_url }}">{{ part | replace: '-', ' ' | capitalize }}</a>
+            </li>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+    </ol>
+  </div>
+</nav>
+{% endunless %} 

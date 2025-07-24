@@ -1,0 +1,113 @@
+# Navegación principal del sitio
+main:
+  - title: "🏠 Inicio"
+    url: "/"
+    description: "Página principal con recursos destacados"
+  
+  - title: "🧭 Navegación Interactiva"
+    url: "/indice/"
+    description: "Encuentra soluciones por situación específica"
+  
+  - title: "🛡️ Controles Básicos"
+    url: "/controles-basicos/"
+    description: "Guía fundamental de controles parentales"
+  
+  - title: "🏫 Para Educadores"
+    url: "/guia-maestros/"
+    description: "Recursos para maestros y escuelas"
+  
+  - title: "👥 Talleres Familiares"
+    url: "/taller-familiar/"
+    description: "Actividades comunitarias y familiares"
+  
+  - title: "📚 Referencias"
+    url: "/fuentes-referencias/"
+    description: "Fuentes oficiales y recursos externos"
+
+# Navegación por categorías de edad
+edades:
+  - title: "👶 0-3 años"
+    url: "/apps-0-3-anos/"
+    description: "Introducción responsable a la tecnología"
+    
+  - title: "🎈 4-6 años"
+    url: "/apps-4-6-anos/"
+    description: "Apps educativas y creatividad supervisada"
+    
+  - title: "🌱 7-10 años"
+    url: "/seguridad-7-10-anos/"
+    description: "Primeros pasos en internet seguro"
+    
+  - title: "🚀 11-18 años"
+    url: "/controles-adolescentes/"
+    description: "Transición hacia autonomía digital"
+
+# Navegación por plataformas
+plataformas:
+  - title: "🎮 Consolas"
+    url: "/controles-consolas/"
+    description: "PlayStation, Xbox, Nintendo Switch"
+    
+  - title: "📺 Smart TV"
+    url: "/controles-smart-tv/"
+    description: "Netflix, Disney+, YouTube, streaming"
+    
+  - title: "🌐 Red WiFi"
+    url: "/control-red-hogares/"
+    description: "Filtrado para toda la familia"
+    
+  - title: "📱 Redes Sociales"
+    url: "/seguridad-tiktok/"
+    description: "TikTok, YouTube, Instagram, seguridad social"
+
+# Enlaces de emergencia por país
+emergencias:
+  - pais: "México"
+    flag: "🇲🇽"
+    servicios:
+      - nombre: "Policía Cibernética"
+        telefono: "088"
+        tipo: "emergencia"
+      - nombre: "Línea de la Vida"
+        telefono: "800-911-2000"
+        tipo: "apoyo"
+        
+  - pais: "Colombia"
+    flag: "🇨🇴"
+    servicios:
+      - nombre: "CAI Virtual"
+        telefono: "#767"
+        tipo: "emergencia"
+      - nombre: "Te Protejo"
+        telefono: "018000-112-439"
+        tipo: "reporte"
+        
+  - pais: "Chile"
+    flag: "🇨🇱"
+    servicios:
+      - nombre: "Carabineros"
+        telefono: "133"
+        tipo: "emergencia"
+      - nombre: "PDI Cibercrimen"
+        telefono: "(2) 2708-2000"
+        tipo: "especializado"
+        
+  - pais: "Perú"
+    flag: "🇵🇪"
+    servicios:
+      - nombre: "DIVINTEC"
+        telefono: "(01) 431-3805"
+        tipo: "especializado"
+      - nombre: "Línea 100"
+        telefono: "100"
+        tipo: "violencia"
+        
+  - pais: "Argentina"
+    flag: "🇦🇷"
+    servicios:
+      - nombre: "Grooming Argentina"
+        telefono: "0800-444-1845"
+        tipo: "especializado"
+      - nombre: "Línea 102"
+        telefono: "102"
+        tipo: "menores" 
