@@ -12,6 +12,7 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-redirect-from
 
 # Configuraciones adicionales
 lang: es
@@ -33,7 +34,22 @@ author:
 # SEO y redes sociales
 social:
   - platform: github
-    user_url: "https://github.com/tu-usuario/ControlesParentales"
+    user_url: "https://github.com/walalapancho/GuiaParaPadres"
+
+# Configuración de recursos estáticos
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "assets/js"
+    values:
+      js: true
+  - scope:
+      path: "assets/css"
+    values:
+      css: true
 
 # Configuración de contenido
 show_excerpts: true
@@ -44,6 +60,14 @@ exclude:
   - "*.pdf"
   - "*.pptx"
   - LICENSE
+  - README.md
+  - CHANGELOG.md
+  - node_modules
+  - package*.json
+  - yarn.lock
+  - Dockerfile
+  - docker-compose.yml
+  - .git*
   - vendor/
   - .bundle/
   - .sass-cache/
@@ -68,9 +92,23 @@ defaults:
     values:
       layout: "page"
       lang: es
+      image: false
+      comments: false
+      search: true
+      nav_exclude: false
   - scope:
       path: ""
       type: "docs"
     values:
       layout: "doc"
       lang: es
+      image: false
+      comments: false
+      search: true
+      nav_exclude: false
+
+# Configuración de redirecciones
+redirect_from:
+  enabled: true
+  # Usar _redirects para las redirecciones personalizadas
+  collections: true

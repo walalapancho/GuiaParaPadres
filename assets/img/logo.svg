@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="200" height="50" viewBox="0 0 200 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Shield icon -->
+  <g transform="translate(0,5) scale(0.4)">
+    <path d="M50 2L10 15V35C10 52.1797 27.1203 68.9037 50 75C72.8797 68.9037 90 52.1797 90 35V15L50 2Z" fill="#2563EB"/>
+    <path d="M50 8L20 18.2V35C20 49.0797 34.3203 63.8037 50 68.6C65.6797 63.8037 80 49.0797 80 35V18.2L50 8Z" fill="#FFFFFF"/>
+    <path d="M50 22C53.3137 22 56 19.3137 56 16C56 12.6863 53.3137 10 50 10C46.6863 10 44 12.6863 44 16C44 19.3137 46.6863 22 50 22Z" fill="#2563EB"/>
+    <path d="M59 26H41C39.8954 26 39 26.8954 39 28V36C39 37.1046 39.8954 38 41 38H59C60.1046 38 61 37.1046 61 36V28C61 26.8954 60.1046 26 59 26Z" fill="#2563EB"/>
+  </g>
+
+  <!-- Text "Biblioteca de" -->
+  <text x="100" y="20" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="16" font-weight="500" fill="#1E40AF" text-anchor="middle">
+    Biblioteca de
+  </text>
+
+  <!-- Text "Seguridad Digital" -->
+  <text x="100" y="40" font-family="Inter, -apple-system, system-ui, sans-serif" font-size="18" font-weight="700" fill="#2563EB" text-anchor="middle">
+    Seguridad Digital
+  </text>
+</svg>

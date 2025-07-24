@@ -3,6 +3,13 @@ source "https://rubygems.org"
 # Usar solo github-pages para máxima compatibilidad
 gem "github-pages", group: :jekyll_plugins
 
+# Plugins de Jekyll
+group :jekyll_plugins do
+  gem "jekyll-redirect-from"
+  gem "jekyll-sitemap"
+  gem "jekyll-seo-tag"
+end
+
 # Dependencias específicas para diferentes plataformas
 platforms :mingw, :x64_mingw, :mswin, :jruby do
   gem "tzinfo", ">= 1", "< 3"
@@ -13,4 +20,4 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Requerido para Jekyll 4+
-gem "webrick", "~> 1.8" 
+gem "webrick", "~> 1.8"

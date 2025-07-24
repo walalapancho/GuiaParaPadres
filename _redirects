@@ -1,0 +1,27 @@
+# Redirects from old paths to new paths
+/indice              /GuiaParaPadres/INDICE-INTERACTIVO/      301
+/controles-basicos   /GuiaParaPadres/controles-basicos/       301
+/inicio              /GuiaParaPadres/                         301
+/home                /GuiaParaPadres/                         301
+/index               /GuiaParaPadres/                         301
+/guia                /GuiaParaPadres/                         301
+
+# Redirect old section paths
+/apps/*              /GuiaParaPadres/apps-:splat              301
+/seguridad/*         /GuiaParaPadres/seguridad-:splat        301
+/controles/*         /GuiaParaPadres/controles-:splat        301
+/control/*           /GuiaParaPadres/control-:splat          301
+
+# Redirect documentation paths
+/docs/*              /GuiaParaPadres/:splat                   301
+/documentation/*     /GuiaParaPadres/:splat                   301
+/guia/*             /GuiaParaPadres/:splat                   301
+
+# Redirect specific content pages
+/propuesta          /GuiaParaPadres/propuesta-guia-visual-interactiva/  301
+/referencias        /GuiaParaPadres/fuentes-referencias/               301
+/maestros           /GuiaParaPadres/guia-maestros/                    301
+/taller             /GuiaParaPadres/taller-familiar/                  301
+
+# Fallback for all other paths
+/*                   /GuiaParaPadres/:splat                   301
