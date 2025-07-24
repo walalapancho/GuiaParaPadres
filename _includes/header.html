@@ -7,17 +7,14 @@
         {{ site.title | default: "Guía para Padres" }}
       </a>
 
-      <!-- Input del menú hamburguesa (debe estar antes del label para que funcionen los selectores CSS) -->
-      <input type="checkbox" id="nav-trigger" />
-
       <!-- Botón hamburguesa -->
-      <label for="nav-trigger" class="menu-icon">
+      <button type="button" class="menu-icon" aria-label="Abrir menú de navegación" aria-expanded="false">
         <span class="hamburger">
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
           <span class="hamburger-line"></span>
         </span>
-      </label>
+      </button>
 
       <!-- Menú de navegación -->
       <nav class="site-nav">

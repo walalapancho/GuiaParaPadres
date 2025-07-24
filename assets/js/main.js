@@ -208,24 +208,52 @@
   // =====================================================
 
   function setupMobileNavigation() {
-    const navTrigger = document.getElementById("nav-trigger");
-    const siteNav = document.querySelector(".site-nav");
     const menuIcon = document.querySelector(".menu-icon");
+    const siteNav = document.querySelector(".site-nav");
+    const body = document.body;
 
-    if (!navTrigger || !siteNav) return;
+    if (!menuIcon || !siteNav) return;
+
+    // Toggle del menú hamburguesa
+    menuIcon.addEventListener("click", function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      
+      const isOpen = body.classList.contains("menu-open");
+      
+      if (isOpen) {
+        closeMenu();
+      } else {
+        openMenu();
+      }
+    });
+
+    // Función para abrir el menú
+    function openMenu() {
+      body.classList.add("menu-open");
+      menuIcon.setAttribute("aria-expanded", "true");
+      menuIcon.setAttribute("aria-label", "Cerrar menú de navegación");
+    }
+
+    // Función para cerrar el menú
+    function closeMenu() {
+      body.classList.remove("menu-open");
+      menuIcon.setAttribute("aria-expanded", "false");
+      menuIcon.setAttribute("aria-label", "Abrir menú de navegación");
+    }
 
     // Cerrar menú al hacer clic en un enlace (excluyendo dropdowns)
     const navLinks = siteNav.querySelectorAll(".page-link:not(.dropdown-toggle)");
     navLinks.forEach(function (link) {
       link.addEventListener("click", function () {
-        navTrigger.checked = false;
+        closeMenu();
       });
     });
 
     // Cerrar menú al hacer clic fuera
     document.addEventListener("click", function (e) {
       if (!siteNav.contains(e.target) && !menuIcon.contains(e.target)) {
-        navTrigger.checked = false;
+        closeMenu();
       }
     });
 
@@ -234,13 +262,16 @@
     dropdownToggles.forEach(function (toggle) {
       toggle.addEventListener("click", function (e) {
         e.preventDefault();
+        e.stopPropagation();
         
         // En móvil, alternar visibilidad del dropdown
         if (window.innerWidth <= 768) {
           const dropdownMenu = toggle.nextElementSibling;
           const arrow = toggle.querySelector(".dropdown-arrow");
           
-          if (dropdownMenu.style.display === "block") {
+          const isOpen = dropdownMenu.style.display === "block";
+          
+          if (isOpen) {
             dropdownMenu.style.display = "none";
             arrow.style.transform = "rotate(0deg)";
           } else {
@@ -249,8 +280,10 @@
               if (otherToggle !== toggle) {
                 const otherMenu = otherToggle.nextElementSibling;
                 const otherArrow = otherToggle.querySelector(".dropdown-arrow");
-                otherMenu.style.display = "none";
-                otherArrow.style.transform = "rotate(0deg)";
+                if (otherMenu && otherArrow) {
+                  otherMenu.style.display = "none";
+                  otherArrow.style.transform = "rotate(0deg)";
+                }
               }
             });
             
@@ -261,9 +294,20 @@
       });
     });
 
+    // Cerrar menú con tecla Escape
+    document.addEventListener("keydown", function(e) {
+      if (e.key === "Escape" && body.classList.contains("menu-open")) {
+        closeMenu();
+      }
+    });
+
     // Cerrar dropdowns al redimensionar ventana
     window.addEventListener("resize", function () {
       if (window.innerWidth > 768) {
+        // Cerrar menú móvil si está abierto
+        closeMenu();
+        
+        // Resetear dropdowns
         const dropdownMenus = siteNav.querySelectorAll(".dropdown-menu");
         const arrows = siteNav.querySelectorAll(".dropdown-arrow");
         
