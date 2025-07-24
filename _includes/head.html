@@ -1,30 +1,306 @@
-<!-- Preconexión para mejorar performance -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- Preconexión DNS para mejorar performance -->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="dns-prefetch" href="https://github.com" />
 
-<!-- Fuente moderna Inter para mejor legibilidad -->
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<!-- Meta tags esenciales -->
+<meta charset="utf-8" />
+<meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-<!-- Meta tags mejorados para SEO y social sharing -->
-<meta name="description" content="{{ page.description | default: site.description }}">
-<meta name="keywords" content="seguridad digital, controles parentales, niños, adolescentes, internet seguro, familia">
+<!-- Fuente moderna Inter con subconjuntos optimizados -->
+<link
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+    as="style"
+    onload="this.onload=null;this.rel='stylesheet'"
+/>
+<noscript
+    ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+/></noscript>
+
+<!-- SEO y meta descripción -->
+<meta
+    name="description"
+    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 160 }}"
+/>
+<meta
+    name="keywords"
+    content="seguridad digital, controles parentales, niños, adolescentes, internet seguro, familia, ciberseguridad, bienestar digital"
+/>
+<meta
+    name="author"
+    content="{{ site.author.name | default: 'Biblioteca de Seguridad Digital Familiar' }}"
+/>
+<meta name="robots" content="index, follow" />
+<meta name="language" content="es" />
+
+<!-- Canonical URL -->
+<link rel="canonical" href="{{ page.url | absolute_url }}" />
 
 <!-- Open Graph para redes sociales -->
-<meta property="og:title" content="{{ page.title | default: site.title }}">
-<meta property="og:description" content="{{ page.description | default: site.description }}">
-<meta property="og:type" content="website">
-<meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta property="og:locale" content="es_ES">
+<meta property="og:site_name" content="{{ site.title }}" />
+<meta property="og:title" content="{{ page.title | default: site.title }}" />
+<meta
+    property="og:description"
+    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 300 }}"
+/>
+<meta
+    property="og:type"
+    content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"
+/>
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:locale" content="es_ES" />
+<meta
+    property="og:image"
+    content="{{ '/assets/img/og-image.png' | absolute_url }}"
+/>
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta
+    property="og:image:alt"
+    content="Seguridad Digital Familiar - Recursos para proteger a niños y adolescentes en internet"
+/>
 
 <!-- Twitter Cards -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ page.title | default: site.title }}">
-<meta name="twitter:description" content="{{ page.description | default: site.description }}">
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@SeguridadDigital" />
+<meta name="twitter:creator" content="@SeguridadDigital" />
+<meta name="twitter:title" content="{{ page.title | default: site.title }}" />
+<meta
+    name="twitter:description"
+    content="{{ page.description | default: site.description | strip_html | normalize_whitespace | truncate: 200 }}"
+/>
+<meta
+    name="twitter:image"
+    content="{{ '/assets/img/twitter-card.png' | absolute_url }}"
+/>
+<meta
+    name="twitter:image:alt"
+    content="Guía completa de seguridad digital para familias"
+/>
 
-<!-- Favicons básicos -->
-<link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
-<link rel="apple-touch-icon" href="{{ '/assets/apple-touch-icon.png' | relative_url }}">
+<!-- Artículo específico (si es un post) -->
+{% if page.layout == 'post' %}
+<meta
+    property="article:published_time"
+    content="{{ page.date | date_to_xmlschema }}"
+/>
+<meta
+    property="article:modified_time"
+    content="{{ page.last_modified_at | default: page.date | date_to_xmlschema }}"
+/>
+<meta
+    property="article:author"
+    content="{{ page.author | default: site.author.name }}"
+/>
+<meta property="article:section" content="Seguridad Digital" />
+{% for tag in page.tags %}
+<meta property="article:tag" content="{{ tag }}" />
+{% endfor %} {% endif %}
 
-<!-- Optimización para dispositivos móviles -->
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="theme-color" content="#2563eb"> 
+<!-- Favicons optimizados -->
+<link
+    rel="icon"
+    type="image/svg+xml"
+    href="{{ '/assets/img/favicon.svg' | relative_url }}"
+/>
+<link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="{{ '/assets/img/favicon-32x32.png' | relative_url }}"
+/>
+<link
+    rel="icon"
+    type="image/png"
+    sizes="16x16"
+    href="{{ '/assets/img/favicon-16x16.png' | relative_url }}"
+/>
+<link
+    rel="apple-touch-icon"
+    sizes="180x180"
+    href="{{ '/assets/img/apple-touch-icon.png' | relative_url }}"
+/>
+<link
+    rel="mask-icon"
+    href="{{ '/assets/img/safari-pinned-tab.svg' | relative_url }}"
+    color="#2563eb"
+/>
+
+<!-- Manifest para PWA -->
+<link rel="manifest" href="{{ '/manifest.json' | relative_url }}" />
+
+<!-- Color del tema para móviles -->
+<meta name="theme-color" content="#2563eb" />
+<meta name="msapplication-TileColor" content="#2563eb" />
+<meta
+    name="msapplication-config"
+    content="{{ '/browserconfig.xml' | relative_url }}"
+/>
+
+<!-- Optimización para dispositivos Apple -->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<meta
+    name="apple-mobile-web-app-title"
+    content="{{ site.title | truncate: 12 }}"
+/>
+
+<!-- Preload de recursos críticos -->
+<link
+    rel="preload"
+    href="{{ '/assets/css/style.css' | relative_url }}"
+    as="style"
+/>
+
+<!-- JSON-LD Schema para SEO -->
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "{{ site.title }}",
+        "description": "{{ site.description }}",
+        "url": "{{ site.url }}",
+        "author": {
+            "@type": "Organization",
+            "name": "{{ site.author.name | default: 'Biblioteca de Seguridad Digital' }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.author.name | default: 'Biblioteca de Seguridad Digital' }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ '/assets/img/logo.png' | absolute_url }}"
+            }
+        },
+        "potentialAction": {
+            "@type": "SearchAction",
+            "target": "{{ site.url }}/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+        },
+        "inLanguage": "es-ES",
+        "copyrightYear": "{{ 'now' | date: '%Y' }}",
+        "genre": "Educación, Seguridad Digital, Familia"
+    }
+</script>
+
+<!-- Schema específico para artículos -->
+{% if page.layout == 'post' %}
+<script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": "{{ page.title }}",
+        "description": "{{ page.description | default: page.excerpt | strip_html | normalize_whitespace | truncate: 160 }}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ page.author | default: site.author.name }}"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "{{ site.title }}",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "{{ '/assets/img/logo.png' | absolute_url }}"
+            }
+        },
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "{{ page.url | absolute_url }}"
+        },
+        "inLanguage": "es-ES"
+    }
+</script>
+{% endif %}
+
+<!-- Seguridad: Content Security Policy -->
+<meta
+    http-equiv="Content-Security-Policy"
+    content="default-src 'self'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com; img-src 'self' data: *.githubusercontent.com; script-src 'self' 'unsafe-inline'; connect-src 'self';"
+/>
+
+<!-- Prevenir MIME type sniffing -->
+<meta http-equiv="X-Content-Type-Options" content="nosniff" />
+
+<!-- Prevenir clickjacking -->
+<meta http-equiv="X-Frame-Options" content="DENY" />
+
+<!-- Referrer policy -->
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
+<!-- Performance hints -->
+<meta http-equiv="Accept-CH" content="DPR, Viewport-Width, Width" />
+
+<!-- RSS Feed -->
+{% feed_meta %}
+
+<!-- Sitemap hint para motores de búsqueda -->
+<link
+    rel="sitemap"
+    type="application/xml"
+    href="{{ '/sitemap.xml' | relative_url }}"
+/>
+
+<!-- Estilos críticos inline para mejorar el First Contentful Paint -->
+<style>
+    /* Critical CSS para evitar FOUC */
+    body {
+        font-family:
+            -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        line-height: 1.6;
+        color: #111827;
+        background-color: #f8fafc;
+        margin: 0;
+        padding: 0;
+    }
+
+    .site-header {
+        background: rgba(255, 255, 255, 0.95);
+        backdrop-filter: blur(20px);
+        border-bottom: 1px solid #e5e7eb;
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+    }
+
+    .wrapper {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 1.5rem;
+    }
+
+    @media (max-width: 768px) {
+        .wrapper {
+            padding: 0 1rem;
+        }
+    }
+</style>
+
+<!-- Service Worker para funcionalidad offline (opcional) -->
+{% if jekyll.environment == 'production' %}
+<script>
+    if ("serviceWorker" in navigator) {
+        window.addEventListener("load", function () {
+            navigator.serviceWorker
+                .register("/sw.js")
+                .then(function (registration) {
+                    console.log("SW registered: ", registration);
+                })
+                .catch(function (registrationError) {
+                    console.log("SW registration failed: ", registrationError);
+                });
+        });
+    }
+</script>
+{% endif %}
+
+<!-- JavaScript personalizado para funcionalidades avanzadas -->
+<script src="{{ '/assets/js/main.js' | relative_url }}" async></script>

@@ -1,0 +1,128 @@
+{
+  "name": "Biblioteca de Seguridad Digital Familiar",
+  "short_name": "Seguridad Digital",
+  "description": "Recursos integrales para crear entornos digitales seguros para niños y adolescentes",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "dir": "ltr",
+  "categories": ["education", "family", "security"],
+  "screenshots": [
+    {
+      "src": "/assets/img/screenshot-wide.png",
+      "sizes": "1280x800",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Vista de escritorio de la biblioteca de seguridad digital"
+    },
+    {
+      "src": "/assets/img/screenshot-narrow.png",
+      "sizes": "360x640",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Vista móvil de la biblioteca de seguridad digital"
+    }
+  ],
+  "icons": [
+    {
+      "src": "/assets/img/favicon-16x16.png",
+      "sizes": "16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/img/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/img/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "/assets/img/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Índice Interactivo",
+      "short_name": "Índice",
+      "description": "Navegar por todos los recursos disponibles",
+      "url": "/INDICE-INTERACTIVO",
+      "icons": [
+        {
+          "src": "/assets/img/shortcut-index.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Emergencias Digitales",
+      "short_name": "Emergencias",
+      "description": "Protocolos de crisis y contactos de emergencia",
+      "url": "/casos-uso-especificos",
+      "icons": [
+        {
+          "src": "/assets/img/shortcut-emergency.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Guía para Maestros",
+      "short_name": "Maestros",
+      "description": "Recursos para educadores",
+      "url": "/GuiaParaMaestros",
+      "icons": [
+        {
+          "src": "/assets/img/shortcut-teachers.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Controles Parentales",
+      "short_name": "Controles",
+      "description": "Configuración básica de controles parentales",
+      "url": "/Controles_Parentales",
+      "icons": [
+        {
+          "src": "/assets/img/shortcut-controls.png",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "share_target": {
+    "action": "/",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "related_applications": [
+    {
+      "platform": "web",
+      "url": "https://walalapancho.github.io/ControlesParentales/"
+    }
+  ],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}
