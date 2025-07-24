@@ -21,7 +21,7 @@ main:
     description: "Actividades comunitarias y familiares"
   
   - title: "🔬 Evidencia Científica"
-    url: "/estudios/"
+    url: "/GuiaParaPadres/estudios/"
     description: "Estudios e investigaciones sobre pantallas e infancia"
   
   - title: "📚 Referencias"

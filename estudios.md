@@ -4,18 +4,18 @@ title: "Estudios y Evidencia Científica"
 category: "recursos"
 nav_order: 90
 description: "Compilación de estudios científicos y evidencia sobre los efectos del uso de pantallas en el desarrollo de niños de 0-3 años"
-permalink: /estudios/
+permalink: /GuiaParaPadres/estudios/
 related:
   - title: "Apps 0-3 años" 
-    url: "/apps-0-3-anos/"
+    url: "/GuiaParaPadres/apps-0-3-anos/"
     description: "Aplicaciones recomendadas para la primera infancia"
     icon: "🍼"
   - title: "Controles Parentales Básicos"
-    url: "/controles-basicos/"
+    url: "/GuiaParaPadres/controles-basicos/"
     description: "Herramientas técnicas de control"
     icon: "🛡️"
   - title: "Guía para Maestros"
-    url: "/guia-maestros/"
+    url: "/GuiaParaPadres/guia-maestros/"
     description: "Recursos para educadores"
     icon: "👩‍🏫"
 ---
@@ -331,7 +331,7 @@ La AAP mantiene sus recomendaciones actualizadas sobre [tiempo de pantalla para 
 
 ---
 
-*Para obtener más información específica sobre aplicaciones apropiadas para cada edad, consulta nuestra [Guía de Apps para 0-3 años](/apps-0-3-anos/). Si necesitas ayuda técnica para implementar controles parentales, revisa nuestra sección de [Controles Parentales Básicos](/controles-basicos/).*
+*Para obtener más información específica sobre aplicaciones apropiadas para cada edad, consulta nuestra [Guía de Apps para 0-3 años](/GuiaParaPadres/apps-0-3-anos/). Si necesitas ayuda técnica para implementar controles parentales, revisa nuestra sección de [Controles Parentales Básicos](/GuiaParaPadres/controles-basicos/).*
 
 ---
 

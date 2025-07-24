@@ -97,7 +97,7 @@ Presentamos una **biblioteca integral de recursos** sobre seguridad digital fami
 ### 📚 **REFERENCIAS Y CREDIBILIDAD ACADÉMICA**
 
 #### 🔬 **Evidencia Científica**
-- **[Estudios y Evidencia Científica](/estudios/)** - Compilación de investigaciones revisadas por pares sobre los efectos de las pantallas en el desarrollo infantil, con estudios longitudinales, meta-análisis y recomendaciones de organismos internacionales de salud
+- **[Estudios y Evidencia Científica](/GuiaParaPadres/estudios/)** - Compilación de investigaciones revisadas por pares sobre los efectos de las pantallas en el desarrollo infantil, con estudios longitudinales, meta-análisis y recomendaciones de organismos internacionales de salud
 
 #### 🌟 **Fuentes Oficiales**
 - **[Fuentes y referencias](/GuiaParaPadres/fuentes-referencias/)** - Biblioteca completa de más de 100 fuentes y referencias externas de entidades reconocidas internacionalmente, organizaciones gubernamentales por país, servicios técnicos especializados, recursos académicos, y marcos regulatorios
