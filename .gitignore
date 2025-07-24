@@ -1,0 +1,41 @@
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundle
+.bundle/
+vendor/
+
+# Ruby
+Gemfile.lock
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Node.js (si se usa para herramientas adicionales)
+node_modules/
+npm-debug.log*
+
+# Archivos temporales
+*.tmp
+*.temp
+
+# Archivos de backup
+*~
+*.bak 

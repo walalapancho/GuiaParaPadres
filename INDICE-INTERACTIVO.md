@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Índice Interactivo"
+nav_order: 2
+description: "Encuentra rápidamente la solución exacta que necesitas según tu situación específica"
+permalink: /indice/
+---
+
 # 🧭 Índice Interactivo: Encuentra la Solución Exacta que Necesitas
 
 ## 🚀 Navegación Rápida por Situación

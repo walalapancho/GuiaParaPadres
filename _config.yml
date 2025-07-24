@@ -1,0 +1,100 @@
+# Configuración del sitio para GitHub Pages
+title: "Biblioteca Completa de Seguridad Digital Familiar"
+description: "Recursos integrales para crear entornos digitales seguros para niños y adolescentes"
+baseurl: "" # dejar vacío si el repo es nombre-usuario.github.io, caso contrario /nombre-repositorio
+url: "https://tu-usuario.github.io" # cambiar por tu URL de GitHub Pages
+
+# Configuración de Jekyll
+theme: minima
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Configuraciones adicionales
+lang: es
+timezone: America/Santiago
+
+# Navegación principal
+header_pages:
+  - index.md
+  - INDICE-INTERACTIVO.md
+  - GuiaParaMaestros.md
+  - TallerFamiliar.md
+  - FuentesReferencias.md
+
+# Metadatos del sitio
+author:
+  name: "Biblioteca de Seguridad Digital"
+  email: ""
+
+# SEO y redes sociales
+social:
+  - platform: github
+    user_url: "https://github.com/tu-usuario/ControlesParentales"
+
+# Configuración de contenido
+show_excerpts: true
+date_format: "%d/%m/%Y"
+
+# Excluir archivos del build
+exclude:
+  - "*.pdf"
+  - "*.pptx"
+  - LICENSE
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile*
+  - node_modules/
+  - "*.gem"
+  - "*.gemspec"
+
+# Configuración de colecciones para mejor organización
+collections:
+  edades:
+    output: true
+    permalink: /:collection/:name/
+  plataformas:
+    output: true  
+    permalink: /:collection/:name/
+  recursos:
+    output: true
+    permalink: /:collection/:name/
+
+# Valores por defecto
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      lang: es
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page" 
+      lang: es
+  - scope:
+      path: ""
+      type: "edades"
+    values:
+      layout: "page"
+      lang: es
+  - scope:
+      path: ""
+      type: "plataformas"
+    values:
+      layout: "page"
+      lang: es
+  - scope:
+      path: ""
+      type: "recursos"
+    values:
+      layout: "page"
+      lang: es 

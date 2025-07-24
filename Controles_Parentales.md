@@ -1,3 +1,11 @@
+---
+layout: page
+title: "Controles Parentales"
+nav_order: 3
+description: "Guía fundamental con herramientas prácticas para configurar controles parentales en dispositivos móviles"
+permalink: /controles-basicos/
+---
+
 # Controles Parentales en Dispositivos Móviles
 ## Herramientas prácticas para padres de niños de 7-10 años
 
