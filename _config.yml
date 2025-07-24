@@ -13,6 +13,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-redirect-from
 
+# Configuración para evitar conflictos de temas
+remote_theme: 
+theme:
+
 # Configuraciones adicionales
 lang: es
 timezone: America/Santiago

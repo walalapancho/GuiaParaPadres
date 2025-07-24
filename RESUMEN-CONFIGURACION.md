@@ -115,7 +115,7 @@ Una vez activado, tu sitio estará en:
 1. Crear archivo `.md` con front matter:
 ```yaml
 ---
-layout: page
+layout: default
 title: "Título de la Página"
 description: "Descripción breve"
 ---
