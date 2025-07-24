@@ -20,6 +20,10 @@ main:
     url: "/taller-familiar/"
     description: "Actividades comunitarias y familiares"
   
+  - title: "🔬 Evidencia Científica"
+    url: "/estudios/"
+    description: "Estudios e investigaciones sobre pantallas e infancia"
+  
   - title: "📚 Referencias"
     url: "/fuentes-referencias/"
     description: "Fuentes oficiales y recursos externos"

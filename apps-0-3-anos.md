@@ -30,6 +30,8 @@ related:
 
 Esta guía está diseñada especialmente para padres de bebés y niños muy pequeños (0-3 años) que buscan introducir la tecnología de manera apropiada y beneficiosa para el desarrollo temprano. A estas edades, el uso de dispositivos debe ser muy limitado, supervisado al 100% y enfocado en el desarrollo sensorial y cognitivo básico.
 
+Para conocer más sobre los riesgos y efectos del uso excesivo de pantallas en la primera infancia, consulta la página [Estudios y Evidencia Científica](/estudios/), donde encontrarás enlaces a publicaciones científicas validadas sobre este tema.
+
 ---
 
 ## ⚠️ Consideraciones Importantes Antes de Comenzar

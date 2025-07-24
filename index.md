@@ -27,7 +27,7 @@ related:
 
 # 🛡️ Biblioteca Completa de Seguridad Digital Familiar
 
-Una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñada para empoderar a padres, educadores y comunidades con herramientas prácticas para crear entornos digitales seguros para niños y adolescentes.
+Presentamos una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñada para empoderar a padres, educadores y comunidades con herramientas prácticas para crear entornos digitales seguros para niños y adolescentes.
 
 **💻 Código fuente y recursos adicionales disponibles en: [https://github.com/walalapancho/GuiaParaPadres](https://github.com/walalapancho/GuiaParaPadres)**
 
@@ -96,6 +96,9 @@ Una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñ
 
 ### 📚 **REFERENCIAS Y CREDIBILIDAD ACADÉMICA**
 
+#### 🔬 **Evidencia Científica**
+- **[Estudios y Evidencia Científica](/estudios/)** - Compilación de investigaciones revisadas por pares sobre los efectos de las pantallas en el desarrollo infantil, con estudios longitudinales, meta-análisis y recomendaciones de organismos internacionales de salud
+
 #### 🌟 **Fuentes Oficiales**
 - **[Fuentes y referencias](/GuiaParaPadres/fuentes-referencias/)** - Biblioteca completa de más de 100 fuentes y referencias externas de entidades reconocidas internacionalmente, organizaciones gubernamentales por país, servicios técnicos especializados, recursos académicos, y marcos regulatorios
 
@@ -147,6 +150,7 @@ Si estás enfrentando una situación crítica como cyberbullying, contacto con e
 4. **[Casos Reales](/GuiaParaPadres/casos-uso-especificos/)** - Situaciones complejas
 
 ---
+<!-- 
 ## 📊 Cobertura del Proyecto
 
 - **23+** Documentos Especializados
@@ -155,6 +159,8 @@ Si estás enfrentando una situación crítica como cyberbullying, contacto con e
 - **5** Países Cubiertos
 
 --- 
+--> 
+
 ## 🤝 Contribuciones y Comunidad
 
 Esta biblioteca es un proyecto colaborativo. ¡Tu experiencia puede ayudar a otras familias!
