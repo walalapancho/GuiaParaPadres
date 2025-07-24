@@ -3,7 +3,7 @@ layout: default
 title: "Seguridad Online para Niños 7-10 años"
 category: "edades"
 age_group: "7-10"
-nav_order: 13
+nav_order: 12
 description: "Guía educativa para niños sobre protección personal en juegos online y aplicaciones de internet"
 permalink: /seguridad-7-10-anos/
 nav_previous:

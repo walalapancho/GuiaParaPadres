@@ -1,3 +1,30 @@
+---
+layout: default
+title: "Control de Red para Escuelas"
+category: "institucional"
+nav_order: 25
+description: "Guía institucional para implementar controles parentales en redes escolares con configuraciones enterprise y compliance regulatorio"
+permalink: /control-red-escuelas/
+toc: true
+related:
+  - title: "Guía para Maestros"
+    url: "/guia-maestros/"
+    description: "Recursos educativos complementarios"
+    icon: "🏫"
+  - title: "Control Red Hogares"
+    url: "/control-red-hogares/"
+    description: "Implementación para familias"
+    icon: "🏠"
+  - title: "Talleres Familiares"
+    url: "/taller-familiar/"
+    description: "Coordinación escuela-familia"
+    icon: "👥"
+  - title: "Casos de Uso Específicos"
+    url: "/casos-uso-especificos/"
+    description: "Situaciones institucionales"
+    icon: "📋"
+---
+
 # 🏫 Controles Parentales de Red para Escuelas: Guía Institucional
 
 ## Introducción: Protegiendo el Entorno Educativo Digital 📚

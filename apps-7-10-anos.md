@@ -1,3 +1,37 @@
+---
+layout: default
+title: "Apps Educativas 7-10 años"
+category: "edades"
+age_group: "7-10"
+nav_order: 13
+description: "Recursos educativos avanzados con secciones de ciencia, arte, música, historia y geografía para edad escolar"
+permalink: /apps-7-10-anos/
+toc: true
+nav_previous:
+  title: "Seguridad 7-10 años"
+  url: "/seguridad-7-10-anos/"
+nav_next:
+  title: "Controles Adolescentes"
+  url: "/controles-adolescentes/"
+related:
+  - title: "Seguridad 7-10 años"
+    url: "/seguridad-7-10-anos/"
+    description: "Guía de seguridad específica para esta edad"
+    icon: "🛡️"
+  - title: "Apps 4-6 años"
+    url: "/apps-4-6-anos/"
+    description: "Etapa anterior de desarrollo"
+    icon: "🎈"
+  - title: "Controles para Niños"
+    url: "/ControlesParaNinos/"
+    description: "Explicación amigable de controles parentales"
+    icon: "👶"
+  - title: "Guía para Maestros"
+    url: "/guia-maestros/"
+    description: "Recursos para educadores"
+    icon: "🏫"
+---
+
 # Apps Educativas para Niños de 7-10 años
 ## Matemáticas, Lógica, Programación, Idiomas, Ciencias, Arte, Música, Historia y Geografía
 

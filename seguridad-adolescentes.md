@@ -1,3 +1,31 @@
+---
+layout: default
+title: "Seguridad Digital para Adolescentes"
+category: "edades"
+age_group: "13-18"
+nav_order: 15
+description: "Guía directa para adolescentes sobre redes sociales, privacidad, cyberbullying, sexting y preparación para vida digital adulta"
+permalink: /seguridad-adolescentes/
+toc: true
+related:
+  - title: "Controles Adolescentes"
+    url: "/controles-adolescentes/"
+    description: "Guía para padres de adolescentes"
+    icon: "🤝"
+  - title: "Seguridad TikTok"
+    url: "/seguridad-tiktok/"
+    description: "Plataforma muy popular entre adolescentes"
+    icon: "📱"
+  - title: "Seguridad YouTube"
+    url: "/seguridad-youtube/"
+    description: "Uso responsable de YouTube"
+    icon: "📺"
+  - title: "Casos de Uso Específicos"
+    url: "/casos-uso-especificos/"
+    description: "Situaciones reales con adolescentes"
+    icon: "📋"
+---
+
 # 🌐 Seguridad Digital para Adolescentes: Tu Guía Completa
 
 ## ¡Hey! Hablemos en serio por un momento 👋
