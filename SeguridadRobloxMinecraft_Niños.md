@@ -4,7 +4,7 @@ title: "Seguridad Roblox y Minecraft - Niños"
 category: "recursos"
 nav_order: 33
 description: "Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible"
-permalink: /SeguridadRobloxMinecraft_Niños/
+permalink: /SeguridadRobloxMinecraft_Ninos/
 toc: true
 related:
   - title: "Seguridad Roblox y Minecraft - Padres"

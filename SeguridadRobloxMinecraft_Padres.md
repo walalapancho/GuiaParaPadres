@@ -9,7 +9,7 @@ permalink: /SeguridadRobloxMinecraft_Padres/
 toc: true
 related:
   - title: "Seguridad Roblox y Minecraft - Niños"
-    url: "/SeguridadRobloxMinecraft_Niños/"
+    url: "/SeguridadRobloxMinecraft_Ninos/"
     description: "Versión para explicar a los niños"
     icon: "👶"
   - title: "Controles Consolas"
@@ -490,4 +490,4 @@ Roblox y Minecraft son dos de las plataformas de juego más populares entre niñ
 ---
 
 *Documento creado como parte de la Guía para Padres: Controles Parentales*
-*Para guías complementarias, consulta "SeguridadRobloxMinecraft_Niños.md" y otros documentos de esta colección* 
+*Para guías complementarias, consulta [Seguridad Roblox y Minecraft - Niños](/SeguridadRobloxMinecraft_Ninos/) y otros documentos de esta colección* 

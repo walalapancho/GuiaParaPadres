@@ -49,7 +49,7 @@ Se han identificado y corregido múltiples enlaces rotos en el sitio de la Bibli
 - ✅ `seguridad-adolescentes.md`
 - ✅ `ControlesParaNinos.md`
 - ✅ `SeguridadRobloxMinecraft_Padres.md`
-- ✅ `SeguridadRobloxMinecraft_Niños.md`
+- ✅ `SeguridadRobloxMinecraft_Niños.md` (permalink corregido para evitar caracteres especiales)
 
 ---
 
@@ -79,7 +79,7 @@ Se han identificado y corregido múltiples enlaces rotos en el sitio de la Bibli
 - Seguridad TikTok: `/seguridad-tiktok/`
 - Seguridad YouTube: `/seguridad-youtube/`
 - Roblox/Minecraft Padres: `/SeguridadRobloxMinecraft_Padres/`
-- Roblox/Minecraft Niños: `/SeguridadRobloxMinecraft_Niños/`
+- Roblox/Minecraft Niños: `/SeguridadRobloxMinecraft_Ninos/`
 
 ### **URLs de Recursos**
 - Casos de Uso: `/casos-uso-especificos/`

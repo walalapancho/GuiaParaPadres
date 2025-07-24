@@ -22,7 +22,7 @@ related:
     description: "Explicación simple de controles parentales"
     icon: "👶"
   - title: "Roblox y Minecraft para Niños"
-    url: "/SeguridadRobloxMinecraft_Niños/"
+    url: "/SeguridadRobloxMinecraft_Ninos/"
     description: "Seguridad en juegos específicos"
     icon: "🎮"
   - title: "Casos de Uso Específicos"
