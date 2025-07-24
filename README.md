@@ -1,5 +1,8 @@
 # 🛡️ Biblioteca Completa de Seguridad Digital Familiar
 
+> **📖 Este es el código fuente del proyecto**  
+> **🌐 Sitio web accesible y navegable en: [https://walalapancho.github.io/GuiaParaPadres/](https://walalapancho.github.io/GuiaParaPadres/)**
+
 ## 🌟 Descripción del Proyecto
 
 Esta es una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñada para empoderar a padres, educadores y comunidades con herramientas prácticas para crear entornos digitales seguros para niños y adolescentes. 

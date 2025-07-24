@@ -11,6 +11,8 @@ permalink: /
 {: .fs-6 .fw-300 }
 Una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñada para empoderar a padres, educadores y comunidades con herramientas prácticas para crear entornos digitales seguros para niños y adolescentes.
 
+**💻 Código fuente y recursos adicionales disponibles en: [https://github.com/walalapancho/GuiaParaPadres](https://github.com/walalapancho/GuiaParaPadres)**
+
 [🧭 Índice Interactivo](INDICE-INTERACTIVO.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [🚀 Empezar Ahora](Controles_Parentales.md){: .btn .fs-5 .mb-4 .mb-md-0 }
 
