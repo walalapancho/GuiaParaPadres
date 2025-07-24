@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Control de Red para Escuelas"
 description: "Guía institucional para implementar controles parentales en redes escolares con configuraciones enterprise y compliance regulatorio"
 permalink: /control-red-escuelas/

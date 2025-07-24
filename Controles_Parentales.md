@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Controles Parentales Básicos"
 description: "Guía fundamental con herramientas prácticas para configurar controles parentales en dispositivos móviles"
 permalink: /controles-basicos/

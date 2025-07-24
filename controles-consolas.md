@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Controles Parentales para Consolas"
 description: "Configuración completa de controles parentales en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo"
 permalink: /controles-consolas/
@@ -9,7 +9,9 @@ permalink: /controles-consolas/
 
 ## Introducción 🌟
 
-Las consolas de videojuegos modernas ofrecen experiencias increíbles para toda la familia, pero también requieren configuraciones cuidadosas para garantizar un entorno seguro para los niños. Esta guía te ayudará a configurar controles parentales efectivos en las principales consolas del mercado.
+Las consolas de videojuegos modernas ofrecen experiencias increíbles para toda la familia, pero también requieren configuraciones cuidadosas para garantizar un entorno seguro para los niños. 
+
+Esta guía te ayudará a configurar controles parentales efectivos en las principales consolas del mercado.
 
 ---
 
@@ -553,7 +555,9 @@ Los controles parentales en consolas de videojuegos son herramientas poderosas p
 4. **Educación continua** tanto para padres como para niños
 5. **Balance** entre protección y desarrollo de autonomía digital
 
-Recuerda que el objetivo no es eliminar completamente los videojuegos, sino crear un marco donde tus hijos puedan disfrutar de manera segura, educativa y balanceada. Los videojuegos pueden ser herramientas maravillosas para el desarrollo cognitivo, la socialización y el entretenimiento cuando se usan apropiadamente.
+Recuerda que el objetivo no es eliminar completamente los videojuegos, sino crear un marco donde tus hijos puedan disfrutar de manera segura, educativa y balanceada. 
+
+Los videojuegos pueden ser herramientas maravillosas para el desarrollo cognitivo, la socialización y el entretenimiento cuando se usan apropiadamente.
 
 **¡El gaming familiar saludable es posible con las herramientas y conocimientos correctos!**
 

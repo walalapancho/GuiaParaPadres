@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Guía para Maestros y Educadores"
 description: "Manual completo para educadores con currícula por niveles, protocolos de crisis digital y comunicación con padres"
 permalink: /guia-maestros/

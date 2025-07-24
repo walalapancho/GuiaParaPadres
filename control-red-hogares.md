@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Control de Red para Hogares"
 description: "Guía especializada para controles parentales de red doméstica, configuración de routers populares y servicios DNS de filtrado"
 permalink: /control-red-hogares/

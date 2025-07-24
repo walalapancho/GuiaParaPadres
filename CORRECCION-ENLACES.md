@@ -118,7 +118,7 @@
 ### **controles-basicos.md**
 ```yaml
 ---
-layout: minimal
+layout: default
 title: "🛡️ Controles Parentales Básicos"
 nav_order: 2
 description: "Guía paso a paso para configurar controles parentales en todos los dispositivos"
@@ -159,7 +159,7 @@ permalink: /controles-basicos
 ### **emergencias-digitales.md**
 ```yaml
 ---
-layout: minimal
+layout: default
 title: "🚨 Emergencias Digitales"
 nav_order: 1
 description: "Protocolos de crisis para situaciones digitales urgentes"
@@ -204,7 +204,7 @@ permalink: /emergencias-digitales
 ### **por-edades.md**
 ```yaml
 ---
-layout: minimal
+layout: default
 title: "👶 Seguridad por Edades"
 nav_order: 3
 description: "Guías específicas según la edad de tu hijo"

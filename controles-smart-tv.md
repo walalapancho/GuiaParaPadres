@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Controles Parentales Smart TV"
 description: "Guía exhaustiva para Smart TVs y dispositivos de streaming (Roku, Apple TV, Fire TV) con configuración por marca y servicios"
 permalink: /controles-smart-tv/

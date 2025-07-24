@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Apps Recomendadas 0-3 años"
 age_group: "0-3"
 description: "Introducción responsable a la tecnología para bebés y niños pequeños con enfoque en desarrollo sensorial y límites de pantalla"

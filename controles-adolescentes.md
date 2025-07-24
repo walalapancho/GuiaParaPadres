@@ -1,5 +1,5 @@
 ---
-layout: minimal
+layout: default
 title: "Controles Parentales para Adolescentes"
 age_group: "11-18"
 description: "Estrategias para padres sobre negociación, comunicación y transición hacia autonomía digital responsable"
