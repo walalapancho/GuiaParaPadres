@@ -25,7 +25,7 @@ related:
     icon: "🚨"
 ---
 
-# 🛡️ Biblioteca Completa de Seguridad Digital Familiar
+# 🛡️ Biblioteca de Seguridad Digital Familiar
 
 Presentamos una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñada para empoderar a padres, educadores y comunidades con herramientas prácticas para crear entornos digitales seguros para niños y adolescentes.
 
