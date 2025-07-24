@@ -1103,3 +1103,278 @@ pre {
   white-space: nowrap !important;
   border: 0 !important;
 }
+
+// =====================================================
+// MEJORA: HERO SECTION Y HEADER PRINCIPAL
+// =====================================================
+
+// Contenedor hero mejorado
+.hero-section {
+  background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  border-radius: var(--radius-lg);
+  padding: 3rem 2rem;
+  margin-bottom: 2rem;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%230f172a' fill-opacity='0.02'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E") repeat;
+    opacity: 0.3;
+    z-index: 1;
+  }
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+
+  @media (max-width: 768px) {
+    padding: 2rem 1rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+// Título principal mejorado
+.hero-title {
+  font-size: clamp(2.5rem, 5vw, 3.5rem) !important;
+  font-weight: 900 !important;
+  background: linear-gradient(135deg, var(--primary-color), var(--secondary-color), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem !important;
+  line-height: 1.2 !important;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+// Descripción del hero
+.hero-description {
+  font-size: clamp(1.1rem, 2vw, 1.25rem);
+  color: var(--text-secondary);
+  max-width: 800px;
+  margin: 0 auto 2rem auto;  
+  line-height: 1.6;
+}
+
+// =====================================================
+// MEJORA: NAVEGACIÓN RÁPIDA VISUAL
+// =====================================================
+
+.nav-rapida {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 2rem 0;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.btn-hero {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-normal);
+  min-width: 200px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    transition: left 0.6s;
+  }
+
+  &:hover::before {
+    left: 100%;
+  }
+
+  &.primary {
+    background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
+    color: white;
+    box-shadow: var(--shadow-md);
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+      background: linear-gradient(135deg, var(--primary-dark), var(--primary-color));
+    }
+  }
+
+  &.secondary {
+    background: linear-gradient(135deg, var(--secondary-color), var(--secondary-dark));
+    color: white;
+    box-shadow: var(--shadow-md);
+
+    &:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+      background: linear-gradient(135deg, var(--secondary-dark), var(--secondary-color));
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+// =====================================================
+// MEJORA: ENLACES Y TIPOGRAFÍA GENERAL
+// =====================================================
+
+// Enlaces mejorados con mejor diferenciación
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: all var(--transition-fast);
+  border-bottom: 1px solid transparent;
+
+  &:hover {
+    color: var(--primary-dark);
+    border-bottom-color: var(--primary-color);
+  }
+
+  // Enlaces en headers de sección  
+  h3 & {
+    font-weight: 700;
+    padding: 0.25rem 0.5rem;
+    border-radius: var(--radius-sm);
+    background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(5, 150, 105, 0.1));
+    border-bottom: none;
+
+    &:hover {
+      background: linear-gradient(135deg, rgba(37, 99, 235, 0.15), rgba(5, 150, 105, 0.15));
+      transform: translateX(2px);
+    }
+  }
+}
+
+// =====================================================
+// MEJORA: SECCIONES DE CONTENIDO
+// =====================================================
+
+// Contenedor de sección mejorado
+.content-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: var(--bg-primary);
+  border-radius: var(--radius-md);
+  border-left: 4px solid var(--primary-color);
+  box-shadow: var(--shadow-sm);
+}
+
+// Lista de contenidos mejorada
+.content-list {
+  display: grid;
+  gap: 1rem;
+  margin: 1rem 0;
+
+  li {
+    padding: 0.75rem;
+    background: var(--bg-secondary);
+    border-radius: var(--radius-sm);
+    border-left: 3px solid var(--secondary-color);
+    transition: all var(--transition-fast);
+
+    &:hover {
+      background: rgba(37, 99, 235, 0.05);
+      border-left-color: var(--primary-color);
+      transform: translateX(4px);
+    }
+  }
+}
+
+// =====================================================
+// MEJORA: TABLAS Y NAVEGACIÓN
+// =====================================================
+
+// Tabla de navegación rápida mejorada
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  background: var(--bg-primary);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-md);
+
+  td {
+    padding: 1rem;
+    text-align: center;
+    border: none;
+    
+    &:first-child {
+      background: linear-gradient(135deg, rgba(37, 99, 235, 0.1), rgba(5, 150, 105, 0.1));
+      border-right: 1px solid var(--border-color);
+    }
+
+    a {
+      font-weight: 700;
+      font-size: 1.1rem;
+      display: inline-block;
+      padding: 0.5rem 1rem;
+      border-radius: var(--radius-sm);
+      transition: all var(--transition-normal);
+
+      &:hover {
+        background: var(--primary-color);
+        color: white;
+        transform: scale(1.05);
+        border-bottom: none;
+      }
+    }
+  }
+}
+
+// =====================================================
+// MEJORA: RESPONSIVE DESIGN
+// =====================================================
+
+@media (max-width: 768px) {
+  .wrapper {
+    padding: 0 1rem;
+  }
+
+  .page-content {
+    margin: 0.25rem;
+    padding: 1rem;
+  }
+
+  // Tablas responsivas
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  // Headers más pequeños en móvil
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+}
