@@ -1,27 +1,12 @@
 ---
 layout: default
 title: "Apps Recomendadas 0-3 años"
-category: "edades"
 age_group: "0-3"
-nav_order: 10
 description: "Introducción responsable a la tecnología para bebés y niños pequeños con enfoque en desarrollo sensorial y límites de pantalla"
 permalink: /apps-0-3-anos/
 nav_next:
   title: "Apps 4-6 años"
   url: "/apps-4-6-anos/"
-related:
-  - title: "Apps 4-6 años"
-    url: "/apps-4-6-anos/"
-    description: "Siguiente etapa de desarrollo digital"
-    icon: "🎈"
-  - title: "Controles Parentales Básicos"
-    url: "/controles-basicos/"
-    description: "Configuraciones técnicas para esta edad"
-    icon: "🛡️"
-  - title: "Talleres Familiares"
-    url: "/taller-familiar/"
-    description: "Actividades para implementar en familia"
-    icon: "👥"
 ---
 
 # Aplicaciones Recomendadas para Bebés y Niños de 0 a 3 años

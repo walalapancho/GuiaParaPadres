@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Controles Parentales Básicos"
-nav_order: 3
 description: "Guía fundamental con herramientas prácticas para configurar controles parentales en dispositivos móviles"
 permalink: /controles-basicos/
 nav_previous:
@@ -10,23 +9,6 @@ nav_previous:
 nav_next:
   title: "Guía para Maestros"
   url: "/guia-maestros/"
-related:
-  - title: "Apps 0-3 años"
-    url: "/apps-0-3-anos/"
-    description: "Aplicaciones para los más pequeños"
-    icon: "👶"
-  - title: "Control Red Hogares"
-    url: "/control-red-hogares/"
-    description: "Protección a nivel de red WiFi"
-    icon: "🌐"
-  - title: "Controles Consolas"
-    url: "/controles-consolas/"
-    description: "Configuración en videojuegos"
-    icon: "🎮"
-  - title: "Casos de Uso Específicos"
-    url: "/casos-uso-especificos/"
-    description: "Situaciones reales de implementación"
-    icon: "📋"
 ---
 
 # Controles Parentales en Dispositivos Móviles

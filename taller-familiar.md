@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Taller Familiar de Seguridad Digital"
-nav_order: 5
 description: "Guía paso a paso para facilitar talleres de seguridad digital familiar con actividades por edad y dinámicas familiares"
 permalink: /taller-familiar/
 nav_previous:
@@ -10,23 +9,6 @@ nav_previous:
 nav_next:
   title: "Fuentes y Referencias"
   url: "/fuentes-referencias/"
-related:
-  - title: "Guía para Maestros"
-    url: "/guia-maestros/"
-    description: "Recursos educativos complementarios"
-    icon: "🏫"
-  - title: "Controles para Niños"
-    url: "/ControlesParaNinos/"
-    description: "Material educativo adaptado para menores"
-    icon: "👶"
-  - title: "Casos de Uso Específicos"
-    url: "/casos-uso-especificos/"
-    description: "Situaciones reales para discutir en talleres"
-    icon: "💼"
-  - title: "Apps Recomendadas 4-6 años"
-    url: "/apps-4-6-anos/"
-    description: "Recursos prácticos para familias con preescolares"
-    icon: "🎈"
 ---
 
 # 👨‍👩‍👧‍👦 Taller Familiar de Seguridad Digital: Guía Completa para Facilitadores

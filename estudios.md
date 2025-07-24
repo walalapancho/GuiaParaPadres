@@ -1,23 +1,8 @@
 ---
 layout: default
 title: "Estudios y Evidencia Científica"
-category: "recursos"
-nav_order: 90
 description: "Compilación de estudios científicos y evidencia sobre los efectos del uso de pantallas en el desarrollo de niños de 0-3 años"
 permalink: /estudios/
-related:
-  - title: "Apps 0-3 años" 
-    url: "/GuiaParaPadres/apps-0-3-anos/"
-    description: "Aplicaciones recomendadas para la primera infancia"
-    icon: "🍼"
-  - title: "Controles Parentales Básicos"
-    url: "/GuiaParaPadres/controles-basicos/"
-    description: "Herramientas técnicas de control"
-    icon: "🛡️"
-  - title: "Guía para Maestros"
-    url: "/GuiaParaPadres/guia-maestros/"
-    description: "Recursos para educadores"
-    icon: "👩‍🏫"
 ---
 
 # Estudios y Evidencia Científica sobre Pantallas en la Primera Infancia

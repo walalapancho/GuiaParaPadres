@@ -1,24 +1,8 @@
 ---
 layout: default
 title: "Guía Visual Interactiva iPhone"
-category: "recursos"
-nav_order: 31
 description: "Configuración paso a paso de controles parentales en iPhone/iPad con verificaciones automáticas en 5-7 minutos"
 permalink: /propuesta-guia-visual-interactiva/
-toc: true
-related:
-  - title: "Controles Parentales Básicos"
-    url: "/controles-basicos/"
-    description: "Guía fundamental complementaria"
-    icon: "🛡️"
-  - title: "Apps 4-6 años"
-    url: "/apps-4-6-anos/"
-    description: "Aplicaciones apropiadas después de configurar"
-    icon: "🎈"
-  - title: "Apps 7-10 años"
-    url: "/apps-7-10-anos/"
-    description: "Siguiente nivel de aplicaciones"
-    icon: "🌱"
 ---
 
 # 📱 Guía Visual Interactiva: Configuración de Controles Parentales en iPhone

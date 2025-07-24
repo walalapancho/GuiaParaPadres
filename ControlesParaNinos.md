@@ -1,27 +1,8 @@
 ---
 layout: default
 title: "Controles Parentales para Niños"
-category: "recursos"
-nav_order: 32
 description: "Explicación de controles parentales dirigida directamente a niños, con lenguaje sencillo y amigable"
 permalink: /ControlesParaNinos/
-related:
-  - title: "Apps 4-6 años"
-    url: "/apps-4-6-anos/"
-    description: "Aplicaciones divertidas y seguras"
-    icon: "🎈"
-  - title: "Apps 7-10 años"
-    url: "/apps-7-10-anos/"
-    description: "Aplicaciones educativas"
-    icon: "🌱"
-  - title: "Seguridad 7-10 años"
-    url: "/seguridad-7-10-anos/"
-    description: "Reglas de seguridad online"
-    icon: "🛡️"
-  - title: "Talleres Familiares"
-    url: "/taller-familiar/"
-    description: "Actividades para hacer en familia"
-    icon: "👥"
 ---
 
 # Controles Parentales explicados a los niños

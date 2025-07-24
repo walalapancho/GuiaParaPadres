@@ -26,11 +26,11 @@
     </main>
     
     <!-- Back to top button -->
-    <button class="back-to-top" onclick="scrollToTop()" title="Volver arriba">
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Volver arriba">
       ↑
     </button>
     
     <!-- Scripts -->
-    <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
   </body>
 </html>

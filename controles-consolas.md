@@ -1,29 +1,8 @@
 ---
 layout: default
 title: "Controles Parentales para Consolas"
-category: "plataformas"
-platform: "gaming"
-nav_order: 20
 description: "Configuración completa de controles parentales en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo"
 permalink: /controles-consolas/
-toc: true
-related:
-  - title: "Roblox y Minecraft para Padres"
-    url: "/SeguridadRobloxMinecraft_Padres/"
-    description: "Seguridad en juegos específicos populares"
-    icon: "🎯"
-  - title: "Controles Smart TV"
-    url: "/controles-smart-tv/"
-    description: "Control de contenido en televisores"
-    icon: "📺"
-  - title: "Apps 7-10 años"
-    url: "/apps-7-10-anos/"
-    description: "Juegos apropiados para esta edad"
-    icon: "🌱"
-  - title: "Controles Adolescentes"
-    url: "/controles-adolescentes/"
-    description: "Negociación de límites con adolescentes"
-    icon: "🤝"
 ---
 
 # 🎮 Guía de Controles Parentales para Consolas de Videojuegos

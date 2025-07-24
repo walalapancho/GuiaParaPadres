@@ -1,29 +1,8 @@
 ---
 layout: default
 title: "Controles Parentales Smart TV"
-category: "plataformas"
-platform: "streaming"
-nav_order: 24
 description: "Guía exhaustiva para Smart TVs y dispositivos de streaming (Roku, Apple TV, Fire TV) con configuración por marca y servicios"
 permalink: /controles-smart-tv/
-toc: true
-related:
-  - title: "Seguridad YouTube"
-    url: "/seguridad-youtube/"
-    description: "YouTube en Smart TVs y streaming"
-    icon: "📺"
-  - title: "Control Red Hogares"
-    url: "/control-red-hogares/"
-    description: "Control a nivel de red WiFi"
-    icon: "🌐"
-  - title: "Controles Consolas"
-    url: "/controles-consolas/"
-    description: "Gaming en televisores"
-    icon: "🎮"
-  - title: "Apps 7-10 años"
-    url: "/apps-7-10-anos/"
-    description: "Contenido apropiado para esta edad"
-    icon: "🌱"
 ---
 
 # 📺 Guía Completa: Controles Parentales en Smart TV y Dispositivos de Streaming

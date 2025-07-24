@@ -1,28 +1,8 @@
 ---
 layout: default
 title: "Seguridad Roblox y Minecraft - Niños"
-category: "recursos"
-nav_order: 33
 description: "Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible"
 permalink: /SeguridadRobloxMinecraft_Ninos/
-toc: true
-related:
-  - title: "Seguridad Roblox y Minecraft - Padres"
-    url: "/SeguridadRobloxMinecraft_Padres/"
-    description: "Guía para que lean tus padres"
-    icon: "🤝"
-  - title: "Seguridad 7-10 años"
-    url: "/seguridad-7-10-anos/"
-    description: "Más reglas de seguridad online"
-    icon: "🛡️"
-  - title: "Apps 7-10 años"
-    url: "/apps-7-10-anos/"
-    description: "Otros juegos y apps divertidas"
-    icon: "🌱"
-  - title: "Controles para Niños"
-    url: "/ControlesParaNinos/"
-    description: "¿Qué son los controles parentales?"
-    icon: "👶"
 ---
 
 # 🎮 ¡Guía de Seguridad en Roblox y Minecraft para Niños!

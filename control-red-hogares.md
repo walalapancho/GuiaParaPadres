@@ -1,29 +1,8 @@
 ---
 layout: default
 title: "Control de Red para Hogares"
-category: "plataformas"
-platform: "network"
-nav_order: 22
 description: "Guía especializada para controles parentales de red doméstica, configuración de routers populares y servicios DNS de filtrado"
 permalink: /control-red-hogares/
-toc: true
-related:
-  - title: "Control Red Escuelas"
-    url: "/control-red-escuelas/"
-    description: "Implementación para instituciones educativas"
-    icon: "🏛️"
-  - title: "Controles Parentales Básicos"
-    url: "/controles-basicos/"
-    description: "Configuraciones a nivel de dispositivo"
-    icon: "🛡️"
-  - title: "Controles Smart TV"
-    url: "/controles-smart-tv/"
-    description: "Control específico de televisores inteligentes"
-    icon: "📺"
-  - title: "Casos de Uso Específicos"
-    url: "/casos-uso-especificos/"
-    description: "Situaciones reales de implementación"
-    icon: "📋"
 ---
 
 # 🏠 Controles Parentales de Red para Hogares: Guía Familiar

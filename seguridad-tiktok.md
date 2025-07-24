@@ -1,29 +1,8 @@
 ---
 layout: default
 title: "Guía de Seguridad en TikTok"
-category: "plataformas"
-platform: "social-media"
-nav_order: 21
 description: "Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad y supervisión por edad"
 permalink: /seguridad-tiktok/
-toc: true
-related:
-  - title: "Seguridad YouTube"
-    url: "/seguridad-youtube/"
-    description: "Otra plataforma de video muy popular"
-    icon: "📺"
-  - title: "Controles Adolescentes"
-    url: "/controles-adolescentes/"
-    description: "Estrategias para la edad típica de TikTok"
-    icon: "🚀"
-  - title: "Seguridad Digital Adolescentes"
-    url: "/seguridad-adolescentes/"
-    description: "Recursos directos para adolescentes"
-    icon: "🎯"
-  - title: "Casos de Uso Específicos"
-    url: "/casos-uso-especificos/"
-    description: "Situaciones problemáticas comunes en TikTok"
-    icon: "📋"
 ---
 
 # 📱 Guía Completa de Seguridad en TikTok para Padres

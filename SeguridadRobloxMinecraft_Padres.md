@@ -1,29 +1,8 @@
 ---
 layout: default
 title: "Seguridad Roblox y Minecraft - Padres"
-category: "plataformas"
-platform: "gaming"
-nav_order: 26
 description: "Guía exhaustiva para padres sobre riesgos específicos de Roblox y Minecraft, configuraciones de seguridad paso a paso"
 permalink: /SeguridadRobloxMinecraft_Padres/
-toc: true
-related:
-  - title: "Seguridad Roblox y Minecraft - Niños"
-    url: "/SeguridadRobloxMinecraft_Ninos/"
-    description: "Versión para explicar a los niños"
-    icon: "👶"
-  - title: "Controles Consolas"
-    url: "/controles-consolas/"
-    description: "Configuración en consolas de juego"
-    icon: "🎮"
-  - title: "Apps 7-10 años"
-    url: "/apps-7-10-anos/"
-    description: "Edad típica para estos juegos"
-    icon: "🌱"
-  - title: "Casos de Uso Específicos"
-    url: "/casos-uso-especificos/"
-    description: "Situaciones problemáticas en gaming"
-    icon: "📋"
 ---
 
 # 🎮 Guía de Seguridad en Roblox y Minecraft para Padres
