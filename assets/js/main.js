@@ -204,17 +204,18 @@
   }
 
   // =====================================================
-  // MEJORAS DE NAVEGACIÓN MÓVIL
+  // MEJORAS DE NAVEGACIÓN MÓVIL Y MENÚ HAMBURGUESA
   // =====================================================
 
   function setupMobileNavigation() {
     const navTrigger = document.getElementById("nav-trigger");
     const siteNav = document.querySelector(".site-nav");
+    const menuIcon = document.querySelector(".menu-icon");
 
     if (!navTrigger || !siteNav) return;
 
-    // Cerrar menú al hacer clic en un enlace
-    const navLinks = siteNav.querySelectorAll(".page-link");
+    // Cerrar menú al hacer clic en un enlace (excluyendo dropdowns)
+    const navLinks = siteNav.querySelectorAll(".page-link:not(.dropdown-toggle)");
     navLinks.forEach(function (link) {
       link.addEventListener("click", function () {
         navTrigger.checked = false;
@@ -223,8 +224,56 @@
 
     // Cerrar menú al hacer clic fuera
     document.addEventListener("click", function (e) {
-      if (!siteNav.contains(e.target)) {
+      if (!siteNav.contains(e.target) && !menuIcon.contains(e.target)) {
         navTrigger.checked = false;
+      }
+    });
+
+    // Manejar menús desplegables en móvil
+    const dropdownToggles = siteNav.querySelectorAll(".dropdown-toggle");
+    dropdownToggles.forEach(function (toggle) {
+      toggle.addEventListener("click", function (e) {
+        e.preventDefault();
+        
+        // En móvil, alternar visibilidad del dropdown
+        if (window.innerWidth <= 768) {
+          const dropdownMenu = toggle.nextElementSibling;
+          const arrow = toggle.querySelector(".dropdown-arrow");
+          
+          if (dropdownMenu.style.display === "block") {
+            dropdownMenu.style.display = "none";
+            arrow.style.transform = "rotate(0deg)";
+          } else {
+            // Cerrar otros dropdowns
+            dropdownToggles.forEach(function (otherToggle) {
+              if (otherToggle !== toggle) {
+                const otherMenu = otherToggle.nextElementSibling;
+                const otherArrow = otherToggle.querySelector(".dropdown-arrow");
+                otherMenu.style.display = "none";
+                otherArrow.style.transform = "rotate(0deg)";
+              }
+            });
+            
+            dropdownMenu.style.display = "block";
+            arrow.style.transform = "rotate(180deg)";
+          }
+        }
+      });
+    });
+
+    // Cerrar dropdowns al redimensionar ventana
+    window.addEventListener("resize", function () {
+      if (window.innerWidth > 768) {
+        const dropdownMenus = siteNav.querySelectorAll(".dropdown-menu");
+        const arrows = siteNav.querySelectorAll(".dropdown-arrow");
+        
+        dropdownMenus.forEach(function (menu) {
+          menu.style.display = "";
+        });
+        
+        arrows.forEach(function (arrow) {
+          arrow.style.transform = "rotate(0deg)";
+        });
       }
     });
   }

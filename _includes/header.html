@@ -1,0 +1,66 @@
+<header class="site-header" role="banner">
+  <div class="wrapper">
+    <div class="header-content">
+      <!-- Logo/Título del sitio -->
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
+        <img src="{{ '/assets/img/logo.svg' | relative_url }}" alt="Logo" class="site-logo">
+        {{ site.title | default: "Guía para Padres" }}
+      </a>
+
+      <!-- Botón hamburguesa -->
+      <label for="nav-trigger" class="menu-icon">
+        <span class="hamburger">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </span>
+      </label>
+
+      <input type="checkbox" id="nav-trigger" />
+
+      <!-- Menú de navegación -->
+      <nav class="site-nav">
+        <div class="trigger">
+          {% for item in site.data.navigation.main %}
+            <a class="page-link" href="{{ item.url | relative_url }}" 
+               title="{{ item.description }}">
+              {{ item.title }}
+            </a>
+          {% endfor %}
+          
+          <!-- Submenú de categorías por edad -->
+          <div class="nav-dropdown">
+            <a class="page-link dropdown-toggle" href="#" aria-haspopup="true" aria-expanded="false">
+              👶 Por Edades
+              <span class="dropdown-arrow">▼</span>
+            </a>
+            <div class="dropdown-menu">
+              {% for item in site.data.navigation.edades %}
+                <a class="dropdown-item" href="{{ item.url | relative_url }}" 
+                   title="{{ item.description }}">
+                  {{ item.title }}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+
+          <!-- Submenú de plataformas -->
+          <div class="nav-dropdown">
+            <a class="page-link dropdown-toggle" href="#" aria-haspopup="true" aria-expanded="false">
+              📱 Por Plataforma
+              <span class="dropdown-arrow">▼</span>
+            </a>
+            <div class="dropdown-menu">
+              {% for item in site.data.navigation.plataformas %}
+                <a class="dropdown-item" href="{{ item.url | relative_url }}" 
+                   title="{{ item.description }}">
+                  {{ item.title }}
+                </a>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+</header> 
