@@ -36,20 +36,7 @@ social:
   - platform: github
     user_url: "https://github.com/walalapancho/GuiaParaPadres"
 
-# Configuración de recursos estáticos
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
-  - scope:
-      path: "assets/js"
-    values:
-      js: true
-  - scope:
-      path: "assets/css"
-    values:
-      css: true
+# Configuración de recursos estáticos y contenido
 
 # Configuración de contenido
 show_excerpts: true
@@ -57,8 +44,6 @@ date_format: "%d/%m/%Y"
 
 # Excluir archivos del build
 exclude:
-  - "*.pdf"
-  - "*.pptx"
   - LICENSE
   - README.md
   - CHANGELOG.md
@@ -77,6 +62,7 @@ exclude:
   - node_modules/
   - "*.gem"
   - "*.gemspec"
+  - check_links.py
 
 # Configuración de colecciones para mejor organización
 collections:
@@ -86,6 +72,18 @@ collections:
 
 # Valores por defecto
 defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+  - scope:
+      path: "assets/js"
+    values:
+      js: true
+  - scope:
+      path: "assets/css"
+    values:
+      css: true
   - scope:
       path: ""
       type: "pages"
