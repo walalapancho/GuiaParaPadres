@@ -95,7 +95,7 @@ hide_feedback: true
 <h4>🌟 <strong>Poblaciones Específicas</strong></h4>
 
 <ul class="content-list">
-  <li><a href="/GuiaParaPadres/pantallas-autismo/">Pantallas y Tecnología para TEA</a> - Guía especializada sobre uso de pantallas para niños en el espectro autista, comunicación alternativa aumentativa (CAA), aplicaciones recomendadas por edad, y precauciones sensoriales específicas</li>
+  <li><a href="/GuiaParaPadres/pantallas-autismo/">Pantallas y Tecnología en el espectro autista</a> - Guía especializada sobre uso de pantallas para niños en el espectro autista, comunicación alternativa aumentativa (CAA), aplicaciones recomendadas por edad, y precauciones sensoriales específicas</li>
 </ul>
 
 </div>
