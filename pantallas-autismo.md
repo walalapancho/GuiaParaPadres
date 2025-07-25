@@ -306,8 +306,8 @@ Nivel 4: Narrativas y comentarios espontáneos
 
 > **Esta guía se actualiza cada 6 meses** con nueva evidencia científica y recomendaciones de expertos.
 
-**Última actualización**: Enero 2024  
-**Próxima revisión**: Julio 2024
+**Última actualización**: Julio 2025  
+**Próxima revisión**: Diciembre 2025
 
 ---
 
