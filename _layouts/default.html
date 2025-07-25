@@ -10,8 +10,8 @@
     
     <main class="page-content" aria-label="Contenido principal">
       <div class="wrapper">
-        <!-- Navegación lateral para páginas largas -->
-        {% if page.toc != false and content contains '<h2' %}
+        <!-- Navegación lateral para páginas largas - SOLO cuando se solicite explícitamente -->
+        {% if page.toc == true and content contains '<h2' %}
           {% include toc.html %}
         {% endif %}
         

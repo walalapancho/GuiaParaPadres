@@ -4,7 +4,6 @@ title: "Inicio"
 description: "Biblioteca integral de recursos sobre seguridad digital familiar para empoderar a padres, educadores y comunidades"
 permalink: /
 hide_feedback: true
-toc: false
 ---
 
 <div class="hero-section">
