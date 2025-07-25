@@ -90,6 +90,20 @@ hide_feedback: true
 
 <div class="content-section">
 
+<h3>🧩 <strong>NECESIDADES ESPECIALES</strong></h3>
+
+<h4>🌟 <strong>Poblaciones Específicas</strong></h4>
+
+<ul class="content-list">
+  <li><a href="/GuiaParaPadres/pantallas-autismo/">Pantallas y Tecnología para TEA</a> - Guía especializada sobre uso de pantallas para niños en el espectro autista, comunicación alternativa aumentativa (CAA), aplicaciones recomendadas por edad, y precauciones sensoriales específicas</li>
+</ul>
+
+</div>
+
+---
+
+<div class="content-section">
+
 <h3>👨‍👩‍👧‍👦 <strong>RECURSOS FAMILIARES Y COMUNITARIOS</strong></h3>
 
 <h4>📖 <strong>Documentos Base</strong></h4>

@@ -48,6 +48,13 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 
 ---
 
+### 🧩 **NECESIDADES ESPECIALES**
+
+#### 🌟 **Poblaciones Específicas**
+- **[`pantallas-autismo.md`](./pantallas-autismo.md)** - Guía especializada sobre uso de pantallas y tecnología para niños en el espectro autista (TEA), incluyendo beneficios de la comunicación alternativa aumentativa (CAA), aplicaciones recomendadas por edad, precauciones sensoriales específicas, y estrategias para evitar dependencia excesiva
+
+---
+
 ### 👨‍👩‍👧‍👦 **RECURSOS FAMILIARES Y COMUNITARIOS**
 
 #### 📖 **Documentos Base**
