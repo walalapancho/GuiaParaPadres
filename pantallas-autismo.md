@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Uso de Pantallas y Tecnología para Niños en el Espectro Autista"
-description: "Guía especializada sobre recomendaciones, beneficios y precauciones del uso de pantallas y tecnología para niños con TEA"
+description: "Guía especializada sobre recomendaciones, beneficios y precauciones del uso de pantallas y tecnología para niños con autismo"
 date: 2025-07-25
 author: "Equipo GuiaParaPadres"
 tags: ["autismo", "TEA", "pantallas", "tecnología", "comunicación alternativa"]
@@ -19,11 +19,11 @@ breadcrumb:
 
 ---
 
-## 🧩 **¿Por qué una guía específica para TEA?**
+## 🧩 **¿Por qué una guía específica para autismo?**
 
 Los niños en el espectro autista tienen **características únicas** que requieren enfoques diferentes para el uso de tecnología:
 
-- **Procesamiento visual mejorado**: Muchos niños con TEA procesan mejor la información visual
+- **Procesamiento visual mejorado**: Muchos niños con autismo procesan mejor la información visual
 - **Intereses específicos intensos**: Pueden desarrollar fascinación por ciertos contenidos
 - **Necesidades de comunicación**: Hasta el 30% tienen limitaciones significativas en el lenguaje verbal
 - **Sensibilidades sensoriales**: Pueden reaccionar diferente a estímulos visuales y auditivos
@@ -76,11 +76,11 @@ Los niños en el espectro autista tienen **características únicas** que requie
 
 ---
 
-## 🧠 **Beneficios Específicos de la Tecnología para TEA**
+## 🧠 **Beneficios Específicos de la Tecnología para infantes en el espectro**
 
 ### 🗣️ **1. Comunicación Alternativa y Aumentativa (CAA)**
 
-> **Dato importante**: El 70-80% de individuos autistas no desarrollan comunicación verbal funcional
+> **Dato importante**: un gran porcentaje de individuos autistas no desarrollan comunicación verbal funcional
 
 **Herramientas Efectivas:**
 - **Tabletas con símbolos PECS**
@@ -241,7 +241,7 @@ Nivel 4: Narrativas y comentarios espontáneos
 
 ### 🧬 **Mecanismos Neurológicos**
 
-**Por qué funciona la tecnología en TEA:**
+**Por qué funciona la tecnología en personas autistas:**
 - **Procesamiento visual preferencial**: Las áreas visuales-espaciales están frecuentemente preservadas
 - **Predictibilidad**: Las interfaces digitales ofrecen consistencia que reduce ansiedad
 - **Control de estímulos**: Permite graduación de input sensorial
@@ -261,7 +261,7 @@ Nivel 4: Narrativas y comentarios espontáneos
 
 ### 🏥 **Profesionales Recomendados**
 
-- **Terapeutas Ocupacionales** especialistas en TEA
+- **Terapeutas Ocupacionales** especialistas en espectro autista
 - **Fonoaudiólogos** con formación en CAA
 - **Psicólogos** especializados en intervención tecnológica
 - **Maestros de Educación Especial** con experiencia en tecnología assistiva
