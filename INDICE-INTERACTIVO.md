@@ -16,7 +16,7 @@ nav_next:
 ## 🚀 Navegación Rápida por Situación
 
 ### 🆘 **¿TIENES UNA EMERGENCIA DIGITAL?**
-**→ [Protocolos de Crisis Digital](./protocolos-crisis-digital.md)** ⚡
+**→ [Protocolos de Crisis Digital](/GuiaParaPadres/casos-uso-especificos/)** ⚡
 *Para cyberbullying, contenido inapropiado, contacto con extraños, o comportamiento digital peligroso*
 
 ---
@@ -33,7 +33,7 @@ MI SITUACIÓN:
 🔘 Necesito límites de tiempo de pantalla apropiados
 🔘 Quiero alternativas de juego sin pantallas
 
-→ EMPIEZA AQUÍ: [Apps Recomendadas 0-3 años](./apps-0-3-anos.md)
+→ EMPIEZA AQUÍ: [Apps Recomendadas 0-3 años](/GuiaParaPadres/apps-0-3-anos/)
 ```
 
 #### **🎈 Preescolar (4-6 años)**
@@ -44,7 +44,7 @@ MI SITUACIÓN:
 🔘 Quiero configurar controles que no pueda cambiar
 🔘 Busco balance entre digital y juego físico
 
-→ EMPIEZA AQUÍ: [Apps Recomendadas 4-6 años](./apps-4-6-anos.md)
+→ EMPIEZA AQUÍ: [Apps Recomendadas 4-6 años](/GuiaParaPadres/apps-4-6-anos/)
 ```
 
 #### **🌱 Escolar (7-10 años)**
@@ -55,7 +55,7 @@ MI SITUACIÓN:
 🔘 Quiere jugar juegos online con desconocidos
 🔘 Sus amigos tienen menos restricciones y se queja
 
-→ EMPIEZA AQUÍ: [Seguridad Online 7-10 años](./SeguridadOnlineParaNinos7-10.md)
+→ EMPIEZA AQUÍ: [Seguridad Online 7-10 años](/GuiaParaPadres/seguridad-7-10-anos/)
 ```
 
 #### **🚀 Preadolescente (11-14 años)**
@@ -66,7 +66,7 @@ MI SITUACIÓN:
 🔘 Encontré mensajes inapropiados en su teléfono
 🔘 Sus calificaciones bajaron desde que tiene smartphone
 
-→ EMPIEZA AQUÍ: [Controles Parentales Adolescentes](./ControlesParentalesAdolescentes.md)
+→ EMPIEZA AQUÍ: [Controles Parentales Adolescentes](/GuiaParaPadres/controles-adolescentes/)
 ```
 
 #### **🎯 Adolescente (15-18 años)**
@@ -77,7 +77,7 @@ MI SITUACIÓN:
 🔘 Necesito prepararlo para independencia digital
 🔘 Problemas de cyberbullying o drama online
 
-→ EMPIEZA AQUÍ: [Seguridad Digital Adolescentes](./SeguridadDigitalAdolescentes.md)
+→ EMPIEZA AQUÍ: [Seguridad Digital Adolescentes](/GuiaParaPadres/seguridad-adolescentes/)
 ```
 
 ---
@@ -88,35 +88,35 @@ MI SITUACIÓN:
 ```
 SELECCIONA TU PROBLEMA ESPECÍFICO:
 🔘 Adicción a un juego específico (6+ horas diarias)
-   → [Casos de Uso: Gaming Excesivo](./casos-uso-especificos.md#gaming-excesivo)
+   → [Casos de Uso: Gaming Excesivo](/GuiaParaPadres/casos-uso-especificos/#gaming-excesivo)
 
 🔘 Gastos no autorizados en juegos
-   → [Configuración Anti-Compras](./ControlesParentalesConsolas.md#bloquear-compras)
+   → [Configuración Anti-Compras](/GuiaParaPadres/controles-consolas/#bloquear-compras)
 
 🔘 Interacciones peligrosas en Roblox/Minecraft
-   → [Seguridad Roblox/Minecraft Padres](./SeguridadRobloxMinecraft_Padres.md)
+   → [Seguridad Roblox/Minecraft Padres](/GuiaParaPadres/SeguridadRobloxMinecraft_Padres/)
 
 🔘 Rabietas extremas cuando terminan límites
-   → [Casos de Uso: Manejo de Berrinches](./casos-uso-especificos.md#manejo-berrinches)
+   → [Casos de Uso: Manejo de Berrinches](/GuiaParaPadres/casos-uso-especificos/#manejo-berrinches)
 
 🔘 Configurar controles en consolas (PS5, Xbox, Switch)
-   → [Controles Parentales Consolas](./ControlesParentalesConsolas.md)
+   → [Controles Parentales Consolas](/GuiaParaPadres/controles-consolas/)
 ```
 
 #### **📱 Redes Sociales**
 ```
 SELECCIONA TU PREOCUPACIÓN:
 🔘 TikTok: Contenido inapropiado o desafíos peligrosos
-   → [Seguridad TikTok](./SeguridadTikTok.md)
+   → [Seguridad TikTok](/GuiaParaPadres/seguridad-tiktok/)
 
 🔘 YouTube: Videos violentos o contenido adulto
-   → [Seguridad YouTube](./SeguridadYouTube.md)
+   → [Seguridad YouTube](/GuiaParaPadres/seguridad-youtube/)
 
 🔘 Instagram/Snapchat: Cyberbullying o contacto con extraños
-   → [Casos de Uso: Cyberbullying](./casos-uso-especificos.md#cyberbullying)
+   → [Casos de Uso: Cyberbullying](/GuiaParaPadres/casos-uso-especificos/#cyberbullying)
 
 🔘 Mi hijo quiere redes sociales pero es muy joven
-   → [Preparación para Redes Sociales](./ControlesParentalesAdolescentes.md#preparacion-redes)
+   → [Preparación para Redes Sociales](/GuiaParaPadres/controles-adolescentes/#preparacion-redes)
 ```
 
 #### **📺 Smart TV y Streaming**
@@ -127,7 +127,7 @@ MI PROBLEMA:
 🔘 Límites de tiempo para TV que realmente funcionen
 🔘 Múltiples perfiles familiares organizados
 
-→ SOLUCIÓN: [Controles Parentales Smart TV](./ControlesParentalesSmartTV.md)
+→ SOLUCIÓN: [Controles Parentales Smart TV](/GuiaParaPadres/controles-smart-tv/)
 ```
 
 #### **🌐 Internet y Navegación**
@@ -138,7 +138,7 @@ MI SITUACIÓN:
 🔘 Necesito monitorear sin ser invasivo
 🔘 Múltiples dispositivos son difíciles de controlar individualmente
 
-→ SOLUCIÓN: [Control Parental Red Hogares](./ControlParentalRedHogares.md)
+→ SOLUCIÓN: [Control Parental Red Hogares](/GuiaParaPadres/control-red-hogares/)
 ```
 
 ---
@@ -153,7 +153,7 @@ MI NECESIDAD:
 🔘 Comunicarme con padres sobre problemas digitales
 🔘 Responder a incidentes de cyberbullying
 
-→ RECURSO: [Guía para Maestros](./GuiaParaMaestros.md)
+→ RECURSO: [Guía para Maestros](/GuiaParaPadres/guia-maestros/)
 ```
 
 #### **🏛️ Administrador Escolar**
@@ -164,7 +164,7 @@ MI OBJETIVO:
 🔘 Manejar crisis de cyberbullying sistemático
 🔘 Capacitar a mi equipo docente
 
-→ RECURSO: [Control Parental Red Escuelas](./ControlParentalRedEscuelas.md)
+→ RECURSO: [Control Parental Red Escuelas](/GuiaParaPadres/control-red-escuelas/)
 ```
 
 #### **👥 Organizador Comunitario**
@@ -175,7 +175,7 @@ QUIERO FACILITAR:
 🔘 Programas de educación comunitaria
 🔘 Materiales take-home para familias
 
-→ RECURSO: [Taller Familiar](./TallerFamiliar.md)
+→ RECURSO: [Taller Familiar](/GuiaParaPadres/taller-familiar/)
 ```
 
 ---
@@ -186,26 +186,26 @@ QUIERO FACILITAR:
 ```
 SELECCIONA TU DISPOSITIVO:
 🔘 iPhone/iPad (iOS)
-   → [Guía Visual iOS](./propuesta-guia-visual-interactiva.md)
+   → [Guía Visual iOS](/GuiaParaPadres/propuesta-guia-visual-interactiva/)
 
 🔘 Android/Samsung
-   → [Controles Android Family Link](./Controles_Parentales.md#android)
+   → [Controles Android Family Link](/GuiaParaPadres/Controles_Parentales/#android)
 
 🔘 Tablet Amazon Fire
-   → [Configuración Específica Fire](./Controles_Parentales.md#amazon-fire)
+   → [Configuración Específica Fire](/GuiaParaPadres/Controles_Parentales/#amazon-fire)
 ```
 
 #### **🖥️ Computadoras**
 ```
 MI SISTEMA:
 🔘 Windows PC
-   → [Controles Windows](./Controles_Parentales.md#windows)
+   → [Controles Windows](/GuiaParaPadres/Controles_Parentales/#windows)
 
 🔘 Mac/MacBook
-   → [Controles macOS](./Controles_Parentales.md#macos)
+   → [Controles macOS](/GuiaParaPadres/Controles_Parentales/#macos)
 
 🔘 Chromebook (escolar)
-   → [Configuración Educativa](./ControlParentalRedEscuelas.md#chromebooks)
+   → [Configuración Educativa](/GuiaParaPadres/control-red-escuelas/#chromebooks)
 ```
 
 #### **🌐 Red y Router**
@@ -217,7 +217,7 @@ MI MARCA DE ROUTER:
 🔘 Linksys
 🔘 No sé qué marca tengo
 
-→ TODAS LAS CONFIGURACIONES: [Control Red Hogares](./ControlParentalRedHogares.md)
+→ TODAS LAS CONFIGURACIONES: [Control Red Hogares](/GuiaParaPadres/control-red-hogares/)
 ```
 
 ---
@@ -233,7 +233,7 @@ MI MARCA DE ROUTER:
 ├── Amenazas de autolesión relacionadas con internet
 ├── Gastos no autorizados mayores ($100+)
 
-→ PROTOCOLO: [Crisis Digital](./protocolos-crisis-digital.md)
+→ PROTOCOLO: [Crisis Digital](/GuiaParaPadres/casos-uso-especificos/)
 → CONTACTOS: [Emergencias por País](#contactos-emergencia)
 ```
 
@@ -245,7 +245,7 @@ MI MARCA DE ROUTER:
 ├── Evasión constante de controles parentales
 ├── Presión social para unirse a plataformas
 
-→ CASOS SIMILARES: [Situaciones Reales](./casos-uso-especificos.md)
+→ CASOS SIMILARES: [Situaciones Reales](/GuiaParaPadres/casos-uso-especificos/)
 ```
 
 ### 🟢 **PREVENCIÓN (Planificación)**
@@ -256,7 +256,7 @@ MI MARCA DE ROUTER:
 ├── Configuración de red familiar completa
 ├── Establecimiento de rutinas digitales saludables
 
-→ GUÍA COMPLETA: [Controles Preventivos](./Controles_Parentales.md)
+→ GUÍA COMPLETA: [Controles Preventivos](/GuiaParaPadres/Controles_Parentales/)
 ```
 
 ---
@@ -265,9 +265,9 @@ MI MARCA DE ROUTER:
 
 ### 🏃‍♂️ **RUTA RÁPIDA (30 minutos)**
 *Para padres que necesitan solución inmediata*
-1. **[Configuración Básica iOS/Android](./propuesta-guia-visual-interactiva.md)** (15 min)
-2. **[Límites de Tiempo Esenciales](./Controles_Parentales.md#limites-tiempo)** (10 min)
-3. **[Verificación de Seguridad](./Controles_Parentales.md#verificacion)** (5 min)
+1. **[Configuración Básica iOS/Android](/GuiaParaPadres/propuesta-guia-visual-interactiva/)** (15 min)
+2. **[Límites de Tiempo Esenciales](/GuiaParaPadres/Controles_Parentales/#limites-tiempo)** (10 min)
+3. **[Verificación de Seguridad](/GuiaParaPadres/Controles_Parentales/#verificacion)** (5 min)
 
 ### 🚶‍♀️ **RUTA COMPLETA (2 horas)**
 *Para protección integral familiar*
@@ -279,11 +279,11 @@ MI MARCA DE ROUTER:
 
 ### 🎓 **RUTA EDUCATIVA (Curso completo)**
 *Para comprensión profunda y implementación sistemática*
-1. **[Fundamentos](./Controles_Parentales.md)** - Conceptos básicos
-2. **[Por Edades](./apps-0-3-anos.md)** - Desarrollo apropiado
-3. **[Por Plataformas](./seguridad-youtube.md)** - Configuraciones específicas
-4. **[Casos Reales](./casos-uso-especificos.md)** - Situaciones complejas
-5. **[Mantenimiento](./content-template.md)** - Actualización continua
+1. **[Fundamentos](/GuiaParaPadres/Controles_Parentales/)** - Conceptos básicos
+2. **[Por Edades](/GuiaParaPadres/apps-0-3-anos/)** - Desarrollo apropiado
+3. **[Por Plataformas](/GuiaParaPadres/seguridad-youtube/)** - Configuraciones específicas
+4. **[Casos Reales](/GuiaParaPadres/casos-uso-especificos/)** - Situaciones complejas
+5. **[Mantenimiento](/GuiaParaPadres/Controles_Parentales/)** - Actualización continua
 
 ---
 
@@ -329,10 +329,10 @@ SELECCIONA LA MÁS IMPORTANTE:
 → Enfócate en: [Seguridad en Comunicaciones](./SeguridadDigitalAdolescentes.md#comunicacion)
 
 🎮 CONTROL DE GAMING
-→ Enfócate en: [Límites de Juegos](./ControlesParentalesConsolas.md)
+→ Enfócate en: [Límites de Juegos](/GuiaParaPadres/controles-consolas/)
 
 📱 MONITOREO GENERAL
-→ Enfócate en: [Herramientas de Supervisión](./Controles_Parentales.md#monitoreo)
+→ Enfócate en: [Herramientas de Supervisión](/GuiaParaPadres/Controles_Parentales/#monitoreo)
 ```
 
 ---
@@ -409,19 +409,19 @@ RECURSOS ADICIONALES:
 ## 🎓 **RECURSOS DE CAPACITACIÓN**
 
 ### 📚 **PARA FAMILIAS**
-- **[Materiales Imprimibles](./controles%20parentales.pdf)** - Versión PDF para uso offline
-- **[Presentación Familiar](./controles%20parentales.pptx)** - Para discusión en casa
-- **[Guía para Niños](./ControlesParaNinos.md)** - Explicación amigable
+- **[Materiales Imprimibles](/GuiaParaPadres/assets/docs/controles-parentales.pdf)** - Versión PDF para uso offline
+- **[Presentación Familiar](/GuiaParaPadres/assets/docs/controles-parentales.pptx)** - Para discusión en casa
+- **[Guía para Niños](/GuiaParaPadres/ControlesParaNinos/)** - Explicación amigable
 
 ### 🏫 **PARA EDUCADORES**
-- **[Currículo por Grados](./GuiaParaMaestros.md#curriculo)** - Integración académica
-- **[Manejo de Crisis](./GuiaParaMaestros.md#crisis)** - Protocolos escolares
-- **[Comunicación con Padres](./GuiaParaMaestros.md#comunicacion)** - Scripts efectivos
+- **[Currículo por Grados](/GuiaParaPadres/guia-maestros/#curriculo)** - Integración académica
+- **[Manejo de Crisis](/GuiaParaPadres/guia-maestros/#crisis)** - Protocolos escolares
+- **[Comunicación con Padres](/GuiaParaPadres/guia-maestros/#comunicacion)** - Scripts efectivos
 
 ### 👥 **PARA COMUNIDADES**
-- **[Talleres Familiares](./TallerFamiliar.md)** - Actividades grupales
-- **[Presentaciones](./Roblox_Minecraft_menores.pptx)** - Material visual
-- **[Recursos Impresos](./ControlesParaNinos.pdf)** - Take-home materials
+- **[Talleres Familiares](/GuiaParaPadres/taller-familiar/)** - Actividades grupales
+- **[Presentaciones](/GuiaParaPadres/Roblox_Minecraft_menores.pptx)** - Material visual
+- **[Recursos Impresos](/GuiaParaPadres/assets/docs/ControlesParaNinos.pptx)** - Take-home materials
 
 ---
 
@@ -449,19 +449,19 @@ REVISIÓN TRIMESTRAL:
 ```
 
 ### 🔗 **ENLACES ÚTILES PARA MANTENIMIENTO**
-- **[Verificador de Enlaces](/.github/workflows/content-freshness.yml)** - Automatización
-- **[Template de Contenido](./.content-template.md)** - Estándares de documentación
-- **[Metadatos de Archivo](./content-metadata.json)** - Información de versiones
+- **[Verificador de Enlaces](https://github.com/walalapancho/GuiaParaPadres)** - Automatización
+- **[Estándares de Documentación](/GuiaParaPadres/Controles_Parentales/)** - Template de contenido
+- **[Información de Versiones](/GuiaParaPadres/fuentes-referencias/)** - Metadatos de archivo
 
 ---
 
 **💡 CONSEJO PRINCIPAL:** Comienza con UNA configuración básica que realmente uses consistentemente, en lugar de configurar todo perfectamente y no mantenerlo.
 
-**⚡ ACCIÓN INMEDIATA:** Si tienes menos de 15 minutos ahora, ve directamente a [Configuración Rápida iOS](./propuesta-guia-visual-interactiva.md) o [Configuración Rápida Android](./Controles_Parentales.md#android).
+**⚡ ACCIÓN INMEDIATA:** Si tienes menos de 15 minutos ahora, ve directamente a [Configuración Rápida iOS](/GuiaParaPadres/propuesta-guia-visual-interactiva/) o [Configuración Rápida Android](/GuiaParaPadres/Controles_Parentales/#android).
 
-**🤝 CONTRIBUYE:** ¿Encontraste una situación que no está cubierta? [Reporta tu caso](https://github.com/tuusuario/ControlesParentales/issues) para ayudar a otras familias.
+**🤝 CONTRIBUYE:** ¿Encontraste una situación que no está cubierta? [Reporta tu caso](https://github.com/walalapancho/GuiaParaPadres/issues) para ayudar a otras familias.
 
 ---
 
-*📅 Última actualización del índice: Julio 2025*
-*🔍 Archivos indexados: 23 documentos | 66,295+ palabras | 5 países cubiertos*
+*📅 Última actualización del índice: Enero 2025*
+*🔍 Archivos indexados: 23 documentos | 900+ páginas de contenido | 5 países cubiertos*
