@@ -320,13 +320,13 @@ NIVEL AVANZADO (3+ respuestas SÍ):
 SELECCIONA LA MÁS IMPORTANTE:
 
 🛡️ PROTECCIÓN DE CONTENIDO
-→ Enfócate en: [Filtrado de Red](./ControlParentalRedHogares.md#filtrado)
+→ Enfócate en: [Filtrado de Red](/GuiaParaPadres/control-red-hogares/#filtrado)
 
 ⏰ LÍMITES DE TIEMPO
-→ Enfócate en: [Configuración de Horarios](./propuesta-guia-visual-interactiva.md#horarios)
+→ Enfócate en: [Configuración de Horarios](/GuiaParaPadres/propuesta-guia-visual-interactiva/#horarios)
 
 👥 INTERACCIONES SOCIALES
-→ Enfócate en: [Seguridad en Comunicaciones](./SeguridadDigitalAdolescentes.md#comunicacion)
+→ Enfócate en: [Seguridad en Comunicaciones](/GuiaParaPadres/seguridad-adolescentes/#comunicacion)
 
 🎮 CONTROL DE GAMING
 → Enfócate en: [Límites de Juegos](/GuiaParaPadres/controles-consolas/)
