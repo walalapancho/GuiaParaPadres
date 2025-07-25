@@ -55,6 +55,7 @@ Los niños en el espectro autista tienen **características únicas** que requie
 - **Pictogram Room**: Realidad aumentada para asociar imágenes reales con pictogramas
 - **PECS Phase III**: Sistema de intercambio de imágenes
 - **Story Creator**: Para crear narrativas sociales personalizadas
+- **ARASAAC**: Plataforma gratuita con más de 40,000 pictogramas para crear tableros de comunicación personalizados
 
 **Para Habilidades Sociales:**
 - **Social Stories**: Apps para crear historias sociales
@@ -85,6 +86,7 @@ Los niños en el espectro autista tienen **características únicas** que requie
 - **Tabletas con símbolos PECS**
 - **Vocalizadores con voz digitalizada**
 - **Apps de comunicación robusta** (core vocabulary + fringe vocabulary)
+- **ARASAAC (Aragonese Portal of Augmentative and Alternative Communication)**: Recurso gratuito con pictogramas en múltiples idiomas, ideal para crear tableros personalizados y secuencias visuales
 
 **Ejemplo de Progreso:**
 ```
@@ -153,10 +155,11 @@ Nivel 4: Narrativas y comentarios espontáneos
 ### 💰 **Opciones de Bajo Costo**
 
 **DIY (Hazlo tú mismo):**
-- **Tableros de comunicación** impresos con pictogramas
+- **Tableros de comunicación** impresos con pictogramas de ARASAAC (descarga gratuita)
 - **Temporizadores visuales** caseros
-- **Schedules visuales** con fotos familiares
+- **Schedules visuales** con fotos familiares y pictogramas ARASAAC
 - **Adaptadores** para tablets (asas, soportes)
+- **Secuencias de rutinas** creadas con el generador de frases de ARASAAC
 
 ### 💎 **Tecnología Avanzada**
 
@@ -273,6 +276,7 @@ Nivel 4: Narrativas y comentarios espontáneos
 - Proloquo2Go (iOS/Android)
 - PECS Phase III (iOS/Android)
 - TouchChat (iOS/Android)
+- ARASAAC (Web/App móvil) - Pictogramas gratuitos y herramientas de creación de tableros
 
 **Habilidades Sociales:**
 - Social Stories Creator (iOS)
@@ -288,7 +292,7 @@ Nivel 4: Narrativas y comentarios espontáneos
 
 - **Autismo Diario**: Últimas investigaciones y recursos
 - **Fundación Orange**: Proyectos tecnológicos para autismo
-- **ARASAAC**: Pictogramas gratuitos para comunicación
+- **ARASAAC**: Portal aragonés de comunicación aumentativa con más de 40,000 pictogramas gratuitos, herramientas de creación de tableros y generador de frases. Compatible con múltiples idiomas
 
 ### 📖 **Literatura Científica Clave**
 
