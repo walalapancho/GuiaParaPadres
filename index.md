@@ -16,7 +16,7 @@ hide_feedback: true
   <p><strong>💻 Código fuente y recursos adicionales disponibles en:</strong> <a href="https://github.com/walalapancho/GuiaParaPadres">https://github.com/walalapancho/GuiaParaPadres</a></p>
 
   <div class="nav-rapida">
-    <a href="/GuiaParaPadres/INDICE-INTERACTIVO/" class="btn-hero primary">🧭 Índice Interactivo</a>
+    <a href="/GuiaParaPadres/indice/" class="btn-hero primary">🧭 Índice Interactivo</a>
     <a href="/GuiaParaPadres/controles-basicos/" class="btn-hero secondary">🚀 Empezar Ahora</a>
   </div>
 </div>
