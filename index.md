@@ -118,6 +118,7 @@ hide_feedback: true
   <li><a href="/GuiaParaPadres/assets/docs/controles-parentales.pdf">Controles parentales.pdf</a> - Versión imprimible de la guía principal para distribución offline</li>
   <li><a href="/GuiaParaPadres/assets/docs/controles-parentales.pptx">Controles parentales.pptx</a> - Presentación profesional para talleres y charlas educativas</li>
   <li><a href="/GuiaParaPadres/assets/docs/ControlesParaNinos.pptx">ControlesParaNinos.pptx</a> - Presentación visual e interactiva diseñada específicamente para explicar seguridad digital a niños</li>
+  <li><a href="/GuiaParaPadres/Roblox_Minecraft_menores.pptx">Roblox_Minecraft_menores.pptx</a> - Presentación especializada sobre seguridad en Roblox y Minecraft para menores de edad</li>
 </ul>
 
 </div>
