@@ -35,8 +35,9 @@ Los niños en el espectro autista tienen **características únicas** que requie
 ### 🧸 **2-5 años (Primera Infancia)**
 
 #### ✅ **Recomendado:**
+
 | Tipo de Contenido | Tiempo Sugerido | Propósito |
-|------------------|-----------------|-----------|
+| --- | --- | --- |
 | **Apps de comunicación** (PECS, Proloquo2Go) | 15-30 min/día | Desarrollo del lenguaje |
 | **Videos educativos estructurados** | 10-15 min/sesión | Aprendizaje de rutinas |
 | **Apps de causa-efecto** | 5-10 min/sesión | Comprensión de relaciones |
