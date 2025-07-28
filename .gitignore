@@ -38,4 +38,8 @@ npm-debug.log*
 
 # Archivos de backup
 *~
-*.bak 
+*.bak
+
+# Configuración local de desarrollo
+#_config_local.yml
+#serve.sh

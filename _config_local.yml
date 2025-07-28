@@ -1,0 +1,33 @@
+# Configuración local para desarrollo
+# Este archivo sobrescribe la configuración de _config.yml para desarrollo local
+
+# URL y baseurl para desarrollo local
+url: "http://localhost:4000"
+baseurl: ""  # Sin baseurl para desarrollo local
+
+# Configuración de desarrollo
+show_drafts: true
+incremental: true
+livereload: true
+
+# Excluir archivos adicionales para desarrollo
+exclude:
+  - LICENSE
+  - README.md
+  - CHANGELOG.md
+  - node_modules
+  - package*.json
+  - yarn.lock
+  - Dockerfile
+  - docker-compose.yml
+  - .git*
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile*
+  - "*.gem"
+  - "*.gemspec"
+  - check_links.py
+  - _config_local.yml
