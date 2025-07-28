@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: "Inicio"
 description: "Biblioteca integral de recursos sobre seguridad digital familiar para empoderar a padres, educadores y comunidades"
 permalink: /

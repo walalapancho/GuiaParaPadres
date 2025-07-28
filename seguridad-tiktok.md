@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: "Guía de Seguridad en TikTok"
 description: "Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad y supervisión por edad"
 permalink: /seguridad-tiktok/

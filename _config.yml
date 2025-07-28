@@ -4,7 +4,7 @@ description: "Recursos integrales para crear entornos digitales seguros para ni�
 baseurl: "/GuiaParaPadres" # dejar vacío si el repo es nombre-usuario.github.io, caso contrario /nombre-repositorio
 url: "https://walalapancho.github.io" # cambiar por tu URL de GitHub Pages
 
-# Configuración de Jekyll - sin tema externo
+# Configuración de Jekyll - con dark-poole theme
 markdown: kramdown
 highlighter: rouge
 plugins:
@@ -12,6 +12,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-redirect-from
+  - jekyll-gist
+
+# Configuración de Sass para el tema
+sass:
+  sass_dir: _sass
+  style: compressed
 
 # Sin tema - solo layout personalizado
 
@@ -81,7 +87,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "default"
+      layout: "default-dark"
       lang: es
 
 # Configuración de redirecciones simplificada

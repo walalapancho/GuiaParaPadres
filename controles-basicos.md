@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: Controles Parentales Básicos
 permalink: /controles-basicos/
 ---

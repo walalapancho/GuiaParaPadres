@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'es' }}" data-theme="dark-poole">
+  {% include head.html %}
+  
+  <body>
+    <!-- Progress bar de lectura -->
+    <div id="reading-progress"></div>
+    
+    <div class="container content">
+      <header class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}/" title="Inicio">{{ site.title }}</a>
+
+          <nav class="nav">
+            <small><a href="{{ site.baseurl }}/indice/">Índice</a></small>
+            <small><a href="{{ site.baseurl }}/controles-basicos/">Empezar</a></small>
+            <small><a href="{{ site.baseurl }}/casos-uso-especificos/">Crisis</a></small>
+            <small><a href="{{ site.baseurl }}/fuentes-referencias/">Fuentes</a></small>
+          </nav>
+        </h3>
+      </header>
+
+      <!-- Breadcrumbs -->
+      {% include breadcrumbs.html %}
+
+      <main class="page-content" aria-label="Contenido principal">
+        <div class="wrapper">
+          <!-- Navegación lateral para páginas largas - SOLO cuando se solicite explícitamente -->
+          {% if page.toc == true and content contains '<h2' %}
+            {% include toc.html %}
+          {% endif %}
+          
+          {{ content }}
+          
+          <!-- Navegación siguiente/anterior -->
+          {% include page-navigation.html %}
+          
+          <!-- Sistema de feedback -->
+          {% unless page.hide_feedback %}
+            {% include feedback.html %}
+          {% endunless %}
+        </div>
+      </main>
+
+      <footer class="footer">
+        <small>
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>
+          {{ site.title }} - Licencia Creative Commons BY-SA 4.0
+        </small>
+      </footer>
+    </div>
+
+    <!-- JavaScript para funcionalidades interactivas -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+    
+    {% if site.ga_analytics %}
+    <script>
+      (function (i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function () {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
+      ga("create", "{{ site.ga_analytics }}", "auto");
+      ga("send", "pageview");
+    </script>
+    {% endif %}
+  </body>
+</html> 

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: "Seguridad Digital para Adolescentes"
 age_group: "13-18"
 description: "Guía directa para adolescentes sobre redes sociales, privacidad, cyberbullying, sexting y preparación para vida digital adulta"

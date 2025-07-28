@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: "Controles Parentales para Consolas"
 description: "Configuración completa de controles parentales en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo"
 permalink: /controles-consolas/

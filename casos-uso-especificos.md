@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: "Casos de Uso Específicos"
 description: "Situaciones reales de familias con soluciones específicas, configuraciones detalladas y protocolos de crisis digital"
 permalink: /casos-uso-especificos/

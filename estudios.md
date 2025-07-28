@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: "Estudios y Evidencia Científica"
 description: "Compilación de estudios científicos y evidencia sobre los efectos del uso de pantallas en el desarrollo de niños de 0-3 años"
 permalink: /estudios/

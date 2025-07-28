@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-dark
 title: "Índice Interactivo"
 description: "Encuentra rápidamente la solución exacta que necesitas según tu situación específica"
 permalink: /indice/
