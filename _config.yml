@@ -93,3 +93,6 @@ defaults:
 # Configuración de redirecciones simplificada
 redirect_from:
   enabled: true
+
+# Google Analytics
+google_analytics: G-D74ZDFPLSE
