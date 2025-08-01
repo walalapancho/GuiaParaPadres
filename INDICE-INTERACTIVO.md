@@ -431,7 +431,7 @@ nav_next:
 
 **💡 CONSEJO PRINCIPAL:** Comienza con UNA configuración básica que realmente uses consistentemente, en lugar de configurar todo perfectamente y no mantenerlo.
 
-**⚡ ACCIÓN INMEDIATA:** Si tienes menos de 15 minutos ahora, ve directamente a [Configuración Rápida iOS](/GuiaParaPadres/propuesta-guia-visual-interactiva/) o [Configuración Rápida Android](/GuiaParaPadres/Controles_Parentales/#android).
+**⚡ ACCIÓN INMEDIATA:** Si tienes menos de 15 minutos ahora, ve directamente a [Configuración Rápida iOS](/GuiaParaPadres/propuesta-guia-visual-interactiva/) o [Configuración Rápida Android](/GuiaParaPadres/controles-basicos/#android).
 
 **🤝 CONTRIBUYE:** ¿Encontraste una situación que no está cubierta? [Reporta tu caso](https://github.com/walalapancho/GuiaParaPadres/issues) para ayudar a otras familias.
 

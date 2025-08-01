@@ -148,7 +148,6 @@ Esta guía te proporcionará los pasos fundamentales para configurar controles p
 
 Si necesitas ayuda adicional:
 1. Contacta soporte técnico del dispositivo
-2. Revisa los [recursos para padres](/GuiaParaPadres/recursos-padres/)
 
 ---
 

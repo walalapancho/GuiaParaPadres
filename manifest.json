@@ -97,7 +97,7 @@
       "name": "Controles Parentales",
       "short_name": "Controles",
       "description": "Configuración básica de controles parentales",
-      "url": "/Controles_Parentales",
+      "url": "/controles-basicos",
       "icons": [
         {
           "src": "/assets/img/shortcut-controls.png",
