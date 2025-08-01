@@ -67,8 +67,8 @@
 ```markdown
 # ANTES (enlaces rotos):
 [🚀 Empezar Ahora](/controles-basicos/)
-[Apps 0-3 años](/apps_recomendadas_0-3.html)
-[Protocolos de Crisis](/casos-uso-especificos.html)
+[Apps 0-3 años](/GuiaParaPadres/apps-0-3-anos/)
+[Protocolos de Crisis](/GuiaParaPadres//casos-uso-especificos/)
 
 # DESPUÉS (enlaces corregidos):
 [🚀 Empezar Ahora](/controles-basicos)
@@ -81,7 +81,7 @@
 # ANTES (enlaces rotos):
 [Controles Básicos](/Controles_Parentales)
 [Seguridad YouTube](/SeguridadYouTube)
-[Apps 0-3](/apps_recomendadas_0-3)
+[Apps 0-3](/GuiaParaPadres/apps-0-3-anos/)
 
 # DESPUÉS (enlaces corregidos):
 [Controles Básicos](/controles-basicos)
@@ -291,7 +291,7 @@ echo "✅ Archivos renombrados exitosamente"
 echo "🔍 Verificando enlaces en archivos markdown..."
 
 # Buscar enlaces rotos comunes
-grep -r "\](/.*\.html)" *.md && echo "❌ Encontrados enlaces .html" || echo "✅ Sin enlaces .html"
+grep -r "\](/GuiaParaPadres//.*\/)" *.md && echo "❌ Encontrados enlaces .html" || echo "✅ Sin enlaces .html"
 grep -r "\](\./.*)" *.md && echo "❌ Encontrados enlaces relativos" || echo "✅ Sin enlaces relativos problemáticos"
 grep -r "\](/[A-Z]" *.md && echo "❌ Encontrados enlaces con mayúsculas" || echo "✅ Sin enlaces con mayúsculas"
 

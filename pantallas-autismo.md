@@ -330,7 +330,7 @@ Nivel 4: Narrativas y comentarios espontáneos
 ---
 
 **¿Necesitas ayuda específica para tu situación?** 
-👉 [Volver al Índice Principal](/indice/) para encontrar recursos adicionales o casos de uso específicos.
+👉 [Volver al Índice Principal](/GuiaParaPadres/indice/) para encontrar recursos adicionales o casos de uso específicos.
 
 **¿Emergencia relacionada con uso problemático de tecnología?**
-👉 Consulta nuestra [Guía de Crisis Digital](/casos-uso-especificos/#crisis-digital) 
+👉 Consulta nuestra [Guía de Crisis Digital](/GuiaParaPadres/casos-uso-especificos/#crisis-digital) 

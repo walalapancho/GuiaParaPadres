@@ -20,7 +20,7 @@ Se han identificado y corregido múltiples enlaces rotos en el sitio de la Bibli
 **Ejemplos Corregidos**:
 ```diff
 - [🧭 Índice Interactivo](INDICE-INTERACTIVO.md)
-+ [🧭 Índice Interactivo](/indice/)
++ [🧭 Índice Interactivo](/GuiaParaPadres/indice/)
 
 - [🚀 Empezar Ahora](controles-basicos.md)
 + [🚀 Empezar Ahora](/controles-basicos/)

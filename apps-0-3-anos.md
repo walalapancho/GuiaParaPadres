@@ -507,4 +507,4 @@ Criar niños que desarrollen una relación saludable con la tecnología desde el
 ---
 
 *Documento creado como parte de la Guía para Padres: Controles Parentales*
-*Para otros grupos de edad, consulta [Apps 4-6 años](/apps-4-6-anos/) y [Apps 7-10 años](/apps-7-10-anos/)* 
+*Para otros grupos de edad, consulta [Apps 4-6 años](/GuiaParaPadres/apps-4-6-anos/) y [Apps 7-10 años](/GuiaParaPadres/apps-7-10-anos/)* 

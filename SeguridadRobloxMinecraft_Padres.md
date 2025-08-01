@@ -469,4 +469,4 @@ Roblox y Minecraft son dos de las plataformas de juego más populares entre niñ
 ---
 
 *Documento creado como parte de la Guía para Padres: Controles Parentales*
-*Para guías complementarias, consulta [Seguridad Roblox y Minecraft - Niños](/SeguridadRobloxMinecraft_Ninos/) y otros documentos de esta colección* 
+*Para guías complementarias, consulta [Seguridad Roblox y Minecraft - Niños](/GuiaParaPadres/SeguridadRobloxMinecraft_Ninos/) y otros documentos de esta colección* 

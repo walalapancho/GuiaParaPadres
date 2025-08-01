@@ -141,15 +141,14 @@ Esta guía te proporcionará los pasos fundamentales para configurar controles p
 ## 📚 Recursos Adicionales
 
 - [Guía Completa de Seguridad Digital](/GuiaParaPadres/)
-- [Control de Red para Hogares](/control-red-hogares/)
-- [Casos de Uso Específicos](/casos-uso-especificos/)
+- [Control de Red para Hogares](/GuiaParaPadres/control-red-hogares/)
+- [Casos de Uso Específicos](/GuiaParaPadres/casos-uso-especificos/)
 
 ## 🤝 Soporte
 
 Si necesitas ayuda adicional:
-1. Consulta nuestra [sección de ayuda](/ayuda/)
-2. Contacta soporte técnico del dispositivo
-3. Revisa los [recursos para padres](/recursos-padres/)
+1. Contacta soporte técnico del dispositivo
+2. Revisa los [recursos para padres](/GuiaParaPadres/recursos-padres/)
 
 ---
 
