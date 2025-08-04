@@ -102,6 +102,7 @@ hide_feedback: true
 
 <ul class="content-list">
   <li><a href="{{ site.baseurl }}/pantallas-autismo/">Pantallas y Tecnología en el espectro autista</a> - Guía especializada sobre uso de pantallas para niños en el espectro autista, comunicación alternativa aumentativa (CAA), aplicaciones recomendadas por edad, y precauciones sensoriales específicas</li>
+  <li><a href="{{ site.baseurl }}/tecnologia-tdah-ninos/">Tecnología y TDAH: Guía para Familias</a> - Estrategias específicas para el uso seguro de tecnología en niños y niñas con TDAH, incluyendo herramientas adaptativas, límites apropiados y recursos especializados</li>
 </ul>
 
 </div>
@@ -242,7 +243,7 @@ hide_feedback: true
 
 <p><strong>📅 Última actualización:</strong> Enero 2025<br>  
 <strong>🌍 Disponible para:</strong> Chile, Perú, Colombia, México, Argentina<br>  
-<strong>📚 Recursos:</strong> 25+ documentos especializados | 900+ páginas de contenido</p>
+<strong>📚 Recursos:</strong> 26+ documentos especializados | 900+ páginas de contenido</p>
 
 <h3>⭐ ¿Te ha sido útil?</h3>
 

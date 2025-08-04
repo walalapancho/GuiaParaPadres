@@ -55,6 +55,7 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 
 #### 🌟 **Poblaciones Específicas**
 - **[`pantallas-autismo.md`](./pantallas-autismo.md)** - Guía especializada sobre uso de pantallas y tecnología para niños en el espectro autista, incluyendo beneficios de la comunicación alternativa aumentativa (CAA), aplicaciones recomendadas por edad, precauciones sensoriales específicas, y estrategias para evitar dependencia excesiva
+- **[`tecnologia-tdah-ninos.md`](./tecnologia-tdah-ninos.md)** - Estrategias específicas para el uso seguro de tecnología en niños y niñas con TDAH, incluyendo herramientas adaptativas, límites apropiados, apps especializadas y recursos especializados
 
 ---
 
@@ -315,4 +316,4 @@ Los usuarios son responsables de:
 
 *📅 Última actualización: Julio 2025*  
 *🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
-*📚 25+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
+*📚 26+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
