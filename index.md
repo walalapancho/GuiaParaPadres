@@ -84,6 +84,12 @@ hide_feedback: true
   <li><a href="{{ site.baseurl }}/seguridad-youtube/">Seguridad en YouTube</a> - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas</li>
 </ul>
 
+<h4>🎰 <strong>Juegos de Azar y Adicciones</strong></h4>
+
+<ul class="content-list">
+  <li><a href="{{ site.baseurl }}/prevencion-ludopatia-adolescentes/">Prevención de Ludopatía en Adolescentes</a> - Guía completa sobre identificación de señales de alerta, herramientas de prevención, recursos de ayuda y estrategias familiares para proteger a adolescentes de juegos de azar online y offline</li>
+</ul>
+
 </div>
 
 ---
@@ -236,7 +242,7 @@ hide_feedback: true
 
 <p><strong>📅 Última actualización:</strong> Enero 2025<br>  
 <strong>🌍 Disponible para:</strong> Chile, Perú, Colombia, México, Argentina<br>  
-<strong>📚 Recursos:</strong> 24+ documentos especializados | 900+ páginas de contenido</p>
+<strong>📚 Recursos:</strong> 25+ documentos especializados | 900+ páginas de contenido</p>
 
 <h3>⭐ ¿Te ha sido útil?</h3>
 

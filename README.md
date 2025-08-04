@@ -46,6 +46,9 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 - **[`seguridad-tiktok.md`](./seguridad-tiktok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
 - **[`seguridad-youtube.md`](./seguridad-youtube.md)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas y curación de contenido
 
+#### 🎰 **Juegos de Azar y Adicciones**
+- **[`prevencion-ludopatia-adolescentes.md`](./prevencion-ludopatia-adolescentes.md)** - Guía completa sobre identificación de señales de alerta, herramientas de prevención, recursos de ayuda y estrategias familiares para proteger a adolescentes de juegos de azar online y offline
+
 ---
 
 ### 🧩 **NECESIDADES ESPECIALES**
@@ -312,4 +315,4 @@ Los usuarios son responsables de:
 
 *📅 Última actualización: Julio 2025*  
 *🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
-*📚 24+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
+*📚 25+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
