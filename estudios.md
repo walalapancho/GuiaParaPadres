@@ -312,7 +312,7 @@ La AAP mantiene sus recomendaciones actualizadas sobre [tiempo de pantalla para 
 
 **Esta página se actualiza regularmente** con la evidencia científica más reciente. La investigación sobre el impacto de las pantallas en el desarrollo infantil continúa evolucionando, y nuevos estudios proporcionan constantemente información valiosa para padres, educadores y profesionales de la salud.
 
-**Última actualización:** Julio 2025
+**Última actualización:** Agosto 2025
 
 ---
 

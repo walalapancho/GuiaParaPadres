@@ -314,6 +314,6 @@ Los usuarios son responsables de:
 
 ---
 
-*📅 Última actualización: Julio 2025*  
+*📅 Última actualización: Agosto 2025*  
 *🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
 *📚 26+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*

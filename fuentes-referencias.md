@@ -1265,5 +1265,5 @@ POLICY DEVELOPMENT:
 ---
 
 *Documento creado como parte de la Biblioteca Completa de Seguridad Digital Familiar*  
-*Última actualización: Julio 2025*  
+*Última actualización: Agosto 2025*  
 *Total de referencias: 100+ organizaciones, servicios y recursos especializados* 

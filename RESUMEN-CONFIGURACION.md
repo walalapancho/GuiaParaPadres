@@ -183,5 +183,5 @@ Tu biblioteca de seguridad digital ahora tendrá alcance global a través de Git
 
 ---
 
-*📅 Configuración completada: Julio 2025*  
+*📅 Configuración completada: Agosto 2025*  
 *🔧 Configurado para deploy automático con Jekyll + GitHub Actions* 

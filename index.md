@@ -143,7 +143,7 @@ Este trabajo está licenciado bajo Creative Commons BY-SA 4.0 - ¡libre para usa
 
 ### 📊 Información del Proyecto
 
-**📅 Última actualización:** Enero 2025  
+**📅 Última actualización:** Agosto 2025  
 **🌍 Disponible para:** Chile, Perú, Colombia, México, Argentina  
 **📚 Recursos:** 26+ documentos especializados | 900+ páginas de contenido
 
