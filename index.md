@@ -159,6 +159,20 @@ hide_feedback: true
 
 ---
 
+<div class="content-section">
+
+<h3>🤖 <strong>RECURSOS DE INTELIGENCIA ARTIFICIAL</strong></h3>
+
+<h4>📚 <strong>Apoyo Educativo</strong></h4>
+
+<ul class="content-list">
+  <li><a href="{{ site.baseurl }}/uso-de-ia-para-tareas/">Uso de IA para Apoyar Tareas Escolares</a> - Guía completa para padres sobre cómo usar herramientas de IA gratuitas (ChatGPT, Claude, Copilot) para entender y explicar tareas escolares a los hijos, incluyendo mejores prácticas, ejemplos prácticos y plan de acción semanal</li>
+</ul>
+
+</div>
+
+---
+
 <h2>🆘 ¿Tienes una Emergencia Digital?</h2>
 
 <div class="content-section" style="border-left-color: var(--accent-color); background: rgba(220, 38, 38, 0.05);">
@@ -222,7 +236,7 @@ hide_feedback: true
 
 <p><strong>📅 Última actualización:</strong> Enero 2025<br>  
 <strong>🌍 Disponible para:</strong> Chile, Perú, Colombia, México, Argentina<br>  
-<strong>📚 Recursos:</strong> 23+ documentos especializados | 900+ páginas de contenido</p>
+<strong>📚 Recursos:</strong> 24+ documentos especializados | 900+ páginas de contenido</p>
 
 <h3>⭐ ¿Te ha sido útil?</h3>
 
