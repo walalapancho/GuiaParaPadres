@@ -177,19 +177,19 @@ nav_next:
    → [Guía Visual iOS](/GuiaParaPadres/propuesta-guia-visual-interactiva/)
 
 - 🔘 Android/Samsung  
-   → [Controles Android Family Link](/GuiaParaPadres/Controles_Parentales/#android)
+   → [Controles Android Family Link](/GuiaParaPadres/controles-basicos/#android)
 
 - 🔘 Tablet Amazon Fire  
-   → [Configuración Específica Fire](/GuiaParaPadres/Controles_Parentales/#amazon-fire)
+   → [Configuración Específica Fire](/GuiaParaPadres/controles-basicos/#amazon-fire)
 
 #### **🖥️ Computadoras**
 
 **MI SISTEMA:**
 - 🔘 Windows PC  
-   → [Controles Windows](/GuiaParaPadres/Controles_Parentales/#windows)
+   → [Controles Windows](/GuiaParaPadres/controles-basicos/#windows)
 
 - 🔘 Mac/MacBook  
-   → [Controles macOS](/GuiaParaPadres/Controles_Parentales/#macos)
+   → [Controles macOS](/GuiaParaPadres/controles-basicos/#macos)
 
 - 🔘 Chromebook (escolar)  
    → [Configuración Educativa](/GuiaParaPadres/control-red-escuelas/#chromebooks)
@@ -239,7 +239,7 @@ nav_next:
 - Configuración de red familiar completa
 - Establecimiento de rutinas digitales saludables
 
-**→ GUÍA COMPLETA: [Controles Preventivos](/GuiaParaPadres/Controles_Parentales/)**
+**→ GUÍA COMPLETA: [Controles Preventivos](/GuiaParaPadres/controles-basicos/)**
 
 ---
 
@@ -248,8 +248,8 @@ nav_next:
 ### 🏃‍♂️ **RUTA RÁPIDA (30 minutos)**
 *Para padres que necesitan solución inmediata*
 1. **[Configuración Básica iOS/Android](/GuiaParaPadres/propuesta-guia-visual-interactiva/)** (15 min)
-2. **[Límites de Tiempo Esenciales](/GuiaParaPadres/Controles_Parentales/#limites-tiempo)** (10 min)
-3. **[Verificación de Seguridad](/GuiaParaPadres/Controles_Parentales/#verificacion)** (5 min)
+2. **[Límites de Tiempo Esenciales](/GuiaParaPadres/controles-basicos/#limites-tiempo)** (10 min)
+3. **[Verificación de Seguridad](/GuiaParaPadres/controles-basicos/#verificacion)** (5 min)
 
 ### 🚶‍♀️ **RUTA COMPLETA (2 horas)**
 *Para protección integral familiar*
@@ -261,11 +261,11 @@ nav_next:
 
 ### 🎓 **RUTA EDUCATIVA (Curso completo)**
 *Para comprensión profunda y implementación sistemática*
-1. **[Fundamentos](/GuiaParaPadres/Controles_Parentales/)** - Conceptos básicos
+1. **[Fundamentos](/GuiaParaPadres/controles-basicos/)** - Conceptos básicos
 2. **[Por Edades](/GuiaParaPadres/apps-0-3-anos/)** - Desarrollo apropiado
 3. **[Por Plataformas](/GuiaParaPadres/seguridad-youtube/)** - Configuraciones específicas
 4. **[Casos Reales](/GuiaParaPadres/casos-uso-especificos/)** - Situaciones complejas
-5. **[Mantenimiento](/GuiaParaPadres/Controles_Parentales/)** - Actualización continua
+5. **[Mantenimiento](/GuiaParaPadres/controles-basicos/)** - Actualización continua
 
 ---
 
@@ -313,7 +313,7 @@ nav_next:
 → Enfócate en: [Límites de Juegos](/GuiaParaPadres/controles-consolas/)
 
 **📱 MONITOREO GENERAL**  
-→ Enfócate en: [Herramientas de Supervisión](/GuiaParaPadres/Controles_Parentales/#monitoreo)
+→ Enfócate en: [Herramientas de Supervisión](/GuiaParaPadres/controles-basicos/#monitoreo)
 
 ---
 
@@ -424,7 +424,7 @@ nav_next:
 
 ### 🔗 **ENLACES ÚTILES PARA MANTENIMIENTO**
 - **[Verificador de Enlaces](https://github.com/walalapancho/GuiaParaPadres)** - Automatización
-- **[Estándares de Documentación](/GuiaParaPadres/Controles_Parentales/)** - Template de contenido
+- **[Estándares de Documentación](/GuiaParaPadres/controles-basicos/)** - Template de contenido
 - **[Información de Versiones](/GuiaParaPadres/fuentes-referencias/)** - Metadatos de archivo
 
 ---
