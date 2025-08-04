@@ -1,5 +1,5 @@
 # Configuración del sitio para GitHub Pages
-title: "Biblioteca Completa de Seguridad Digital Familiar"
+title: "Recursos de Seguridad Digital Familiar"
 description: "Recursos integrales para crear entornos digitales seguros para niños y adolescentes"
 baseurl: "/GuiaParaPadres" # dejar vacío si el repo es nombre-usuario.github.io, caso contrario /nombre-repositorio
 url: "https://walalapancho.github.io" # cambiar por tu URL de GitHub Pages
@@ -30,7 +30,7 @@ timezone: America/Santiago
 
 # Metadatos del sitio
 author:
-  name: "Biblioteca de Seguridad Digital"
+  name: "Recursos de Seguridad Digital"
   email: ""
 
 # SEO y redes sociales

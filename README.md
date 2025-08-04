@@ -1,4 +1,4 @@
-# 🛡️ Biblioteca Completa de Seguridad Digital Familiar
+# 🛡️ Recursos de Seguridad Digital Familiar
 
 > **📖 Este es el código fuente del proyecto**  
 > **🌐 Sitio web accesible y navegable en: [https://walalapancho.github.io/GuiaParaPadres/](https://walalapancho.github.io/GuiaParaPadres/)**
@@ -245,7 +245,7 @@ Este trabajo está licenciado bajo la [Creative Commons Attribution-ShareAlike 4
 
 ### **🔗 Cómo Citar:**
 ```
-"Biblioteca Completa de Seguridad Digital Familiar" está licenciada bajo 
+"Recursos de Seguridad Digital Familiar" está licenciada bajo 
 CC BY-SA 4.0. Disponible en: https://github.com/[tu-usuario]/ControlesParentales
 ```
 
