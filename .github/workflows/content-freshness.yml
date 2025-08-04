@@ -251,7 +251,7 @@ jobs:
           EOF
 
       - name: Upload reports as artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: content-freshness-reports
