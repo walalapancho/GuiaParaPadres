@@ -67,7 +67,7 @@ hide_feedback: true
   <li><a href="{{ site.baseurl }}/controles-consolas/">Controles en consolas</a> - Configuración completa en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo</li>
   <li><a href="{{ site.baseurl }}/controles-smart-tv/">Smart TV y streaming</a> - Guía exhaustiva para Smart TVs (Roku, Apple TV, Fire TV, Chromecast), Netflix/Disney+, y supervisión familiar</li>
   <li><a href="{{ site.baseurl }}/SeguridadRobloxMinecraft_Padres/">Seguridad Roblox/Minecraft - Padres</a> - Guía exhaustiva sobre riesgos específicos, configuraciones de seguridad paso a paso, y estrategias de supervisión</li>
-  <li><a href="{{ site.baseurl }}/SeguridadRobloxMinecraft_Ninos/">Seguridad Roblox/Minecraft - Niños</a> - Reglas de seguridad explicadas de forma amigable y comprensible para niños</li>
+  <li><a href="{{ site.baseurl }}/SeguridadRobloxMinecraft_Niños/">Seguridad Roblox/Minecraft - Niños</a> - Reglas de seguridad explicadas de forma amigable y comprensible para niños</li>
 </ul>
 
 <h4>🌐 <strong>Infraestructura de Red</strong></h4>

@@ -62,7 +62,7 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 ### 👨‍👩‍👧‍👦 **RECURSOS FAMILIARES Y COMUNITARIOS**
 
 #### 📖 **Documentos Base**
-- **[`controles-basicos.md`](./controles-basicos.md)** - Guía fundacional con conceptos básicos, herramientas generales, y mejores prácticas de supervisión digital
+- **[`Controles_Parentales.md`](./Controles_Parentales.md)** - Guía fundacional con conceptos básicos, herramientas generales, y mejores prácticas de supervisión digital
 - **[`ControlesParaNinos.md`](./ControlesParaNinos.md)** - Explicación de controles parentales dirigida directamente a niños, con lenguaje sencillo y amigable para generar comprensión y colaboración
 
 #### 🎓 **Recursos Educativos**
@@ -166,7 +166,7 @@ Los recursos están adaptados para uso inmediato en estos países con números d
 3. Aplicar protocolos de crisis según severidad
 
 #### 🎯 **Configuración Preventiva**
-1. Comenzar con **[`controles-basicos.md`](./controles-basicos.md)** para conceptos básicos
+1. Comenzar con **[`Controles_Parentales.md`](./Controles_Parentales.md)** para conceptos básicos
 2. Implementar **[`control-red-hogares.md`](./control-red-hogares.md)** como base de protección universal
 3. Seleccionar guía específica por edad del niño
 4. Consultar guías por plataforma según uso familiar (consolas, Smart TV, redes sociales)

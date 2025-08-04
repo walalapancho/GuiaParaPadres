@@ -2,7 +2,7 @@
 layout: default-dark
 title: "Seguridad Roblox y Minecraft - Niños"
 description: "Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible"
-permalink: /SeguridadRobloxMinecraft_Ninos/
+permalink: /SeguridadRobloxMinecraft_Niños/
 ---
 
 # 🎮 ¡Guía de Seguridad en Roblox y Minecraft para Niños!
