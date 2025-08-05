@@ -33,55 +33,55 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ### **👶 Niños Pequeños (2-5 años)**
 
 #### **Apps de Baile y Movimiento:**
-- **GoNoodle Kids** - Videos de baile y movimiento para niños
-- **Cosmic Kids Yoga** - Yoga adaptado para niños con historias
-- **Super Simple Songs** - Canciones con movimientos y baile
-- **The Wiggles** - Música y baile interactivo
+- **GoNoodle Kids** (iOS/Android, Gratuita con suscripción premium) - Videos de baile y movimiento para niños
+- **Cosmic Kids Yoga** (iOS/Android, Gratuita con suscripción premium) - Yoga adaptado para niños con historias
+- **Super Simple Songs** (iOS/Android, Gratuita) - Canciones con movimientos y baile
+- **The Wiggles** (iOS/Android, Gratuita con compras in-app) - Música y baile interactivo
 
 #### **Apps de Juegos Activos:**
-- **Animal Jam** - Juegos que requieren movimiento para desbloquear contenido
-- **Pokémon GO** - Caminar para encontrar Pokémon (con supervisión)
-- **Just Dance Now** - Baile con canciones populares
+- **Animal Jam** (iOS/Android, Gratuita con suscripción premium) - Juegos que requieren movimiento para desbloquear contenido
+- **Pokémon GO** (iOS/Android, Gratuita con compras in-app) - Caminar para encontrar Pokémon (con supervisión)
+- **Just Dance Now** (iOS/Android, Gratuita con suscripción premium) - Baile con canciones populares
 
 ### **🎮 Escolares (6-10 años)**
 
 #### **Apps de Fitness Gamificado:**
-- **Zombies, Run!** - Correr mientras escuchas historias de zombies
-- **Fitbit Family** - Seguimiento de actividad física familiar
-- **Sworkit Kids** - Ejercicios adaptados para niños
-- **Nike Training Club Kids** - Rutinas de ejercicio divertidas
+- **Zombies, Run!** (iOS/Android, Gratuita con suscripción premium) - Correr mientras escuchas historias de zombies
+- **Fitbit Family** (iOS/Android, Requiere dispositivo Fitbit) - Seguimiento de actividad física familiar
+- **Sworkit Kids** (iOS/Android, Gratuita con suscripción premium) - Ejercicios adaptados para niños
+- **Nike Training Club Kids** (iOS/Android, Gratuita) - Rutinas de ejercicio divertidas
 
 #### **Apps de Deportes:**
-- **HomeCourt** - Entrenamiento de baloncesto con IA
-- **DribbleUp** - Entrenamiento de fútbol con pelota inteligente
-- **Tennis Coach** - Entrenamiento de tenis con análisis de movimiento
+- **HomeCourt** (iOS/Android, Gratuita con suscripción premium) - Entrenamiento de baloncesto con IA
+- **DribbleUp** (iOS/Android, Requiere pelota inteligente) - Entrenamiento de fútbol con pelota inteligente
+- **Tennis Coach** (iOS/Android, Gratuita con suscripción premium) - Entrenamiento de tenis con análisis de movimiento
 
 ### **🏃‍♂️ Preadolescentes (11-13 años)**
 
 #### **Apps de Entrenamiento:**
-- **7 Minute Workout** - Rutinas cortas y efectivas
-- **Nike Run Club** - Correr con entrenamiento personalizado
-- **Strava** - Seguimiento de actividades al aire libre
-- **MyFitnessPal** - Seguimiento de nutrición y ejercicio
+- **7 Minute Workout** (iOS/Android, Gratuita con suscripción premium) - Rutinas cortas y efectivas
+- **Nike Run Club** (iOS/Android, Gratuita) - Correr con entrenamiento personalizado
+- **Strava** (iOS/Android, Gratuita con suscripción premium) - Seguimiento de actividades al aire libre
+- **MyFitnessPal** (iOS/Android, Gratuita con suscripción premium) - Seguimiento de nutrición y ejercicio
 
 #### **Apps de Deportes Específicos:**
-- **HomeCourt** - Baloncesto con análisis de tiro
-- **DribbleUp** - Fútbol con pelota inteligente
-- **Tennis Coach** - Tenis con análisis de técnica
+- **HomeCourt** (iOS/Android, Gratuita con suscripción premium) - Baloncesto con análisis de tiro
+- **DribbleUp** (iOS/Android, Requiere pelota inteligente) - Fútbol con pelota inteligente
+- **Tennis Coach** (iOS/Android, Gratuita con suscripción premium) - Tenis con análisis de técnica
 
 ### **💪 Adolescentes (14-18 años)**
 
 #### **Apps de Entrenamiento Avanzado:**
-- **Freeletics** - Entrenamiento de alta intensidad
-- **FitOn** - Clases de fitness en vivo
-- **Peloton** - Ciclismo y cardio en casa
-- **Nike Training Club** - Rutinas profesionales
+- **Freeletics** (iOS/Android, Gratuita con suscripción premium) - Entrenamiento de alta intensidad
+- **FitOn** (iOS/Android, Gratuita con suscripción premium) - Clases de fitness en vivo
+- **Peloton** (iOS/Android, Requiere suscripción mensual) - Ciclismo y cardio en casa
+- **Nike Training Club** (iOS/Android, Gratuita) - Rutinas profesionales
 
 #### **Apps de Seguimiento:**
-- **MyFitnessPal** - Nutrición y ejercicio
-- **Strava** - Actividades al aire libre
-- **Fitbit** - Seguimiento de actividad y sueño
-- **Garmin Connect** - Para usuarios de dispositivos Garmin
+- **MyFitnessPal** (iOS/Android, Gratuita con suscripción premium) - Nutrición y ejercicio
+- **Strava** (iOS/Android, Gratuita con suscripción premium) - Actividades al aire libre
+- **Fitbit** (iOS/Android, Requiere dispositivo Fitbit) - Seguimiento de actividad y sueño
+- **Garmin Connect** (iOS/Android, Requiere dispositivo Garmin) - Para usuarios de dispositivos Garmin
 
 ---
 
