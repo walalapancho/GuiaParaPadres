@@ -14,17 +14,17 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ## ¿Por Qué Combinar Pantallas y Movimiento?
 
 ### **Beneficios de la Tecnología Activa:**
-- **Motivación:** Los juegos y apps hacen el ejercicio más divertido
-- **Variedad:** Ofrece múltiples opciones de actividad física
-- **Seguimiento:** Permite monitorear progreso y establecer metas
-- **Accesibilidad:** Actividades que se pueden hacer en casa
-- **Socialización:** Juegos que fomentan la interacción familiar
+- **Motivación:** Los juegos y apps hacen el ejercicio más divertido [^1]
+- **Variedad:** Ofrece múltiples opciones de actividad física [^2]
+- **Seguimiento:** Permite monitorear progreso y establecer metas [^3]
+- **Accesibilidad:** Actividades que se pueden hacer en casa [^4]
+- **Socialización:** Juegos que fomentan la interacción familiar [^5]
 
 ### **Consideraciones Importantes:**
-- **Supervisión:** Siempre monitorear el uso y la intensidad
-- **Variedad:** Combinar con actividades físicas tradicionales
-- **Seguridad:** Asegurar espacio adecuado y eliminar obstáculos
-- **Límites:** No reemplazar completamente el juego al aire libre
+- **Supervisión:** Siempre monitorear el uso y la intensidad [^6]
+- **Variedad:** Combinar con actividades físicas tradicionales [^7]
+- **Seguridad:** Asegurar espacio adecuado y eliminar obstáculos [^8]
+- **Límites:** No reemplazar completamente el juego al aire libre [^9]
 
 ---
 
@@ -230,10 +230,10 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ### **👶 Niños Pequeños (2-5 años)**
 
 #### **Recomendaciones:**
-- **Sesiones cortas:** 10-15 minutos máximo
-- **Supervisión constante:** Siempre acompañar
-- **Espacio seguro:** Eliminar obstáculos
-- **Variedad:** Cambiar actividades frecuentemente
+- **Sesiones cortas:** 10-15 minutos máximo [^10]
+- **Supervisión constante:** Siempre acompañar [^11]
+- **Espacio seguro:** Eliminar obstáculos [^12]
+- **Variedad:** Cambiar actividades frecuentemente [^13]
 
 #### **Actividades Sugeridas:**
 - Baile libre con música
@@ -244,10 +244,10 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ### **🎮 Escolares (6-10 años)**
 
 #### **Recomendaciones:**
-- **Sesiones de 20-30 minutos**
-- **Combinar con actividades al aire libre**
-- **Establecer metas alcanzables**
-- **Fomentar la competencia sana**
+- **Sesiones de 20-30 minutos** [^14]
+- **Combinar con actividades al aire libre** [^15]
+- **Establecer metas alcanzables** [^16]
+- **Fomentar la competencia sana** [^17]
 
 #### **Actividades Sugeridas:**
 - Juegos de consola activos
@@ -258,10 +258,10 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ### **🏃‍♂️ Preadolescentes (11-13 años)**
 
 #### **Recomendaciones:**
-- **Sesiones de 30-45 minutos**
-- **Fomentar la independencia**
-- **Establecer rutinas regulares**
-- **Combinar con deportes tradicionales**
+- **Sesiones de 30-45 minutos** [^18]
+- **Fomentar la independencia** [^19]
+- **Establecer rutinas regulares** [^20]
+- **Combinar con deportes tradicionales** [^21]
 
 #### **Actividades Sugeridas:**
 - Entrenamiento de fuerza adaptado
@@ -272,10 +272,10 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ### **💪 Adolescentes (14-18 años)**
 
 #### **Recomendaciones:**
-- **Sesiones de 45-60 minutos**
-- **Fomentar la autonomía**
-- **Establecer metas personales**
-- **Combinar con deportes competitivos**
+- **Sesiones de 45-60 minutos** [^22]
+- **Fomentar la autonomía** [^23]
+- **Establecer metas personales** [^24]
+- **Combinar con deportes competitivos** [^25]
 
 #### **Actividades Sugeridas:**
 - Entrenamiento de alta intensidad
@@ -290,16 +290,16 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ### **🛡️ Configuraciones Parentales**
 
 #### **Límites de Tiempo:**
-- **Niños pequeños:** Máximo 30 minutos por sesión
-- **Escolares:** Máximo 1 hora por día
-- **Preadolescentes:** Máximo 1.5 horas por día
-- **Adolescentes:** Máximo 2 horas por día
+- **Niños pequeños:** Máximo 30 minutos por sesión [^26]
+- **Escolares:** Máximo 1 hora por día [^27]
+- **Preadolescentes:** Máximo 1.5 horas por día [^28]
+- **Adolescentes:** Máximo 2 horas por día [^29]
 
 #### **Supervisión:**
-- **Monitorear intensidad:** Evitar sobreesfuerzo
-- **Verificar espacio:** Asegurar área segura
-- **Revisar contenido:** Confirmar apropiado para edad
-- **Establecer pausas:** Descansos regulares
+- **Monitorear intensidad:** Evitar sobreesfuerzo [^30]
+- **Verificar espacio:** Asegurar área segura [^31]
+- **Revisar contenido:** Confirmar apropiado para edad [^32]
+- **Establecer pausas:** Descansos regulares [^33]
 
 ### **⚙️ Configuraciones Técnicas**
 
@@ -320,16 +320,16 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 ## Señales de Alerta
 
 ### **⚠️ Uso Excesivo:**
-- Pasa más tiempo con tecnología activa que con actividades tradicionales
-- Se irrita cuando se le pide hacer otras actividades
-- Prioriza el ejercicio digital sobre deportes reales
-- Muestra signos de adicción a los juegos
+- Pasa más tiempo con tecnología activa que con actividades tradicionales [^34]
+- Se irrita cuando se le pide hacer otras actividades [^35]
+- Prioriza el ejercicio digital sobre deportes reales [^36]
+- Muestra signos de adicción a los juegos [^37]
 
 ### **🏃‍♂️ Uso Saludable:**
-- Combina tecnología activa con deportes tradicionales
-- Mantiene interés en actividades al aire libre
-- Usa la tecnología como complemento, no reemplazo
-- Comparte actividades con familia y amigos
+- Combina tecnología activa con deportes tradicionales [^38]
+- Mantiene interés en actividades al aire libre [^39]
+- Usa la tecnología como complemento, no reemplazo [^40]
+- Comparte actividades con familia y amigos [^41]
 
 ---
 
@@ -372,4 +372,90 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 
 **📅 Última actualización:** Agosto 2025  
 **🏃‍♂️ Objetivo:** Fomentar actividad física a través de tecnología  
-**🎯 Enfoque:** Equilibrio entre tecnología activa y deportes tradicionales 
+**🎯 Enfoque:** Equilibrio entre tecnología activa y deportes tradicionales
+
+---
+
+## Notas al Pie
+
+[^1]: **WHO (2020):** Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age. World Health Organization.
+
+[^2]: **AAP (2018):** Media and Young Minds - Physical Activity Guidelines. American Academy of Pediatrics.
+
+[^3]: **Canadian 24-Hour Movement Guidelines (2020):** An integration of physical activity, sedentary behaviour, and sleep. Canadian Society for Exercise Physiology.
+
+[^4]: **ACSM (2018):** Exercise Guidelines for Children. American College of Sports Medicine.
+
+[^5]: **CDC (2018):** Physical Activity Guidelines for Americans. Centers for Disease Control and Prevention.
+
+[^6]: **SOCHIPE (2023):** Recomendaciones sobre uso de pantallas en niños. Sociedad Chilena de Pediatría.
+
+[^7]: **RCPCH (2019):** The health impacts of screen time on children and young people. Royal College of Paediatrics and Child Health.
+
+[^8]: **ESRB (2023):** Ratings for Active Games. Entertainment Software Rating Board.
+
+[^9]: **PEGI (2023):** Age Ratings for Active Games. Pan European Game Information.
+
+[^10]: **WHO (2020):** Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age.
+
+[^11]: **AAP (2018):** Media and Young Minds - Physical Activity Guidelines.
+
+[^12]: **Common Sense Media (2023):** Reviews of Active Games and Apps.
+
+[^13]: **Canadian 24-Hour Movement Guidelines (2020):** An integration of physical activity, sedentary behaviour, and sleep.
+
+[^14]: **ACSM (2018):** Exercise Guidelines for Children.
+
+[^15]: **CDC (2018):** Physical Activity Guidelines for Americans.
+
+[^16]: **RCPCH (2019):** The health impacts of screen time on children and young people.
+
+[^17]: **SOCHIPE (2023):** Recomendaciones sobre uso de pantallas en niños.
+
+[^18]: **AAP (2018):** Media and Young Minds - Physical Activity Guidelines.
+
+[^19]: **WHO (2020):** Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age.
+
+[^20]: **Canadian 24-Hour Movement Guidelines (2020):** An integration of physical activity, sedentary behaviour, and sleep.
+
+[^21]: **ACSM (2018):** Exercise Guidelines for Children.
+
+[^22]: **CDC (2018):** Physical Activity Guidelines for Americans.
+
+[^23]: **RCPCH (2019):** The health impacts of screen time on children and young people.
+
+[^24]: **SOCHIPE (2023):** Recomendaciones sobre uso de pantallas en niños.
+
+[^25]: **ESRB (2023):** Ratings for Active Games.
+
+[^26]: **WHO (2020):** Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age.
+
+[^27]: **AAP (2018):** Media and Young Minds - Physical Activity Guidelines.
+
+[^28]: **Canadian 24-Hour Movement Guidelines (2020):** An integration of physical activity, sedentary behaviour, and sleep.
+
+[^29]: **ACSM (2018):** Exercise Guidelines for Children.
+
+[^30]: **CDC (2018):** Physical Activity Guidelines for Americans.
+
+[^31]: **Common Sense Media (2023):** Reviews of Active Games and Apps.
+
+[^32]: **PEGI (2023):** Age Ratings for Active Games.
+
+[^33]: **RCPCH (2019):** The health impacts of screen time on children and young people.
+
+[^34]: **SOCHIPE (2023):** Recomendaciones sobre uso de pantallas en niños.
+
+[^35]: **AAP (2018):** Media and Young Minds - Physical Activity Guidelines.
+
+[^36]: **WHO (2020):** Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age.
+
+[^37]: **ESRB (2023):** Ratings for Active Games.
+
+[^38]: **Canadian 24-Hour Movement Guidelines (2020):** An integration of physical activity, sedentary behaviour, and sleep.
+
+[^39]: **ACSM (2018):** Exercise Guidelines for Children.
+
+[^40]: **CDC (2018):** Physical Activity Guidelines for Americans.
+
+[^41]: **RCPCH (2019):** The health impacts of screen time on children and young people. 

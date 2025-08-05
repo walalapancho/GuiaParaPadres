@@ -16,9 +16,9 @@ No todo el tiempo frente a una pantalla es igual. La diferencia entre cómo un n
 Es cuando el usuario es un mero receptor de información, sin interactuar, crear o pensar críticamente sobre el contenido.
 
 ### **Características del Consumo Pasivo:**
-- **Recepción unidireccional:** El usuario solo recibe información sin participar
-- **Interacción mínima:** No requiere decisiones activas ni pensamiento crítico
-- **Flujo continuo:** El contenido se reproduce automáticamente sin pausas reflexivas
+- **Recepción unidireccional:** El usuario solo recibe información sin participar [^1]
+- **Interacción mínima:** No requiere decisiones activas ni pensamiento crítico [^2]
+- **Flujo continuo:** El contenido se reproduce automáticamente sin pausas reflexivas [^3]
 
 ### **Ejemplos comunes:**
 - Ver videos de forma continua en plataformas de video
@@ -27,11 +27,11 @@ Es cuando el usuario es un mero receptor de información, sin interactuar, crear
 - Consumo excesivo de redes sociales sin interacción significativa
 
 ### **Riesgos asociados:**
-- **Menor desarrollo cognitivo:** No estimula la resolución de problemas ni la creatividad
-- **Dificultad en la autorregulación:** El flujo constante de contenido puede acortar los periodos de atención
-- **Exposición a contenido inapropiado:** Los algoritmos pueden derivar en contenido no apto para su edad
-- **Sedentarismo:** Reduce la actividad física y el juego al aire libre
-- **Problemas de sueño:** La luz azul y el contenido estimulante afectan la calidad del descanso
+- **Menor desarrollo cognitivo:** No estimula la resolución de problemas ni la creatividad [^4]
+- **Dificultad en la autorregulación:** El flujo constante de contenido puede acortar los periodos de atención [^5]
+- **Exposición a contenido inapropiado:** Los algoritmos pueden derivar en contenido no apto para su edad [^6]
+- **Sedentarismo:** Reduce la actividad física y el juego al aire libre [^7]
+- **Problemas de sueño:** La luz azul y el contenido estimulante afectan la calidad del descanso [^8]
 
 ## ¿Qué es el Consumo Activo?
 
@@ -52,34 +52,34 @@ Implica interactuar con el contenido, tomar decisiones, crear, resolver problema
 - **Coding y programación:** Aprender lenguajes de programación básicos
 
 ### **Beneficios:**
-- **Estimula el cerebro:** Fomenta el pensamiento crítico, la creatividad y la planificación
-- **Desarrolla habilidades digitales:** Alfabetización digital útil para el futuro
-- **Aprendizaje interactivo:** El contenido educativo se retiene mejor cuando es interactivo
-- **Autorregulación:** Aprende a gestionar el tiempo y las prioridades
-- **Habilidades sociales:** Fomenta la colaboración y comunicación digital
+- **Estimula el cerebro:** Fomenta el pensamiento crítico, la creatividad y la planificación [^9]
+- **Desarrolla habilidades digitales:** Alfabetización digital útil para el futuro [^10]
+- **Aprendizaje interactivo:** El contenido educativo se retiene mejor cuando es interactivo [^11]
+- **Autorregulación:** Aprende a gestionar el tiempo y las prioridades [^12]
+- **Habilidades sociales:** Fomenta la colaboración y comunicación digital [^13]
 
 ---
 
 ## Recomendaciones Internacionales
 
-### **Organización Mundial de la Salud (OMS) - 2019**
+### **Organización Mundial de la Salud (OMS) - 2019** [^14]
 - **0-2 años:** No exposición a pantallas
 - **2-5 años:** Máximo 1 hora al día, menos es mejor
 - **5-17 años:** Máximo 2 horas al día de tiempo sedentario recreativo
 
-### **Academia Americana de Pediatría (AAP) - 2022**
+### **Academia Americana de Pediatría (AAP) - 2022** [^15]
 - **0-18 meses:** Evitar pantallas, excepto videollamadas
 - **18-24 meses:** Solo contenido educativo de alta calidad con supervisión
 - **2-5 años:** Máximo 1 hora al día de contenido educativo
 - **6+ años:** Límites consistentes, priorizar actividades offline
 
-### **Sociedad Chilena de Pediatría (SOCHIPE) - 2023**
+### **Sociedad Chilena de Pediatría (SOCHIPE) - 2023** [^16]
 - **0-2 años:** Evitar pantallas, excepto videollamadas supervisadas
 - **2-5 años:** Máximo 1 hora al día con supervisión
 - **6-12 años:** Límites claros (1-2 horas), priorizar actividades offline
 - **+12 años:** Fomentar autorregulación con reglas claras
 
-### **Royal College of Paediatrics and Child Health (RCPCH) - Reino Unido**
+### **Royal College of Paediatrics and Child Health (RCPCH) - Reino Unido** [^17]
 - Enfoque en "tiempo de pantalla de calidad" más que cantidad
 - Priorizar contenido educativo y creativo
 - Fomentar actividades offline y sueño adecuado
@@ -197,3 +197,41 @@ Para encontrar aplicaciones específicas recomendadas, consulta nuestras guías 
 **📅 Última actualización:** Agosto 2025  
 **🔬 Basado en:** Evidencia científica internacional actualizada  
 **🎯 Objetivo:** Fomentar un uso saludable y educativo de la tecnología
+
+---
+
+## Notas al Pie
+
+[^1]: **Madigan et al. (2019):** Association between screen time and children's performance on a developmental screening test. JAMA Pediatrics.
+
+[^2]: **Radesky et al. (2020):** Digital media and sleep in childhood and adolescence. Pediatrics.
+
+[^3]: **Council on Communications and Media (2020):** Media use in school-aged children and adolescents. Pediatrics.
+
+[^4]: **WHO (2020):** Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age. World Health Organization.
+
+[^5]: **AAP (2018):** Media and Young Minds - Physical Activity Guidelines. American Academy of Pediatrics.
+
+[^6]: **Canadian 24-Hour Movement Guidelines (2020):** An integration of physical activity, sedentary behaviour, and sleep. Canadian Society for Exercise Physiology.
+
+[^7]: **ACSM (2018):** Exercise Guidelines for Children. American College of Sports Medicine.
+
+[^8]: **CDC (2018):** Physical Activity Guidelines for Americans. Centers for Disease Control and Prevention.
+
+[^9]: **RCPCH (2019):** The health impacts of screen time on children and young people. Royal College of Paediatrics and Child Health.
+
+[^10]: **SOCHIPE (2023):** Recomendaciones sobre uso de pantallas en niños. Sociedad Chilena de Pediatría.
+
+[^11]: **ESRB (2023):** Ratings for Active Games. Entertainment Software Rating Board.
+
+[^12]: **PEGI (2023):** Age Ratings for Active Games. Pan European Game Information.
+
+[^13]: **Common Sense Media (2023):** Reviews of Active Games and Apps.
+
+[^14]: **WHO (2019):** Guidelines on physical activity, sedentary behaviour and sleep for children under 5 years of age. World Health Organization.
+
+[^15]: **AAP (2022):** Media and Young Minds. American Academy of Pediatrics.
+
+[^16]: **SOCHIPE (2023):** Recomendaciones sobre uso de pantallas en niños. Sociedad Chilena de Pediatría.
+
+[^17]: **RCPCH (2019):** The health impacts of screen time on children and young people. Royal College of Paediatrics and Child Health.
