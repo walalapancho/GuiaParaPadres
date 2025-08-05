@@ -12,6 +12,10 @@ main:
     url: "/controles-basicos/"
     description: "Guía fundamental de controles parentales"
   
+  - title: "🧠 Activo vs. Pasivo"
+    url: "/consumo-activo-vs-pasivo/"
+    description: "Diferencias entre uso activo y pasivo de pantallas"
+  
   - title: "🏫 Para Educadores"
     url: "/guia-maestros/"
     description: "Recursos para maestros y escuelas"

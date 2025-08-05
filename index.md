@@ -47,6 +47,7 @@ Presentamos una **biblioteca integral de recursos** sobre seguridad digital fami
 - **[Control de red en escuelas]({{ site.baseurl }}/control-red-escuelas/)** - Implementar controles en redes escolares, configuraciones enterprise con pfSense, VLANs por nivel educativo
 
 #### 📱 **Redes Sociales y Contenido**
+- **[Consumo Activo vs. Pasivo de Pantallas]({{ site.baseurl }}/consumo-activo-vs-pasivo/)** - Guía completa sobre diferencias entre consumo activo y pasivo, recomendaciones internacionales y estrategias por edad
 - **[Seguridad en TikTok]({{ site.baseurl }}/seguridad-tiktok/)** - Algoritmos, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
 - **[Seguridad en YouTube]({{ site.baseurl }}/seguridad-youtube/)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas
 
@@ -145,7 +146,7 @@ Este trabajo está licenciado bajo Creative Commons BY-SA 4.0 - ¡libre para usa
 
 **📅 Última actualización:** Agosto 2025  
 **🌍 Disponible para:** Chile, Perú, Colombia, México, Argentina  
-**📚 Recursos:** 26+ documentos especializados | 900+ páginas de contenido
+**📚 Recursos:** 27+ documentos especializados | 900+ páginas de contenido
 
 ### ⭐ ¿Te ha sido útil?
 

@@ -43,6 +43,7 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 - **[`control-red-escuelas.md`](./control-red-escuelas.md)** - Guía institucional para implementar controles parentales en redes escolares, configuraciones enterprise con pfSense, VLANs por nivel educativo, compliance regulatorio, y monitoreo institucional
 
 #### 📱 **Redes Sociales y Contenido**
+- **[`consumo-activo-vs-pasivo.md`](./consumo-activo-vs-pasivo.md)** - Guía completa sobre diferencias entre consumo activo y pasivo de pantallas, recomendaciones internacionales y estrategias por edad
 - **[`seguridad-tiktok.md`](./seguridad-tiktok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
 - **[`seguridad-youtube.md`](./seguridad-youtube.md)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas y curación de contenido
 
@@ -316,4 +317,4 @@ Los usuarios son responsables de:
 
 *📅 Última actualización: Agosto 2025*  
 *🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
-*📚 26+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
+*📚 27+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
