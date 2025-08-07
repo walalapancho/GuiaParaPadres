@@ -3,60 +3,37 @@
   <head>
     {% include head.html %}
   </head>
-  
   <body>
     <!-- Progress bar de lectura -->
     <div id="reading-progress"></div>
     
-    <div class="container content">
-      <header class="masthead">
-        <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Inicio">{{ site.title }}</a>
-
-          <nav class="nav">
-            <small><a href="{{ site.baseurl }}/indice/">Índice</a></small>
-            <small><a href="{{ site.baseurl }}/controles-basicos/">Empezar</a></small>
-            <small><a href="{{ site.baseurl }}/casos-uso-especificos/">Crisis</a></small>
-            <small><a href="{{ site.baseurl }}/fuentes-referencias/">Fuentes</a></small>
-            <small><button id="theme-switcher" title="Cambiar tema">☀️</button></small>
-          </nav>
-        </h3>
-      </header>
-
-      <!-- Breadcrumbs -->
-      {% include breadcrumbs.html %}
-
-      <main class="page-content" aria-label="Contenido principal">
-        <div class="wrapper">
-          <!-- Navegación lateral para páginas largas - SOLO cuando se solicite explícitamente -->
-          {% if page.toc == true and content contains '<h2' %}
-            {% include toc.html %}
-          {% endif %}
-          
-          {{ content }}
-          
-          <!-- Navegación siguiente/anterior -->
-          {% include page-navigation.html %}
-          
-          <!-- Sistema de feedback -->
-          {% unless page.hide_feedback %}
-            {% include feedback.html %}
-          {% endunless %}
-        </div>
-      </main>
-
-      <footer class="footer">
-        <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>
-          {{ site.title }} - Licencia Creative Commons BY-SA 4.0
-        </small>
-      </footer>
-    </div>
-
-    <!-- JavaScript para funcionalidades interactivas -->
-    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
-    <script src="{{ '/assets/js/navigation.js' | relative_url }}"></script>
+    <!-- Breadcrumbs -->
+    {% include breadcrumbs.html %}
     
+    <main class="page-content" aria-label="Contenido principal">
+      <div class="wrapper">
+        <!-- Navegación lateral para páginas largas - SOLO cuando se solicite explícitamente -->
+        {% if page.toc == true and content contains '<h2' %}
+          {% include toc.html %}
+        {% endif %}
+        
+        {{ content }}
+        
+        <!-- Navegación siguiente/anterior -->
+        {% include page-navigation.html %}
+        
+        <!-- Feedback section -->
+        {% include feedback.html %}
+      </div>
+    </main>
+    
+    <!-- Back to top button -->
+    <button class="back-to-top" onclick="window.scrollTo({top: 0, behavior: 'smooth'})" title="Volver arriba">
+      ↑
+    </button>
+    
+    <!-- Scripts -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
     {% include google-analytics.html %}
   </body>
 </html>
