@@ -102,7 +102,7 @@ Una explicación paso a paso que podrás entender y luego enseñar a tu hijo.
 ### Apps Recomendadas:
 - **ChatGPT:** Descargar la app oficial
 - **Bing Chat:** Viene con el navegador Edge
-- **Google Bard:** Buscar en Google
+- **Google Gemini:** App de IA de Google
 
 ### Consejos para usar en el teléfono:
 - Usar comandos de voz si es más fácil
