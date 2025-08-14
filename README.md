@@ -47,6 +47,8 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 - **[`pantallas-y-movimiento.md`](./pantallas-y-movimiento.md)** - Aplicaciones, juegos y contenidos que fomentan la actividad física en niños y adolescentes, desde apps móviles hasta juegos de consola
 - **[`seguridad-tiktok.md`](./seguridad-tiktok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
 - **[`seguridad-youtube.md`](./seguridad-youtube.md)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas y curación de contenido
+- **[`seguridad-discord-padres.md`](./seguridad-discord-padres.md)** - Guía exhaustiva para padres sobre Discord: qué es, riesgos, configuraciones de seguridad y supervisión responsable
+- **[`seguridad-discord-adolescentes.md`](./seguridad-discord-adolescentes.md)** - Guía práctica para adolescentes sobre uso seguro de Discord, evitar riesgos y sacar el máximo provecho de las comunidades online
 
 #### 🎰 **Juegos de Azar y Adicciones**
 - **[`prevencion-ludopatia-adolescentes.md`](./prevencion-ludopatia-adolescentes.md)** - Guía completa sobre identificación de señales de alerta, herramientas de prevención, recursos de ayuda y estrategias familiares para proteger a adolescentes de juegos de azar online y offline

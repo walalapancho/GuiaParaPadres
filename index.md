@@ -51,6 +51,8 @@ Presentamos una **biblioteca integral de recursos** sobre seguridad digital fami
 - **[Pantallas y Movimiento]({{ site.baseurl }}/pantallas-y-movimiento/)** - Aplicaciones, juegos y contenidos que fomentan la actividad física en niños y adolescentes
 - **[Seguridad en TikTok]({{ site.baseurl }}/seguridad-tiktok/)** - Algoritmos, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
 - **[Seguridad en YouTube]({{ site.baseurl }}/seguridad-youtube/)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas
+- **[Discord para Padres]({{ site.baseurl }}/seguridad-discord-padres/)** - Guía exhaustiva para padres sobre Discord: qué es, riesgos, configuraciones de seguridad y supervisión responsable
+- **[Discord Seguro para Adolescentes]({{ site.baseurl }}/seguridad-discord-adolescentes/)** - Guía práctica para adolescentes sobre uso seguro de Discord, evitar riesgos y sacar el máximo provecho de las comunidades online
 
 #### 🎰 **Juegos de Azar y Adicciones**
 - **[Prevención de Ludopatía en Adolescentes]({{ site.baseurl }}/prevencion-ludopatia-adolescentes/)** - Guía completa sobre identificación de señales de alerta, herramientas de prevención, recursos de ayuda y estrategias familiares para proteger a adolescentes de juegos de azar online y offline
