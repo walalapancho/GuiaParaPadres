@@ -29,46 +29,31 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 
 ## Configuración por Sistema Operativo
 
-### Para dispositivos iOS (iPhone/iPad)
+### Para dispositivos iOS (iPhone/iPad) - Actualizado iOS 18
 
-**Tiempo de Pantalla - Tu herramienta principal**
+**Tiempo de Pantalla y Nuevas Capas de Seguridad**
 
-1. **Activar Tiempo de Pantalla:**
-   - Configuración → Tiempo de Pantalla → Activar Tiempo de Pantalla
-   - Seleccionar "Este es el iPhone/iPad de mi hijo"
+1. **Aprobación de Nuevos Contactos (Novedad iOS 18):**
+   - Ahora puedes configurar que tu hijo necesite permiso para enviar mensajes o llamar a números nuevos. La solicitud llega a tu iPhone.
+2. **Alertas de Código (iOS 18.5):**
+   - Recibirás una notificación inmediata si alguien introduce correctamente el código de Tiempo de Uso. Útil para saber si tu hijo descubrió la clave.
+3. **Bloqueo y Ocultación de Apps:**
+   - **Ojo:** iOS 18 permite ocultar apps en una carpeta protegida. Como padre, debes supervisar la carpeta "Ocultas" en la Biblioteca de Apps, ya que los adolescentes pueden usarla para esconder redes sociales no permitidas.
+4. **Seguridad en la Comunicación:**
+   - El sistema detecta y difumina desnudos en **FaceTime** y mensajes en tiempo real.
 
-2. **Establecer límites de tiempo:**
-   - "Límites de app" → Añadir límite
-   - Seleccionar categorías (Juegos, Entretenimiento, Redes sociales)
-   - Establecer tiempo diario permitido
+### Para dispositivos Android - Actualizado Android 15
 
-3. **Configurar horarios de pausa:**
-   - "Tiempo de inactividad" → Establecer horarios (ej: 8 PM a 7 AM)
-   - Durante este tiempo solo funcionarán apps esenciales
+**Family Link y el nuevo Hub de Seguridad**
 
-4. **Control de contenido:**
-   - "Restricciones de contenido y privacidad"
-   - Activar restricciones
-   - Configurar límites de edad para apps, películas y música
-
-### Para dispositivos Android
-
-**Family Link - La solución integral de Google**
-
-1. **Configurar Family Link:**
-   - Descargar "Family Link para padres" en tu teléfono
-   - Descargar "Family Link para niños" en el dispositivo del niño
-   - Seguir el proceso de vinculación
-
-2. **Gestión de tiempo:**
-   - Establecer límites diarios para el dispositivo
-   - Configurar hora de dormir (el dispositivo se bloquea automáticamente)
-   - Crear límites específicos por aplicación
-
-3. **Control de aplicaciones:**
-   - Aprobar o rechazar descargas de apps
-   - Bloquear aplicaciones específicas
-   - Establecer límites de tiempo por app
+1. **Nuevo "Hub" de Controles Parentales (Android 15):**
+   - Los controles ahora están centralizados en un solo menú de ajustes más intuitivo. Es más fácil configurar límites directamente desde el teléfono del niño con un PIN.
+2. **Espacio Privado (Cuidado):**
+   - Android 15 permite crear un área protegida para apps. Asegúrate de supervisar que no se use para ocultar contenido inapropiado.
+3. **Bloqueo por Detección de Robo:**
+   - Si el teléfono detecta un tirón brusco (típico de un robo en la calle), se bloquea automáticamente para proteger los datos del menor.
+4. **Family Link Mejorado:**
+   - Ubicación en tiempo real más precisa y alertas de llegada/salida (Geofencing) más confiables.
 
 ---
 

@@ -370,7 +370,7 @@ La tecnología no tiene que ser sedentaria. Existe una amplia gama de aplicacion
 
 ---
 
-**📅 Última actualización:** Agosto 2025  
+**📅 Última actualización:** Marzo 2026  
 **🏃‍♂️ Objetivo:** Fomentar actividad física a través de tecnología  
 **🎯 Enfoque:** Equilibrio entre tecnología activa y deportes tradicionales
 

@@ -386,21 +386,26 @@ PREGUNTAS PARA ENSEÑAR PENSAMIENTO CRÍTICO:
 
 #### **Herramientas Nativas de TikTok:**
 
-**Family Pairing (Emparejamiento Familiar):**
+**Family Pairing (Sincronización Familiar) - Novedades 2025/2026:**
 ```
 CONFIGURACIÓN:
 1. Ambos padres e hijo deben tener cuentas TikTok
-2. Ir a Configuraciones → Bienestar Digital → Family Pairing
-3. Escanear código QR desde la cuenta del hijo
-4. Configurar restricciones acordadas
+2. Ir a Perfil → Menú (☰) → Ajustes y privacidad → Sincronización familiar
+3. Escanear código QR desde la cuenta del hijo para vincularlas
 
-CONTROLES DISPONIBLES:
-• Tiempo de pantalla diario
-• Modo restringido
-• Mensajes directos
-• Búsqueda
-• Privacidad de cuenta
-• Videos que pueden ver por edad
+NUEVOS CONTROLES DISPONIBLES (2025-2026):
+• Alertas de Publicación: Recibe una notificación cada vez que tu hijo suba un video o historia.
+• Notificación de Privacidad: Recibe una alerta si el adolescente cambia ajustes críticos de su cuenta.
+• Gestión del Feed STEM: Puedes obligar a que el contenido de Ciencia y Matemáticas esté siempre activo.
+• Tiempo Fuera (Time Away): Programa horarios sin acceso (ej. durante el colegio o dormir).
+• Visibilidad de Contactos: Mira a quién sigue tu hijo y quién lo sigue a él.
+• Desconexión (Wind-Down): Recordatorios con música relajante a partir de las 10 PM.
+
+CONTROLES TRADICIONALES:
+• Tiempo de pantalla diario (límite de minutos)
+• Modo restringido (filtra contenido inapropiado)
+• Mensajes directos (quién puede enviarlos)
+• Búsqueda (activar o desactivar)
 ```
 
 **Limitaciones del Family Pairing:**

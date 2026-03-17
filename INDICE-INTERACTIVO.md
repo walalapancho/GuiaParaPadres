@@ -75,17 +75,17 @@ nav_next:
 
 **🔍 ¿Qué te preocupa más?**
 
-- **📱 Presión por redes sociales**
-  → [Preparación para redes sociales](/GuiaParaPadres/controles-adolescentes/#preparacion-redes)
+- **📱 Presión por redes sociales (Instagram, Snapchat, TikTok)**
+  → [Seguridad en Instagram](/GuiaParaPadres/seguridad-instagram-threads/) | [Seguridad en Snapchat](/GuiaParaPadres/seguridad-snapchat/)
   
-- **🎮 6+ horas diarias en Fortnite/Roblox**
-  → [Controles Parentales Adolescentes](/GuiaParaPadres/controles-adolescentes/)
+- **🎮 Gaming excesivo (Fortnite, Roblox, VR)**
+  → [Seguridad Fortnite](/GuiaParaPadres/seguridad-fortnite-epic/) | [Seguridad VR](/GuiaParaPadres/seguridad-vr-metaverse/)
   
-- **💬 Mensajes inapropiados en teléfono**
-  → [Seguridad en comunicaciones](/GuiaParaPadres/seguridad-adolescentes/#comunicacion)
+- **💬 Mensajes inapropiados (WhatsApp, Discord)**
+  → [Seguridad WhatsApp](/GuiaParaPadres/seguridad-whatsapp/) | [Seguridad Discord](/GuiaParaPadres/seguridad-discord-padres/)
   
-- **📊 Calificaciones bajando por smartphone**
-  → [Límites académicos](/GuiaParaPadres/controles-adolescentes/#limites-academicos)
+- **🤖 IA, Deepfakes y retos virales**
+  → [Seguridad IA y Deepfakes](/GuiaParaPadres/seguridad-ia-deepfakes/) | [Seguridad TikTok](/GuiaParaPadres/seguridad-tiktok/)
 
 ### 🎯 **ADOLESCENTE (15-18 años)**
 
@@ -114,9 +114,10 @@ nav_next:
 | **Problema** | **Solución Directa** | **Recurso Completo** |
 |--------------|----------------------|----------------------|
 | **Adicción (6+ horas/día)** | [Casos: Gaming Excesivo](/GuiaParaPadres/casos-uso-especificos/#gaming-excesivo) | [Controles Consolas](/GuiaParaPadres/controles-consolas/) |
-| **Gastos no autorizados** | [Bloqueo de compras](/GuiaParaPadres/controles-consolas/#bloquear-compras) | [Configuración completa](/GuiaParaPadres/controles-consolas/) |
-| **Roblox/Minecraft peligroso** | [Seguridad Roblox Padres](/GuiaParaPadres/SeguridadRobloxMinecraft_Padres/) | [Guía completa](/GuiaParaPadres/SeguridadRobloxMinecraft_Padres/) |
-| **Rabietas por límites** | [Manejo de berrinches](/GuiaParaPadres/casos-uso-especificos/#manejo-berrinches) | [Estrategias conductuales](/GuiaParaPadres/casos-uso-especificos/) |
+| **Gastos no autorizados** | [Bloqueo de compras](/GuiaParaPadres/controles-consolas/#bloquear-compras) | [Seguridad Fortnite](/GuiaParaPadres/seguridad-fortnite-epic/) |
+| **Roblox/Minecraft/Fortnite** | [Seguridad Padres](/GuiaParaPadres/SeguridadRobloxMinecraft_Padres/) | [Guía Fortnite](/GuiaParaPadres/seguridad-fortnite-epic/) |
+| **Realidad Virtual y VR** | [Seguridad VR](/GuiaParaPadres/seguridad-vr-metaverse/) | [Guía Metaverso](/GuiaParaPadres/seguridad-vr-metaverse/) |
+| **Transmisiones y Twitch** | [Seguridad Twitch](/GuiaParaPadres/seguridad-twitch/) | [Guía Twitch](/GuiaParaPadres/seguridad-twitch/) |
 | **Configurar consolas** | [PS5/Xbox/Switch](/GuiaParaPadres/controles-consolas/) | [Todas las plataformas](/GuiaParaPadres/controles-consolas/) |
 
 ### 📱 **REDES SOCIALES**
@@ -127,8 +128,10 @@ nav_next:
 |----------------|-------------------|--------------|
 | **TikTok** | Contenido inapropiado/desafíos peligrosos | [Seguridad TikTok](/GuiaParaPadres/seguridad-tiktok/) |
 | **YouTube** | Videos violentos/contenido adulto | [Seguridad YouTube](/GuiaParaPadres/seguridad-youtube/) |
-| **Instagram** | Cyberbullying/contacto extraños | [Casos: Cyberbullying](/GuiaParaPadres/casos-uso-especificos/#cyberbullying) |
-| **Snapchat** | Mensajes efímeros/presión social | [Seguridad Adolescentes](/GuiaParaPadres/seguridad-adolescentes/) |
+| **Instagram/Threads** | Cuentas adolescentes/privacidad | [Seguridad Instagram](/GuiaParaPadres/seguridad-instagram-threads/) |
+| **Snapchat** | Mensajes efímeros/Snap Map | [Seguridad Snapchat](/GuiaParaPadres/seguridad-snapchat/) |
+| **WhatsApp** | Privacidad en grupos/desconocidos | [Seguridad WhatsApp](/GuiaParaPadres/seguridad-whatsapp/) |
+| **IA y Deepfakes** | Contenido falso/consentimiento | [Seguridad IA](/GuiaParaPadres/seguridad-ia-deepfakes/) |
 | **Todas** | Quiere redes pero es muy joven | [Preparación redes](/GuiaParaPadres/controles-adolescentes/#preparacion-redes) |
 
 ### 📺 **SMART TV Y STREAMING**
@@ -493,5 +496,5 @@ nav_next:
 
 ---
 
-*📅 Última actualización del índice: Agosto 2025*
+*📅 Última actualización del índice: Marzo 2026*
 *🔍 Archivos indexados: 28 documentos | 900+ páginas de contenido | 5 países cubiertos*

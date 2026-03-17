@@ -67,11 +67,14 @@ Implica interactuar con el contenido, tomar decisiones, crear, resolver problema
 - **2-5 años:** Máximo 1 hora al día, menos es mejor
 - **5-17 años:** Máximo 2 horas al día de tiempo sedentario recreativo
 
-### **Academia Americana de Pediatría (AAP) - 2022** [^15]
-- **0-18 meses:** Evitar pantallas, excepto videollamadas
-- **18-24 meses:** Solo contenido educativo de alta calidad con supervisión
-- **2-5 años:** Máximo 1 hora al día de contenido educativo
-- **6+ años:** Límites consistentes, priorizar actividades offline
+### **Academia Americana de Pediatría (AAP) - Actualización 2026** [^15]
+En lugar de solo contar minutos, la AAP propone desde febrero de 2026 el modelo de las **5 C** para evaluar la calidad del uso digital:
+
+1. **Child (Niño):** ¿Cómo afecta este contenido a la personalidad y desarrollo específico de *este* niño?
+2. **Content (Contenido):** ¿Es educativo y de calidad, o está diseñado solo para mantenerlo "enganchado" (autoplay, scroll infinito)?
+3. **Calm (Calma):** ¿Se usa la pantalla como la *única* herramienta para calmar berrinches? (Se recomienda evitarlo para fomentar la autorregulación).
+4. **Crowding Out (Desplazamiento):** ¿La pantalla le roba tiempo al sueño (9-12h), a la actividad física (1h) o a las comidas familiares?
+5. **Communication (Comunicación):** ¿Existe diálogo en la familia sobre lo que se ve y se hace en línea?
 
 ### **Sociedad Chilena de Pediatría (SOCHIPE) - 2023** [^16]
 - **0-2 años:** Evitar pantallas, excepto videollamadas supervisadas
@@ -194,7 +197,7 @@ Para encontrar aplicaciones específicas recomendadas, consulta nuestras guías 
 
 ---
 
-**📅 Última actualización:** Agosto 2025  
+**📅 Última actualización:** Marzo 2026  
 **🔬 Basado en:** Evidencia científica internacional actualizada  
 **🎯 Objetivo:** Fomentar un uso saludable y educativo de la tecnología
 

@@ -48,44 +48,37 @@ Roblox y Minecraft son dos de las plataformas de juego más populares entre niñ
 
 ---
 
-## 🛡️ Configuración de Seguridad Paso a Paso
+## 🛡️ Configuración de Seguridad Paso a Paso (Actualizado 2025)
 
 ## **ROBLOX - Configuración de Seguridad**
 
-### **Paso 1: Configuración de Cuenta**
+### **Paso 1: Cuentas Vinculadas (Nuevo Sistema 2025)**
 
-#### **Para niños menores de 13 años:**
-1. Ve a **Configuración** → **Privacidad**
-2. **Configuraciones recomendadas:**
-   - **¿Quién puede contactarme?** → Solo amigos
-   - **¿Quién puede chatear conmigo en la app?** → Nadie
-   - **¿Quién puede chatear conmigo en juegos?** → Solo amigos
-   - **¿Quién puede invitarme a experiencias privadas?** → Nadie
-   - **¿Quién puede unirse a mí?** → Solo amigos
+**IMPORTANTE:** El antiguo "PIN de cuenta" ha sido reemplazado por la gestión remota.
+1. **Crear cuenta de padre:** Descarga Roblox en tu propio dispositivo y crea una cuenta personal.
+2. **Vincular cuentas:** En la cuenta de tu hijo, ve a **Configuración** → **Controles Parentales** y selecciona **Vincular cuenta de padre**. Escanea el código QR.
+3. **Verificación:** Deberás verificar tu identidad (DNI o tarjeta de crédito) para gestionar ajustes críticos.
+4. **Beneficio:** Ahora puedes cambiar todos los ajustes desde tu propio teléfono sin tocar el del niño.
 
-#### **Para niños de 13+ años:**
-1. **Configuración más flexible pero supervisada:**
-   - **Chat:** Solo amigos conocidos en la vida real
-   - **Invitaciones:** Requieren aprobación previa
-   - **Solicitudes de amistad:** Solo con aprobación parental
+### **Paso 2: Restricciones de Chat (Novedad 2025)**
 
-### **Paso 2: Restricciones de Contenido**
+*   **Menores de 13 años:** Tienen bloqueados los Mensajes Directos (DMs) fuera de los juegos por defecto. No pueden recibir mensajes de desconocidos en la plataforma.
+*   **Dentro de los juegos:** Solo pueden usar el chat público. Para habilitar chat privado dentro de una experiencia, el padre debe dar permiso explícito desde su cuenta vinculada.
 
-#### **Configurar Restricciones de Cuenta:**
-1. **Configuración** → **Controles Parentales**
-2. **PIN de Restricciones de Cuenta:** Crear PIN de 4 dígitos
-3. **Restricciones habilitadas:**
-   - Limita chat y mensajes privados
-   - Restringe el acceso a una lista curada de juegos apropiados para la edad
-   - Bloquea la búsqueda de contenido
+### **Paso 3: Etiquetas de Contenido (Sustituyen a las edades)**
 
-### **Paso 3: Control de Gastos**
+Roblox ya no usa "edades recomendadas", sino etiquetas basadas en la madurez del contenido:
+1. **Mínimo y Suave:** Aptos para todos.
+2. **Moderado:** Bloqueado por defecto para menores de **9 años**. Requiere permiso parental para acceder (puede contener violencia moderada).
+3. **Restringido (17+):** Requiere verificación de edad con documento de identidad oficial.
 
-#### **Gestión de Robux:**
-1. **No guardar información de pago** en la cuenta
-2. **Usar tarjetas de regalo** en lugar de tarjetas de crédito
-3. **Establecer límites mensuales claros**
-4. **Configurar notificaciones** de compra por email
+### **Paso 4: Control de Gastos y Tiempo**
+
+1. **Límites de Tiempo Diario:** Configura un máximo de horas desde tu cuenta de padre. Al cumplirse, el juego se bloquea hasta el día siguiente.
+2. **Gestión de Robux:**
+   - **No guardar información de pago** en la cuenta del niño.
+   - **Límites de gasto mensual:** Configura alertas y bloqueos si se supera un monto (ej. $10 USD/mes).
+   - **Notificaciones de compra:** Recibirás un correo cada vez que se realice un gasto.
 
 #### **Tabla de Gastos Recomendados:**
 

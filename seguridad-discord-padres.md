@@ -73,21 +73,32 @@ permalink: /seguridad-discord-padres/
 
 ---
 
-## 🛡️ Configuraciones de Seguridad Paso a Paso
+## 🛡️ Configuraciones de Seguridad Paso a Paso (Actualizado 2026)
 
-### **📱 Configuración Inicial (Hacer Juntos)**
+### **📱 Centro Familiar de Discord (Novedades 2025/2026)**
 
-#### **Paso 1: Configuraciones de Privacidad**
-1. **Abrir Discord → Usuario (abajo izquierda) → Configuración**
-2. **"Privacidad y Seguridad":**
-   - ✅ **Activar:** "Mantener seguros a mis usuarios"
-   - ✅ **Activar:** "Filtro de contenido explícito" al máximo
-   - ❌ **Desactivar:** "Permitir mensajes directos de miembros del servidor"
-   - ❌ **Desactivar:** "Permitir solicitudes de amistad de usuarios de servidores"
+Esta herramienta permite supervisar la actividad sin leer los mensajes privados, manteniendo la confianza.
 
-#### **Paso 2: Control de Datos**
-1. **"Privacidad y Seguridad" → "Cómo usamos tus datos":**
-   - ❌ **Desactivar todo:** Personalización, análisis, mejoras
+**Nuevas funciones del Centro Familiar:**
+*   **Permisos Sociales (Social Permissions):** Ahora puedes decidir desde tu cuenta quién puede enviar mensajes directos (DM) a tu hijo (solo amigos o también miembros de servidores).
+*   **Adolescente por Defecto (Teen by Default):** Desde marzo de 2026, Discord aplica automáticamente una privacidad máxima a cuentas de 13-17 años.
+*   **Resumen de Actividad Detallado:** El reporte semanal ahora incluye:
+    *   **Minutos totales** en llamadas de voz y video.
+    *   **Contactos y servidores principales:** Muestra con quién interactuó más el adolescente.
+    *   **Historial de compras** y suscripciones.
+
+### **🔧 Configuración Inicial Segura**
+
+#### **Paso 1: Privacidad y Filtros**
+1. **Configuración de Usuario → Privacidad y Seguridad:**
+   - ✅ **Activar:** "Mantener seguros a mis usuarios" (Filtro de contenido explícito máximo).
+   - ✅ **Detección de Riesgos:** Activar alertas ante acoso o explotación.
+   - ❌ **Desactivar:** "Permitir mensajes directos de miembros del servidor" para evitar desconocidos.
+
+#### **Paso 2: Vincular Cuentas**
+1. Abre Discord en el teléfono del padre y del hijo.
+2. Ve a **Centro Familiar** en ambos dispositivos.
+3. Escanea el código QR desde la cuenta del hijo para vincularlas.
 
 #### **Paso 3: Configuraciones de Servidor**
 **Para cada servidor que tu hijo joins:**

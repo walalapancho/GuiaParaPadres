@@ -41,6 +41,9 @@ Presentamos una **biblioteca integral de recursos** sobre seguridad digital fami
 - **[Smart TV y streaming]({{ site.baseurl }}/controles-smart-tv/)** - Guía exhaustiva para Smart TVs (Roku, Apple TV, Fire TV, Chromecast), Netflix/Disney+, y supervisión familiar
 - **[Seguridad Roblox/Minecraft - Padres]({{ site.baseurl }}/SeguridadRobloxMinecraft_Padres/)** - Guía exhaustiva sobre riesgos específicos, configuraciones de seguridad paso a paso, y estrategias de supervisión
 - **[Seguridad Roblox/Minecraft - Niños]({{ site.baseurl }}/SeguridadRobloxMinecraft_Niños/)** - Reglas de seguridad explicadas de forma amigable y comprensible para niños
+- **[Seguridad Fortnite y Epic Games]({{ site.baseurl }}/seguridad-fortnite-epic/)** - Cuentas limitadas para menores de 13 años, reporte de chat de voz y PIN parental para compras
+- **[VR y el Metaverso]({{ site.baseurl }}/seguridad-vr-metaverse/)** - Supervisión parental en Meta Quest, límites de seguridad (Boundaries) y protección en Horizon Worlds
+- **[Seguridad en Twitch]({{ site.baseurl }}/seguridad-twitch/)** - Filtros de chat, bloqueo de mensajes directos (susurros) y gestión de donaciones y Bits
 
 #### 🌐 **Infraestructura de Red**
 - **[Control de red en hogares]({{ site.baseurl }}/control-red-hogares/)** - Controles parentales de red doméstica, configuración de routers populares (TP-Link, Netgear, ASUS), servicios DNS de filtrado
@@ -51,6 +54,9 @@ Presentamos una **biblioteca integral de recursos** sobre seguridad digital fami
 - **[Pantallas y Movimiento]({{ site.baseurl }}/pantallas-y-movimiento/)** - Aplicaciones, juegos y contenidos que fomentan la actividad física en niños y adolescentes
 - **[Seguridad en TikTok]({{ site.baseurl }}/seguridad-tiktok/)** - Algoritmos, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
 - **[Seguridad en YouTube]({{ site.baseurl }}/seguridad-youtube/)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas
+- **[Instagram y Threads]({{ site.baseurl }}/seguridad-instagram-threads/)** - Guía sobre Cuentas para Adolescentes 2025, modo nocturno, límites de contenido sensible y herramientas de supervisión
+- **[Seguridad en WhatsApp]({{ site.baseurl }}/seguridad-whatsapp/)** - Privacidad en grupos, silenciado de desconocidos, comprobación de privacidad y seguridad en Canales
+- **[Seguridad en Snapchat]({{ site.baseurl }}/seguridad-snapchat/)** - Snap Map (Modo Fantasma), Centro para Familias y educación sobre mensajes efímeros
 - **[Discord para Padres]({{ site.baseurl }}/seguridad-discord-padres/)** - Guía exhaustiva para padres sobre Discord: qué es, riesgos, configuraciones de seguridad y supervisión responsable
 - **[Discord Seguro para Adolescentes]({{ site.baseurl }}/seguridad-discord-adolescentes/)** - Guía práctica para adolescentes sobre uso seguro de Discord, evitar riesgos y sacar el máximo provecho de las comunidades online
 
@@ -91,6 +97,7 @@ Presentamos una **biblioteca integral de recursos** sobre seguridad digital fami
 
 #### 📚 **Apoyo Educativo**
 - **[Uso de IA para Apoyar Tareas Escolares]({{ site.baseurl }}/uso-de-ia-para-tareas/)** - Guía completa para padres sobre cómo usar herramientas de IA gratuitas (ChatGPT, Claude, Copilot) para entender y explicar tareas escolares a los hijos, incluyendo mejores prácticas, ejemplos prácticos y plan de acción semanal
+- **[Seguridad ante IA y Deepfakes]({{ site.baseurl }}/seguridad-ia-deepfakes/)** - Cómo identificar contenido generado por IA, riesgos de deepfakes no consensuados y educación sobre el consentimiento digital
 
 ---
 
@@ -147,7 +154,7 @@ Este trabajo está licenciado bajo Creative Commons BY-SA 4.0 - ¡libre para usa
 
 ### 📊 Información del Proyecto
 
-**📅 Última actualización:** Agosto 2025  
+**📅 Última actualización:** Marzo 2026  
 **🌍 Disponible para:** Chile, Perú, Colombia, México, Argentina  
 **📚 Recursos:** 28+ documentos especializados | 900+ páginas de contenido
 

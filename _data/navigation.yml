@@ -68,6 +68,34 @@ plataformas:
     url: "/seguridad-tiktok/"
     description: "TikTok, YouTube, Instagram, seguridad social"
 
+  - title: "📸 Instagram/Threads"
+    url: "/seguridad-instagram-threads/"
+    description: "Cuentas adolescentes, privacidad y supervisión"
+
+  - title: "💬 WhatsApp"
+    url: "/seguridad-whatsapp/"
+    description: "Privacidad, bloqueo de desconocidos y canales"
+
+  - title: "🎮 Fortnite/Epic"
+    url: "/seguridad-fortnite-epic/"
+    description: "Cuentas limitadas, PIN de gastos y chat de voz"
+
+  - title: "👻 Snapchat"
+    url: "/seguridad-snapchat/"
+    description: "Snap Map, Centro para Familias y privacidad"
+
+  - title: "🥽 VR/Metaverso"
+    url: "/seguridad-vr-metaverse/"
+    description: "Meta Quest, Horizon Worlds y seguridad física"
+
+  - title: "🎥 Twitch"
+    url: "/seguridad-twitch/"
+    description: "Moderación de chat, susurros y donaciones"
+
+  - title: "🤖 IA y Deepfakes"
+    url: "/seguridad-ia-deepfakes/"
+    description: "Detección de IA, consentimiento y riesgos"
+
 # Enlaces de emergencia por país
 emergencias:
   - pais: "México"
