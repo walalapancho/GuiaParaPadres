@@ -12,6 +12,8 @@ livereload: true
 
 # Excluir archivos adicionales para desarrollo
 exclude:
+  - theme/
+  - "registro de cambios/"
   - LICENSE
   - README.md
   - CHANGELOG.md
@@ -30,4 +32,8 @@ exclude:
   - "*.gem"
   - "*.gemspec"
   - check_links.py
+  - verify_links_comprehensive.py
+  - startup.log
+  - serve.sh
+  - "*.py"
   - _config_local.yml

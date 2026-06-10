@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Fuentes y Referencias"
 description: "Biblioteca completa de más de 100 fuentes y referencias externas de organizaciones reconocidas internacionalmente"
 permalink: /fuentes-referencias/

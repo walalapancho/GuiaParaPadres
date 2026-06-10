@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Prevención de Ludopatía en Adolescentes"
 description: "Guía completa para familias sobre identificación de señales de alerta, herramientas de prevención y recursos de ayuda para proteger a adolescentes de juegos de azar"
 permalink: /prevencion-ludopatia-adolescentes/

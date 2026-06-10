@@ -1,323 +1,288 @@
-# 🛡️ Recursos de Seguridad Digital Familiar
+# Lagrange
 
-> **📖 Este es el código fuente del proyecto**  
-> **🌐 Sitio web accesible y navegable en: [https://walalapancho.github.io/GuiaParaPadres/](https://walalapancho.github.io/GuiaParaPadres/)**
+Lagrange is a minimalist Jekyll theme for running a personal blog or site for free through [Github Pages](https://pages.github.com/), or on your own server. Everything that you will ever need to know about this Jekyll theme is included in the README below, which you can also find in [the demo site](https://lenpaul.github.io/Lagrange/). For a guide on how to deploy a Jekyll site using GitHub Pages, please check out [this article](https://paulle.ca/jekyll-tutorials/deploy-jekyll-site-github-pages).
 
-## 🌟 Descripción del Proyecto
+If you like my work then please consider supporting me with [Ko-fi](https://ko-fi.com/paulle).
 
-Esta es una **biblioteca integral de recursos** sobre seguridad digital familiar, diseñada para empoderar a padres, educadores y comunidades con herramientas prácticas para crear entornos digitales seguros para niños y adolescentes. 
+![alt text](https://user-images.githubusercontent.com/8409329/32631384-17107870-c56e-11e7-932f-deeb7c12e4db.png "Lagrange Demo Image")
 
-Nuestra colección abarca desde primeros pasos con tecnología hasta navegación avanzada de redes sociales, proporcionando **recursos específicos por edad, plataforma y situación** para una protección digital efectiva.
+## Notable features
 
----
+* Compatible with GitHub Pages.
 
-## 📚 Índice de Contenidos
+* Support for Jekyll's built-in Sass/SCSS preprocessor and data files for making customizing easier.
 
-### 🎯 **GUÍAS POR EDAD**
-#### 👶 **Primera Infancia (0-3 años)**
-- **[`apps-0-3-anos.md`](./apps-0-3-anos.md)** - Introducción responsable a la tecnología con enfoque en desarrollo sensorial y motor, límites de tiempo de pantalla estrictos, y alternativas de juego físico
+* [Google Analytics](https://www.google.com/analytics/) support.
 
-#### 🎈 **Edad Preescolar (4-6 años)**  
-- **[`apps-4-6-anos.md`](./apps-4-6-anos.md)** - Aplicaciones educativas para desarrollo de habilidades básicas, alfabetización temprana y creatividad supervisada
+* Commenting support powered by [Disqus](https://disqus.com/).
 
-#### 🌱 **Edad Escolar (7-10 años)**
-- **[`apps-7-10-anos.md`](./apps-7-10-anos.md)** - Recursos educativos avanzados con secciones de ciencia, arte, música, historia y geografía, plus criterios de selección de contenido seguro
-- **[`seguridad-7-10-anos.md`](./seguridad-7-10-anos.md)** - Guía educativa para niños sobre protección personal en juegos online y aplicaciones de internet
+* Optimized for search engines.
 
-#### 🚀 **Adolescencia (11-18 años)**
-- **[`controles-adolescentes.md`](./controles-adolescentes.md)** - Estrategias para padres sobre negociación, comunicación y transición hacia autonomía digital responsable
-- **[`seguridad-adolescentes.md`](./seguridad-adolescentes.md)** - Guía directa para adolescentes sobre redes sociales, privacidad, cyberbullying, sexting y preparación para vida digital adulta
+* LaTeX support through [MathJax](https://www.mathjax.org/).
 
----
+## Table of Contents
 
-### 🎮 **GUÍAS POR PLATAFORMA ESPECÍFICA**
+1. [Introduction](#introduction)
+   1. [What is Jekyll](#what-is-jekyll)
+   2. [Never Used Jeykll Before?](#never-used-jekyll-before)
+2. [Installation](#installation)
+   1. [GitHub Pages Installation](#github-pages-installation)
+   2. [Local Installation](#local-installation)
+   3. [Directory Structure](#directory-structure)
+   4. [Starting From Scratch](#starting-from-scratch)
+3. [Configuration](#configuration)
+   1. [Sample Posts](#sample-posts)
+   2. [Site Variables](#site-variables)
+   3. [Adding Menu Pages](#adding-menu-pages)
+   4. [Posts](#posts)
+   5. [Layouts](#layouts)
+   6. [YAML Front Block Matter](#yaml-front-block-matter)
+4. [Features](#features)
+   1. [Design Considerations](#design-considerations)
+   2. [Disqus](#disqus)
+   3. [Google Analytics](#google-analytics)
+   4. [RSS Feeds](#rss-feeds)
+   5. [Social Media Icons](#social-media-icons)
+   6. [MathJax](#mathjax)
+   7. [Syntax Highlighting](#syntax-highlighting)
+   8. [Markdown](#markdown)
+5. [Everything Else](#everything-else)
+6. [Contributing](#Contributing)
+7. [Questions?](#questions)
+8. [Credits](#credits)
+9. [License](#license)
 
-#### 🎯 **Gaming y Entretenimiento**
-- **[`controles-consolas.md`](./controles-consolas.md)** - Configuración completa de controles parentales en PlayStation, Xbox, Nintendo Switch, incluyendo control de gastos y monitoreo de actividad
-- **[`controles-smart-tv.md`](./controles-smart-tv.md)** - Guía exhaustiva para Smart TVs y dispositivos de streaming (Roku, Apple TV, Fire TV, Chromecast), configuración por marca, gestión de servicios como Netflix/Disney+, y estrategias de supervisión familiar
-- **[`SeguridadRobloxMinecraft_Padres.md`](./SeguridadRobloxMinecraft_Padres.md)** - Guía exhaustiva para padres sobre riesgos específicos de Roblox y Minecraft, configuraciones de seguridad paso a paso, y estrategias de supervisión
-- **[`SeguridadRobloxMinecraft_Niños.md`](./SeguridadRobloxMinecraft_Niños.md)** - Reglas de seguridad para niños en Roblox y Minecraft, explicadas de forma amigable y comprensible
+## Introduction
 
-#### 🌐 **Infraestructura de Red**
-- **[`control-red-hogares.md`](./control-red-hogares.md)** - Guía especializada para familias sobre controles parentales de red doméstica, configuración de routers populares (TP-Link, Netgear, ASUS), servicios DNS de filtrado, soluciones comerciales familiares, y mantenimiento simple
-- **[`control-red-escuelas.md`](./control-red-escuelas.md)** - Guía institucional para implementar controles parentales en redes escolares, configuraciones enterprise con pfSense, VLANs por nivel educativo, compliance regulatorio, y monitoreo institucional
+Lagrange is a Jekyll theme that was built to be 100% compatible with [GitHub Pages](https://pages.github.com/). If you are unfamiliar with GitHub Pages, you can check out [their documentation](https://help.github.com/categories/github-pages-basics/) for more information. [Jonathan McGlone's guide](http://jmcglone.com/guides/github-pages/) on creating and hosting a personal site on GitHub is also a good resource.
 
-#### 📱 **Redes Sociales y Contenido**
-- **[`consumo-activo-vs-pasivo.md`](./consumo-activo-vs-pasivo.md)** - Guía completa sobre diferencias entre consumo activo y pasivo de pantallas, recomendaciones internacionales y estrategias por edad
-- **[`pantallas-y-movimiento.md`](./pantallas-y-movimiento.md)** - Aplicaciones, juegos y contenidos que fomentan la actividad física en niños y adolescentes, desde apps móviles hasta juegos de consola
-- **[`seguridad-tiktok.md`](./seguridad-tiktok.md)** - Guía detallada sobre algoritmos de TikTok, riesgos de desafíos peligrosos, configuraciones de privacidad, y estrategias de supervisión por edad
-- **[`seguridad-youtube.md`](./seguridad-youtube.md)** - Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos de contenido inapropiado, configuraciones avanzadas y curación de contenido
-- **[`seguridad-discord-padres.md`](./seguridad-discord-padres.md)** - Guía exhaustiva para padres sobre Discord: qué es, riesgos, configuraciones de seguridad y supervisión responsable
-- **[`seguridad-discord-adolescentes.md`](./seguridad-discord-adolescentes.md)** - Guía práctica para adolescentes sobre uso seguro de Discord, evitar riesgos y sacar el máximo provecho de las comunidades online
+### What is Jekyll?
 
-#### 🎰 **Juegos de Azar y Adicciones**
-- **[`prevencion-ludopatia-adolescentes.md`](./prevencion-ludopatia-adolescentes.md)** - Guía completa sobre identificación de señales de alerta, herramientas de prevención, recursos de ayuda y estrategias familiares para proteger a adolescentes de juegos de azar online y offline
+Jekyll is a simple, blog-aware, static site generator for personal, project, or organization sites. Basically, Jekyll takes your page content along with template files and produces a complete website. For more information, visit the [official Jekyll site](https://jekyllrb.com/docs/home/) for their documentation. Codecademy also offers a great course on [how to deploy a Jekyll site](https://www.codecademy.com/learn/deploy-a-website) for complete beginners.
 
----
+### Never Used Jekyll Before?
 
-### 🧩 **NECESIDADES ESPECIALES**
+The beauty of hosting your website on GitHub is that you don't have to actually have Jekyll installed on your computer. Everything can be done through the GitHub code editor, with minimal knowledge of how to use Jekyll or the command line. All you have to do is add your posts to the `_posts` directory and edit the `_config.yml` file to change the site settings. With some rudimentary knowledge of HTML and CSS, you can even modify the site to your liking. This can all be done through the GitHub code editor, which acts like a content management system (CMS).
 
-#### 🌟 **Poblaciones Específicas**
-- **[`pantallas-autismo.md`](./pantallas-autismo.md)** - Guía especializada sobre uso de pantallas y tecnología para niños en el espectro autista, incluyendo beneficios de la comunicación alternativa aumentativa (CAA), aplicaciones recomendadas por edad, precauciones sensoriales específicas, y estrategias para evitar dependencia excesiva
-- **[`tecnologia-tdah-ninos.md`](./tecnologia-tdah-ninos.md)** - Estrategias específicas para el uso seguro de tecnología en niños y niñas con TDAH, incluyendo herramientas adaptativas, límites apropiados, apps especializadas y recursos especializados
+## Installation
 
----
+### GitHub Pages Installation
 
-### 👨‍👩‍👧‍👦 **RECURSOS FAMILIARES Y COMUNITARIOS**
+To start using Jekyll right away with GitHub Pages, [fork the Lagrange repository on GitHub](https://github.com/LeNPaul/Lagrange/fork). From there, you can rename your repository to `USERNAME.github.io`, where `USERNAME` is your GitHub username, and edit the `settings.yml` file in the `_data` folder to your liking. Ensure that you have a branch named `gh-pages`. Your website should be ready immediately at 'http://USERNAME.github.io'. Note: if you are hosting several sites under the same GitHub username, then you will have to use [Project Pages instead of User Pages](https://help.github.com/articles/user-organization-and-project-pages/) - just change the repository name to something other than 'http://USERNAME.github.io'.
 
-#### 📖 **Documentos Base**
-- **[`Controles_Parentales.md`](./Controles_Parentales.md)** - Guía fundacional con conceptos básicos, herramientas generales, y mejores prácticas de supervisión digital
-- **[`ControlesParaNinos.md`](./ControlesParaNinos.md)** - Explicación de controles parentales dirigida directamente a niños, con lenguaje sencillo y amigable para generar comprensión y colaboración
+Head over to the `_posts` directory to view all the posts that are currently on the website, and to see examples of what post files generally look like. You can simply just duplicate the template post and start adding your own content.
 
-#### 🎓 **Recursos Educativos**
-- **[`guia-maestros.md`](./guia-maestros.md)** - Manual completo para educadores con currícula por niveles, protocolos de crisis digital, comunicación con padres, y desarrollo de políticas escolares
-- **[`taller-familiar.md`](./taller-familiar.md)** - Guía paso a paso para facilitar talleres de seguridad digital familiar, incluyendo actividades por edad, dinámicas familiares, y herramientas de evaluación
+### Local Installation
 
----
+For a full local installation of Lagrange, [download your own copy of Lagrange](https://github.com/LeNPaul/Lagrange/archive/gh-pages.zip) and unzip it into it's own directory. From there, open up your favorite command line tool, enter `bundle install`, and then enter `jekyll serve`. Your site should be up and running locally at [http://localhost:4000](http://localhost:4000).
 
-### 📄 **RECURSOS MULTIMEDIA**
-- **`controles parentales.pdf`** - Versión imprimible de la guía principal para distribución offline
-- **`controles parentales.pptx`** - Presentación profesional para talleres y charlas educativas
-- **`ControlesParaNinos.pptx`** - Presentación visual e interactiva diseñada específicamente para explicar seguridad digital a niños
+### Directory Structure
 
----
+If you are familiar with Jekyll, then the Lagrange directory structure shouldn't be too difficult to navigate. The following some highlights of the differences you might notice between the default directory structure. More information on what these folders and files do can be found in the [Jekyll documentation site](https://jekyllrb.com/docs/structure/).
 
-### 📚 **REFERENCIAS Y CREDIBILIDAD ACADÉMICA**
-
-#### 🌟 **Fuentes Oficiales**
-- **[`fuentes-referencias.md`](./fuentes-referencias.md)** - Biblioteca completa de más de 100 fuentes y referencias externas de entidades reconocidas internacionalmente, organizaciones gubernamentales por país, servicios técnicos especializados, recursos académicos, y marcos regulatorios que respaldan todas las recomendaciones de esta colección
-
----
-
-### 🤖 **RECURSOS DE INTELIGENCIA ARTIFICIAL**
-
-#### 📚 **Apoyo Educativo**
-- **[`uso-de-ia-para-tareas.md`](./uso-de-ia-para-tareas.md)** - Guía completa para padres sobre cómo usar herramientas de IA gratuitas (ChatGPT, Claude, Copilot) para entender y explicar tareas escolares a los hijos, incluyendo mejores prácticas, ejemplos prácticos, plan de acción semanal y superación de obstáculos comunes
-
----
-
-## 🌍 **Cobertura Geográfica**
-
-### **📞 Servicios de Emergencia Incluidos para:**
-- 🇨🇱 **Chile** - Carabineros, PDI Cibercrimen, SERNAC
-- 🇵🇪 **Perú** - DIVINTEC, Línea 100, Te Protejo
-- 🇨🇴 **Colombia** - CAI Virtual, Te Protejo, ICBF 
-- 🇲🇽 **México** - Policía Cibernética, CNSE, Condusef
-- 🇦🇷 **Argentina** - Grooming Argentina, Argentina Cibersegura, Línea 102
-
-Los recursos están adaptados para uso inmediato en estos países con números de emergencia locales, organizaciones especializadas, y marcos legales relevantes.
-
----
-
-## 🎯 **Características Destacadas**
-
-### ✨ **Enfoque Integral**
-- **Edad-específico:** Contenido adaptado desde primera infancia hasta adolescencia
-- **Plataforma-específico:** Guías detalladas para gaming, redes sociales, y entretenimiento digital
-- **Culturalmente apropiado:** Adaptado para contextos latinoamericanos
-- **Evidencia-basado:** Fundamentado en mejores prácticas de seguridad digital y desarrollo infantil
-
-### 🛠️ **Herramientas Prácticas**
-- **Configuraciones paso a paso** para todas las plataformas principales
-- **Controles de red universales** (routers, DNS, monitoreo de tráfico)
-- **Scripts de conversación** para situaciones difíciles
-- **Protocolos de crisis** con contactos de emergencia
-- **Materiales take-home** para familias y educadores
-- **Listas de verificación** para implementación gradual
-
-### 🏫 **Recursos Comunitarios**
-- **Currícula educativa** para diferentes niveles escolares
-- **Talleres familiares** con metodología comprobada
-- **Materiales para presentaciones** listos para usar
-- **Herramientas de evaluación** para medir efectividad
-
----
-
-## 👥 **Público Objetivo**
-
-### 👨‍👩‍👧‍👦 **Familias**
-- Padres y tutores de menores de 0-18 años
-- Abuelos y cuidadores involucrados en crianza digital
-- Familias navegando situaciones digitales complejas
-
-### 🎓 **Educadores**
-- Maestros de preescolar, primaria y secundaria
-- Coordinadores de tecnología educativa
-- Consejeros escolares y psicólogos educativos
-- Administradores desarrollando políticas digitales
-
-### 🏛️ **Organizaciones**
-- ONGs enfocadas en protección infantil
-- Bibliotecas públicas ofreciendo programas familiares
-- Centros comunitarios con programas educativos
-- Organizaciones de salud mental infantil
-
-### 👨‍💻 **Profesionales**
-- Especialistas en ciberseguridad
-- Profesionales de salud mental especializada en adolescentes
-- Trabajadores sociales
-- Facilitadores de talleres familiares
-
----
-
-## 🚀 **Cómo Usar Esta Biblioteca**
-
-### 📍 **Para Situaciones Específicas:**
-
-#### 🆘 **Crisis Digital Inmediata**
-1. **[`guia-maestros.md`](./guia-maestros.md)** - Sección "Manejo de Situaciones Problemáticas"
-2. Ver contactos de emergencia específicos por país
-3. Aplicar protocolos de crisis según severidad
-
-#### 🎯 **Configuración Preventiva**
-1. Comenzar con **[`Controles_Parentales.md`](./Controles_Parentales.md)** para conceptos básicos
-2. Implementar **[`control-red-hogares.md`](./control-red-hogares.md)** como base de protección universal
-3. Seleccionar guía específica por edad del niño
-4. Consultar guías por plataforma según uso familiar (consolas, Smart TV, redes sociales)
-5. Implementar gradualmente usando listas de verificación
-
-#### 🏫 **Implementación Educativa**
-1. **[`guia-maestros.md`](./guia-maestros.md)** para integración curricular
-2. **[`taller-familiar.md`](./taller-familiar.md)** para eventos comunitarios
-3. Usar materiales multimedia para presentaciones
-4. Adaptar contenido según contexto local
-
-#### 👨‍👩‍👧‍👦 **Conversaciones Familiares**
-1. **[`ControlesParaNinos.md`](./ControlesParaNinos.md)** para explicar a niños
-2. Guías por edad para enfoques apropiados
-3. Scripts de conversación en guías específicas
-4. Actividades familiares sugeridas
-
----
-
-## 🔄 **Roadmap de Actualización**
-
-### **📅 Actualizaciones Regulares:**
-- **Trimestralmente:** Nuevas amenazas digitales y plataformas emergentes
-- **Semestralmente:** Actualizaciones de configuraciones de plataformas principales
-- **Anualmente:** Revisión completa basada en investigación y feedback de usuarios
-
-### **🌱 Contenido Planeado:**
-- Guías específicas para Discord, Instagram, Snapchat
-- Recursos para necesidades especiales (autismo, ADHD)
-- Materiales en otros idiomas (inglés, portugués)
-- Versiones interactivas y cursos online
-
----
-
-## 🤝 **Cómo Contribuir**
-
-### **💡 Contribuciones Bienvenidas:**
-- **Actualizaciones técnicas** - Nuevas configuraciones de plataformas
-- **Adaptaciones regionales** - Recursos para otros países
-- **Traducciones** - Versiones en otros idiomas  
-- **Casos de estudio** - Experiencias reales de implementación
-- **Investigación** - Estudios sobre efectividad de estrategias
-
-### **📋 Proceso de Contribución:**
-1. **Fork** este repositorio
-2. **Crear rama** descriptiva para tu contribución
-3. **Mantener consistencia** de formato y estilo
-4. **Enviar pull request** con descripción clara de cambios
-5. **Colaborar** en revisión y refinamiento
-
-### **✅ Estándares de Calidad:**
-- Información verificable y actualizada
-- Lenguaje claro y apropiado para audiencia
-- Formato consistente con documentos existentes
-- Referencias a fuentes confiables cuando aplique
-- Consideración de diversidad cultural y socioeconómica
-
----
-
-## 📄 **Licencia y Uso**
-
-### **📜 Licencia Creative Commons BY-SA 4.0**
-
-![CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/88x31.png)
-
-Este trabajo está licenciado bajo la [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-### **✅ Libertades Garantizadas:**
-- **🔗 Compartir** - Copiar y redistribuir en cualquier medio o formato
-- **🔄 Adaptar** - Remezclar, transformar y construir sobre el material
-- **💼 Uso comercial** - Para cualquier propósito, incluso comercialmente
-
-### **📋 Condiciones:**
-- **👤 Atribución** - Crédito apropiado con enlace a licencia
-- **↩️ ShareAlike** - Distribución bajo la misma licencia si modificas
-
-### **🔗 Cómo Citar:**
-```
-"Recursos de Seguridad Digital Familiar" está licenciada bajo 
-CC BY-SA 4.0. Disponible en: https://github.com/[tu-usuario]/ControlesParentales
+```bash
+Lagrange/
+├── _data                      # Data files
+|  └── settings.yml            # Theme settings and custom text
+├── _includes                  # Theme includes
+├── _layouts                   # Theme layouts (see below for details)
+├── _posts                     # Where all your posts will go
+├── assets                     # Style sheets and images are found here
+|  ├── css                     # Style sheets go here
+|  |  └── main.css             # Main CSS file
+|  |  └── syntax.css           # Style sheet for code syntax highlighting
+|  └── img                     # Images go here
+├── menu                       # Menu pages
+├── _config.yml                # Site build settings
+├── Gemfile                    # Ruby Gemfile for managing Jekyll plugins
+├── index.md                   # Home page
+├── LICENSE.md                 # License for this theme
+├── README.md                  # Includes all of the documentation for this theme
+└── rss-feed.xml               # Generates RSS 2.0 file which Jekyll points to
 ```
 
+### Starting From Scratch
+
+To completely start from scratch, simply delete all the files in the `_posts`, `assets/img`, and `menu` folder, and add your own content. You may also replace the `README.md` file with your own README. Everything in the `_data` folder and `_config.yml` file can be edited to suit your needs. You may also change the `favicon.ico` file to your own favicon.
+
+## Configuration
+
+### Sample Posts
+
+Visit the [the demo site](https://lenpaul.github.io/Lagrange/) to find sample posts that show what different types of text formatting look like. You can find these posts in the `_posts` folder, which show what the best practices for setting up your own site are.
+
+### Site Variables
+
+To change site build settings, edit the `_config.yml` file found in the root of your repository, which you can tweak however you like. More information on configuration settings and plugins can be found on [the Jekyll documentation site](https://jekyllrb.com/docs/configuration/). This is also where you will be able to customize the title, description, and the author/owner of your site.
+
+If you are hosting your site on GitHub Pages, then committing a change to the `_config.yml` file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run `jekyll serve` again for the changes to take place.
+
+In the `settings.yml` file found in the `_data` folder, you will be able to customize your site settings, such as setting Disqus comments, Google Analytics, what shows up in your menu, and social media information.
+
+### Adding Menu Pages
+
+The menu pages are found in the `menu` folder in the root directory, and can be added to your menu in the `settings.yml` file.
+
+### Posts
+
+You will find example posts in your `_posts` directory. Go ahead and edit any post and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention of `YYYY-MM-DD-name-of-post.md` and includes the necessary front matter. Take a look at any sample post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts to migrate to Lagrange.
+
+### Layouts
+
+There are two main layout options that are included with Lagrange: post and page. Layouts are specified through the [YAML front block matter](https://jekyllrb.com/docs/frontmatter/). Any file that contains a YAML front block matter will be processed by Jekyll. For example:
+
+```
 ---
-
-## 📞 **Soporte y Contacto**
-
-### **🐛 Reportar Errores:**
-- Abrir **issue** en este repositorio
-- Incluir detalles específicos del problema
-- Sugerir corrección si es posible
-
-### **💬 Preguntas y Discusión:**
-- **Issues** para preguntas técnicas
-- **Discussions** para intercambio de experiencias
-- **Wiki** para FAQ y recursos adicionales
-
-### **🚨 Emergencias Digitales:**
-- Esta biblioteca proporciona recursos educativos
-- Para crisis inmediatas, contacta servicios de emergencia locales
-- Ver números específicos por país en documentos relevantes
-
+layout: post
+title: "Example Post"
 ---
+```
 
-## ⚖️ **Aviso Legal**
+Examples of what posts looks like can be found in the `_posts` directory, which includes this post you are reading right now. Posts are the basic blog post layout, which includes a header image, post content, author name, date published, social media sharing links, and related posts.
 
-### **📖 Propósito Educativo:**
-Esta biblioteca tiene **fines educativos e informativos únicamente**. La implementación efectiva requiere:
-- Evaluación de necesidades familiares específicas
-- Adaptación según contexto sociocultural
-- Supervisión y ajuste continuo
-- Consulta profesional en situaciones complejas
+Pages are essentially the post layout without any of the extra features of the posts layout. An example of what pages look like can be found at the [About](https://lenpaul.github.io/Lagrange/menu/about.html) and [Contacts](https://lenpaul.github.io/Lagrange/menu/contact.html).
 
-### **🔒 Limitaciones:**
-- La tecnología cambia constantemente; verificar configuraciones actuales
-- Los controles parentales no reemplazan la comunicación familiar
-- Efectividad varía según edad, madurez y contexto del menor
-- Algunas estrategias pueden requerir adaptación cultural
+In addition to the two main layout options above, there are also custom layouts that have been created for the [home page](https://lenpaul.github.io/Lagrange/) and the [archives page](https://lenpaul.github.io/Lagrange/menu/writing.html). These are simply just page layouts with some [Liquid template code](https://shopify.github.io/liquid/). Check out the `index.html` file in the root directory for what the code looks like.
 
-### **⚠️ Responsabilidad:**
-Los usuarios son responsables de:
-- Evaluar apropiación de estrategias para su contexto
-- Mantenerse actualizados sobre cambios tecnológicos
-- Buscar apoyo profesional cuando sea necesario
-- Adaptar recomendaciones según las leyes locales
+### YAML Front Block Matter
 
+The recommended YAML front block is:
+
+```
 ---
-
-## 🌟 **Reconocimientos**
-
-### **🏆 Inspiración y Fundamentos:**
-- **Common Sense Media** - Investigación sobre desarrollo digital
-- **Family Online Safety Institute** - Mejores prácticas internacionales
-- **Unicef** - Derechos digitales de la infancia
-- **Organizaciones locales** de protección infantil en países cubiertos
-
-### **🤝 Agradecimientos Especiales:**
-- Familias que compartieron experiencias reales
-- Educadores que pilotearon materiales en sus aulas
-- Profesionales de salud mental que validaron enfoques
-- Organizaciones comunitarias que facilitaron acceso
-
+layout:
+title:
+author:
+categories:
+tags: []
+image:
 ---
+```
 
-**⭐ ¡Ayúdanos a llegar a más familias! Si este recurso te ha sido útil, considera darle una estrella al repositorio y compartirlo con tu comunidad. Juntos podemos crear entornos digitales más seguros para todos los niños y adolescentes.**
+`layout` specifies which layout to use, `title` is the page or post title, `categories` can be used to better organize your posts, `tags` are used when generating related posts based on the topic of the post, and `image` specifies which images to use. Have a look at some posts in the `_posts` directory to see how these variables are set.
 
----
+## Features
 
-*📅 Última actualización: 17 de Marzo de 2026*  
-*🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
-*📚 28+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*
+### Design Considerations
+
+Lagrange was designed to be a minimalist theme in order for the focus to remain on your content. For example, links are signified mainly through an underline text-decoration, in order to maximize the perceived affordance of clickability (I originally just wanted to make the links a darker shade of grey).
+
+### Disqus
+
+Lagrange supports comments at the end of posts through [Disqus](https://disqus.com/). In order to activate Disqus commenting, set `disqus.comments` to true in the `_data/settings.yml` file. If you do not have a Disqus account already, you will have to set one up, and create a profile for your website. You will be given a `disqus_shortname` that will be used to generate the appropriate comments sections for your site. More information on [how to set up Disqus](http://www.perfectlyrandom.org/2014/06/29/adding-disqus-to-your-jekyll-powered-github-pages/).
+
+### Google Analytics
+
+It is possible to track your site statistics through [Google Analytics](https://www.google.com/analytics/). Similar to Disqus, you will have to create an account for Google Analytics, and enter the correct Google ID for your site under `google-ID` in the `settings.yml` file. More information on [how to set up Google Analytics](https://michaelsoolee.com/google-analytics-jekyll/). Note: If you are not using Google Analytics, please change `google-ID` to an empty string.
+
+### RSS Feeds
+
+Atom is supported by default through [jekyll-feed](https://github.com/jekyll/jekyll-feed). With jekyll-feed, you can set configuration variables such as 'title', 'description', and 'author', in the `_config.yml` file.
+
+RSS 2.0 is also supported through [RSS auto-discovery](http://www.rssboard.org/rss-autodiscovery). The `rss-feed.xml` file (based on the template found at [jekyll-rss-feeds](https://github.com/snaptortoise/jekyll-rss-feeds)) that the feed path points to when using RSS 2.0 is automatically generated based on the appropriate configuration variables found in `_data/settings.yml`.
+
+To use RSS 2.0, ensure the following is done:
+
+* Uncomment the last two lines in the `_config.yml` file.
+
+* In `_data/settings.yml`, under 'social', comment out the rss-square that points to `feed.xml`, and uncomment the rss-square that points to `rss-feed.xml`.
+
+* In `_includes/head.html`, comment out `{% feed_meta %}` and uncomment the line under the RSS 2.0 comment.
+
+### Social Media Icons
+
+All social media icons are courtesy of [Font Awesome](http://fontawesome.io/). You can change which icons appear, as well as the account that they link to, in the `settings.yml` file in the `_data` folder.
+
+### MathJax
+
+Lagrange comes out of the box with [MathJax](https://www.mathjax.org/), which allows you to display mathematical equations in your posts through the use of [LaTeX](http://www.andy-roberts.net/writing/latex/mathematics_1).
+
+### Syntax Highlighting
+
+Lagrange provides syntax highlighting through [fenced code blocks](https://help.github.com/articles/creating-and-highlighting-code-blocks/). Syntax highlighting allows you to display source code in different colors and fonts depending on what programming language is being displayed. You can find the full list of supported programming languages [here](https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers). Another option is to embed your code through [Gist](https://en.support.wordpress.com/gist/).
+
+### Markdown
+
+As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the [Markdown syntax](https://guides.github.com/features/mastering-markdown/). Examples of these text formatting features can be seen below. You can find this post in the `_posts` directory as well as the `README.md` file.
+
+## Everything Else
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+[jekyll-docs]: http://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
+
+## Contributing
+
+If you would like to make a feature request, or report a bug or typo in the documentation, then please [submit a GitHub issue](https://github.com/LeNPaul/Lagrange/issues/new). If you would like to make a contribution, then feel free to [submit a pull request](https://help.github.com/articles/about-pull-requests/) - as a bonus, I will credit all contributors below! If this is your first pull request, it may be helpful to read up on the [GitHub Flow](https://guides.github.com/introduction/flow/) first.
+
+Lagrange has been designed as a base for users to customize and fit to their own unique needs. Please keep this in mind when requesting features and/or submitting pull requests. Some examples of changes that I would love to see are things that would make the site easier to use, or better ways of doing things. Please avoid changes that do not benefit the majority of users.
+
+## Questions?
+
+This theme is completely free and open source software. You may use it however you want, as it is distributed under the [MIT License](http://choosealicense.com/licenses/mit/). If you are having any problems, any questions or suggestions, feel free to [tweet at me](https://twitter.com/intent/tweet?text=My%question%about%Lagrange%is:%&amp;via=paululele), or [file a GitHub issue](https://github.com/lenpaul/lagrange/issues/new).
+
+## Credits
+
+### Creator
+
+#### Paul Le
+
+* [www.lenpaul.com](http://lenpaul.com)
+
+* [Twitter](https://twitter.com/paululele)
+
+* [GitHub](https://github.com/LeNPaul)
+
+### Contributors
+
+* [nikolalukovic](https://github.com/nikolalukovic)
+
+* [gmemstr](https://github.com/gmemstr)
+
+* [lynn9388](https://github.com/lynn9388)
+
+* [robqiao](https://github.com/robqiao)
+
+* [Mauladen](https://github.com/Mauladen)
+
+* [dhanus](https://github.com/dhanus)
+
+* [mlewand](https://github.com/mlewand)
+
+* [Hguimaraes](https://github.com/Hguimaraes)
+
+* [ilhamadun](https://github.com/ilhamadun)
+
+* [brianclemens](https://github.com/brianclemens)
+
+* [leyhline](https://github.com/leyhline)
+
+* [aritra24](https://github.com/aritra24)
+
+* [DuckSoft](https://github.com/DuckSoft)
+
+* [larrylawl](https://github.com/larrylawl)
+
+* [borting](https://github.com/borting)
+
+### Icons + Demo Images
+
+* [Death to Stock](https://deathtothestockphoto.com/)
+
+* [Font Awesome](http://fontawesome.io/)
+
+### Other
+
+* [Jekyll](https://jekyllrb.com/)
+
+* [Free Code Camp](https://www.freecodecamp.org)
+
+* [Khan Academy](https://www.khanacademy.org/)
+
+## License
+
+Open sourced under the [MIT license](https://github.com/LeNPaul/Lagrange/blob/gh-pages/LICENSE.md).

@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Uso de Pantallas y Tecnología para Niños en el Espectro Autista"
 description: "Guía especializada sobre recomendaciones, beneficios y precauciones del uso de pantallas y tecnología para niños con autismo"
 permalink: /pantallas-autismo/

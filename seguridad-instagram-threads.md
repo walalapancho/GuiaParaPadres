@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad en Instagram, Threads y BeReal"
 description: "Guía sobre Cuentas para Adolescentes, herramientas de supervisión de Meta y privacidad en BeReal"
 permalink: /seguridad-instagram-threads/

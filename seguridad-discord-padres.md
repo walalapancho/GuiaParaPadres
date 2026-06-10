@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Discord para Padres - Guía Completa"
 description: "Guía exhaustiva para padres sobre Discord: qué es, riesgos, configuraciones de seguridad y supervisión responsable"
 age_group: "13-18"

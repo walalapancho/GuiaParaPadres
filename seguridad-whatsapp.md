@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad en WhatsApp y Telegram"
 description: "Privacidad en grupos, silenciado de desconocidos, comprobación de privacidad, canales y seguridad en Telegram"
 permalink: /seguridad-whatsapp/

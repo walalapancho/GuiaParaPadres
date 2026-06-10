@@ -1,13 +1,11 @@
 source "https://rubygems.org"
 
-# Gem de GitHub Pages que incluye Jekyll y todas las dependencias necesarias
-gem "github-pages", group: :jekyll_plugins
+gem "jekyll", "~> 4.2"
 
-# Plugins adicionales
-group :jekyll_plugins do
-  gem "jekyll-feed"
-  gem "jekyll-sitemap"
-  gem "jekyll-seo-tag"
-  gem "jekyll-redirect-from"
-  gem "jekyll-gist"  # Para dark-poole theme
-end
+gem "jekyll-feed", "~> 0.6"
+
+gem "jekyll-paginate", "~> 1.1"
+
+gem "jekyll-sitemap", "~> 1.3"
+
+gem "jekyll-seo-tag", "~> 2.6"

@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Uso de IA para Apoyar Tareas Escolares"
 description: "Guía completa para padres sobre cómo usar herramientas de IA gratuitas para entender y explicar tareas escolares a los hijos"
 permalink: /uso-de-ia-para-tareas/

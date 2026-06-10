@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Discord Seguro para Adolescentes"
 description: "Guía práctica para adolescentes: cómo usar Discord de forma segura, evitar riesgos y sacar el máximo provecho de las comunidades online"
 age_group: "13-18"

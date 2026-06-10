@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad en VR y el Metaverso"
 description: "Supervisión parental en Meta Quest, límites de seguridad (Boundaries) y protección en Horizon Worlds"
 permalink: /seguridad-vr-metaverse/

@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: 'Pantallas y Movimiento: Tecnología que Fomenta la Actividad Física'
 description: 'Guía completa de aplicaciones, juegos y contenidos digitales que fomentan la actividad física en niños y adolescentes, desde apps móviles hasta juegos de consola'
 permalink: /pantallas-y-movimiento/

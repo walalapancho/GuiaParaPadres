@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad en Twitch"
 description: "Filtros de chat, bloqueo de mensajes directos (susurros) y gestión de donaciones y Bits"
 permalink: /seguridad-twitch/

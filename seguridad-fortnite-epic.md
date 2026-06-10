@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad en Fortnite y Epic Games"
 description: "Cuentas limitadas para menores de 13 años, reporte de chat de voz y PIN parental para compras"
 permalink: /seguridad-fortnite-epic/

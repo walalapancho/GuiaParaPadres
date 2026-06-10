@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: 'Consumo Activo vs. Pasivo de Pantallas'
 description: 'Guía completa sobre la diferencia entre consumo activo y pasivo de pantallas, con recomendaciones basadas en evidencia científica internacional'
 permalink: /consumo-activo-vs-pasivo/

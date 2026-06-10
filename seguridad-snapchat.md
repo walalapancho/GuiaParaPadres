@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad en Snapchat"
 description: "Snap Map (Modo Fantasma), Centro para Familias y educación sobre mensajes efímeros"
 permalink: /seguridad-snapchat/

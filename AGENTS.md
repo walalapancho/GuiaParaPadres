@@ -37,7 +37,7 @@ Cada archivo `.md` nuevo o editado debe seguir las siguientes pautas de cabecera
 
 ```yaml
 ---
-layout: default-dark          # Obligatorio para mantener la coherencia visual oscura
+layout: default          # Obligatorio para mantener la coherencia visual oscura
 title: "Título de la Guía"    # Título que aparecerá en la pestaña y SEO
 permalink: /nombre-guia/       # URL amigable (ej: /seguridad-tiktok/)
 toc: true                     # Opcional (solo en guías largas con múltiples subsecciones)

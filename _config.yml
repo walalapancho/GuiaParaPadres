@@ -1,98 +1,39 @@
-# Configuración del sitio para GitHub Pages
-title: "Recursos de Seguridad Digital Familiar"
-description: "Recursos integrales para crear entornos digitales seguros para niños y adolescentes"
-baseurl: "/GuiaParaPadres" # dejar vacío si el repo es nombre-usuario.github.io, caso contrario /nombre-repositorio
-url: "https://walalapancho.github.io" # cambiar por tu URL de GitHub Pages
+# Site Build Settings
 
-# Configuración de Jekyll - con dark-poole theme
-markdown: kramdown
-highlighter: rouge
-plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-redirect-from
-  - jekyll-gist
+# Jekyll-paginate-v2 configuration
+#  pagination:
+#   enabled: true
+#   per_page: 5
+#   permalink: '/page/:num/'
+#   title: ':title - page :num of :max'
+#   limit: 0
+#   sort_field: 'date'
+#   sort_reverse: true
 
-# Configuración de Sass para el tema
-sass:
-  sass_dir: _sass
-  style: compressed
+# jekyll-paginate configuration
+paginate:            5
 
-# Sin tema - solo layout personalizado
+# Build settings
+markdown:            kramdown
+highlighter:         rouge
+permalink:           /:title
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
-# Configuraciones adicionales
-lang: es
-timezone: America/Santiago
+# Site identity (appears in header, footer, SEO, and RSS feed)
+title:               '🛡️ Seguridad Digital Familiar'
+description:         'Biblioteca integral de recursos sobre seguridad digital para padres, educadores y comunidades'
+author:              'GuiaParaPadres'
+lang:                'es'
 
-# Navegación principal eliminada
-# header_pages eliminado - no hay header
-
-# Metadatos del sitio
-author:
-  name: "Recursos de Seguridad Digital"
-  email: ""
-
-# SEO y redes sociales
-social:
-  - platform: github
-    user_url: "https://github.com/walalapancho/GuiaParaPadres"
-
-# Configuración de recursos estáticos y contenido
-
-# Configuración de contenido
-show_excerpts: true
-date_format: "%d/%m/%Y"
-
-# Excluir archivos del build
+# Exclude directories/files that should not be processed
 exclude:
-  - LICENSE
-  - README.md
-  - CHANGELOG.md
-  - node_modules
-  - package*.json
-  - yarn.lock
-  - Dockerfile
-  - docker-compose.yml
-  - .git*
-  - vendor/
-  - .bundle/
-  - .sass-cache/
-  - .jekyll-cache/
-  - gemfiles/
-  - Gemfile*
-  - node_modules/
-  - "*.gem"
-  - "*.gemspec"
-  - check_links.py
+  - theme/
+  - registro de cambios/
+  - startup.log
+  - verify_links_comprehensive.py
+  - serve.sh
+  - "*.py"
 
-# Configuración de colecciones eliminada - no se usan
-# collections eliminadas para simplificar
-
-# Valores por defecto simplificados
-defaults:
-  - scope:
-      path: "assets/img"
-    values:
-      image: true
-  - scope:
-      path: "assets/js"
-    values:
-      js: true
-  - scope:
-      path: "assets/css"
-    values:
-      css: true
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default-dark"
-      lang: es
-
-# Configuración de redirecciones simplificada
-redirect_from:
-  enabled: true
-
-# Google Analytics
-google_analytics: G-D74ZDFPLSE
+# RSS 2.0 can be used instead of Atom by uncommenting following two lines
+#feed:
+#  path: rss-feed.xml

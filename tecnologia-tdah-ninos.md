@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Tecnología y TDAH: Guía para Familias"
 description: "Estrategias específicas para el uso seguro de tecnología en niños y niñas con TDAH, incluyendo herramientas adaptativas, límites apropiados y recursos especializados"
 permalink: /tecnologia-tdah-ninos/

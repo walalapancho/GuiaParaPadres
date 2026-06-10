@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad ante IA y Deepfakes"
 description: "Cómo identificar contenido generado por IA, riesgos de deepfakes no consensuados y educación sobre el consentimiento digital"
 permalink: /seguridad-ia-deepfakes/

@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: default
 title: "Guía de Seguridad en YouTube"
 description: "Manual completo sobre YouTube y YouTube Kids, diferencias clave, riesgos y configuraciones avanzadas de contenido"
 permalink: /seguridad-youtube/
