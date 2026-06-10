@@ -29,7 +29,7 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 
 ## Configuración por Sistema Operativo
 
-### Para dispositivos iOS (iPhone/iPad) - Actualizado iOS 18
+### Para dispositivos iOS (iPhone/iPad) - Actualizado iOS 18 {#ios}
 
 **Tiempo de Pantalla y Nuevas Capas de Seguridad**
 
@@ -42,7 +42,7 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 4. **Seguridad en la Comunicación:**
    - El sistema detecta y difumina desnudos en **FaceTime** y mensajes en tiempo real.
 
-### Para dispositivos Android - Actualizado Android 15
+### Para dispositivos Android - Actualizado Android 15 {#android}
 
 **Family Link y el nuevo Hub de Seguridad**
 
@@ -77,7 +77,7 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 **Configuraciones clave:**
 - Desactivar chat de voz y texto en juegos multijugador
 - Configurar perfil como "privado" o "solo amigos"
-- Revisar y limitar compras dentro de apps
+- Revisar y limitar compras dentro de apps {#financiero}
 - Establecer límites de tiempo específicos para juegos
 
 **Juegos populares y sus controles:**
@@ -85,19 +85,43 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 - **Minecraft:** Usar servidores privados o modo local
 - **Fortnite:** Configurar chat de voz solo para amigos
 
-### Redes Sociales
+### Samsung Kids y Modo Niños {#samsung}
 
-**Para esta edad, la recomendación es evitar redes sociales tradicionales, pero si es necesario:**
-- Configurar cuentas privadas
-- Supervisar lista de amigos/contactos
-- Activar notificaciones de actividad para padres
-- Establecer límites de tiempo muy restrictivos
+**Configuración en dispositivos Samsung:**
+- Activar Samsung Kids desde el panel rápido
+- Configurar tiempo de juego permitido
+- Seleccionar apps permitidas
+- Revisar reportes de uso semanal
+
+### Amazon Fire Kids {#amazon-fire}
+
+**Configuración en tablets Fire:**
+- Crear perfil infantil en Amazon Kids
+- Establecer límites de tiempo y objetivos educativos
+- Filtrar contenido por edad automáticamente
+- Gestionar contenido desde el Parent Dashboard (web o app)
+
+### Windows y Microsoft Family Safety {#windows}
+
+**Para computadoras con Windows 10/11:**
+- Crear cuenta de menor vinculada al grupo familiar
+- Establecer límites de tiempo de pantalla por dispositivo
+- Filtrar sitios web y búsquedas inapropiadas
+- Recibir informes semanales de actividad por correo
+
+### macOS y Tiempo en Pantalla {#macos}
+
+**Para computadoras Apple:**
+- Configurar Tiempo en Pantalla en Ajustes del Sistema
+- Compartir entre dispositivos iCloud de la familia
+- Restringir contenido web y apps específicas
+- Bloquear acceso a ajustes del sistema con código
 
 ---
 
 ## Configuraciones Paso a Paso
 
-### Límites de Tiempo - Configuración Recomendada
+### Límites de Tiempo - Configuración Recomendada {#limites-tiempo}
 
 **Días de semana:**
 - Tiempo total de dispositivo: 1-2 horas
@@ -120,7 +144,7 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 
 ## Herramientas Adicionales Útiles
 
-### Apps de Control Parental Externas
+### Apps de Control Parental Externas {#monitoreo}
 
 **Opciones multiplataforma:**
 - **Qustodio:** Control completo, informes detallados
@@ -145,13 +169,13 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 2. **Define reglas claras:** Crea acuerdos familiares sobre el uso de dispositivos
 3. **Establece consecuencias:** Qué pasará si no se respetan los límites
 
-### Durante la Configuración
+### Durante la Configuración {#verificacion}
 
 1. **Hazlo juntos:** Involucra a tu hijo en el proceso
 2. **Explica cada paso:** Ayuda a que entienda el propósito
 3. **Prueba las configuraciones:** Asegúrate de que funcionan como esperas
 
-### Después de Configurar
+### Después de Configurar {#rutinas}
 
 1. **Revisa regularmente:** Los controles necesitan ajustes periódicos
 2. **Mantén comunicación abierta:** Pregunta cómo se siente con los límites
@@ -161,7 +185,7 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 
 ## Preguntas Frecuentes
 
-**¿Cada cuánto debo revisar las configuraciones?**
+**¿Cada cuánto debo revisar las configuraciones?** {#evaluacion}
 Se recomienda hacer una revisión mensual y ajustes según sea necesario.
 
 **¿Qué hago si mi hijo encuentra formas de evitar los controles?**

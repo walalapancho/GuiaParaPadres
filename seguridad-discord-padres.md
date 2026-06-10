@@ -73,7 +73,7 @@ permalink: /seguridad-discord-padres/
 
 ---
 
-## 🛡️ Configuraciones de Seguridad Paso a Paso (Actualizado 2026)
+## 🛡️ Configuraciones de Seguridad Paso a Paso (Actualizado 17 de Marzo de 2026)
 
 ### **📱 Centro Familiar de Discord (Novedades 2025/2026)**
 

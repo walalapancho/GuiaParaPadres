@@ -59,5 +59,5 @@ La mayoría de los fabricantes (Meta, Sony, HTC) recomiendan el uso de VR a part
 
 ---
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🔗 Consulta también:** [Controles en Consolas]({{ site.baseurl }}/controles-consolas/) | [Seguridad en Roblox]({{ site.baseurl }}/SeguridadRobloxMinecraft_Padres/)

@@ -1,15 +1,15 @@
 ---
 layout: default-dark
-title: "Guía de Seguridad en Instagram y Threads"
-description: "Guía sobre Cuentas para Adolescentes 2025, modo nocturno, límites de contenido sensible y herramientas de supervisión"
+title: "Guía de Seguridad en Instagram, Threads y BeReal"
+description: "Guía sobre Cuentas para Adolescentes, herramientas de supervisión de Meta y privacidad en BeReal"
 permalink: /seguridad-instagram-threads/
 ---
 
-# 📸 Guía de Seguridad en Instagram y Threads para Padres
+# 📸 Guía de Seguridad en Instagram, Threads y BeReal para Padres
 
-## Introducción: El Ecosistema de Meta para Jóvenes 🌟
+## Introducción: Ecosistema de Redes Sociales Visuales 🌟
 
-Instagram sigue siendo una de las plataformas visuales más influyentes, mientras que Threads ha emergido como el espacio para la conversación pública. Con la actualización de **Cuentas para Adolescentes (Teen Accounts) de 2025**, Meta ha implementado las protecciones más restrictivas hasta la fecha para menores de 18 años.
+Instagram, Threads y BeReal son tres de las plataformas más utilizadas por los adolescentes para compartir su vida en fotos y textos. Entender cómo funcionan sus políticas de privacidad y geolocalización es crucial para proteger la huella digital de los menores.
 
 ---
 
@@ -58,6 +58,19 @@ Threads comparte la mayoría de las configuraciones de Instagram, pero tiene par
 - **Perfiles Silenciados/Bloqueados:** Se sincronizan con Instagram para una protección integral.
 - **Educación sobre el "Contexto":** Threads es más propenso a debates intensos; es vital educar sobre no engancharse en discusiones tóxicas.
 
+
+---
+
+## 📷 Seguridad Específica en BeReal {#bereal}
+
+BeReal propone un enfoque de autenticidad donde los usuarios reciben una notificación aleatoria diaria y tienen 2 minutos para tomar una foto doble (cámara frontal y trasera simultáneamente). Aunque reduce la presión por la "perfección", presenta otros riesgos:
+
+*   **Geolocalización por Defecto:** Al tomar la foto, BeReal puede compartir la ubicación exacta del usuario.
+    *   **Recomendación:** Enseña a tu hijo a desactivar la ubicación antes de publicar cada BeReal (pulsar el icono de ubicación y seleccionar **"Ubicación desactivada"**).
+*   **Publicaciones en "Discovery" (Público):** BeReal permite publicar las fotos para amigos o de forma global en la pestaña "Discovery".
+    *   **Recomendación:** Configura la visibilidad del BeReal en **"Solo mis amigos"**. Publicar en Discovery expone el rostro, entorno íntimo y rutinas diarias a cualquier usuario del mundo.
+*   **Presión y Capturas de Pantalla:** BeReal notifica si alguien hace captura de pantalla, pero no la bloquea. Además, tomar la foto a toda prisa puede exponer información privada de fondo (pantallas de ordenador, documentos, personas que no querían ser fotografiadas).
+
 ---
 
 ## 🚨 Señales de Alerta y Reporte
@@ -67,5 +80,5 @@ Threads comparte la mayoría de las configuraciones de Instagram, pero tiene par
 
 ---
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🔗 Consulta también:** [Seguridad en TikTok]({{ site.baseurl }}/seguridad-tiktok/) | [Casos de Cyberbullying]({{ site.baseurl }}/casos-uso-especificos/#cyberbullying)

@@ -92,7 +92,7 @@ Nuestra colección abarca desde primeros pasos con tecnología hasta navegación
 ### 🤖 **RECURSOS DE INTELIGENCIA ARTIFICIAL**
 
 #### 📚 **Apoyo Educativo**
-- **[`uso de IA para tareas.md`](./uso%20de%20IA%20para%20tareas.md)** - Guía completa para padres sobre cómo usar herramientas de IA gratuitas (ChatGPT, Claude, Copilot) para entender y explicar tareas escolares a los hijos, incluyendo mejores prácticas, ejemplos prácticos, plan de acción semanal y superación de obstáculos comunes
+- **[`uso-de-ia-para-tareas.md`](./uso-de-ia-para-tareas.md)** - Guía completa para padres sobre cómo usar herramientas de IA gratuitas (ChatGPT, Claude, Copilot) para entender y explicar tareas escolares a los hijos, incluyendo mejores prácticas, ejemplos prácticos, plan de acción semanal y superación de obstáculos comunes
 
 ---
 
@@ -318,6 +318,6 @@ Los usuarios son responsables de:
 
 ---
 
-*📅 Última actualización: Marzo 2026*  
+*📅 Última actualización: 17 de Marzo de 2026*  
 *🌍 Disponible para: Chile, Perú, Colombia, México, Argentina*  
 *📚 28+ documentos especializados | 🎯 Cobertura 0-18 años | 🛡️ +900 páginas de recursos*

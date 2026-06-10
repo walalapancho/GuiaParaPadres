@@ -34,8 +34,14 @@ Uno de los mayores dolores de cabeza para los padres son los cargos no autorizad
 - **Reporte de Voz:** Epic ahora permite reportar audio abusivo. Si el chat de voz está activo, el sistema graba breves fragmentos locales (en el dispositivo) para ser enviados como prueba en caso de reporte por toxicidad o acoso.
 - **Configuraciones de Chat:** Recomendamos configurar el chat de voz en **"Solo amigos"** o **"Nadie"** para menores de 12 años.
 
+
 ### **👁️ Filtro de Lenguaje Inapropiado**
 - Activa el filtro para que las palabras malsonantes en el chat de texto aparezcan como símbolos (ej. `****`).
+
+### **🏷️ Clasificación de Mapas y Experiencias (ESRB / IARC)**
+Fortnite ya no es solo Battle Royale; incluye miles de islas creadas por usuarios y juegos diferentes (como LEGO Fortnite, Rocket Racing, Fortnite Festival).
+- **Límite de Clasificación de Edad:** En el panel de control parental de Epic Games, puedes establecer una clasificación de edad máxima para los mapas (por ejemplo, **Teen (T)** o **Everyone 10+ (E10+)**).
+- **Desbloqueo con PIN:** Si tu hijo intenta acceder a una isla con una clasificación superior a la permitida, el juego solicitará el PIN parental de 6 dígitos para autorizar el acceso de forma temporal o permanente.
 
 ---
 
@@ -51,5 +57,5 @@ Epic Games envía un **Reporte Semanal de Tiempo de Juego** al correo electróni
 
 ---
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🔗 Consulta también:** [Controles en Consolas]({{ site.baseurl }}/controles-consolas/) | [Seguridad en Roblox]({{ site.baseurl }}/SeguridadRobloxMinecraft_Padres/)

@@ -3,7 +3,7 @@ layout: default-dark
 title: "Uso de Pantallas y Tecnología para Niños en el Espectro Autista"
 description: "Guía especializada sobre recomendaciones, beneficios y precauciones del uso de pantallas y tecnología para niños con autismo"
 permalink: /pantallas-autismo/
-date: 2025-07-25
+date: 2026-03-17
 author: "Equipo GuiaParaPadres"
 tags: ["autismo", "TEA", "pantallas", "tecnología", "comunicación alternativa"]
 keywords: "autismo, TEA, pantallas, tecnología assistiva, comunicación alternativa, aplicaciones educativas"
@@ -307,7 +307,7 @@ Nivel 4: Narrativas y comentarios espontáneos
 
 > **Esta guía se actualiza cada 6 meses** con nueva evidencia científica y recomendaciones de expertos.
 
-**Última actualización**: Marzo 2026  
+**Última actualización**: 17 de Marzo de 2026  
 **Próxima revisión**: Diciembre 2025
 
 ---
@@ -334,4 +334,4 @@ Nivel 4: Narrativas y comentarios espontáneos
 👉 [Volver al Índice Principal](/GuiaParaPadres/indice/) para encontrar recursos adicionales o casos de uso específicos.
 
 **¿Emergencia relacionada con uso problemático de tecnología?**
-👉 Consulta nuestra [Guía de Crisis Digital](/GuiaParaPadres/casos-uso-especificos/#crisis-digital) 
+👉 Consulta nuestra [Guía de Crisis Digital](/GuiaParaPadres/casos-uso-especificos/#protocolo-de-crisis-digital) 

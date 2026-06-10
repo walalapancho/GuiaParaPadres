@@ -42,6 +42,20 @@ Es fundamental educar a los jóvenes no solo como víctimas potenciales, sino co
 - **Respeto a la Imagen Ajena:** Enseña que usar la foto de un compañero para "hacer una broma" con IA (especialmente si es de contenido sexual o humillante) es un **delito grave**.
 - **Pedir Permiso:** Antes de subir una foto donde aparezcan otros amigos, se debe pedir consentimiento.
 - **No alimentar a la IA con datos personales:** Evita que los jóvenes suban cientos de selfies a aplicaciones de IA de dudosa procedencia, ya que están "entrenando" modelos con su rostro.
+---
+
+## 🧠 Apego Emocional e IA Conversacional (Character.ai y Chatbots) {#ia-conversacional}
+
+Plataformas como **Character.ai** y otros chatbots de rol permiten a los adolescentes chatear con personajes virtuales que simulan empatía y respuestas humanas reales. Esto introduce nuevos desafíos socioemocionales:
+
+*   **Riesgo de Aislamiento y Apego:** Los menores pueden preferir interactuar con chatbots que siempre están disponibles y nunca entran en conflicto, reemplazando relaciones del mundo real.
+*   **Evasión de Filtros (NSFW Bypass):** Aunque las plataformas tienen filtros de seguridad para bloquear contenido sexual explícito, los usuarios frecuentemente buscan formas de burlar estos filtros para participar en conversaciones inapropiadas.
+*   **Privacidad de Datos:** Las conversaciones a menudo revelan datos altamente personales, emociones profundas y rutinas que son almacenadas y procesadas por las empresas de tecnología.
+
+**💡 Pautas de Acompañamiento Familiar:**
+1.  **Establece límites de tiempo:** Trata la interacción con chatbots con las mismas limitaciones de tiempo que las redes sociales tradicionales.
+2.  **Monitorea la naturaleza del uso:** Pregunta sobre los personajes con los que interactúa y fomenta que sea una actividad de entretenimiento o juego de rol literario, no una terapia psicológica.
+3.  **Conversaciones sobre la realidad:** Recuerda a tu hijo que la IA no tiene sentimientos reales y es solo un modelo de lenguaje que predice palabras agradables.
 
 ---
 
@@ -60,5 +74,5 @@ Es fundamental educar a los jóvenes no solo como víctimas potenciales, sino co
 
 ---
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🔗 Consulta también:** [Uso de IA para Tareas]({{ site.baseurl }}/uso-de-ia-para-tareas/) | [Protocolos de Crisis]({{ site.baseurl }}/casos-uso-especificos/)

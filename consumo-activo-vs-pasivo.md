@@ -197,7 +197,7 @@ Para encontrar aplicaciones específicas recomendadas, consulta nuestras guías 
 
 ---
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🔬 Basado en:** Evidencia científica internacional actualizada  
 **🎯 Objetivo:** Fomentar un uso saludable y educativo de la tecnología
 

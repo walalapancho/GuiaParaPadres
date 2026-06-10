@@ -676,6 +676,19 @@ COMUNICACIÓN FAMILIAR:
 - ✅ **Comunicación proactiva** sobre situaciones incómodas
 - ✅ **Preparación exitosa** para mayor autonomía digital
 
+
+---
+
+## 🎬 CapCut: El Editor de Video Vinculado a TikTok {#capcut}
+
+**CapCut** es la aplicación de edición de video oficial desarrollada por ByteDance (la empresa dueña de TikTok). Aunque parece ser solo una herramienta técnica, funciona también como una red social independiente que los padres deben vigilar:
+
+*   **Plantillas e Interacción Social:** CapCut permite a los usuarios compartir plantillas de video. Dentro de la app existe una sección de comentarios, perfiles de creadores y mensajería directa que no cuenta con los mismos filtros estrictos de TikTok.
+*   **Exportación Directa:** Los videos editados en CapCut se pueden publicar directamente en TikTok. Si TikTok tiene controles parentales activos, tu hijo aún podría estar expuesto a comentarios o chats no moderados dentro de CapCut.
+*   **Pautas de Seguridad:**
+    1.  Configura la cuenta de CapCut de tu hijo como **privada** si decide registrarse para compartir plantillas.
+    2.  Monitorea el uso de los chats de la app, o prefiere que use CapCut sin iniciar sesión (es posible usar las herramientas de edición básicas de forma anónima).
+
 ---
 
 ## 🔑 Conclusiones y Mejores Prácticas

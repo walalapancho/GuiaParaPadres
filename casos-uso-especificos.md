@@ -24,15 +24,15 @@ Cada familia enfrenta desafíos digitales únicos. Esta guía presenta **situaci
 - **Caso 4**: Familia con horarios de trabajo irregulares
 
 ### 🎮 **PROBLEMAS DE GAMING**
-- **Caso 5**: Niño adicto a Fortnite que miente sobre tiempo de juego
+- **Caso 5**: Niño adicto a Fortnite que miente sobre tiempo de juego {#gaming-excesivo}
 - **Caso 6**: Gastos no autorizados en juegos móviles
 - **Caso 7**: Interacciones peligrosas en Roblox
-- **Caso 8**: Rabietas extremas cuando terminan límites de gaming
+- **Caso 8**: Rabietas extremas cuando terminan límites de gaming {#manejo-berrinches}
 
 ### 📱 **REDES SOCIALES Y COMUNICACIÓN**
-- **Caso 9**: Adolescente víctima de cyberbullying en Instagram
-- **Caso 10**: Pre-adolescente expuesto a contenido sexual en TikTok
-- **Caso 11**: Niño compartiendo información personal con extraños
+- **Caso 9**: Adolescente víctima de cyberbullying en Instagram {#cyberbullying}
+- **Caso 10**: Pre-adolescente expuesto a contenido sexual en TikTok {#contenido-inapropiado}
+- **Caso 11**: Niño compartiendo información personal con extraños {#contacto-extraños}
 - **Caso 12**: Uso de apps de comunicación no monitoreadas
 
 ### 🏫 **CONTEXTO ESCOLAR**
@@ -395,7 +395,7 @@ FACTORES AGRAVANTES:
 └── Perpetradores menores de edad complicando respuesta legal
 ```
 
-#### **🆘 Respuesta de Crisis Inmediata**
+#### **🆘 Respuesta de Crisis Inmediata** {#protocolo-de-crisis-digital}
 
 **Paso 1: Seguridad Física y Emocional (24-48 horas)**
 ```
@@ -580,7 +580,7 @@ MÉTRICAS INSTITUCIONALES:
 
 ---
 
-## 📈 Patrones Comunes y Lecciones Aprendidas
+## 📈 Patrones Comunes y Lecciones Aprendidas {#evasion-controles}
 
 ### **🔍 Factores de Éxito Identificados**
 ```

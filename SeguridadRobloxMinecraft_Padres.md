@@ -48,7 +48,7 @@ Roblox y Minecraft son dos de las plataformas de juego más populares entre niñ
 
 ---
 
-## 🛡️ Configuración de Seguridad Paso a Paso (Actualizado 2025)
+## 🛡️ Configuración de Seguridad Paso a Paso (Actualizado 17 de Marzo de 2026)
 
 ## **ROBLOX - Configuración de Seguridad**
 
@@ -70,7 +70,8 @@ Roblox y Minecraft son dos de las plataformas de juego más populares entre niñ
 Roblox ya no usa "edades recomendadas", sino etiquetas basadas en la madurez del contenido:
 1. **Mínimo y Suave:** Aptos para todos.
 2. **Moderado:** Bloqueado por defecto para menores de **9 años**. Requiere permiso parental para acceder (puede contener violencia moderada).
-3. **Restringido (17+):** Requiere verificación de edad con documento de identidad oficial.
+3. **Restringido (17+):** Estas experiencias pueden contener violencia intensa, sangre realista, temas románticos maduros, lenguaje vulgar fuerte y alcohol/simulación de apuestas. Requiere verificación de identidad oficial (cédula o pasaporte) y autofoto.
+    *   **Acción de Seguridad:** Los padres pueden bloquear por completo el acceso a experiencias moderadas (9+) o restringidas (13+ o 17+) configurando el límite de madurez de la cuenta del niño desde el panel familiar remoto. Se recomienda mantener el límite en **Apto para todos** o **Moderado (9+)** según la edad.
 
 ### **Paso 4: Control de Gastos y Tiempo**
 
@@ -462,4 +463,4 @@ Roblox ya no usa "edades recomendadas", sino etiquetas basadas en la madurez del
 ---
 
 *Documento creado como parte de la Guía para Padres: Controles Parentales*
-*Para guías complementarias, consulta [Seguridad Roblox y Minecraft - Niños](/GuiaParaPadres/SeguridadRobloxMinecraft_Ninos/) y otros documentos de esta colección* 
+*Para guías complementarias, consulta [Seguridad Roblox y Minecraft - Niños](/GuiaParaPadres/SeguridadRobloxMinecraft_Niños/) y otros documentos de esta colección* 

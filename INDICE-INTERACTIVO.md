@@ -23,7 +23,7 @@ nav_next:
 |-------------------|----------------|-------------------|
 | [Cyberbullying activo](/GuiaParaPadres/casos-uso-especificos/#cyberbullying) | [Adicción a juegos](/GuiaParaPadres/casos-uso-especificos/#gaming-excesivo) | [Configuración básica](/GuiaParaPadres/controles-basicos/) |
 | [Contenido inapropiado](/GuiaParaPadres/casos-uso-especificos/#contenido-inapropiado) | [Evasión de controles](/GuiaParaPadres/casos-uso-especificos/#evasion-controles) | [Límites de tiempo](/GuiaParaPadres/controles-basicos/#limites-tiempo) |
-| [Contacto con extraños](/GuiaParaPadres/casos-uso-especificos/#contacto-extraños) | [Gastos no autorizados](/GuiaParaPadres/controles-consolas/#bloquear-compras) | [Filtrado de contenido](/GuiaParaPadres/control-red-hogares/#filtrado) |
+| [Contacto con extraños](/GuiaParaPadres/casos-uso-especificos/#contacto-extraños) | [Gastos no autorizados](/GuiaParaPadres/controles-consolas/#control-de-gastos-específico) | [Filtrado de contenido](/GuiaParaPadres/control-red-hogares/#servicios-dns-de-filtrado-para-familias) |
 
 ---
 
@@ -40,7 +40,7 @@ nav_next:
   → [Configuración básica](/GuiaParaPadres/controles-basicos/#limites-tiempo)
   
 - **🎮 Alternativas de juego sin pantallas**
-  → [Actividades offline](/GuiaParaPadres/apps-0-3-anos/#actividades-offline)
+  → [Actividades offline](/GuiaParaPadres/apps-0-3-anos/#alternativas-sin-pantalla-siempre-preferibles)
 
 ### 🎈 **PREESCOLAR (4-6 años)**
 
@@ -50,7 +50,7 @@ nav_next:
   → [Apps Educativas 4-6 años](/GuiaParaPadres/apps-4-6-anos/)
   
 - **🎮 Apps que realmente enseñen**
-  → [Criterios de selección](/GuiaParaPadres/apps-4-6-anos/#criterios-seleccion)
+  → [Criterios de selección](/GuiaParaPadres/apps-4-6-anos/#criterios-de-selección-para-apps-preescolares-)
   
 - **🔒 Controles que no pueda cambiar**
   → [Configuración iOS/Android](/GuiaParaPadres/controles-basicos/)
@@ -69,7 +69,7 @@ nav_next:
   → [Seguridad Online 7-10 años](/GuiaParaPadres/seguridad-7-10-anos/)
   
 - **👥 Presión social por menos restricciones**
-  → [Conversaciones familiares](/GuiaParaPadres/controles-adolescentes/#comunicacion)
+  → [Conversaciones familiares](/GuiaParaPadres/controles-adolescentes/#estrategias-de-comunicación-efectiva)
 
 ### 🚀 **PREADOLESCENTE (11-14 años)**
 
@@ -92,13 +92,13 @@ nav_next:
 **🔍 ¿Cuál es tu desafío principal?**
 
 - **🔓 Evasión constante de controles**
-  → [Estrategias de negociación](/GuiaParaPadres/controles-adolescentes/#negociacion)
+  → [Estrategias de negociación](/GuiaParaPadres/controles-adolescentes/#estrategias-de-comunicación-efectiva)
   
 - **📱 Actividad preocupante en redes sociales**
   → [Seguridad Digital Adolescentes](/GuiaParaPadres/seguridad-adolescentes/)
   
 - **🎓 Preparación para independencia digital**
-  → [Autonomía responsable](/GuiaParaPadres/controles-adolescentes/#autonomia)
+  → [Autonomía responsable](/GuiaParaPadres/controles-adolescentes/#preparación-para-la-independencia-digital)
   
 - **🚨 Cyberbullying o drama online**
   → [Protocolos de crisis](/GuiaParaPadres/casos-uso-especificos/#cyberbullying)
@@ -114,7 +114,7 @@ nav_next:
 | **Problema** | **Solución Directa** | **Recurso Completo** |
 |--------------|----------------------|----------------------|
 | **Adicción (6+ horas/día)** | [Casos: Gaming Excesivo](/GuiaParaPadres/casos-uso-especificos/#gaming-excesivo) | [Controles Consolas](/GuiaParaPadres/controles-consolas/) |
-| **Gastos no autorizados** | [Bloqueo de compras](/GuiaParaPadres/controles-consolas/#bloquear-compras) | [Seguridad Fortnite](/GuiaParaPadres/seguridad-fortnite-epic/) |
+| **Gastos no autorizados** | [Bloqueo de compras](/GuiaParaPadres/controles-consolas/#control-de-gastos-específico) | [Seguridad Fortnite](/GuiaParaPadres/seguridad-fortnite-epic/) |
 | **Roblox/Minecraft/Fortnite** | [Seguridad Padres](/GuiaParaPadres/SeguridadRobloxMinecraft_Padres/) | [Guía Fortnite](/GuiaParaPadres/seguridad-fortnite-epic/) |
 | **Realidad Virtual y VR** | [Seguridad VR](/GuiaParaPadres/seguridad-vr-metaverse/) | [Guía Metaverso](/GuiaParaPadres/seguridad-vr-metaverse/) |
 | **Transmisiones y Twitch** | [Seguridad Twitch](/GuiaParaPadres/seguridad-twitch/) | [Guía Twitch](/GuiaParaPadres/seguridad-twitch/) |
@@ -132,7 +132,7 @@ nav_next:
 | **Snapchat** | Mensajes efímeros/Snap Map | [Seguridad Snapchat](/GuiaParaPadres/seguridad-snapchat/) |
 | **WhatsApp** | Privacidad en grupos/desconocidos | [Seguridad WhatsApp](/GuiaParaPadres/seguridad-whatsapp/) |
 | **IA y Deepfakes** | Contenido falso/consentimiento | [Seguridad IA](/GuiaParaPadres/seguridad-ia-deepfakes/) |
-| **Todas** | Quiere redes pero es muy joven | [Preparación redes](/GuiaParaPadres/controles-adolescentes/#preparacion-redes) |
+| **Todas** | Quiere redes pero es muy joven | [Preparación redes](/GuiaParaPadres/controles-adolescentes/#gestión-de-redes-sociales-por-edad) |
 
 ### 📺 **SMART TV Y STREAMING**
 
@@ -145,10 +145,10 @@ nav_next:
   → [Configuración por marca](/GuiaParaPadres/controles-smart-tv/)
   
 - **⏰ Límites de tiempo que funcionen**
-  → [Límites efectivos](/GuiaParaPadres/controles-smart-tv/#limites-tiempo)
+  → [Límites efectivos](/GuiaParaPadres/controles-smart-tv/#gestión-de-tiempo-de-pantalla)
   
 - **👥 Múltiples perfiles familiares**
-  → [Gestión de perfiles](/GuiaParaPadres/controles-smart-tv/#perfiles)
+  → [Gestión de perfiles](/GuiaParaPadres/controles-smart-tv/#configuración-por-servicio-de-streaming)
 
 ### 🌐 **INTERNET Y NAVEGACIÓN**
 
@@ -158,13 +158,13 @@ nav_next:
   → [Control Red Hogares](/GuiaParaPadres/control-red-hogares/)
   
 - **🛡️ Niños usan VPN para evadir restricciones**
-  → [Detección de VPN](/GuiaParaPadres/control-red-hogares/#deteccion-vpn)
+  → [Detección de VPN](/GuiaParaPadres/control-red-hogares/#troubleshooting-familiar)
   
 - **👁️ Monitorear sin ser invasivo**
   → [Herramientas de supervisión](/GuiaParaPadres/controles-basicos/#monitoreo)
   
 - **📱 Múltiples dispositivos difíciles de controlar**
-  → [Control centralizado](/GuiaParaPadres/control-red-hogares/#control-centralizado)
+  → [Control centralizado](/GuiaParaPadres/control-red-hogares/#ventajas-únicas-para-familias)
 
 ---
 
@@ -178,13 +178,13 @@ nav_next:
   → [Guía para Maestros](/GuiaParaPadres/guia-maestros/)
   
 - **📱 Manejar uso inapropiado en clase**
-  → [Protocolos de aula](/GuiaParaPadres/guia-maestros/#protocolos-aula)
+  → [Protocolos de aula](/GuiaParaPadres/guia-maestros/#manejo-de-situaciones-problemáticas-en-el-aula)
   
 - **👥 Comunicación con padres**
-  → [Scripts efectivos](/GuiaParaPadres/guia-maestros/#comunicacion)
+  → [Scripts efectivos](/GuiaParaPadres/guia-maestros/#comunicación-efectiva-con-padres)
   
 - **🚨 Incidentes de cyberbullying**
-  → [Manejo de crisis](/GuiaParaPadres/guia-maestros/#crisis)
+  → [Manejo de crisis](/GuiaParaPadres/guia-maestros/#directorio-de-contactos-de-emergencia)
 
 ### 🏛️ **ADMINISTRADOR ESCOLAR**
 
@@ -194,13 +194,13 @@ nav_next:
   → [Control Red Escuelas](/GuiaParaPadres/control-red-escuelas/)
   
 - **📋 Políticas institucionales**
-  → [Desarrollo de políticas](/GuiaParaPadres/control-red-escuelas/#politicas)
+  → [Desarrollo de políticas](/GuiaParaPadres/control-red-escuelas/#políticas-de-uso-aceptable-por-nivel)
   
 - **🚨 Crisis de cyberbullying sistemático**
-  → [Protocolos institucionales](/GuiaParaPadres/guia-maestros/#crisis)
+  → [Protocolos institucionales](/GuiaParaPadres/guia-maestros/#directorio-de-contactos-de-emergencia)
   
 - **👥 Capacitación del equipo**
-  → [Materiales de capacitación](/GuiaParaPadres/guia-maestros/#capacitacion)
+  → [Materiales de capacitación](/GuiaParaPadres/guia-maestros/#recursos-y-herramientas-para-educadores)
 
 ### 👥 **ORGANIZADOR COMUNITARIO**
 
@@ -210,13 +210,13 @@ nav_next:
   → [Taller Familiar](/GuiaParaPadres/taller-familiar/)
   
 - **📊 Presentaciones para padres**
-  → [Materiales de presentación](/GuiaParaPadres/assets/docs/)
+  → [Recursos Multimedia](/GuiaParaPadres/#recursos-multimedia)
   
 - **🎓 Programas de educación**
   → [Recursos educativos](/GuiaParaPadres/guia-maestros/)
   
 - **📄 Materiales take-home**
-  → [Documentos imprimibles](/GuiaParaPadres/assets/docs/)
+  → [Recursos Multimedia](/GuiaParaPadres/#recursos-multimedia)
 
 ---
 
@@ -241,7 +241,7 @@ nav_next:
 |-------------|-------------------|-------------|
 | **Windows PC** | [Controles Windows](/GuiaParaPadres/controles-basicos/#windows) | [Guía completa Windows](/GuiaParaPadres/controles-basicos/#windows) |
 | **Mac/MacBook** | [Controles macOS](/GuiaParaPadres/controles-basicos/#macos) | [Configuración Mac](/GuiaParaPadres/controles-basicos/#macos) |
-| **Chromebook** | [Configuración educativa](/GuiaParaPadres/control-red-escuelas/#chromebooks) | [Control escolar](/GuiaParaPadres/control-red-escuelas/) |
+| **Chromebook** | [Configuración educativa](/GuiaParaPadres/control-red-escuelas/#configuraciones-por-tamaño-de-institución) | [Control escolar](/GuiaParaPadres/control-red-escuelas/) |
 
 ### 🌐 **ROUTER Y RED**
 
@@ -249,11 +249,11 @@ nav_next:
 
 | **Marca** | **Configuración** | **Características** |
 |-----------|-------------------|-------------------|
-| **TP-Link** | [Configuración TP-Link](/GuiaParaPadres/control-red-hogares/#tp-link) | Filtrado DNS, límites de tiempo |
-| **Netgear** | [Configuración Netgear](/GuiaParaPadres/control-red-hogares/#netgear) | Control parental integrado |
-| **ASUS** | [Configuración ASUS](/GuiaParaPadres/control-red-hogares/#asus) | AiProtection, control avanzado |
-| **Linksys** | [Configuración Linksys](/GuiaParaPadres/control-red-hogares/#linksys) | Smart WiFi, supervisión |
-| **No sé** | [Identificación de router](/GuiaParaPadres/control-red-hogares/#identificacion) | [Todas las configuraciones](/GuiaParaPadres/control-red-hogares/) |
+| **TP-Link** | [Configuración TP-Link](/GuiaParaPadres/control-red-hogares/#tp-link-archer-y-deco-series) | Filtrado DNS, límites de tiempo |
+| **Netgear** | [Configuración Netgear](/GuiaParaPadres/control-red-hogares/#netgear-nighthawk-y-orbi-series) | Control parental integrado |
+| **ASUS** | [Configuración ASUS](/GuiaParaPadres/control-red-hogares/#asus-aimesh-y-router-wifi-6-series) | AiProtection, control avanzado |
+| **Linksys** | [Configuración Linksys](/GuiaParaPadres/control-red-hogares/#linksys-velop-mesh-y-max-series) | Smart WiFi, supervisión |
+| **No sé** | [Identificación de router](/GuiaParaPadres/control-red-hogares/#configuración-de-routers-domésticos-populares) | [Todas las configuraciones](/GuiaParaPadres/control-red-hogares/) |
 
 ---
 
@@ -266,10 +266,10 @@ nav_next:
 | **Situación** | **Acción Inmediata** | **Recurso** |
 |---------------|---------------------|-------------|
 | **Cyberbullying activo** | [Protocolo de crisis](/GuiaParaPadres/casos-uso-especificos/#cyberbullying) | [Contactos emergencia](#contactos-emergencia) |
-| **Contenido sexual/violento** | [Bloqueo inmediato](/GuiaParaPadres/casos-uso-especificos/#contenido-inapropiado) | [Filtrado de contenido](/GuiaParaPadres/control-red-hogares/#filtrado) |
-| **Contacto con adultos desconocidos** | [Protocolo de seguridad](/GuiaParaPadres/casos-uso-especificos/#contacto-extraños) | [Seguridad en comunicaciones](/GuiaParaPadres/seguridad-adolescentes/#comunicacion) |
+| **Contenido sexual/violento** | [Bloqueo inmediato](/GuiaParaPadres/casos-uso-especificos/#contenido-inapropiado) | [Filtrado de contenido](/GuiaParaPadres/control-red-hogares/#servicios-dns-de-filtrado-para-familias) |
+| **Contacto con adultos desconocidos** | [Protocolo de seguridad](/GuiaParaPadres/casos-uso-especificos/#contacto-extraños) | [Seguridad en comunicaciones](/GuiaParaPadres/controles-adolescentes/#herramientas-de-monitoreo-evolutivo) |
 | **Amenazas de autolesión** | [Emergencia psicológica](#contactos-emergencia) | [Líneas de crisis](#contactos-emergencia) |
-| **Gastos no autorizados ($100+)** | [Bloqueo de compras](/GuiaParaPadres/controles-consolas/#bloquear-compras) | [Control financiero](/GuiaParaPadres/controles-basicos/#financiero) |
+| **Gastos no autorizados ($100+)** | [Bloqueo de compras](/GuiaParaPadres/controles-consolas/#control-de-gastos-específico) | [Control financiero](/GuiaParaPadres/controles-basicos/#financiero) |
 
 ### 🟡 **PROBLEMA URGENTE (Esta Semana)**
 
@@ -278,9 +278,9 @@ nav_next:
 | **Problema** | **Solución** | **Recurso** |
 |--------------|--------------|-------------|
 | **Comportamiento agresivo por límites** | [Manejo de berrinches](/GuiaParaPadres/casos-uso-especificos/#manejo-berrinches) | [Estrategias conductuales](/GuiaParaPadres/casos-uso-especificos/) |
-| **Calificaciones bajando** | [Límites académicos](/GuiaParaPadres/controles-adolescentes/#limites-academicos) | [Balance digital](/GuiaParaPadres/controles-adolescentes/) |
+| **Calificaciones bajando** | [Límites académicos](/GuiaParaPadres/controles-adolescentes/#preparación-para-la-independencia-digital) | [Balance digital](/GuiaParaPadres/controles-adolescentes/) |
 | **Evación constante de controles** | [Estrategias de evasión](/GuiaParaPadres/casos-uso-especificos/#evasion-controles) | [Controles más robustos](/GuiaParaPadres/control-red-hogares/) |
-| **Presión social por plataformas** | [Conversaciones familiares](/GuiaParaPadres/controles-adolescentes/#comunicacion) | [Preparación para redes](/GuiaParaPadres/controles-adolescentes/#preparacion-redes) |
+| **Presión social por plataformas** | [Conversaciones familiares](/GuiaParaPadres/controles-adolescentes/#estrategias-de-comunicación-efectiva) | [Preparación para redes](/GuiaParaPadres/controles-adolescentes/#gestión-de-redes-sociales-por-edad) |
 
 ### 🟢 **PREVENCIÓN (Planificación)**
 
@@ -316,7 +316,7 @@ nav_next:
 4. **Establecimiento de rutinas** (20 min)
    → [Rutinas digitales](/GuiaParaPadres/controles-basicos/#rutinas)
 5. **Conversación familiar** (10 min)
-   → [Comunicación efectiva](/GuiaParaPadres/controles-adolescentes/#comunicacion)
+   → [Comunicación efectiva](/GuiaParaPadres/controles-adolescentes/#estrategias-de-comunicación-efectiva)
 
 ### 🎓 **RUTA EDUCATIVA (Curso completo)**
 *Para comprensión profunda y implementación sistemática*
@@ -368,9 +368,9 @@ nav_next:
 
 | **Prioridad** | **Enfoque** | **Recurso Principal** |
 |---------------|-------------|----------------------|
-| **🛡️ PROTECCIÓN DE CONTENIDO** | Filtrado de red | [Filtrado de Red](/GuiaParaPadres/control-red-hogares/#filtrado) |
+| **🛡️ PROTECCIÓN DE CONTENIDO** | Filtrado de red | [Filtrado de Red](/GuiaParaPadres/control-red-hogares/#servicios-dns-de-filtrado-para-familias) |
 | **⏰ LÍMITES DE TIEMPO** | Configuración de horarios | [Configuración de Horarios](/GuiaParaPadres/controles-basicos/#limites-tiempo) |
-| **👥 INTERACCIONES SOCIALES** | Seguridad en comunicaciones | [Seguridad en Comunicaciones](/GuiaParaPadres/seguridad-adolescentes/#comunicacion) |
+| **👥 INTERACCIONES SOCIALES** | Seguridad en comunicaciones | [Seguridad en Comunicaciones](/GuiaParaPadres/controles-adolescentes/#herramientas-de-monitoreo-evolutivo) |
 | **🎮 CONTROL DE GAMING** | Límites de juegos | [Límites de Juegos](/GuiaParaPadres/controles-consolas/) |
 | **📱 MONITOREO GENERAL** | Herramientas de supervisión | [Herramientas de Supervisión](/GuiaParaPadres/controles-basicos/#monitoreo) |
 
@@ -448,9 +448,9 @@ nav_next:
 - **[Guía para Niños](/GuiaParaPadres/ControlesParaNinos/)** - Explicación amigable
 
 ### 🏫 **PARA EDUCADORES**
-- **[Currículo por Grados](/GuiaParaPadres/guia-maestros/#curriculo)** - Integración académica
-- **[Manejo de Crisis](/GuiaParaPadres/guia-maestros/#crisis)** - Protocolos escolares
-- **[Comunicación con Padres](/GuiaParaPadres/guia-maestros/#comunicacion)** - Scripts efectivos
+- **[Currículo por Grados](/GuiaParaPadres/guia-maestros/#integración-curricular-de-seguridad-digital)** - Integración académica
+- **[Manejo de Crisis](/GuiaParaPadres/guia-maestros/#directorio-de-contactos-de-emergencia)** - Protocolos escolares
+- **[Comunicación con Padres](/GuiaParaPadres/guia-maestros/#comunicación-efectiva-con-padres)** - Scripts efectivos
 
 ### 👥 **PARA COMUNIDADES**
 - **[Talleres Familiares](/GuiaParaPadres/taller-familiar/)** - Actividades grupales
@@ -496,5 +496,5 @@ nav_next:
 
 ---
 
-*📅 Última actualización del índice: Marzo 2026*
+*📅 Última actualización del índice: 17 de Marzo de 2026*
 *🔍 Archivos indexados: 28 documentos | 900+ páginas de contenido | 5 países cubiertos*

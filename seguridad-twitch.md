@@ -55,5 +55,5 @@ Twitch utiliza una moneda virtual llamada **Bits** para que los espectadores apo
 
 ---
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🔗 Consulta también:** [Seguridad en YouTube]({{ site.baseurl }}/seguridad-youtube/) | [Controles en Consolas]({{ site.baseurl }}/controles-consolas/)

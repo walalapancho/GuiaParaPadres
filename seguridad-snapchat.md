@@ -62,5 +62,5 @@ Es vital que los adolescentes entiendan que **"que desaparezca no significa que 
 
 ---
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🔗 Consulta también:** [Seguridad en Instagram]({{ site.baseurl }}/seguridad-instagram-threads/) | [Casos de Cyberbullying]({{ site.baseurl }}/casos-uso-especificos/#cyberbullying)

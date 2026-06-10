@@ -154,7 +154,7 @@ Este trabajo está licenciado bajo Creative Commons BY-SA 4.0 - ¡libre para usa
 
 ### 📊 Información del Proyecto
 
-**📅 Última actualización:** Marzo 2026  
+**📅 Última actualización:** 17 de Marzo de 2026  
 **🌍 Disponible para:** Chile, Perú, Colombia, México, Argentina  
 **📚 Recursos:** 28+ documentos especializados | 900+ páginas de contenido
 
