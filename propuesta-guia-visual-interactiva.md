@@ -16,7 +16,7 @@ Esta guía visual te permitirá configurar controles parentales efectivos en iPh
 ## 📋 Lista de Verificación Rápida
 
 **Antes de comenzar, asegúrate de tener:**
-- [ ] iPhone/iPad del niño con iOS 12 o superior
+- [ ] iPhone/iPad del niño con **iOS 15 o superior** (recomendado **iOS 26** para todas las funciones actuales)
 - [ ] Tu iPhone/iPad parental 
 - [ ] Apple ID del niño (o crear uno nuevo)
 - [ ] 5-7 minutos sin interrupciones
@@ -263,7 +263,7 @@ CLASIFICACIONES POR REGIÓN:
 REQUISITOS:
 ├── Apple ID del padre/madre (organizador)
 ├── Apple ID del niño (miembro)
-└── Dispositivos con iOS 8+ o macOS Yosemite+
+└── Dispositivos con iOS 18+ o iOS 26 (recomendado); Mac con macOS Tahoe 26 o posterior
 
 PROCESO:
 1. Configuración > [Tu Nombre] > En Familia
@@ -384,13 +384,13 @@ REVISIÓN MENSUAL:
 ### ❌ **Problema: "No aparece opción de Tiempo de Pantalla"**
 ```
 CAUSAS POSIBLES:
-├── iOS anterior a versión 12
+├── iOS anterior a versión 15 (mínimo para cuenta infantil actual)
 ├── Dispositivo gestionado por empresa
 └── Restricciones previas activadas
 
 SOLUCIONES:
-1. Verificar versión: Configuración > General > Acerca de
-2. Actualizar iOS si es necesario
+1. Verificar versión: Configuración > General > Información
+2. Actualizar a iOS 26 si el dispositivo es compatible
 3. Contactar administrador si es dispositivo empresarial
 ```
 
@@ -495,3 +495,7 @@ CHILE: 🇨🇱
 **💡 ¡Recuerda!** Los controles parentales son herramientas que apoyan la conversación familiar, no la reemplazan. La comunicación abierta y la educación digital son igual de importantes que las configuraciones técnicas.
 
 **⚡ Tiempo total invertido:** 5-7 minutos de configuración inicial + conversación familiar continua = Protección digital efectiva y relación familiar saludable.
+
+---
+
+**📅 Última actualización:** 10 de Junio de 2026

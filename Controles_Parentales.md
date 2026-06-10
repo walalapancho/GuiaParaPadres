@@ -29,31 +29,66 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 
 ## Configuración por Sistema Operativo
 
-### Para dispositivos iOS (iPhone/iPad) - Actualizado iOS 18 {#ios}
+### Para dispositivos iOS (iPhone/iPad) — Actualizado iOS 26 {#ios}
 
-**Tiempo de Pantalla y Nuevas Capas de Seguridad**
+**Tiempo en Pantalla, cuenta infantil y En Familia**
 
-1. **Aprobación de Nuevos Contactos (Novedad iOS 18):**
-   - Ahora puedes configurar que tu hijo necesite permiso para enviar mensajes o llamar a números nuevos. La solicitud llega a tu iPhone.
-2. **Alertas de Código (iOS 18.5):**
-   - Recibirás una notificación inmediata si alguien introduce correctamente el código de Tiempo de Uso. Útil para saber si tu hijo descubrió la clave.
-3. **Bloqueo y Ocultación de Apps:**
-   - **Ojo:** iOS 18 permite ocultar apps en una carpeta protegida. Como padre, debes supervisar la carpeta "Ocultas" en la Biblioteca de Apps, ya que los adolescentes pueden usarla para esconder redes sociales no permitidas.
-4. **Seguridad en la Comunicación:**
-   - El sistema detecta y difumina desnudos en **FaceTime** y mensajes en tiempo real.
+Ruta principal: **Ajustes > Tiempo en Pantalla > [Nombre del hijo]**
 
-### Para dispositivos Android - Actualizado Android 15 {#android}
+1. **Cuenta infantil (obligatoria para menores de 13 años):**
+   - Al crear la cuenta del niño en **En Familia**, iOS 26 aplica protecciones por edad: filtro web, clasificaciones en App Store (13+, 16+, 18+) y **Seguridad en la comunicación** activada por defecto para menores de 18 años.
+   - Configuración: **Ajustes > [Tu nombre] > En Familia > Crear cuenta para un niño**.
 
-**Family Link y el nuevo Hub de Seguridad**
+2. **Aprobación de nuevos contactos:**
+   - Puedes exigir que el niño pida permiso antes de hablar con contactos nuevos en **Mensajes, FaceTime y Teléfono**. La solicitud llega a tu iPhone.
 
-1. **Nuevo "Hub" de Controles Parentales (Android 15):**
-   - Los controles ahora están centralizados en un solo menú de ajustes más intuitivo. Es más fácil configurar límites directamente desde el teléfono del niño con un PIN.
-2. **Espacio Privado (Cuidado):**
-   - Android 15 permite crear un área protegida para apps. Asegúrate de supervisar que no se use para ocultar contenido inapropiado.
-3. **Bloqueo por Detección de Robo:**
-   - Si el teléfono detecta un tirón brusco (típico de un robo en la calle), se bloquea automáticamente para proteger los datos del menor.
-4. **Family Link Mejorado:**
-   - Ubicación en tiempo real más precisa y alertas de llegada/salida (Geofencing) más confiables.
+3. **Alertas del código de Tiempo en Pantalla:**
+   - Recibes una notificación si alguien introduce correctamente el código en el dispositivo del niño (útil para detectar si descubrieron la clave).
+
+4. **Apps bloqueadas y ocultas:**
+   - iOS permite **bloquear** apps con Face ID/Touch ID y **ocultarlas** en una carpeta protegida. Revisa periódicamente la carpeta **Ocultas** en la Biblioteca de Apps.
+
+5. **Seguridad en la comunicación:**
+   - Difumina desnudos detectados en **Mensajes, FaceTime y Álbumes compartidos**. En iOS 26 hay protecciones ampliadas para adolescentes de 13 a 17 años.
+
+6. **Distancia de pantalla (Screen Distance):**
+   - Usa Face ID para avisar si el dispositivo está demasiado cerca del rostro.
+
+> **Próximamente (otoño 2026, iOS 27):** *Pedir para navegar* (aprobación de sitios nuevos en Safari), *Cupo de tiempo* por categorías (juegos, redes, entretenimiento), Tiempo en Pantalla rediseñado y bloqueo de contenido violento en Mensajes. Más información en [apple.com/child-safety](https://www.apple.com/child-safety/).
+
+### Para dispositivos Android — Actualizado Android 16 {#android}
+
+**Controles parentales integrados + Family Link**
+
+Ruta principal: **Ajustes > Controles parentales**
+
+Android 16 centraliza en un solo menú dos opciones complementarias:
+
+**A) Controles en el dispositivo (PIN local)**
+- Límite diario de tiempo de pantalla
+- Horarios de inactividad (por ejemplo, por la noche)
+- Límites o bloqueo por app
+- Filtros de contenido para navegación y búsqueda
+- Útil para cuidadores sin cuenta Google vinculada
+
+**B) Family Link (supervisión remota desde el teléfono del padre)**
+- Aprobación de descargas en Play Store
+- **Modo escolar** (solo apps permitidas en horario lectivo)
+- Ubicación del dispositivo y alertas de lugares
+- Pestaña **Tiempo de pantalla** unificada en la app
+
+**Otros puntos a vigilar:**
+
+1. **Espacio privado (Private Space):**
+   - Área aparte con PIN para apps. Conversa con tu hijo y revisa que no se use para ocultar contenido.
+
+2. **Bloqueo por detección de robo:**
+   - Si detecta un tirón brusco (robo en la calle), puede bloquear el teléfono automáticamente.
+
+3. **Disponibilidad del menú:**
+   - **Controles parentales** en Ajustes está disponible en dispositivos con Android 16; en algunas marcas puede tardar en llegar vía actualización del fabricante (Samsung, Xiaomi, etc.).
+
+**Requisitos de Family Link (app del padre):** Android 7.0+ o iPhone con **iOS 16+**.
 
 ---
 
@@ -149,7 +184,7 @@ Los niños de 7 a 10 años están desarrollando su autonomía digital, pero aún
 **Opciones multiplataforma:**
 - **Qustodio:** Control completo, informes detallados
 - **Circle Home Plus:** Control de red WiFi doméstica
-- **Screen Time (iOS) / Digital Wellbeing (Android):** Herramientas nativas
+- **Tiempo en Pantalla (iOS 26) / Controles parentales y Family Link (Android 16):** Herramientas nativas
 
 ### Configuración del Router WiFi
 
@@ -227,3 +262,7 @@ No, son herramientas complementarias. La supervisión y comunicación activa sig
 ---
 
 *Recuerda: El objetivo es enseñar el uso responsable de la tecnología, no crear barreras innecesarias. La comunicación abierta y la educación digital son tan importantes como las herramientas técnicas.*
+
+---
+
+**📅 Última actualización:** 10 de Junio de 2026

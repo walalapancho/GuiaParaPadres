@@ -496,5 +496,5 @@ nav_next:
 
 ---
 
-*📅 Última actualización del índice: 17 de Marzo de 2026*
+*📅 Última actualización del índice: 10 de Junio de 2026*
 *🔍 Archivos indexados: 28 documentos | 900+ páginas de contenido | 5 países cubiertos*

@@ -100,7 +100,7 @@ Los controles parentales con adolescentes (11-17 años) requieren un enfoque com
 
 ### **📱 Control de Dispositivos Móviles**
 
-#### **iPhone/iPad - Tiempo de Pantalla (Enfoque Colaborativo):**
+#### **iPhone/iPad - Tiempo de Pantalla (Enfoque Colaborativo, iOS 26):**
 
 **Configuración para 11-13 años:**
 ```
@@ -126,7 +126,7 @@ Los controles parentales con adolescentes (11-17 años) requieren un enfoque com
 • Compras: Presupuesto propio con orientación financiera
 ```
 
-#### **Android - Family Link (Transición Gradual):**
+#### **Android - Family Link y Controles parentales (Transición Gradual, Android 16):**
 
 **Estrategia de Desvinculación Progresiva:**
 1. **11-13 años:** Control parental completo con transparencia total
@@ -603,4 +603,6 @@ Criar jóvenes que lleguen a los 18 años con:
 ---
 
 *Documento creado como parte de la Guía para Padres: Controles Parentales*
-*Para el complemento dirigido a adolescentes, consulta "SeguridadDigitalAdolescentes.md"* 
+*Para el complemento dirigido a adolescentes, consulta "SeguridadDigitalAdolescentes.md"*
+
+**📅 Última actualización:** 10 de Junio de 2026 
