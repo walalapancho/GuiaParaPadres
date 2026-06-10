@@ -1,0 +1,6 @@
+# Configuración del sitio (componentes opcionales)
+
+disqus:
+  comments: false
+
+google-ID: ''

@@ -1,5 +1,10 @@
 # Site Build Settings
 
+# GitHub Pages (proyecto: walalapancho/GuiaParaPadres)
+url: "https://walalapancho.github.io"
+baseurl: "/GuiaParaPadres"
+repository: "walalapancho/GuiaParaPadres"
+
 # Jekyll-paginate-v2 configuration
 #  pagination:
 #   enabled: true
@@ -29,10 +34,27 @@ lang:                'es'
 exclude:
   - theme/
   - registro de cambios/
+  - menu/
+  - _posts/
   - startup.log
   - verify_links_comprehensive.py
   - serve.sh
   - "*.py"
+  - README.md
+  - LICENSE.md
+  - developers.md
+  - AGENTS.md
+  - presentacion-uso-saludable-tecnologia.md
+  - .content-template.md
+  - lagrange.gemspec
+  - Gemfile.ghpages
+  - Gemfile.ghpages.lock
+  - rss-feed.xml
+  - check_links.py
+  - fix_links.py
+  - fix_links_v2.py
+  - fix_links_v3.py
+  - fix_links_v4.py
 
 # RSS 2.0 can be used instead of Atom by uncommenting following two lines
 #feed:

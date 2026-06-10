@@ -1,0 +1,3 @@
+[submodule "theme/lagrange"]
+	path = theme/lagrange
+	url = git@github.com:walalapancho/Lagrange.git
