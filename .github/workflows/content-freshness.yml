@@ -7,6 +7,9 @@ on:
     paths:
       - '**.md'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   check-content-freshness:
     runs-on: ubuntu-latest
